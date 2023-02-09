@@ -1,0 +1,38 @@
+= Emerald Legacy Collected Rules Documents
+
+:toc:
+:toc-placement!:
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+== Status
+image:https://github.com/emerald-legacy/rules-documents/workflows/Rules%20Releases/badge.svg?branch=main["Rules"]
+image:https://img.shields.io/github/last-commit/emerald-legacy/rules-documents/main.svg["Last commit"]
+image:https://img.shields.io/github/contributors/emerald-legacy/rules-documents.svg["Contributors",link="https://github.com/emerald-legacy/rules-documents/graphs/contributors"]
+image:https://img.shields.io/github/issues/emerald-legacy/rules-documents.svg["Issues",link="https://github.com/emerald-legacy/rules-documents/issues"]
+image:https://img.shields.io/github/issues-closed/emerald-legacy/rules-documents.svg["Issues closed",link="https://github.com/emerald-legacy/rules-documents/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aclosed+"]
+
+
+== Content
+This repository contains all rules documents by Emerald Legacy in asciidoc. They are published to GitHub pages as rendered PDF files.
+
+toc::[]
+
+== How to contribute or participate
+If you find a typo, bad formatting, or anything else you think we should improve, please create an issue or a pull-request!
+
+== How to build the documents
+Prerequisite: You need a Java Runtime(tm) installed.
+
+You build the output documents with gradle. That will produce both pdf and html. The Gradle Wrapper is included in this repository and will download the required version of Gradle on the first run.
+
+`./gradlew renderRulesDocuments`
+
+== Maintainers
+This repository is currently maintained by Ben Wolf (Hida Amoro, programming-wolf).
