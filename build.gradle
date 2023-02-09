@@ -1,0 +1,57 @@
+import org.asciidoctor.gradle.jvm.AsciidoctorTask
+import java.text.SimpleDateFormat
+
+plugins {
+    id "org.asciidoctor.jvm.base" version "3.3.2"
+    id "org.asciidoctor.jvm.convert" version "3.3.2"
+    id "org.asciidoctor.jvm.pdf" version "3.3.2"
+}
+repositories {
+    mavenCentral()
+}
+
+asciidoctorj {
+    version = '2.5.3'
+}
+
+class RenderTask extends AsciidoctorTask {
+    @Inject
+    RenderTask(WorkerExecutor we) {
+        super(we)
+
+        forkOptions {
+            jvmArgs "--add-opens", "java.base/sun.nio.ch=ALL-UNNAMED", "--add-opens", "java.base/java.io=ALL-UNNAMED"
+        }
+
+        sourceDir = new File("./docs/")
+        baseDir = new File ("./docs/")
+        sources {
+            include "Rules Reference Guide.adoc"
+            include "index.adoc"
+        }
+
+        outputDir = new File("./build/")
+        outputOptions {
+            separateOutputDirs = false
+            backends 'pdf', 'html'
+        }
+
+
+        attributes = [
+                'icons'             : 'font',
+                'version-label'     : '',
+                'currentDate'       : '',
+                'language'          : 'EN',
+                'imagesdir'         : 'images',
+                'pdf-stylesdir'     : '../pdf-theme/themes',
+                'pdf-fontsdir'      : '../pdf-theme/fonts',
+                'pdf-style'         : 'el'
+        ]
+    }
+}
+
+
+task renderRulesDocuments(type: RenderTask) {
+}
+
+defaultTasks "renderRulesDocuments"
