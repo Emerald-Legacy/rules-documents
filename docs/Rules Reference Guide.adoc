@@ -1,8 +1,40 @@
-:doctype: book
 :icons: font
 :sectnumlevels: 2
 :imagesdir: images
 :chapter-label:
+:page-background-image: image:rrg_background.jpg[fit=fill, pdfwidth=100%]
+
 
 = Rules Reference
+:toc:
 
+== Rules Reference
+
+This document is intended as the definitive source for rules information for the Emerald Legacy, the fan continuation of Fantasy Flight Games' Legend of the 5 Rings LCG.
+The majority of this guide consists of the glossary, which provides an alphabetical listing of terms and situations a player might encounter during a game.
+This section should be the first destination for players who have a rules question.
+The latter part of this guide contains two appendices.
+The first appendix provides detailed timing diagrams that illustrate the structure of an entire game round, as well as how to handle each game step presented in those diagrams.
+The second provides a detailed anatomy of each card type.
+
+== The Emerald Rule
+
+If the text of this Rules Reference directly contradicts the text of FFG's Rules Reference, the Emerald Legacy Rules Reference takes precedence.
+Changes to FFG's Rules Reference are shown in bold.
+Changes to the last version of the Emerald Legacy RRG are written in green.
+If the text of a card directly contradicts the text of this Rules Reference, the text of the card takes precedence.
+
+== Glossary
+The following is an alphabetical list of entries for game rules, terms, and situations that may occur during play.
+
+=== Ability
+An ability is the special game text that a card contributes to the game. Card abilities fall into one of the following types: actions, constant abilities, interrupts, keywords, and reactions. Some interrupt and reaction abilities are also forced.
+
+- Card abilities only interact with, and can only target, cards that are in play, unless the ability specifically refers to an out-of-play area or element. Card abilities on characters, attachments, holdings, strongholds, and provinces can only be initiated or affect the game while they are in play unless the ability specifically refers to being used from an out-of-play area, or require that the card be out of play for the ability to resolve. Event cards and role cards implicitly interact with the game from an out-of-play area, as established by the rules of their card types.
+- The application or initiation of the following types of abilities is mandatory: constant abilities, forced interrupt abilities, and forced reaction abilities.
+- The initiation of any keyword which uses the word "may" in its keyword description is optional. The application of all other keywords is mandatory.
+- The initiation of action, interrupt, and reaction abilities is optional. The word "may" also incorporates a player option into the resolution of an ability. The player who controls the card on which an optional ability exists determines whether or not he or she wishes to use that ability at the appropriate time.
+- An ability prefaced by a bold-face timing trigger followed by a colon is referred to as a "triggered ability."
+- The controller of the card from which an ability is resolving makes all decisions required by that ability's resolution unless another player is specified by the ability's text.
+
+Related: Cost, Effects, Forced, Target, Triggered Abilities
