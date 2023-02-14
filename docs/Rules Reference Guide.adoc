@@ -97,7 +97,7 @@ play.
 
 - If a character card is in play as an attachment, the skill values on that character-as-attachment are not treated as skill modifiers (as they lack the "+" or "-" symbol before the value) for the character to which the card is attached.
 
-- If an attachment has a limit (for example “Limit 1 *_Battlefield_* attachment per province”), that indicates that only one instance of a particular subset of cards can be attached to the same card or game element. If a second card of that subset becomes attached to the card or game element, the previously attached card is discarded as the limit has been surpassed.
+- If an attachment has a limit (for example "Limit 1 *_Battlefield_* attachment per province"), that indicates that only one instance of a particular subset of cards can be attached to the same card or game element. If a second card of that subset becomes attached to the card or game element, the previously attached card is discarded as the limit has been surpassed.
 
 For attachment card anatomy, see "[link Appendix II: Card Anatomy]".
 
@@ -231,8 +231,8 @@ An "out-of-clan" card bears one or more clan symbols that do
 not match the clan symbol on its controller's stronghold card,
 and does not bear a clan symbol that matches the clan symbol
 on its controller's stronghold card.
-If a player does not have a stronghold card, “in-clan” and
-“out-of-clan” determination is defined by the clan selected
+If a player does not have a stronghold card, "in-clan" and
+"out-of-clan" determination is defined by the clan selected
 during deckbuilding to be that player's primary clan.
 Related: Deckbuilding
 
@@ -255,7 +255,7 @@ Most uses of the composure keyword grant a constant ability
 that modifies a character's skills or glory. Some may grant
 triggered abilities that can only be used while a player has
 composure.
-“You have composure" is the phrase indicating that a player's
+"You have composure" is the phrase indicating that a player's
 composure keyword is active. It is used in reminder text to
 indicate that a player's card has the ability granted by
 composure while their honor bid is lower than an opponent's.
@@ -291,7 +291,7 @@ Stinger has to be in your hand in order to trigger its ability, it
 does not have an attached character. In this case, the "
 Conflict Action:" is interpreted as "Action: During a conflict,
 ..." instead of "Action: During a conflict in which attached
-character is participating, ...”
+character is participating, ..."
 If a player is instructed to resolve a Triggered Conflict Ability on
 a character, the triggering conditions above must still be met.
 This means that the character must be participating in a
@@ -451,13 +451,13 @@ players' applicable specified totals at the time the ability resolves.
 When resolving an ability that references a "current" skill or
 glory count during a conflict, count the skill or glory values that
 would be used if the conflict were currently resolving.
-Dash (–)
-In the text of a triggered ability, a dash (–) is used to separate the
+Dash (-)
+In the text of a triggered ability, a dash (-) is used to separate the
 criteria that are necessary to use the ability from the effect of the
 ability. Any triggering conditions, play restrictions or permissions,
 costs, and targeting requirements are denoted before the dash.
 The ability's effect is denoted after the dash.
-If a character has a dash (–) for a skill value, that character cannot
+If a character has a dash (-) for a skill value, that character cannot
 participate in, be played into, or be put into play in conflicts of that
 type.
 Should a character with a dash skill value somehow end up
@@ -520,7 +520,7 @@ No more than 2 copies of a single card by title can be
 included in any combination in a player's dynasty and
 conflict decks.
 For tournament play, each player may include up to 10
-additional cards in their “sideboard,” which can be used to
+additional cards in their "sideboard," which can be used to
 modify the contents of their decks in between games in a
 single match. The contents of a players' decks and
 sideboard combined must follow all rules outlined above.
@@ -626,7 +626,7 @@ Duel
 Some card abilities initiate a duel between two (or more)
 characters. For the rules on how to initiate and resolve a duel, see
 "D. Duel Timing".
-Most card abilities that initiate a duel use the phrase “initiate
+Most card abilities that initiate a duel use the phrase "initiate
 a [type] duel." The characters chosen during duel initiation are
 considered to be chosen as targets of the ability that initiates
 the duel.
@@ -665,10 +665,10 @@ by a card effect.
 If an ability instructs a player to pick among multiple effects, an
 effect that has the potential to change the game state must be
 picked.
-Unless an effect uses the word “then" or the phrase “if you do,"
+Unless an effect uses the word "then" or the phrase "if you do,"
 all effects of a card ability are resolved simultaneously. The
 decision whether to resolve any optional effects (usually
-indicated by the word “may") is made before applying the
+indicated by the word "may") is made before applying the
 results of the ability's effects.
 Eminent
 Eminent is a keyword ability that can be found on province cards.
@@ -822,7 +822,7 @@ structure of the game. A framework effect is any effect that arises
 from the resolution of a framework step.
 Related: Appendix I
 The word "Gaijin"
-The word “Gaijin” is a slur in modern Japanese and some people
+The word "Gaijin" is a slur in modern Japanese and some people
 might be offended by it. On Emerald Legacy cards, the Gaijin trait
 will be replaced by Foreign. For gameplay purposes, both traits are
 equivalent.
@@ -1078,8 +1078,8 @@ Related: Ability, Cost, Effects, Resolve an Ability, Target
 15
 
 In Player Order
-If the players are instructed to perform a sequence “in player
-order,” the first player performs their part of the sequence first,
+If the players are instructed to perform a sequence "in player
+order," the first player performs their part of the sequence first,
 followed by the player to the first player's left and continuing in
 clockwise order.
 If a sequence performed in player order does not conclude
@@ -1178,12 +1178,12 @@ while it was in play expire for that card.
 Legendary X
 Some characters are shrouded in legend and mystery. These
 characters are given the Legendary keyword. It consists of the word
-“Legendary” followed by a variable, numerical value X, that can be
+"Legendary" followed by a variable, numerical value X, that can be
 0 or higher.
-Legendary X means: “This card enters play with X fate on it and
+Legendary X means: "This card enters play with X fate on it and
 cannot have more than X fate on it. Fate cannot be added to this
 card. It cannot be put into play or prevented from leaving play by
-card effects, and cannot enter play outside of the Dynasty phase.”
+card effects, and cannot enter play outside of the Dynasty phase."
 
 16
 
@@ -1215,7 +1215,7 @@ Related: Limits of Triggered Abilities, Max X per [period]
 Limits of Triggered Abilities
 Unless otherwise specified, each triggered ability can only be used
 once per game round. This general restriction applies to any
-triggered ability that does not have “Limit X per [period]" printed
+triggered ability that does not have "Limit X per [period]" printed
 as part of the ability's text.
 If a card leaves play and re-enters play during the same period,
 or if a card transitions from one out-of-play area to another
@@ -1282,12 +1282,12 @@ military skill, glory, traits, cost, or keywords. Negative modifiers
 that would take a value below zero can be applied, but, after
 all active modifiers have been applied, any resultant value
 below zero is treated as zero.
-If a value “cannot be increased/decreased," any modifiers to
+If a value "cannot be increased/decreased," any modifiers to
 that value that would increase/decrease it are ignored for the
-duration of the “cannot be increased/decreased" effect, even
-if those modifiers were applied before applying the “cannot be
+duration of the "cannot be increased/decreased" effect, even
+if those modifiers were applied before applying the "cannot be
 increased/decreased" effect.
-“Set" modifiers are not ignored, as they do not directly
+"Set" modifiers are not ignored, as they do not directly
 increase/decrease the value.
 
 17
@@ -1358,13 +1358,13 @@ Opponent
 In the stronghold format, as well as most games of the skirmish
 format, each player has only one opponent.
 In the enlightenment format, where each player has two
-opponents, a player's card ability that refers to “your opponent”
+opponents, a player's card ability that refers to "your opponent"
 only refers to the single opponent participating against that player
 in a conflict. It does not refer to the player not participating in the
 conflict.
 In the team conquest format, where all players can control
 participating characters in a conflict, a player's card ability that
-refers to “your opponent” or “an opponent” refers to either player
+refers to "your opponent" or "an opponent" refers to either player
 on the opposing team, chosen when resolving the card ability.
 Ordinary
 See "Personal Honor, Personal Dishonor".
@@ -1599,7 +1599,7 @@ single element, such as on Toshi Ranbo
 (Inheritance Cycle, 1), indicates that all five
 elements are associated with that province.
 During a conflict, a province is only considered to be an
-“eligible” province to be attacked if it is controlled by the
+"eligible" province to be attacked if it is controlled by the
 defending player. The provinces of any non-defending players
 are not eligible to be attacked. A player cannot attack their own
 province.
@@ -1696,7 +1696,7 @@ replacement effect would not change the game state, that
 replacement effect cannot be initiated.
 Related: Would
 Resolve an Ability
-Some abilities instruct a player to “resolve an ability" or “resolve
+Some abilities instruct a player to "resolve an ability" or "resolve
 this ability twice." To resolve a triggered ability, resolve all text
 after the bold timing word (action, reaction, or interrupt), paying
 all ability costs, choosing any relevant targets, and resolving the
@@ -1740,13 +1740,13 @@ Rings
 Rings, represented by double-sided tokens, are used to determine
 the type and element of conflicts. Each ring exists in one or more
 of three states, as follows:
-Unclaimed – Each ring in the unclaimed ring pool is an unclaimed
+Unclaimed - Each ring in the unclaimed ring pool is an unclaimed
 ring, and is eligible to be selected by a player as a part of the
 process of declaring a conflict.
-Contested – While a conflict is resolving, the ring that has been
+Contested - While a conflict is resolving, the ring that has been
 selected by the attacker when the conflict was declared is placed
 on the attacked province. This ring is known as the contested ring.
-Claimed – Each ring in a player's claimed ring pool is a claimed ring.
+Claimed - Each ring in a player's claimed ring pool is a claimed ring.
 While performing a glory count, each player adds 1 to his or her
 total for each ring in his or her claimed ring pool.
 During the fate phase, place 1 fate on each unclaimed ring.
@@ -1755,11 +1755,11 @@ When a ring becomes the contested ring in a conflict, move all
 fate on that ring to the attacking player's fate pool.
 When a ring is claimed, it is still considered to be contested
 until all reactions to its claiming have resolved.
-A card effect that refers to “the [ELEMENT] ring" refers to any
+A card effect that refers to "the [ELEMENT] ring" refers to any
 ring that has that element.
 When a player claims a ring in the enlightenment format, that
 ring is placed on one of that player's provinces. The ring is
-considered to be “claimed on that province.” Rings claimed on
+considered to be "claimed on that province." Rings claimed on
 a player's provinces do not return to the unclaimed ring pool
 during the fate phase. They are still considered to be in that
 player's claimed ring pool.
@@ -2003,7 +2003,7 @@ A status token cannot be removed from a card unless it is a
 character whose personal honor is changed (see Personal
 Honor, Personal Dishonor on page 15) or a card effect
 specifically moves or removes that status token.
-If a card effect “moves” or “discards” an honored or
+If a card effect "moves" or "discards" an honored or
 dishonored status token from a character, that character has
 not been honored or dishonored for the purposes of card
 abilities, even though it loses its honored/dishonored status.
@@ -2085,11 +2085,11 @@ targets that were present during the initiation check.)
 If multiple targets are required to be chosen by the same
 player, these are chosen simultaneously.
 Most card abilities that initiate a duel (see Duel Timing) use the
-phrase “initiate a [type] duel." The characters chosen during
+phrase "initiate a [type] duel." The characters chosen during
 
 duel initiation are considered to be chosen as targets of the
 ability that initiates the duel.
-An ability that can choose “any number" of targets, or “up to
+An ability that can choose "any number" of targets, or "up to
 X" targets, can successfully resolve if zero such targets are
 chosen, unless choosing zero such targets would cause the
 resolution of the ability's effect to not change the game state
@@ -2097,17 +2097,17 @@ in any way.
 Some abilities require the choice of a target that is not directly
 affected by the ability — the target is instead chosen as a
 reference point for the resolution of the ability. This is referred
-to as a “referential target."
+to as a "referential target."
 A card is not an eligible target for an ability if the resolution of
 that ability's effect could not affect the target at all, unless it is
 a referential target. (For example, a bowed character cannot be
 chosen as the target for an ability that reads "Action: Choose a
-character – bow that character.")
+character - bow that character.")
 A card is only eligible to be chosen as a referential target for an
 ability if that ability's effect (using the referential target) would
 result in a change of game state. (For example, a character with
 no attachments cannot be chosen as the target for an ability
-that reads “Action: Choose a character — discard each
+that reads "Action: Choose a character — discard each
 attachment on that character.")
 The resolution of some effects (such as post-then effects, or
 delayed effects) requires that targets are chosen after the
@@ -2118,7 +2118,7 @@ time such targets would be chosen, that aspect of the effect
 fails to resolve.
 The word "To"
 If the effect text of a card ability includes the word "to," then the
-text that follows the word “to" can only be resolved if the
+text that follows the word "to" can only be resolved if the
 preceding text was successfully resolved in full.
 If the pre-to aspect of an effect successfully resolves in full, the
 post-to aspect of that effect resolves simultaneously with all
@@ -2140,3 +2140,1546 @@ There is no limit to the number of fate, honor, and personal status
 tokens which can be in the game area at a given time. If players run
 out of the provided tokens, other tokens, counters, or coins may
 be used to track the game state.
+
+Traits
+Most cards have one or more traits listed at the top of the text box
+and printed in Bold Italics.
+Traits have no inherent effect on the game. Instead, some card
+abilities reference cards that possess specific traits.
+Treaties
+During the course of an enlightenment format game, players may
+find themselves in situations where a mutually beneficial
+agreement called a treaty can be made. In addition to setting up
+the terms of the treaty, both players agree on value to stake on the
+treaty (by default, an amount of honor). If either player breaks
+their part of a treaty, that player must suffer consequences based
+on the value staked on the treaty.
+When two players are setting up a treaty, each of the following
+parameters must be specified. Those players may discuss and
+determine these parameters in any order, but each parameter
+must be agreed upon by both involved players before a treaty can
+be finalized. The parameters are as follows:
+What is Being Promised by Each Player: When making a promise
+for a treaty, a player offers something they are going to do, or not
+do, during the course of the game. This promise must be an action
+or a decision that a player can take and cannot include an exchange
+of game components (honor, fate, cards, or claimed rings).
+Duration: When a treaty is established, both involved players must
+agree to a duration for how long the treaty is going to last. This
+duration can be of any length, from "immediate" to "the remainder
+of the game." Once a treaty's duration has ended it either is
+dissolved (if both players have kept their promises), or it is broken
+(if one player did not do what they promised in the specified
+timeframe), causing the player that broke the treaty to suffer the
+consequences.
+Value: Both involved players must agree upon value to stake on the
+treaty (between 1 and 5). If during the course of play, the treaty
+between the two players is broken by either player, the player that
+broke the treaty suffers a penalty based on the value staked on the
+treaty. By default, this comes in the form of losing that amount of
+honor, though it may be defined by a treaty card.
+After a treaty has been broken, the players are no longer bound
+by the promises they made when establishing the treaty.
+Each player can form a treaty with any number of other
+players, but each pair of players may only have one treaty
+active between them at any given time. If a treaty between two
+players has dissolved, or been broken, a new treaty may be
+formed between those players.
+TreatyCards
+Treaty cards are included in the Clan War expansion and can be
+used to increase variety when playing the enlightenment format.
+To use these cards, shuffle them into a treaty deck at the start of
+the game and set it within reach of all players. These replace the
+default method of staking honor on treaties.
+Whenever two players agree on a treaty, they place the top card of
+the treaty deck facedown between them without looking at it and
+mark the value staked on the treaty. When a player breaks that
+treaty, they reveal the card and resolve its text. Note that any
+treaty card that refers to "the player who did not break this treaty"
+refers only to the single other player with whom the treaty was
+made.
+
+After a treaty is broken (and its effects resolved) or fulfilled (and its
+effects unrevealed), put that treaty card on the bottom of the
+treaty deck.
+Triggered Abilities
+A boldface timing command followed by a colon indicates that an
+ability is a triggered ability. Triggered abilities fall into one of the
+following types: actions, interrupts, and reactions. Some interrupt
+and reaction abilities are also forced.
+Unless the timing command is prefaced by the word "Forced,"
+all triggered abilities are optional. They can be triggered (or
+not) by their controller at the ability's appropriate timing point.
+Forced triggered abilities are triggered automatically by the
+game at the ability's appropriate timing point.
+Any targets that must be chosen in the resolution of a
+card's "Forced" ability are chosen by the controller of that
+card.
+Unless otherwise specified by the ability itself, each triggered
+ability may be triggered once per round. This limit is player
+specific.
+Triggered abilities are written in a "triggering condition
+(and/or) cost (and/or) targeting requirements - effect"
+template. Ability text before the dash consists of triggering
+conditions (and/or) costs (and/or) targeting requirements.
+Ability text after the dash consists of effects. and may
+sometimes include targeting requirements that come into play
+as the effect is being resolved.
+If a triggered ability has no dash, the ability has no pre-dash
+content, and the entirety of the ability is considered an effect.
+A triggered ability can only be initiated if its effect has the
+potential to change the game state on its own. This potential is
+assessed without taking into account the consequences of the
+cost payment or the consequences of any other ability
+interactions.
+A triggered ability can only be initiated if its cost (after
+modifiers) has the potential to be paid in full.
+Related: Ability, Action, Cost, Effect, Interrupts, Limits of Triggered
+Abilities, Reactions, Target
+Triggering Condition
+A triggering condition is a condition which dictates when an ability
+can be triggered. On card abilities, the triggering condition is the
+element of the ability that references such a condition, which most
+often comes in the form of a specific occurrence that takes place
+during the game. This indicates the timing point at which the ability
+may be used. The description of an ability's triggering condition
+often follows the word "when" (for interrupt abilities) or the word
+"after" (for reaction abilities), or the word "if" (for action abilities.
+If a single occurrence creates multiple triggering conditions for
+reactions or interrupts (such as a single Earth ring effect causing a
+player to draw a card and another player to discard a card), those
+triggering conditions are handled in shared interrupt/reaction
+windows, in which abilities that refer to any of the triggering
+conditions created by that occurrence may be used in any order.
+The following is a sequence of possible interrupt and reaction
+opportunities that exists around each triggering condition that may
+arise in a game:
+1. The triggering condition becomes imminent. (Meaning that if it
+is not canceled, changed, or otherwise preempted by interrupt
+
+26
+abilities, the triggering condition is the next thing that will
+occur in the game.)
+2. Interrupt abilities that reference when the imminent triggering
+condition "would" occur may be used. (Note: For effects, a
+"cancel" interrupt may prevent the effect from initiating, and
+the initiation of the effect is a separate triggering condition
+that precedes the effect's resolution. "Cancel" interrupts are
+the only type that will reference the initiation of an effect.) If
+the imminent triggering condition is canceled, none of the
+subsequent steps in this sequence occur. If the triggering
+condition is changed, the original condition is no longer
+imminent, but the new triggering condition is now imminent.
+3. Forced interrupts that reference the imminent triggering
+condition must resolve, in the order determined by the first
+player. The standard interrupt window to the imminent
+triggering condition opens. It closes after all players
+consecutively pass.
+4. The triggering condition itself occurs.
+5. Forced reactions that reference the triggering condition must
+resolve, in the order determined by the first player.
+6. The reaction window to the triggering condition opens. It
+closes after all players consecutively pass.
+Unique Cards
+A card with the symbol in front of its title is a unique card. Each
+player may only have a maximum of one instance of each unique
+card, by title, in play.
+A player cannot take control of or bring into play a unique card
+if he or she already controls or owns another in-play card with
+the same title or printed title.
+A player cannot bring into play a unique card owned by his or
+her opponent if that opponent controls an in-play card with the
+same title or printed title.
+As a player action during the dynasty phase, a player may
+discard a copy (by title) of a unique character from his or her
+hand or provinces to place 1 fate on an in-play copy of that
+unique character he or she controls.
+In team games, the rules listed above apply to a team instead
+of a player (players on the same team may only have a
+maximum of one instance of each unique card, by title, in play
+at any time).
+While two or more players on a team control more than one
+copy of a unique stronghold, province card, or holding, treat
+each copy of that card as if its printed text box were blank and
+as if it had a strength or bonus strength of 0.
+Related: Duplicates
+Unopposed, Unopposed Conflict
+A conflict is unopposed if the attacking player wins the conflict and
+the defending player controls no defending characters at the time
+the conflict winner is determined.
+Each time the defending player loses an unopposed conflict in
+the stronghold format, that player loses 1 honor. The lost
+honor is returned to the general token pool. This occurs during
+framework step 3.2.4.
+In the team conquest format, a conflict is only considered
+unopposed if no player on the defending team controls any
+
+defending characters at the time the attacking team wins the
+conflict. If that is the case, each player on the defending team
+loses 1 honor.
+Winning a Conflict
+Each conflict is won by the player who counts the highest total skill
+applicable for that conflict type for his or her side when the conflict
+result is determined.
+A player's total skill is the sum of the skill matching the conflict
+type of each ready participating character on his or her side of
+the conflict, along with any other modifiers that are affecting
+the amount of skill the player counts for the conflict.
+A player must count at least 1 total skill and there must be at
+least one participating character on his or her side in order to
+win a conflict.
+If the total skill counted on each side is tied at a value of 1 or
+greater (and the attacking player controls at least one
+participating character), the attacking player wins the conflict.
+If neither player can meet the requirements of winning a
+conflict, neither player wins (or loses) that conflict. When this
+occurs, return the contested ring to the unclaimed ring pool.
+Some card abilities reference a character "winning" a conflict.
+In order for a character to be considered to have "won" a
+conflict, that character must be participating in the conflict on
+the winning side at the time the ability resolves.
+Some card abilities reference a character "losing" a conflict. In
+order for a character to be considered to have "lost" a conflict,
+that character must be participating in the conflict on the losing
+side at the time the ability resolves.
+In the team conquest format, players on a team win or lose the
+conflict as a team, regardless of who controls participating
+characters. Any card abilities that trigger when a player wins
+(or loses) a conflict can be triggered if that player wins (or loses)
+a conflict.
+Winning the Game
+In each format there are three primary paths to victory in the
+game. The game ends immediately if a player meets one (or more)
+of these victory conditions.
+If all but a single player has been eliminated from the game,
+that player is the game's winner.
+Some card abilities can introduce additional victory conditions
+to the game. Such a condition immediately ends the game if it
+is met.
+If two or more players would reach a victory condition
+simultaneously, the first player wins the game if they have
+reached a victory condition. If they have not, the player closes
+to the first player's left who has reached a victory condition
+wins the game.
+Stronghold format victory conditions:
+If a player's stronghold province is broken, that player is
+eliminated from the game.
+The first player to meet the condition of having 25 or more
+honor in their honor pool wins the game.
+The first player to have 0 honor in their honor pool is
+eliminated from the game.
+
+27
+
+Skirmish format victory conditions:
+If all three of a player's province are broken, that player is
+eliminated from the game.
+The first player to meet the condition of having 12 or more
+honor in their honor pool wins the game.
+When a player has 0 honor in their honor pool, they are
+eliminated from the game.
+Enlightenment format victory conditions:
+The first player to collect all five elemental rings on their
+provinces wins the game.
+The first player to meet the condition of having 25 or more
+honor in their honor pool wins the game.
+If a player's stronghold province is broken, or if a player has
+0 honor in their honor pool, that player is eliminated from
+the game.
+Team conquest format victory conditions:
+If the stronghold province of each member of a single team
+is broken, that team loses the game and the opposing team
+wins the game.
+The first team to meet the condition of having 50 or more
+honor in their honor pool wins the game.
+The word "Would"
+The word "would" is used to define the triggering condition of
+some interrupt abilities, and establishes a higher priority for those
+abilities than interrupts to the same triggering condition that lack
+the word "would."
+All "would be X" interrupts are eligible to be used before any "is X"
+interrupts. This means that an interrupt with the word "would"
+(such as "when a character would leave play") has timing priority
+over an interrupt without the word "would" that references that
+same occurrence (such as "when a character leaves play").
+If an interrupt to a triggering condition that would occur
+changes the nature of that which is about to occur, no further
+interrupts to the original triggering condition may be used, as
+that triggering condition is no longer imminent.
+The letter "X"
+Unless specified by a card ability or granted player choice, the
+letter X is always equal to 0.
+For costs involving the letter X, the value of X is defined by card
+ability or player choice, after which the amount paid may be
+modified by effects without altering the value of X.
+
+28
+Appendix I: Timing and
+
+Gameplay
+
+This section provides a detailed overview of the phases and
+framework steps of an entire game round. The "Phase Sequence
+Timing Chart" depicts each framework step and action window that
+occurs throughout a game round. The "Framework Details" section
+explains how to handle each framework step presented on the
+game's flow chart, in the order that the frameworks steps occur
+throughout the round.
+Framework Steps
+Numbered (or lettered) items presented in the darker grey boxes
+are known as framework steps. Framework steps are mandatory
+occurrences dictated by the structure of the game. Purple windows
+are special framework steps that indicate the possibility of the
+game returning to an earlier framework step in the chart. These
+repetitive sequences can end in various ways, such as when all
+players have performed the steps in a sequence, or when a player
+makes a specific decision. Each purple window explains when and
+how the game either loops back or progresses to a later framework
+step.
+Action Windows
+An action ability may only be triggered during an action window.
+Action windows are presented in lighter orange boxes on the chart.
+When most action windows open, the player or team with the first
+player token has the first opportunity to initiate an action, or pass.
+The one exception to this is the action window during the conflict
+phase, in which the defending player (or team) has the first
+opportunity to initiate an action, or pass. Opportunities to initiate
+actions alternate between the players in player order until all
+players consecutively pass, at which point the action window
+closes and the game advances to the next step on the timing chart.
+Note that if a player passes their opportunity to act, but any other
+opponent does not consecutively pass in sequence, the original
+player may still take an action when the alternation of action
+opportunities returns to the player who had passed.
+Resolve each action completely before the next action
+opportunity.
+During each action window, players are permitted to play character
+and attachment cards from hand.
+Reactions and Interrupts
+A reaction ability to a framework effect may be initiated
+immediately after the completion of any framework step.
+An interrupt ability to a framework effect may be initiated during
+the resolution of that step, interrupting the process of that step.
+
+I. Dynasty Phase
+1.1 Dynasty phase begins.
+1.2 Reveal facedown dynasty cards.
+1.3 Collect fate.
+1.4 SPECIAL ACTION WINDOW
+Players alternate playing cards from
+provinces/hand and/or triggering Action abilities.
+1.5 Dynasty phase ends.
+
+Proceed to Draw Phase.
+
+II. Draw Phase
+2.1 Draw Phase begins.
+2.2 Honor bid.
+2.3 Reveal honor dials.
+2.4 Transfer honor.
+2.5 Draw cards.
+ACTION WINDOW
+2.6 Draw Phase ends.
+
+Proceed to Conflict Phase.
+
+III. Conflict Phase
+3.1 Conflict phase begins.
+ACTION WINDOW
+NOTE: After this action window, if no conflict
+opportunities remain, proceed to (3.4).
+3.2 Next player in player order declares a conflict
+(go to Conflict Resolution), or passes (go to
+(3.3)).
+3.3 Conflict Ends / Conflict was passed. Return to
+the action window following step (3.1).
+3.4 Determine Imperial Favor.
+3.4.1 Glory count.
+3.4.2 Claim Imperial Favor.
+3.5 Conflict phase ends.
+
+Proceed to Fate Phase.
+
+29
+
+Conflict Resolution
+3.2 Declare conflict.
+3.2.1 Declare defenders.
+3.2.2 CONFLICT ACTION WINDOW
+(Defender has first opportunity)
+3.2.3 Compare skill values and determine result.
+3.2.4 Apply unopposed.
+3.2.5 Break province.
+3.2.6 Resolve ring effects.
+3.2.7 Claim ring.
+3.2.8 Return home. Go to (3.3).
+IV. Fate Phase
+4.1 Fate phase begins.
+4.2 Discard characters with no fate.
+4.3 Remove fate from characters.
+4.4 Place fate on unclaimed rings (if applicable).
+ACTION WINDOW
+4.5 Ready cards.
+4.6 Discard from provinces.
+4.7 Return rings (if applicable).
+4.8 Pass first player token.
+4.9 Fate phase ends.
+
+Proceed to Dynasty Phase.
+
+30
+
+Framework Details
+
+Each of the following entries corresponds to the framework step of
+the same number on the Phase Sequence Timing Chart.
+1. Dynasty Phase
+1.1. Dynasty phase begins
+This step formalizes the beginning of the dynasty phase. As this is
+the first framework step of the round, it also formalizes the
+beginning of a new game round.
+The beginning of a phase is an important game milestone that may
+be referenced in card text, either as a point at which an ability may
+or must resolve, or as a point at which a lasting effect or constant
+ability begins or expires.
+1.2. Reveal facedown dynasty cards
+In player order, each player turns each facedown dynasty card in
+each of their provinces faceup. A player's cards are turned over one
+at a time, from the player's leftmost province to their rightmost
+province. If there are any facedown cards in a player's stronghold
+province, those cards are turned faceup first.
+1.3. Collect fate
+In player order, each player collects fate equal to the fate value on
+his or her stronghold card, incorporating all active fate modifiers.
+This fate is taken from the general token pool and added to the
+player's fate pool.
+In the enlightenment format, the first player collects 1
+additional fate during the dynasty phase.
+1.4. Play cards from provinces
+This is a special action window in which the opportunity to act
+alternates back and forth between the players, in player order.
+With his or her opportunity to act, a player may do one of the
+following:
+Play one card from their provinces or hand.
+Trigger an eligible action ability.
+Discard a duplicate of a character from his or her hand or from
+one of his or her provinces to place 1 fate on a copy of that
+character under his or her control.
+Pass.
+To play a character from a province, a player removes a number of
+fate equal to the character's fate cost from his or her fate pool, and
+returns that fate to the general token pool. The character enters
+play and is placed in the player's home area. The player then has
+the option to place any number of additional fate from his or her
+fate pool onto that character. Once this option to place additional
+fate has been completed or passed, the province from which the
+character was played is refilled facedown from the dynasty deck.
+When a player passes, that player relinquishes all further
+opportunities to act during this phase. (A player who has passed
+may still trigger interrupts and reactions to any eligible
+occurrence.) The player to pass first gains 1 fate from the general
+token pool and adds it to his or her fate pool. After one player has
+passed, the other player may continue to use action opportunities
+
+until he or she also passes. Once both players have passed, this
+step is complete.
+1.5. Dynasty phase ends
+This step formalizes the end of the dynasty phase.
+The end of a phase is an important game milestone that may be
+referenced in card text, either as a point at which an ability may or
+must resolve, or as a point at which a lasting effect or constant
+ability expires or begins.
+2. Draw Phase
+2.1. Draw phase begins
+This step formalizes the beginning of the draw phase.
+2.2. Honor bid
+Each player secretly selects a number from 1 to 5 on his or her
+honor dial as his or her honor bid for this round. Once both players
+have confirmed that they are ready, proceed to the next step.
+In the skirmish format, players cannot select a number higher
+than 3 on their honor dial.
+2.3. Reveal honor dials
+The players simultaneously reveal their bids.
+Once a player reveals an honor bid, the dial is placed next to the
+player's stronghold or conflict deck and remains as a reference
+point until the next honor bid occurs.
+2.4. Transfer honor
+The player with the higher honor bid must give an amount of honor
+to the player with the lower honor bid that is equal to the
+difference between the two bids. If the bids are equal, no honor is
+transferred during this step.
+In the enlightenment format, all three players compare their
+honor bids with one another for the purposes of transferring
+honor.
+If each player selects a different number on their honor
+dial, the player who selects the highest number gives honor
+to the player who selects the lowest number. The amount
+of honor given is equal to the difference between the
+numbers those two players select. The player whose
+number is in between the other two does not gain or lose
+honor.
+If two players select the same number and the remaining
+player selects a number that is higher than that selected by
+their two opponents, the player that selected the higher
+number gives honor to both opponents. The amount of
+honor given is equal to the difference between the two
+numbers selected, divided as evenly as possible between
+the two players that selected the same number. If any
+honor remains to be given after dividing the honor as
+evenly as possible, the player giving the honor selects
+which opponent the remaining honor is given to.
+If two players select the same number and the remaining
+player selects a number that is lower than that selected by
+their two opponents, the player that selected the lower
+number takes honor from both opponents. The total
+amount of honor taken is equal to the difference between
+the two numbers selected, divided as evenly as possible
+between the two players that selected the same number.
+
+31
+If any honor remains to be taken after dividing it as evenly
+as possible, the player receiving the honor selects which
+opponent to take the remaining honor from.
+In the team conquest format, each player only compares their
+honor bid with that of the opponent sitting across from them
+for the purposes of transferring honor.
+2.5. Draw cards
+Each player simultaneously draws a number of cards from their
+conflict deck equal to their honor bid.
+2.6. Draw phase ends
+This step formalizes the end of the draw phase.
+3. Conflict Phase
+3.1. Conflict phase begins
+This step formalizes the beginning of the conflict phase.
+3.2. Declare conflict
+(Shares 3.2 with conflict resolution chart.)
+During the conflict phase, each player is granted one or more
+opportunities to declare a conflict. These conflict opportunities
+alternate between players with remaining conflict opportunities in
+player order until each player has declared a conflict or passed on
+each of their conflict opportunities. In the team conquest format,
+conflict opportunities are given to each team instead of each
+player.
+In the stronghold, enlightenment, and team conquest formats,
+each player (or team) is granted one opportunity to declare a
+military conflict and one opportunity to declare a political conflict.
+A player's military and political conflicts may be declared in either
+order during the round. In the skirmish format, each player is
+granted one opportunity to declare a conflict of either type.
+When a player has an opportunity to declare a conflict, that player
+may:
+Declare a military conflict.
+Declare a political conflict.
+Pass.
+If a conflict opportunity is passed, the player forfeits his or her right
+to use that opportunity this phase.
+In order to declare a conflict, the attacking player must:
+Declare the type and element of the conflict to be initiated.
+This is indicated by selecting a ring from the unclaimed ring
+pool (this ring is known as the contested ring, and defines the
+element of the conflict), and placing it on an opponent's
+eligible unbroken province (this indicates which province is
+being attacked) with either the military side or the political side
+faceup (the faceup side of the contested ring defines the type
+of the conflict).
+A conflict cannot be declared against a player's stronghold
+province in the stronghold or enlightenment formats unless at
+least three of that player's non-stronghold provinces are broken. A
+conflict cannot be declared against a player's stronghold province
+in the team conquest format unless that player's team controls at
+
+least 3 broken provinces and at least one of that player's non-
+stronghold provinces is broken.
+
+If a player selects an unclaimed ring with fate on it to become the
+contested ring, that fate is moved from the ring to the attacking
+player's fate pool.
+In the enlightenment format, a player can only declare a
+conflict using a ring in their personal unclaimed ring pool or
+the common unclaimed ring pool.
+Declare which ready characters (under his or her control) are
+being committed as attackers. The attacking player may
+declare any number of eligible characters under his or her
+control as attackers. Slide these characters toward the center
+of the play area, away from the attacking player's home area.
+At least one character must be declared as an attacker at this
+time in order to initiate a conflict. If any of the attackers have
+the covert keyword, the targets for covert are chosen at this
+time.
+In the team conquest format, each player on the attacking
+team may declare attackers in the same conflict, and those
+characters participate on the same side together.
+Each of the above items are considered to be performed
+simultaneously. If any of the above cannot be completed, the
+conflict cannot be initiated.
+If the province being attacked is facedown, turn it faceup as soon
+as a conflict is successfully declared against it. This occurs before
+any reactions to the process of conflict declaration may be
+triggered.
+Once a conflict has been declared, resolve that conflict before the
+next conflict is declared.
+If no player has a conflict opportunity remaining when this step is
+reached, advance to step 3.4.
+3.2.1. Declare defenders
+The defending player declares which - if any - ready characters
+(under his or her control) are being committed as defenders. The
+defending player may declare any number of eligible characters
+under his or her control as defenders. Slide these characters
+toward the center of the play area, away from the defending
+player's home area. Declaring "no defenders" is also an option.
+In the team conquest format, the controller of the attacked
+province may declare one or more defenders if they choose,
+and each other player on their team may declare up to one one
+defender. Those characters participate on the same side
+together.
+3.2.2. Conflict action window
+This is a special action window in which the defending player
+(rather than the first player) has the first action opportunity. These
+opportunities then alternate between the players until both
+players consecutively pass.
+With an action opportunity, a player may:
+Activate an eligible action ability on a card he or she controls.
+Play an event card with an action trigger from his or her hand.
+Play an attachment card from hand, and attach it to any eligible
+character in play.
+Play a character from hand, into the conflict, participating on
+that player's side. (Additional fate from the player's fate pool
+may be placed on the character at this time.)
+Play a character from hand into his or her home area.
+(Additional fate from the player's fate pool may be placed on
+the character at this time.)
+
+32
+
+Pass.
+After using an action opportunity, a player must announce the total
+relevant skill present on both sides of the conflict that would be
+counted if the conflict were to resolve with no further actions.
+Once both players consecutively pass their action opportunities,
+proceed to the next step.
+3.2.3. Compare skill values and determine result
+The conflict type indicates which skill value is used to resolve the
+conflict. During a military conflict use military skill. During a
+political conflict use political skill.
+First, determine the attacking player's total skill in the conflict by
+adding together the skill (that matches the conflict type) of each
+ready attacking character and factor in all active modifiers. Then
+determine the defending player's total skill in the conflict by adding
+together the skill (that matches the conflict type) of each ready
+defending character and factor in all active modifiers.
+The player whose side has the higher total skill wins the conflict. In
+order to win a conflict, a player must count a total skill of 1 or
+higher. In the case of a tie, the conflict is won by the attacking
+player. If both players count 0 skill, the conflict resolves with no
+winner, and the ring is returned to the pool of unclaimed rings.
+In the team conquest format, players win or lose the conflict as
+a team, regardless of who controls participating characters.
+Any card abilities that trigger when a player wins a conflict can
+be triggered if that player's team wins a conflict (the same is
+true for losing a conflict), as each player on that team counts
+as having won the conflict.
+3.2.4. Apply unopposed
+If the attacking player won the conflict and the defending player
+controls no defending characters (in step 3.2.3), the conflict is
+considered "unopposed." If playing the stronghold or team
+conquest format, the defending player loses 1 honor and returns it
+to the general token pool.
+If the defending player or no player won the conflict, nothing
+happens during this step.
+3.2.5. Break province
+If the attacking player won the conflict by an amount equal to or
+greater than the strength of the attacked province (in step 3.2.3),
+the province is broken. Rotate the province 180 degrees or discard
+the province token to indicate this.
+If the attacking player wins a conflict and breaks a province, they
+may immediately discard any dynasty cards on that province. If the
+province becomes empty this way, the province is refilled
+facedown as normal.
+If the defending player or no player won the conflict, nothing
+happens during this step.
+3.2.6. Resolve ring effects
+If the attacking player won the conflict (in step 3.2.3), that player
+may resolve the ring effect of the contested ring. The ring effects
+are as follows:
+Air: Either take 1 honor from your opponent, or gain 2 honor from
+the general token pool.
+Earth: Draw 1 card from your conflict deck and discard 1 random
+card from your opponent's hand.
+Fire: Choose a character in play and either honor or dishonor that
+character.
+
+Water: Either choose a character and ready it, or choose a
+character with no fate on it and bow it.
+Void: Choose a character and removes 1 fate from it.
+If the defending player or no player won the conflict, nothing
+happens during this step.
+When playing the skirmish format, the following three rings
+have the following effects instead:
+Air: Take 1 honor from your opponent.
+Earth: Either draw 1 card from your conflict deck or discard
+1 random card from your opponent's hand.
+Water: Choose a character in any player's home area with
+1 or fewer fate on it and either ready or bow it.
+In the team conquest format, the Air and Earth ring effects may
+only be resolved against the opponent whose province is being
+attacked, and only a single player on the attacking team may
+receive the ring's effect.
+3.2.7. Claim ring
+The player who won the conflict (in step 3.2.3) claims the contested
+ring and adds it to his or her claimed ring pool.
+In the enlightenment format, the attacking player claims the
+ring on one of their eligible provinces if they win the conflict.
+The defending player does not claim the ring if they win the
+conflict, and it is returned to the attacking player's personal
+unclaimed ring pool.
+If no player won the conflict (in step 3.2.3), the ring is returned to
+the unclaimed ring pool.
+The ring continues to define the conflict type and element(s) until
+the end of the conflict even after it ceases to be contested.
+3.2.8. Return home
+Simultaneously bow each ready participating character in the
+conflict. Return each participating character to its controller's
+home area. These characters are no longer participating in the
+conflict.
+3.3. Conflict ends / Conflict was passed
+This step formalizes the end of a conflict, or that a conflict
+opportunity has been passed. Return to the action window
+following step 3.1.
+3.4. Determine Imperial Favor
+This step marks the beginning of the contest for the Imperial Favor.
+3.4.1. Glory count
+Each player counts the total glory value of all ready characters he
+or she controls, factors in all active modifiers, and adds 1 to this
+count for each ring in his or her claimed ring pool.
+The players then compare their totals. The player with the higher
+total wins the glory count. If the totals are tied, neither player wins
+the glory count.
+In the team conquest format, each team adds together the
+total glory on ready characters they control and adds one for
+each ring claimed by their team. This total is compared to that
+of the opposing team, and one of the two teams wins the glory
+count if the totals are not tied.
+
+33
+
+3.4.2. Claim Imperial favor
+The player who won the glory count (in step 3.4.1) claims the
+Imperial Favor by taking the Imperial Favor card, setting it to its
+military side or to its political side, and placing it next to his or her
+stronghold. That player is said to "have the Imperial Favor," and the
+card may influence the following game round. If a player who
+already has the Imperial Favor claims it again, the player may set it
+to either side.
+If players have the same total, the Imperial Favor remains in its
+current state (either unclaimed or under the possession of the
+player who currently has it, remaining set on its current side).
+This step also marks the end of the contest for the Imperial Favor.
+3.5. Conflict phase ends
+This step formalizes the end of the conflict phase.
+4. Fate Phase
+4.1. Fate phase begins
+This step formalizes the beginning of the fate phase.
+4.2. Discard characters with no fate
+In player order, each player discards each character he or she
+controls with no fate on it. These characters are discarded one at a
+time, in the order of the discarding player's choosing. Characters
+are only discarded in this way if they had no fate on them during
+the initation of this step and no fate when they would be discarded.
+4.3. Remove fate from characters
+Simultaneously remove 1 fate from each character in play.
+4.4. Place fate on unclaimed rings
+Simultaneously place 1 fate from the general token pool on each
+unclaimed ring.
+• This framework step is skipped when playing the skirmish
+format.
+• In the enlightenment format, instead of placing 1 fate on
+each unclaimed ring, each player chooses 1 ring in an
+opponent's unclaimed ring pool and places 1 fate from
+the general token pool on that ring.
+4.5. Ready cards
+Simultaneously ready each bowed card in play.
+4.6. Discard from provinces
+In player order, each player must discard each faceup card from
+each his or her broken provinces, and also has the opportunity to
+choose and discard any number of faceup dynasty cards from his
+or her unbroken provinces.
+Each province that becomes empty in this way is refilled with a
+facedown card from the top of its owner's dynasty deck.
+• In the skirmish format, players do not discard faceup
+cards in broken provinces unless they choose to do so.
+4.7. Return rings
+Simultaneously return each claimed ring to the unclaimed ring
+pool.
+
+This framework step is skipped when playing the
+enlightenment format.
+4.8. Pass first player token
+The player with the first player token passes it to the opponent to
+their left. That player becomes the first player.
+4.9. Fate phase ends
+This step formalizes the end of the fate phase.
+As the fate phase is the final phase in the round, this step also
+formalizes the end of the round. Any active "until the end of the
+round" lasting effects expire at this time.
+After this step is complete, play proceeds to the beginning of the
+dynasty phase of the next game round.
+Duel Timing
+D.1 Initiate a duel.
+D.2 Establish the challenge.
+D.3 Duel honor bid.
+D.4 Reveal honor dials.
+D.5 Transfer honor.
+D.6 Calculate dueling statistic.
+D.7 Calculate duel total and determine result.
+D.8 Apply duel results.
+D.9 Duel ends.
+D.1. Initiate a duel
+When a card ability initiates a duel, part of the cost of that ability
+may use the phrase, "initiate a [type] duel." This opens the duel
+timing window.
+To initiate a duel, the player resolving the card ability must choose
+two characters to duel against each other: one they control and
+one controlled by an opponent. The following parameters exist on
+which characters can be chosen for the duel:
+One character must be controlled by the player whose card
+ability initiates the duel, and one character must be controlled
+by an opponent of that player.
+If a duel is initiated during a conflict, both characters chosen
+must be participating.
+If a duel is initiated by an ability on a character card, that
+character is automatically involved in the duel. Some abilities
+use the phrase "this character initiates" as a reminder of this.
+That character is not considered to be chosen as a target of the
+duel, as it is already involved.
+During a conflict, a duel can only be initiated by an ability
+on a character card if that character is participating in the
+conflict.
+If this process is completed, a duel has been initiated. Otherwise,
+the duel fails to initiate and cannot resolve.
+
+34
+
+Resolve the duel
+A duel is resolved during the successful resolution of any triggered
+ability that instructs players to "resolve the duel," or that their
+"character challenges the opponent's character to a [type] duel."
+To resolve a duel, perform the following steps:
+D.2. Establish the challenge
+The process of initiating the duel (in step D.1) will have identified
+the two characters that are involved in the duel, as well as the kind
+of duel that will take place. This statistic ( skill, skill, or glory)
+will be used to determine the results of the duel.
+D.3. Duel honor bid
+Each player secretly selects a number from 1 to 5 on his or her
+honor dial as his or her honor bid for this duel. Once both players
+have confirmed that they are ready, proceed to the next step.
+In the skirmish format, players cannot select a number higher
+than 3 on their honor dial.
+D.4. Reveal honor dials
+The players simultaneously reveal their bids.
+Once a player reveals an honor bid, the dial is placed next to the
+player's stronghold or conflict deck and remains as a reference
+point until the next honor bid occurs.
+D.5. Transfer honor
+The player with the higher honor bid must give an amount of honor
+to the player with the lower honor bid that is equal to the
+difference between the two bids. If the bids are equal, no honor is
+transferred during this step.
+D.6. Calculate dueling statistic
+The process of initiating the duel (in step D.1) will have established
+which statistic ( skill, skill, or glory) is being used to
+determine the results of the duel. Each player calculates the
+current value of that statistic for their character involved in the
+duel. Any skill modifiers that were active at the time the duel was
+initiated are still applicable during the duel.
+If multiple characters are involved in the duel on the same side,
+add their dueling statistics together. The value calculated in
+this step is treated as the skill value of a single character for the
+purposes of determining duel results. Those characters win or
+lose the duel together
+D.7. Add honor bid, compare values, and determine result
+Each player calculates their duel total and compares it with that of
+their opponent to determine the results.
+In the stronghold, enlightenment, and team conquest formats,
+each player adds their duel honor bid to the statistic value they
+calculated in step D.6 to determine their duel total.
+In the skirmish format, the player with the higher dueling statistic
+value calculated in step D.6 adds 1 to their honor bid to determine
+their duel total. The other player's duel total is equal to their honor
+bid and is not increased by the dueling statistic.
+The character whose controller has the higher duel total is the
+duel's winner.
+The character whose controller has the lower duel total is the
+duel's loser.
+
+If the duel totals are the same, neither character is the duel's
+winner and neither character is the duel's loser.
+D.8. Apply duel results
+The ability that initiated the duel (in step D.1) specified the
+consequences of this duel for the winning and/or losing characters,
+or for the player(s) controlling those characters. Apply those
+consequences during this step.
+D.9. Duel ends
+This step formalizes the end of the duel. Return to the action
+window in which the duel was initiated, with the next player in the
+sequence of actions having the next opportunity to act.
+NOTE: There are no action windows during a duel, so players
+are not able to initiate actions or play characters and
+attachments from their hands during the resolution of a duel.
+Applicable interrupt and/or reaction abilities may be triggered
+during a duel.
+
+35
+Appendix II: Card Anatomy
+This section presents a detailed anatomy of each cardtype.
+Definitions of each element can be found in the glossary.
+Card Anatomy Key
+1. Title: The name of the card.
+2. Cost: The fate cost to play the card.
+3. Cardtype: Indicates how a card is played or used during the
+course of the game.
+4. Clan Symbol: The card's clan affiliation.
+5. Military Skill: The character's military skill value.
+6. Bonus Military Skill: The bonus value this card provides to
+the attached character's military skill.
+7. Political Skill: The character's political skill value.
+8. Bonus Political Skill: The bonus value this card provides to
+the attached character's political skill.
+9. Glory: The card's glory value.
+10. Element: This indicates the province's elemental affiliation.
+11. Strength: The province's strength value.
+12. Bonus Strength: The bonus strength provided to a province
+or stronghold if this holding is in it.
+13. Starting Honor: The amount of honor this stronghold
+provides at the start of the game.
+14. Fate Value: The amount of fate this stronghold provides
+each dynasty phase.
+15. Influence Value: The amount of influence this stronghold
+provides for deckbuilding.
+16. Traits: Descriptive attributes that may be referenced by
+card abilities.
+17. Ability: The card's special means of interacting with the
+game.
+18. Influence Cost: The influence cost required to include this
+card in a conflict deck.
+19. Product Set Information: Indicates this card's product of
+origin.
+
+36
+
+37
+
+Appendix III: Card
+Clarifications
+
+This section provides answers to a number of common questions
+that are asked about cards in the game. These answers are
+organized by the expansion and collector number of the card
+whose rules interaction has raised the question.
+Core Set
+Shameful Display (24)
+Neither the honoring nor the dishonoring aspect of Shameful
+Display's ability is dependent upon the other. Additionally,
+targets for the ability may be chosen even if one or both of
+those characters could be either honored or dishonored (you
+do not need to select which character is receiving which aspect
+when choosing targets). If Shameful Display honors/dishonors
+one character and fails to honor/dishonor the other, it has still
+resolved successfully, even though it failed to affect one of the
+chosen characters. That character is still a valid target for the
+ability as it could have been affected by either aspect at the
+time it was chosen.
+Savvy Politician (45)
+Savvy Politician's ability does not trigger if an honored status
+token is moved to it by a card ability. It only triggers if an effect
+"honors" it.
+Young Rumormonger (101)
+Young Rumormonger's ability does not trigger if an honored or
+dishonored status token is moved to a character by a card
+ability. It only triggers if an effect "honors" or "dishonors" a
+character.
+Reprieve (132)
+Reprieve's effect can prevent a character from being sacrificed.
+If that occurs during the payment of a cost, then that cost
+is not considered to have been paid as the sacrifice was
+prevented (see page 5). If the sacrifice while paying an
+event's cost is prevented, the effects do not initiate, and
+that event remains unplayed in its owner's hand.
+If that occurs during the resolution of an effect, then
+nothing is dependent upon whether or not the sacrifice
+resolved successfully. In the same way that an event whose
+effects were canceled by Voice of Honor (Core, 145) is still
+considered to have been played, a card like Way of the Crab
+(Core, 137) is still considered to have been played even if
+its effects are prevented by Reprieve.
+Watch Commander (133)
+If a player plays a card whose effects result in Watch
+Commander being discarded, its ability cannot be triggered as
+it is no longer in play.
+If a player plays a card whose effects result in the attached
+character no longer participating in the conflict, Watch
+Commander's ability cannot be triggered as the triggering
+condition is no longer met.
+
+Steward of Law (139)
+If a character "cannot receive dishonored status tokens," then
+those tokens cannot be placed on or moved to that character.
+That character cannot be dishonored if it is ordinary. (See page
+32.)
+Above Question (141)
+If Above Question is played on an opponent's character, that
+opponent cannot choose the attached character as a target for
+their own events.
+If the attached character is the only participating character
+controlled by that opponent, Court Games' honoring effect
+(Core, 206) cannot be selected, as the attached character
+cannot be chosen as a target.
+Way of the Lion (167)
+When you play two copies of Way of the Lion on the same
+character during a conflict, that character's skill will be
+doubled twice (to now be quadruple the original skill value).
+The new base skill value continues to double if additional
+copies are played.
+Display of Power (179)
+When Display of Power is played, it produces a delayed effect
+that cancels the normal effects of ring resolution during step
+3.2.6 "Resolve Ring Effects" and replaces it with "resolve the
+ring effect as if you had won the conflict as the attacking
+player." Losing honor for unopposed and breaking the province
+will occur before resolving Display of Power's effect.
+Should Pilgrimage (Core, 22) not be broken when Display
+of Power resolves, the delayed effect of Display takes
+precedence over Pilgrimage, canceling the normal
+resolution of "Resolve Ring Effects" and replacing it with
+the adjusted means of resolution. However, the Pilgrimage
+effect ("cancel all ring effects") still cancels the Display of
+Power's attempt to resolve the ring for the defender. The
+defender claims the ring.
+Because Display of Power interacts with the "Resolve Ring
+Effects" step rather than the specific effect chosen by the
+attacker, the attacker does not have the option to choose
+a specific ring effect to resolve when Seeker of Knowledge
+(Core, 171) is attacking (or whether they would like to
+resolve a ring effect at all). When Display of Power resolves
+the ring effect, the defender has the opportunity to choose
+which ring effect they would like to resolve instead, and
+may choose to not resolve the ring's effect if they desire.
+Banzai! (204)
+When Banzai! is played, a player can choose to cancel Banzai!'s
+entire card effect, just the second part of its effect, or none of
+its effect.
+When Banzai!'s effect initiates during the step 6 of playing
+the card (see page 11), the effects that initiate are: "you
+may lose 1 honor, the chosen character gets +2 , and if
+you lost 1 honor resolve this ability twice." If Banzai!'s
+effects are canceled at this time, none of those things
+happen and the card's effects do not resolve at all.
+If those effects resolve, and the 1 honor is lost, "resolve this
+ability twice" causes the ability's resolution to return to
+step 5 ("choose a participating character"). This causes the
+effects to initiate a second time, and thus they can be
+
+38
+canceled a second time to prevent the second +2 and
+optional honor loss.
+Disciples of the Void
+Secluded Shrine (12)
+The ring chosen for Secluded Shrine's effect can be in multiple
+states at once. For example, while unclaimed, the chosen ring
+simultaneously counts as being in both the unclaimed ring pool
+and in your claimed ring pool.
+You cannot move the chosen ring out of your claimed ring
+pool due to the cost or effect of a card ability unless the
+physical ring token is in your claimed ring pool.
+Warriors of the Wind
+Agasha Taiko (14)
+The province that is chosen by Agasha Taiko's ability cannot be
+declared as the attacked province and the conflict cannot be
+moved to it.
+If Agasha Taiko is played during a conflict and chooses the
+currently attacked province for her ability, the conflict
+immediately ends with no winner and all participating
+characters are moved home bowed.
+Masters of the Court
+Maker of Keepsakes (7)
+If a character "cannot receive dishonored status tokens," then
+those tokens cannot be placed on or moved to that character.
+That character cannot be dishonored if it is ordinary.
+Seekers of Wisdom
+Dragon Tattoo (23)
+After you play an interrupt or reaction event that targets a
+character with Dragon Tattoo attached, the tattoo can be used
+to play that event again. The interrupt or reaction event is
+played during the interrupt/reaction window that the card was
+originally played in.
+When an interrupt or reaction is played in this way, it is
+"queued" into the appropriate interrupt/reaction window,
+but is not actually played until the reaction window for
+playing the original event closes. Therefore, cards like
+Watch Commander (Core, 133) will trigger after the first
+instance of the event but before the second instance of the
+event—this is different from when Dragon Tattoo plays an
+action event, as an Action event (such as Hurricane Punch
+(Elemental Cycle, 17)) is fully played and resolved within
+the resolution of Dragon Tattoo's ability.
+
+Imperial Cycle
+Test of Skill (93)
+If you play Test of Skill from the top of your deck (with a card
+such as Artisan Academy (Core, 53) or Pillow Book (Imperial,
+93)), it will take up one of the "revealed card slots" in its cost,
+but be ineligible to be put into your hand by its effect.
+When an event card is played, it is considered to remain in
+its original zone until its cost has successfully been payed,
+at which point it gets placed onto the table in a state of
+"being played" before being placed in its owner's discard
+pile after its effects resolve. Therefore, during the payment
+of the Test of Skill's cost, it is still on top of your deck and
+will be revealed as part of the cost of playing the event.
+While it is already revealed by the Academy or Pillow Book,
+it can still be revealed again to satisfy its own cost.
+However, once it leaves the top of your deck (after paying
+costs and choosing targets in step 5—see ‘Initiating
+Abilities' on page 11), it no longer becomes "one of the
+revealed cards" and cannot be put back into your hand. For
+more information, see ‘In Play and Out of Play' on page 10.
+Waning Hostilities (100)
+Waning Hostilities limits each player to one conflict
+opportunity for the phase. Because Waning Hostilities sets a
+hard limit, no amount of additional conflicts gained through
+card effects can allow players to declare more than one conflict
+in that phase.
+Elemental Cycle
+The Mirror's Gaze (15)
+The Mirror's Gaze cannot be used to copy interrupts or
+reactions whose effects cancel a card effect or framework step.
+The following cards are some examples of some events that
+cannot be copied by this attachment for this reason: Voice
+of Honor (Core, 145), Display of Power (Core, 179), Forged
+Edict (Core, 184), Censure (Imperial Cycle, 60)
+The Mirror's Gaze cannot be used to copy events whose effects
+reference their triggering conditions (which are ignored).
+The following cards are some examples of some events that
+cannot be copied by this attachment for this reason:
+Indomitable Will (Core, 158), Ready for Battle (Core, 165),
+I Can Swim (Core, 187), Way of the Chrysanthemum
+(Imperial Cycle, 80)
+Master Alchemist (44)
+Master Alchemist can be used to place fate on the ring
+while it is contested or claimed. Fate will stay on rings up until
+the point at which they become contested. If the ring is already
+being contested when fate is added to it, the attacker will not
+gain that fate.
+Children of the Empire
+Kakita Toshimoko (14)
+If a participating character's skill values are dependent upon
+players' honor bids, Kakita Toshimoko's interrupt ability can
+
+39
+alter the calculation of skill totals in step 3.2.3 before fully
+resolving that step by changing those players' bids and
+potentially changing which player wins or loses the conflict due
+to the change in skill values.
+Because interrupts resolve before their triggering
+condition (page 11), and because "would" effects have the
+capability to change the triggering condition (page 20),
+Toshimoko's ability has the potential to change the
+outcome of step 3.2.3. Therefore, if: a character's skill
+values are dependent upon the players' honor bids,
+Toshimoko's duel changes those bids, and he loses the
+duel, then it is possible that Toshimoko could lose the duel
+but win the conflict (if up against a Sincere Challenger
+(Children of the Empire, 27) who loses composure in a
+political conflict, for example, or by being honored by
+Kyūden Kakita (Masters of the Court, 1)). It is also possible
+that recalculating skill values for step 3.2.3 due to
+Toshimoko's ability could cause a province that would
+originally be breaking to no longer be breaking if the loss of
+skill (or increase of Toshimoko's skill) causes the attacking
+player to not have the excess skill necessary to cause the
+province to break.
+Unmatched Expertise (65)
+If a character "cannot receive dishonored status tokens," then
+those tokens cannot be placed on or moved to that character.
+That character cannot be dishonored if it is ordinary. (See page
+32.)
+Inheritance Cycle
+Command Respect (18)
+When an event card is played, it is considered to still be in its
+owner's hand while determining whether a card's play
+restrictions are met. Command Respect cannot be played if
+both players have the same number of cards in hand.
+Akodo Kaede (28)
+Akodo Kaede's effect can prevent a character from being
+sacrificed. (See Reprieve, page 29)
+Steward of the Rich Frog (54)
+When an event card is played, it is considered to still be in its
+owner's hand until after all costs and selections have been
+made.
+While choosing targets during Step 5 of the process of
+playing For Shame (Core, 207) on a Steward of the Rich
+Frog, the Steward's text prevents characters from receiving
+dishonored status tokens. Because selecting options
+happens during the same step as choosing targets, the For
+Shame is still in the opponent's hand when the selection is
+made, and an option whose effect would fail to change the
+game state cannot be selected.
+If a character "cannot receive dishonored status tokens," then
+those tokens cannot be placed on or moved to that character.
+That character cannot be dishonored if it is ordinary.
+
+Dominion Cycle
+Seven Stings Keep (25)
+When resolving this stronghold's ability, the process of
+declaring a conflict is inverted. The conflict begins with the
+declaration of defenders, which means the defending
+characters will be participating in the conflict before the
+attacking characters are declared (and before there is an
+attacked province, a conflict type, or a contested ring). Because
+there is no conflict type when defenders are declared, any
+character may be declared as a defender. If the conflict type
+chosen by the attacking player would result in an ineligible
+defender—for example, because the defender has a dash skill
+value for the declared conflict type—then that character
+moves home bowed.
+When declaring attackers, the attacking player must choose a
+number of attacking characters equal to the number chosen
+when paying the cost of Seven Stings Keep's ability. If a number
+was chosen greater than the number of eligible attackers, the
+attacking player must declare the greatest number of possible
+attackers. This may force the attacking player to select a
+particular ring or conflict type to make the declaration of the
+required number of attackers eligible. For example, if a
+character has a dash skill value and it must be declared to
+reach the chosen number of attackers, then a conflict must
+be declared.
+Retire to the Brotherhood (28)
+If a player reveals their entire deck and does not reveal a
+number of characters equal to the number of characters they
+discarded to this province's effect, they do not reshuffle their
+discard pile to keep revealing more cards. They only put into
+play the characters revealed, even though this results in fewer
+characters entering play than the number of characters that
+were discarded.
+If a player reveals multiple copies of a unique character to this
+province's effect, or reveals a unique character already in play
+that they own or control, they do not put the duplicate(s) into
+play. They do not reveal or put into play any additional
+characters to make up for the unique characters that could not
+enter play.
+Silent Ones Monastery (50)
+When a player would gain more than 2 honor per phase due to
+honor being transferred between players, such as by an honor
+bid, the Silent Ones Monastery prevents all but 2 of it. The
+honor is not lost by the player giving honor because it is not
+gained by the player who would be gaining honor.
+Study the Natural World (68)
+The effect of this event adds the element(s) of the attacked
+province to the contested ring immediately and creates a
+delayed effect that allows the attacking player to resolve each
+of the contested ring's effects if they win the conflict. This
+delayed effect occurs during step 3.2.3 of conflict resolution, at
+which point the attacking player may either resolve all of the
+contested ring's effects or none of them. It does not replace
+framework step 3.2.6, when the attacking player may also
+resolve [b]one[/b] of the contested ring's effects as normal.
+Under Siege (89)
+If the defending player has no cards in their hand, this card
+cannot be played.as normal.
+
+40
+
+Foothills Keep (94)
+When paying the additional cost for attacking a province other
+than Foothills Keep, fate cannot be spent to the ring selected
+to be the contested ring as the conflict is declared.
+Contested Countryside (106)
+All ability limits are player-specific, so this holding allows the
+attacking player to trigger the attacked province's abilities,
+even if the defending player also triggers those abilities.
+Divine Ancestry (110)
+If you cannot lose honor, you cannot give honor to an
+opponent (and they cannot take honor from you). Any card
+effect or framework step that would require the transfer of
+honor is ignored.
+Compromised Secrets (135)
+If the attached character has a forced ability, that ability gains
+the additional cost of giving the opponent 1 honor. Because the
+ability is forced, it must be triggered and therefore the costs
+(giving the opponent 1 honor) must be paid.
+If Compromised Secrets and the character it is attached to are
+both controlled by the same player, the additional cost to
+trigger the character's abilities would require a player to give
+themself 1 honor. Because a player cannot give themself 1
+honor, the additional cost cannot be paid, and therefore the
+abilities cannot be triggered.
+Through The Mists
+Lucky Coin (11)
+During conflicts, Lucky Coin only disables the effects of
+dishonored status tokens. The character is still dishonored.
+However, it doesn't subtract its glory from its skills and its
+controller doesn't lose honor when it leaves play (during a
+conflict).
+Pride (19) and Noble Vanguard(21)
+The attachments created by Pride and Noble Vanguard have no
+name, therefore the attachment limit does not apply. This
+means that multiple of these attachments can be attached to
+the same character.
+Cherished Family Servant (36)
+Cherished Family Servant enters play under the control of your
+opponent. Therefore, the Dire ability on Cherished Family
+Servant applies its effect to Poison attachments attached to
+your opponent's characters as effects always apply to the
+controller of a card, unless otherwise specified.
+
+41
+Appendix IV: Card Errata
+This section contains the official errata that have been made on
+individual cards in Legend of the Five Rings: The Card Game. Errata
+overrides the originally printed information on the card it applies
+to. Unless errata for a card appears below, the original English
+printing of that card and all of its information is considered
+accurate, and overrides all other printings. This includes translated
+cards, promotional cards, and printings which may appear in
+alternate products.
+City of the Open Hand (Core Set, 6)
+Should read: "gain 1 honor."
+(Replaces "take 1 honor from that player.")
+Restoration of Balance (Core Set, 10)
+Should read: "Interrupt: When this province is broken..."
+(Replaces "Reaction: After this province is revealed...")
+Kuroi Mori (Core Set, 12)
+Should read: "Cannot be a stronghold province."
+(Added "Cannot be a stronghold province.")
+Against the Waves (Core Set, 117)
+Should read: "Choose a Shugenja character you control."
+(Added "you control")
+Kyūden Isawa (Disciples of the Void, 1)
+Should read: "During a conflict, bow this stronghold and discard a
+Spell event from your hand"
+(Added "and discard a Spell event from your hand")
+Kaito Kosori (Disciples of the Void, 18)
+Should read: "During each conflict, if you control at least 1
+participating character and if this character is in your home area
+and ready, it contributes its skill to your side."
+(Added "and ready.")
+Yogo Kikuyo (Disciples of the Void, 25)
+Should read: "When the effects of a Spell event your opponent
+plays during a conflict would initiate, put this character into play
+from your hand - cancel its effects."
+(Added "from your hand.")
+Daidoji Uji (Masters of the Court, 11)
+Should read: "While this character is honored, you may play each
+character in your provinces as if it were in your hand."
+(Removed "reducing its cost by 1.")
+Those Who Serve (The Emperor's Legion, 28)
+Should read: "(to a minimum of 1)."
+(Replaces "(to a minimum of 0).")
+Kaiu Shihobu (Defenders of Rokugan, 10)
+Should read: "Put a facedown holding under your stronghold
+province into play in an unbroken non-stronghold province..."
+(Replaces "Put a facedown holding under your stronghold
+province into an unbroken non-stronghold province...")
+Feast or Famine (Imperial Cycle, 41)
+Should read: "...move 1 fate from that character to a character
+you control."
+(Replaces "move each fate from that character to a character you
+control with no fate.")
+
+Hawk Tattoo (Elemental Cycle, 75)
+Should read: "Attach to a character you control."
+(Added "Attach to a character you control.")
+Stay Your Hand (Children of the Empire, 80)
+Should read: "When a duel that targets a character you control
+would resolve"
+(Replaces "When an opponent initiates a duel that targets a
+character you control")
+Butcher of the Fallen (Dominion Cycle, 31)
+Should read: "While this character is attacking, characters with
+less skill than the number of unbroken provinces you control
+cannot be declared as defenders."
+(Replaces "While this character is attacking, characters with
+printed skill X or less cannot be declared as defenders, where X
+is the number of unbroken provinces you control.")
+Stoke Insurrection (Dominion Cycle, 113)
+Should read: "During a conflict - reveal each facedown card in
+your opponent's provinces. Then, put up to 2 characters with
+total printed cost 6 or lower from their provinces into play..."
+(Replaces "While this character is attacking, characters with
+printed skill X or less cannot be declared as defenders, where X is
+the number of unbroken provinces you control.")
+Unbridled Ambition (Dominion Cycle, 116)
+Should read: "Cannot be a stronghold province."
+(Added "Cannot be a stronghold province.")
+Shosuro Deceiver (Temptations Cycle, 96)
+Should read: "While this character is participating in a conflict it
+gains each triggered ability on each other participating
+dishonored character except for abilities granted by instances of
+this ability."
+(Added "except for abilities granted by instances of this ability.")
+Spell Scroll (Under Fu Leng's Shadow, 109)
+Removed "Item" trait.
+Daidōji Ienori (Through The Mists, 10)
+Should read: "Conflict Action: Choose a character - set that
+character's and skill to 3 until the end of the conflict. If
+this character is honored, the chosen character also cannot
+receive status tokens until the end of the conflict."
+(Replaces "Conflict Action: If this character is honored, choose a
+character - set that character's and skill to 3 until the end
+of the conflict.")
+Akodo Cho (Through The Mists, 20)
+Should read: "Bow a Follower attachment..."
+(Replaces "Sacrifice a Follower attachment...")
+The East Wind (Through The Mists, 37)
+Should read: "...choose an unbroken non-stronghold province you
+control, ..."
+(Added "you control")
+Shinjo Atagi (Through The Mists, 39)
+Should read: "Conflict Action: Choose a participating character -
+set the skill matching the conflict type of that character to the
+printed strength of the attacked province until the end of the
+conflict."
+(Relaces "While you control no facedown provinces, this character
+gains +2 and +1 .
+Conflict Action: Choose a participating character your opponent
+
+42
+
+controls - reveal a province you control. If the chosen
+character's is less than or equal to the province's strength, bow
+that character.")
+Stowaway (Through The Mists, 50)
+Should read: "This character gains +1 for every two facedown
+cards under it.
+Conflict Reaction: After this character enters play during a
+conflict, or assigns to a conflict, choose up to two cards in any one
+discard pile - place them under this character, facedown."
+(Replaces "This character gains +1 for each facedown card
+under it.
+Conflict Action: Choose a card in a discard pile - place it under this
+character, facedown. (Limit 1 per conflict.)")
+
+43
+
+Reprint Changes
+The following errata clarifies the interaction between individual
+card text and the rules in this document, based on the current card
+ability templating. These text changes will be reflected in any
+future printing of the card, whether in reprints of existing product,
+promotional printings, and new printings in future products.
+Prononuns (All cards)
+All instances of "he or she" that appear on existing cards will be
+reprinted with the singular "they" pronoun.
+"As if you were the attacking player" (All cards)
+All instances of the phrase "as if you were the attacking player"
+printed on cards that resolve ring effects will be removed on
+future reprints.
+"Initiate a [type] duel" (Characters and attachments)
+All instances of the phrase "initiate a [type] duel" printed on
+character and attachment cards should read: "this character
+initiates a [type] duel."
+Keeper Initiate (Core, 124)
+Should read: "If you do, place 1 fate on this character."
+(Replaces "Then, put 1 fate on this character")
+Wandering Ronin (Core, 127)
+The title should be spelled Wandering Rōnin.
+Should have the Rōnin trait.
+(Updated the spelling of the title and trait.)
+Steward of Law (Core, 139)
+Should read: "...characters cannot receive dishonored status
+tokens."
+(Replaces "...characters cannot become dishonored.")
+Kitsuki Shomon (Underhand of the Emperor, 13)
+Should read: "If you do, ready this character."
+(Replaces "Then, ready this character")
+The Spear Rushes Forth (Masters of the Court, 23)
+Should read: "discard an honored status token"
+(Replaces "discard an honor token")
+Prepare for War (The Emperor's Legion, 25)
+Should read: "Then, if that character is a Commander..."
+(Added "Then,")
+Hida Sukune (Defenders of Rokugan, 5)
+Should read: "draw 1 card, then discard 1 card from your hand.
+(Limit once per conflict.)"
+(Replaces "draw 1 card and discard 1 card from your hand. (Limit
+once per conflict.)")
+River of the Last Stand (Defenders of Rokugan, 14)
+Should read: "your opponent discards 2 random cards from their
+hand, then draws 1 card."
+(Replaces "your opponent discards 2 random cards from his or her
+hand and draws 1 card.")
+Kaiu Inventor (Imperial Cycle, 63)
+Should read: "...an additional time this round (or specified
+period)."
+(Changed "each" to "this")
+Pit Trap (Imperial Cycle, 73)
+
+Should read: "Play only on an attacking character. Attached
+character does not ready during the fate phase."
+(Replaces "Attach to an attacking character. Attached character
+does not ready during the regroup phase.")
+Ride Them Down (Imperial Cycle, 99)
+Should read: "...set the base strength of the attacked province to
+1 until the end of the conflict."
+(Added "until the end of the conflict.")
+Oracle of Stone (Elemental Cycle, 37)
+Should read: "Then, each player discards 2 cards from his or her
+hand."
+(Added "from his or her hand.")
+Ikebana Artisan (Elemental Cycle, 63)
+The text after the dash should read: "cancel that honor loss. Then,
+lose 1 fate. (Unlimited.)"
+(Replaces "lose 1 fate instead. (Unlimited.)")
+Hidden Moon Dojo (Elemental Cycle, 68)
+The title should be spelled Hidden Moon Dōjō.
+Should have the Dōjō trait.
+(Updated the spelling of the title and trait.)
+Mantra of Earth (Elemental Cycle, 116)
+Should read: "opponents' card abilities cannot choose that
+character as a target."
+(Replaces "opponents' card effects cannot target that character.")
+Paragon of Grace (Children of the Empire, 13)
+Should read: "During a conflict in which this character is
+participating on your side alone"
+(Added "on your side")
+Sage of Gisei Toshi (Children of the Empire, 28)
+Should read: "If you do, move that character home."
+(Replaces "Then, move that character home.")
+Hand to Hand (Children of the Empire, 13)
+Should read: "If you do, move that character home."
+(Replaces "Then, move that character home.")
+Unmatched Expertise (Children of the Empire, 65)
+Should read: "Attached character cannot receive dishonored
+status tokens."
+(Replaces "Attached character cannot become dishonored.")
+Ide Ryōma (Inheritance Cycle, 79)
+Should read: "If you do, ready the other."
+(Replaces "Then, ready the other.")
+Regal Bearing (Inheritance Cycle, 84)
+Should read: "Set the bid on your honor dial to 1. Then, draw
+cards..."
+(Replaces "Set the bid on your honor dial to 1 and draw cards...")
+Expert Interpreter (Clan War, 45)
+Should read: "during each conflict in which one of the chosen
+rings is contested this phase..."
+(Added "this phase")
+Spectral Visitation (Dominion Cycle, 68)
+Should read: "After this province is revealed - discard the top 4
+cards of your dynasty deck. Then, choose a character in your
+dynasty discard pile and put that character into play."
+(Moved the phrase "Discard the top 4 cards of your dynasty deck.
+
+44
+Then, discard the choose a character in your dynasty discard pile"
+from before the dash to after the dash.)
+Study the Natural World (Dominion Cycle, 68)
+Should read: "the contested ring gains each of the attacked
+province's elements until the end of the conflict."
+(Added "until the end of the conflict")
+Exposed Courtyard (Dominion Cycle, 122)
+Should read: "During a conflict - discard the top 2 cards of
+your conflict deck. Then, choose an event in your discard pile. You
+may play..."
+(Moved the phrase "Discard the top 2 cards of your conflict deck.
+Then, choose an event in your conflict discard pile" from before
+the dash to after the dash.)
