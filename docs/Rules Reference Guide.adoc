@@ -137,106 +137,77 @@ If the attacking player wins a conflict with a total skill difference (between t
 ** If a player has multiple opponents, each of those players is
 considered to have broken the province.
 
-[-WORKING ENTRY POINT-] +
-Bow, Bowed
-Cards often bow after participating in a conflict, to use card
-abilities, or as the result of card or game effects. When a card is
-bowed, it is rotated 90 degrees. A card in this latter state is
-considered bowed.
-A bowed card cannot bow again until it is ready. Cards are
-typically readied by a game step or card ability.
-During conflicts, bowed characters do not contribute their skill.
-A bowed attachment with skill modifiers still modifies the skill
-of the attached character.
-A card ability on a bowed card is active and can still engage with
-the game state. However, if a bowed card must bow as part of
-its cost to trigger an ability, it cannot bow again until it is
-readied, so the ability could not be triggered.
-Cancel
-Some card abilities can "cancel" other card or game effects. Cancel
-abilities interrupt the initiation of an effect, and prevent the effect
-from initiating. Because of this, cancel abilities have timing priority
-over all other interrupts to the effect that is attempting to initiate.
-If an effect is canceled, that effect is no longer imminent, and
-further interrupts (including cancels) cannot be initiated in
-reference to the canceled effect.
-If the effects of an ability are canceled, the ability is still
-considered to have been used, and any costs have still been
-paid.
-If the effects of an event card are canceled, the card is still
-considered to have been played, and it is still placed in its
-owner's discard pile.
-If a ring effect that is resolving for winning a conflict is canceled,
-the ring is still claimed.
-Cannot
+=== Bow, Bowed
+Cards often bow after participating in a conflict, to use card abilities, or as the result of card or game effects. When a card is bowed, it is rotated 90 degrees. A card in this latter state is considered bowed.
+
+- A bowed card cannot bow again until it is ready. Cards are typically readied by a game step or card ability.
+
+- During conflicts, bowed characters do not contribute their skill.
+
+- A bowed attachment with skill modifiers still modifies the skill of the attached character.
+
+- A card ability on a bowed card is active and can still engage with the game state. However, if a bowed card must bow as part of its cost to trigger an ability, it cannot bow again until it is readied, so the ability could not be triggered.
+
+=== Cancel
+Some card abilities can "cancel" other card or game effects. Cancel abilities interrupt the initiation of an effect, and prevent the effect from initiating. Because of this, cancel abilities have timing priority over *_all_* other interrupts to the effect that is attempting to initiate.
+
+- If an effect is canceled, that effect is no longer imminent, and further interrupts (including cancels) cannot be initiated in reference to the canceled effect.
+
+- If the effects of an ability are canceled, the ability is still considered to have been used, and any costs have still been paid.
+
+- If the effects of an event card are canceled, the card is still considered to have been played, and it is still placed in its owner's discard pile.
+
+- If a ring effect that is resolving for winning a conflict is  canceled, the ring is still claimed.
+
+=== Cannot
 The word "cannot" is absolute, and cannot be countermanded by
 other abilities or effects.
-Cards under another card
-Some card effects like Kaiu Shihobu (Defenders of Rokugan 10),
-Togashi Tsurumi (Through the Mists 13) or Stowaway (Through the
-Mists 50) place cards under another card. These cards are out of
-play and can only be interacted with by effects that explicitly state
-that.
-If a card leaves play, any cards that have been put under it this
-way are removed from the game, unless otherwise specified by
-the effect that put them there.
-This does not apply to attachments, only to cards that are
-explicitly placed under/underneath a card by a card effect.
-Cardtypes
-The game's card types are: character, attachment, holding, event,
-province, stronghold, and role. Each of these card types, with a
-detailed card anatomy, is presented in "Appendix II: Card
-Anatomy".
 
-If an ability causes a card to change its card type, the card loses
-all other card types it might possess, and functions as would
-any card of the new card type.
-Challenge
-Some card abilities use the word "challenge" to begin the process
-of resolving a duel between two characters. For the rules on how
-to resolve a duel, see "Duel timing".
-Character Cards
-Character cards represent the bushi, courtiers, shugenja, monks,
-shinobi, armies, creatures, and other personalities and groups one
-might encounter in Rokugan.
-Characters played from a player's provinces can only be played
-during the dynasty phase. Characters played from a player's
-hand can only be played during any action window outside of
-the dynasty phase.
-Character cards generally enter play ready and in a player's
-home area, and remain in play unless removed by an ability or
-game step.
-When a player plays a character from his or her hand during a
-conflict, the player has the option to play it directly into the
-conflict, ready and participating on his or her side.
-When a player plays a character in a team conquest format
-game, that player chooses to either play it under their own
-control or under the control of a teammate. Once played,
-control cannot be exchanged except by card effects. Fate is
-placed on the character from the fate pool of the player playing
-the character, regardless of which player controls it.
+=== Cards under another card
+Some card effects like Kaiu Shihobu (Defenders of Rokugan 10), Togashi Tsurumi (Through the Mists 13) or Stowaway (Through the Mists 50) place cards under another card. These cards are out of play and can only be interacted with by effects that explicitly state that.
+
+- If a card leaves play, any cards that have been put under it this way are removed from the game, unless otherwise specified by the effect that put them there.
+
+- This does not apply to attachments, only to cards that are explicitly placed under/underneath a card by a card effect.
+
+=== Cardtypes
+The game's card types are: character, attachment, holding, event, province, stronghold, and role. Each of these card types, with a detailed card anatomy, is presented in "Appendix II: Card Anatomy".
+
+- If an ability causes a card to change its card type, the card loses all other card types it might possess, and functions as would any card of the new card type.
+
+=== Challenge
+Some card abilities use the word "challenge" to begin the process of resolving a duel between two characters. For the rules on how to resolve a duel, see "Duel timing".
+
+=== Character Cards
+Character cards represent the bushi, courtiers, shugenja, monks, shinobi, armies, creatures, and other personalities and groups one might encounter in Rokugan.
+
+-Characters played from a player's provinces can only be played during the dynasty phase. Characters played from a player's hand can only be played during any action window outside of the dynasty phase.
+
+- Character cards generally enter play ready and in a player's home area, and remain in play unless removed by an ability or game step.
+
+- When a player plays a character from his or her hand during a conflict, the player has the option to play it directly into the conflict, ready and participating on his or her side.
+
+- When a player plays a character in a team conquest format game, that player chooses to either play it under their own control or under the control of a teammate. Once played, control cannot be exchanged except by card effects. Fate is placed on the character from the fate pool of the player playing the character, regardless of which player controls it.
+
 For character card anatomy, see "Appendix II: Card Anatomy".
-Choose
-The word "choose" indicates that one or more targets must be
-chosen in order to resolve an ability.
-Related: Target
-Clan
-There are 7 clans in the core set, as depicted in the chart below.
-A player's stronghold card signals which clan a player has chosen
-as the primary clan for his or her deck. The clans and their
-associated symbols are listed below.
-An "in-clan" card bears a clan symbol that matches the clan
-symbol on its controller's stronghold card.
-An "out-of-clan" card bears one or more clan symbols that do
-not match the clan symbol on its controller's stronghold card,
-and does not bear a clan symbol that matches the clan symbol
-on its controller's stronghold card.
-If a player does not have a stronghold card, "in-clan" and
-"out-of-clan" determination is defined by the clan selected
-during deckbuilding to be that player's primary clan.
-Related: Deckbuilding
 
-7
+=== Choose
+The word "choose" indicates that one or more targets must be chosen in order to resolve an ability.
+
+*Related*: Target
+
+=== Clan
+There are 7 clans in the core set, as depicted in the chart below.
+
+A player's stronghold card signals which clan a player has chosen as the primary clan for his or her deck. The clans and their associated symbols are listed below.
+
+- An "in-clan" card bears a clan symbol that matches the clan symbol on its controller's stronghold card.
+
+- An "out-of-clan" card bears one or more clan symbols that do not match the clan symbol on its controller's stronghold card, and does not bear a clan symbol that matches the clan symbol on its controller's stronghold card.
+** If a player does not have a stronghold card, "in-clan" and "out-of-clan" determination is defined by the clan selected during deckbuilding to be that player's primary clan. 
+*Related*: Deckbuilding
+
+// This area needs work/images
 IN TEXT ON CARD
 
 CRAB CLAN
@@ -247,6 +218,7 @@ PHOENIX CLAN
 SCORPION CLAN
 UNICORN CLAN
 
+[-WORKING ENTRY POINT-] +
 Composure
 Composure is a variable keyword ability. A card with this keyword
 gains an additional ability while its controller's honor bid is lower
