@@ -51,7 +51,6 @@ In some phases, the game creates an active player, who is granted
 permission to perform a specified task.
 
 - During the dynasty phase, the active player is the player who is permitted to play character cards from his or her provinces or initiate an action ability. The status of active player alternates between players in this phase until all players have passed.
-
 - During the conflict phase, the active player is the player with the opportunity to initiate a conflict, or the player who is resolving a conflict he or she has initiated.
 
 === Additional Conflicts
@@ -73,30 +72,18 @@ Ancestral is a keyword ability that appears on attachments. If the card or game 
 Attachment cards represent weapons, armor, items, skills, spells, conditions, and titles. An attachment card enters play ready and attached to another card or game element, and remains in play unless it is removed by an ability, or unless the attached card leaves
 play.
 
-- An attachment cannot enter play if there is no eligible card or game element to which it can attach. *A card or game element becomes ineligible for a player's attachment if a copy of that attachment controlled by the same player is already attached to it.*
-
+- An attachment cannot enter play if there is no eligible card or game element to which it can attach. *A card or game element becomes ineligible for a player's attachment if a copy of that attachment controlled by the same player is already attached to it.* +
 *Example:* _Otomo Courtier is the only character in play and has Karolina's Ornate Fan attached to it. Karolina has another copy of Ornate Fan in hand, but she is not allowed to play it, as there are no eligible targets for it. She cannot choose to play Ornate Fan on the Otomo Courtier and discard the other copy. Karolina's opponent Martin, however, can play his copy of Ornate Fan on the Otomo Courtier, as the two copies of Ornate Fan would be controlled by different players._
-
 - An attachment can only attach to a character in play, unless otherwise specified by the attachment's text.
-
 - There is no limit on the number of attachments that may be attached to a card or game element. *However, only one copy of an attachment (by name) per player can be attached to a card or game element at the same time.*
-
 - *If a situation arises where a card or game element has multiple copies of an attachment controlled by the same player attached to it, its controller (or the First Player, if there is no controller) must immediately discard copies of that attachment until there is only one copy attached.*
-
 - If the card to which an attachment is attached leaves play, simultaneously discard the attachment.
-
 - If a situation arises in which an attachment is not legally attached, discard the attachment.
-
 - An attachment a player controls remains under his or her control even if the card or game element to which it is attached is under an opponent's control.
-
 - An attachment card bows and readies independently of the card to which it is attached.
-
 - If an attachment has skill modifiers, those modifiers apply to the skill of the attached character. Such modifiers apply to the character even while the attachment is bowed.
-
 - Attachments on a province are not considered to be in that province.
-
 - If a character card is in play as an attachment, the skill values on that character-as-attachment are not treated as skill modifiers (as they lack the "+" or "-" symbol before the value) for the character to which the card is attached.
-
 - If an attachment has a limit (for example "Limit 1 *_Battlefield_* attachment per province"), that indicates that only one instance of a particular subset of cards can be attached to the same card or game element. If a second card of that subset becomes attached to the card or game element, the previously attached card is discarded as the limit has been surpassed.
 
 For attachment card anatomy, see "[link Appendix II: Card Anatomy]".
@@ -113,26 +100,20 @@ The value of a quantity before other modifiers are applied. For most quantities,
 If the value of an honor bid is modified, resolve that bid as if the modified value is that player's bid. The value of a bid may exceed five (the highest number on the honor dial), or may be reduced to zero.
 
 - When the value of an honor bid is modified, the setting on the dial is not itself adjusted.
-
 - If a card ability references a player's honor bid, the ability is referencing the current setting on the player's honor dial.
 
 === Blank
-If an ability causes a card's printed text box to be considered "blank," that text box is treated as if it did not have any of its printed *_Traits_* or card abilities. Text gained from another source is not blanked.
+If an ability causes a card's printed text box to be considered "blank", that text box is treated as if it did not have any of its printed *_Traits_* or card abilities. Text gained from another source is not blanked.
 
 === Breaking a Province, Broken Province
 If the attacking player wins a conflict with a total skill difference (between the attacking player and the defending player) equal to or greater than the defense strength of the attacked province, the province breaks.
 
 - Rotate a province card 180 degrees or discard a province token to indicate the province is broken.
-
 - When a province is broken, the attacking player has the option of discarding any dynasty cards in that province. If this option is taken, the province is refilled facedown.
-
 - Ability text on a broken province card is not active.
-
 - Dynasty cards may still be played from broken provinces, and broken provinces still refill following the standard game rules.
-
 - If three of a player's non-stronghold provinces are broken, that player's stronghold becomes an eligible province against which attacks may be made. If a player's stronghold province is broken, that player loses the game.
 ** If a player does not have a stronghold province, they lose the game when all of their provinces are broken.
-
 - If a province breaks for any reason other than through standard conflict resolution, the opponent of the player who controls that province is considered to have broken the province.
 ** If a player has multiple opponents, each of those players is
 considered to have broken the province.
@@ -141,22 +122,16 @@ considered to have broken the province.
 Cards often bow after participating in a conflict, to use card abilities, or as the result of card or game effects. When a card is bowed, it is rotated 90 degrees. A card in this latter state is considered bowed.
 
 - A bowed card cannot bow again until it is ready. Cards are typically readied by a game step or card ability.
-
 - During conflicts, bowed characters do not contribute their skill.
-
 - A bowed attachment with skill modifiers still modifies the skill of the attached character.
-
 - A card ability on a bowed card is active and can still engage with the game state. However, if a bowed card must bow as part of its cost to trigger an ability, it cannot bow again until it is readied, so the ability could not be triggered.
 
 === Cancel
 Some card abilities can "cancel" other card or game effects. Cancel abilities interrupt the initiation of an effect, and prevent the effect from initiating. Because of this, cancel abilities have timing priority over *_all_* other interrupts to the effect that is attempting to initiate.
 
 - If an effect is canceled, that effect is no longer imminent, and further interrupts (including cancels) cannot be initiated in reference to the canceled effect.
-
 - If the effects of an ability are canceled, the ability is still considered to have been used, and any costs have still been paid.
-
 - If the effects of an event card are canceled, the card is still considered to have been played, and it is still placed in its owner's discard pile.
-
 - If a ring effect that is resolving for winning a conflict is  canceled, the ring is still claimed.
 
 === Cannot
@@ -167,7 +142,6 @@ other abilities or effects.
 Some card effects like Kaiu Shihobu (Defenders of Rokugan 10), Togashi Tsurumi (Through the Mists 13) or Stowaway (Through the Mists 50) place cards under another card. These cards are out of play and can only be interacted with by effects that explicitly state that.
 
 - If a card leaves play, any cards that have been put under it this way are removed from the game, unless otherwise specified by the effect that put them there.
-
 - This does not apply to attachments, only to cards that are explicitly placed under/underneath a card by a card effect.
 
 === Cardtypes
@@ -184,9 +158,7 @@ Character cards represent the bushi, courtiers, shugenja, monks, shinobi, armies
 -Characters played from a player's provinces can only be played during the dynasty phase. Characters played from a player's hand can only be played during any action window outside of the dynasty phase.
 
 - Character cards generally enter play ready and in a player's home area, and remain in play unless removed by an ability or game step.
-
 - When a player plays a character from his or her hand during a conflict, the player has the option to play it directly into the conflict, ready and participating on his or her side.
-
 - When a player plays a character in a team conquest format game, that player chooses to either play it under their own control or under the control of a teammate. Once played, control cannot be exchanged except by card effects. Fate is placed on the character from the fate pool of the player playing the character, regardless of which player controls it.
 
 For character card anatomy, see "Appendix II: Card Anatomy".
@@ -202,7 +174,6 @@ There are 7 clans in the core set, as depicted in the chart below.
 A player's stronghold card signals which clan a player has chosen as the primary clan for his or her deck. The clans and their associated symbols are listed below.
 
 - An "in-clan" card bears a clan symbol that matches the clan symbol on its controller's stronghold card.
-
 - An "out-of-clan" card bears one or more clan symbols that do not match the clan symbol on its controller's stronghold card, and does not bear a clan symbol that matches the clan symbol on its controller's stronghold card.
 ** If a player does not have a stronghold card, "in-clan" and "out-of-clan" determination is defined by the clan selected during deckbuilding to be that player's primary clan. 
 *Related*: Deckbuilding
@@ -222,7 +193,6 @@ UNICORN CLAN
 Composure is a variable keyword ability. A card with this keyword gains an additional ability while its controller's honor bid is lower than that of one of his or her opponents.
 
 - Most uses of the composure keyword grant a constant ability that modifies a character's skills or glory. Some may grant triggered abilities that can only be used while a player has composure.
-
 - "You have composure" is the phrase indicating that a player's composure keyword is active. It is used in reminder text to indicate that a player's card has the ability granted by composure while their honor bid is lower than an opponent's.
 
 === Conflict
@@ -233,17 +203,12 @@ During the conflict phase, each player has two opportunities to declare a confli
 If a triggered ability is preceded by the modifier "Conflict", that ability can only be triggered during a conflict. It functions as a shorthand for the following triggering conditions:
 
 - On events, provinces, strongholds and holdings "Conflict X:" replaces "X: During a conflict, ..."
-
 - On characters "Conflict X:" replaces "X: During a conflict in which this character is participating, ..."
-
 - On attachments "Conflict X:" replaces "X: During a conflict in which attached character is participating, ..."
-
 - If a Triggered Conflict Ability can only be triggered in a conflict of a specific type, the boldface timing command is preceded by the [military] or [political] symbols, respectively. +
-*Example:* _A character has the ability "*Conflict Action:* Pay 1 fate - ready this character." This is equivalent to "*Action:* During a  conflict in which this character is participating, pay 1 fate - ready this character."_
-
+*Example:* _A character has the ability "*[military]Conflict Action:* Pay 1 fate - ready this character." This is equivalent to "*Action:* During a [military]conflict in which this character is participating, pay 1 fate - ready this character."_
 - If a card's remaining triggering conditions directly contradict parts of this replacement, the card's text takes precedence. +
-*Example:* _The attachment Stinger (Through the Mists 34) has the ability "*Conflict Action:* While this card is in your hand, choose an attacking character and lose 1 honor - ...". Because Stinger has to be in your hand in order to trigger its ability, it does not have an attached character. In this case, the "*Conflict Action:*" is interpreted as "*Action:* During a conflict, ..." instead of "*Action:* During a conflict in which attached character is participating, ..."_
-
+*Example:* _The attachment Stinger (Through the Mists 34) has the ability "*[military]Conflict Action:* While this card is in your hand, choose an attacking character and lose 1 honor - ...". Because Stinger has to be in your hand in order to trigger its ability, it does not have an attached character. In this case, the "*[military]Conflict Action:*" is interpreted as "*Action:* During a [military]conflict, ..." instead of "*Action:* During a [military]conflict in which attached character is participating, ..."_
 - If a player is instructed to resolve a Triggered Conflict Ability on a character, the triggering conditions above must still be met. This means that the character must be participating in a conflict of the right type (if specified).
 
 === Conflicts at Multiple Provinces
@@ -257,26 +222,18 @@ During the resolution of a conflict at multiple provinces, compare the attacking
 A constant ability is any non-keyword ability whose text contains no boldface timing trigger defining its ability type. A constant ability becomes active as soon as its card enters play and remains active while the card is in play.
 
 - Some constant abilities continuously seek a specific condition (denoted by words such as "during," "if," or "while"). The effects of such abilities are active any time the specified condition is met.
-
 - If multiple instances of the same constant ability are in play, each instance affects the game state independently.
-
 - If a constant ability would cause a card to leave play, interrupt abilities cannot be used to replace or prevent that constant ability.
 
 === Control and Ownership
 A card's owner is the player who included the card as a part of his or her deck (i.e., dynasty deck, conflict deck, provinces, stronghold, role) at the beginning of the game.
 
 - By default, cards enter play under their owner's control. Some abilities may cause cards to change control during a game.
-
 - A player controls the cards in his or her out-of-play game areas (such as the hand, the dynasty and conflict decks, and the dynasty and conflict discard piles).
-
 - If a card would enter an out-of-play area of a player who does not own the card, the card is placed in its owner's equivalent out-of-play area instead. (For all associated card ability and  framework effect purposes, the card is considered to have entered that opponent's out-of-play area, and only the physical placement of the card is adjusted.)
-
 - If a participating character changes control during a conflict, it is considered participating in the same conflict on the side of its new controller.
-
 - When a character changes control while it is in play, it remains in the same state as it was before (i.e., bowed or ready, participating or at home, etc.), and is now under the new player's control.
-
 - Attachments on a card that changes control do not themselves change control.
-
 - Unless a duration is specified, a control change persists as long as the card remains in play.
 
 === Copy (of a card)
@@ -289,13 +246,9 @@ A copy of a card is defined by title: any other card that shares the same title 
 Some card abilities may cause a character to become a copy of another character. When that happens, the character that is changing loses its name, cost, base skills and glory, traits, clan affiliation, and ability text. It gains the name, cost, base skills and glory, traits, clan affiliation, and ability text of the copied character for the duration indicated by the card ability.
 
 - Cards that refer to a character's printed text (skills, traits, abilities, etc.) still refer to the text physically printed on the card.
-
 - When a character becomes a copy of another character, only the base skills and printed characteristics are copied. If the character that is changing gains characteristics (such as traits or ability text) from another non-copy card ability (such as an event or attachment) then those characteristics are not lost.
-
 - A character can only become a copy of a unique character if its owner and/or controller does not also own or control a copy (by title) of that unique character.
-
 - Becoming a copy of another character replaces the character's base skills and glory. This is not applying a modifier (dashes can be replaced).
-
 - A character cannot become a copy of another character if both characters have the same title.
 
 [-WORKING ENTRY POINT-] +
