@@ -251,211 +251,115 @@ Some card abilities may cause a character to become a copy of another character.
 - Becoming a copy of another character replaces the character's base skills and glory. This is not applying a modifier (dashes can be replaced).
 - A character cannot become a copy of another character if both characters have the same title.
 
-[-WORKING ENTRY POINT-] +
-Corrupted
-Corrupted is a keyword ability. A character with the corrupted
-keyword enters play tainted. Abilities cannot be triggered from a
-corrupted character receiving the tainted status token from this
-keyword, as that card enters play already with that status.
-Related: Tainted, Tainted Status Token, Status Token
+=== Corrupted
+Corrupted is a keyword ability. A character with the corrupted keyword enters play tainted. Abilities cannot be triggered from a corrupted character receiving the tainted status token from this keyword, as that card enters play already with that status.
 
-Cost
-A card's cost is the numerical value that dictates how much fate
-must be paid to play the card from a player's hand or provinces.
-Some triggered card abilities also have an ability cost. Any
-imperative instruction (other than "choose...," which denotes one
-or more targets must be chosen, or "select...," which denotes that
-one or more of a number of effects must be selected) that appears
-before the dash of a triggered ability is considered a part of that
-ability's cost. Some examples of ability cost instructions are:
-"Bow...," "Spend...," "Sacrifice...," "Lose...," "Dishonor...," and
-"Discard...."
-Unless otherwise specified, a card effect that modifies a cost
-only modifies the fate cost.
-If a card has a dash as its printed fate cost, the card cannot be
-played. Its printed fate cost is considered to be 0 for the
-purposes of card abilities which require a numerical value.
-When a player is paying a cost, the payment must be made with
-cards and/or game elements that player controls. The word
-"friendly" is used as a reminder of this in some costs.
-If a cost requires a game element that is not in play, the player
-paying the cost may only use game elements that are in his or
-her out-of-play areas or token pools to pay the cost.
-If multiple costs for a single card or ability require payment,
-those costs must be paid simultaneously.
-If any part of a cost payment is prevented, once all costs that
-can be paid are paid, the process of initiating the ability or
-playing the card immediately ends without further resolution.
-(If this occurs while playing a card, the card remains unplayed
-in its owner's hand or province.)
-An ability cannot initiate (and therefore its costs cannot be
-paid) if its effect on its own does not have the potential to
-change the game state.
-Related: Additional Cost
-Count
-When instructed to count a total of game values on a subset of
-characters, values on bowed characters are not counted.
-Courtesy
-Courtesy is a keyword ability. When a card with the courtesy
-keyword leaves play, its controller gains 1 fate.
-The courtesy keyword resolves after the card leaves play,
-before reactions to that card leaving play can be triggered.
-Covert
-Covert is a keyword ability. When a player initiates a conflict, if at
-least one character with the covert keyword is declared as an
-attacker, that player may choose one character without covert
-controlled by the defending player. That character is considered
-evaded by covert, and cannot be declared as a defender for that
-conflict.
-If multiple characters with the covert keyword are declared
-as attackers, the evaded character is considered to be chosen
-and evaded by each of those characters' covert abilities.
+*Related:* Tainted, Tainted Status Token, Status Token
 
-9
-When a conflict is initiated against a facedown province,
-resolve the covert keyword before revealing that province.
-Card abilities may be used to move characters that have been
-evaded by covert into a conflict as defenders.
-Covert may only be used when characters are declared as
-attackers. If a character with covert is moved into or played
-into a conflict after the point at which the conflict was
-declared, that character's covert ability does not resolve.
-Current
-If an ability references a "current" skill or glory count, use the
-players' applicable specified totals at the time the ability resolves.
-When resolving an ability that references a "current" skill or
+=== Cost
+A card's cost is the numerical value that dictates how much fate must be paid to play the card from a player's hand or provinces.
+
+Some triggered card abilities also have an ability cost. Any imperative instruction (other than "choose...," which denotes one or more targets must be chosen, or "select...," which denotes that one or more of a number of effects must be selected) that appears before the dash of a triggered ability is considered a part of that ability's cost. Some examples of ability cost instructions are: "Bow...," "Spend...," "Sacrifice...," "Lose...," "Dishonor...," and "Discard...."
+
+- Unless otherwise specified, a card effect that modifies a cost only modifies the fate cost.
+- If a card has a dash as its printed fate cost, the card cannot be played. Its printed fate cost is considered to be 0 for the purposes of card abilities which require a numerical value.
+- When a player is paying a cost, the payment must be made with cards and/or game elements that player controls. The word "friendly" is used as a reminder of this in some costs.
+- If a cost requires a game element that is not in play, the player paying the cost may only use game elements that are in his or her out-of-play areas or token pools to pay the cost.
+- If multiple costs for a single card or ability require payment, those costs must be paid simultaneously.
+- If any part of a cost payment is prevented, once all costs that can be paid are paid, the process of initiating the ability or playing the card immediately ends without further resolution. (If this occurs while playing a card, the card remains unplayed in its owner's hand or province.)
+- An ability cannot initiate (and therefore its costs cannot be paid) if its effect on its own does not have the potential to change the game state.
+
+*Related:* Additional Cost
+
+=== Count
+When instructed to count a total of game values on a subset of characters, values on bowed characters are not counted.
+
+=== Courtesy
+Courtesy is a keyword ability. When a card with the courtesy keyword leaves play, its controller gains 1 fate.
+
+- The courtesy keyword resolves after the card leaves play, before reactions to that card leaving play can be triggered.
+
+=== Covert
+Covert is a keyword ability. When a player initiates a conflict, *if at least one character with the covert keyword is declared as an attacker*, that player may choose one character without covert controlled by the defending player. *That character* is considered evaded by covert, and cannot be declared as a defender for that conflict.
+
+- *If multiple characters with the covert keyword are declared as attackers, the evaded character is considered to be chosen and evaded by each of those characters' covert abilities.*
+- When a conflict is initiated against a facedown province, resolve the covert keyword before revealing that province.
+- Card abilities may be used to move characters that have been evaded by covert into a conflict as defenders.
+- Covert may only be used when characters are declared as attackers. If a character with covert is moved into or played into a conflict after the point at which the conflict was declared, that character's covert ability does not resolve.
+
+=== Current
+If an ability references a "current" skill or glory count, use the players' applicable specified totals at the time the ability resolves.
+
+- When resolving an ability that references a "current" skill or
 glory count during a conflict, count the skill or glory values that
 would be used if the conflict were currently resolving.
-Dash (-)
-In the text of a triggered ability, a dash (-) is used to separate the
-criteria that are necessary to use the ability from the effect of the
-ability. Any triggering conditions, play restrictions or permissions,
-costs, and targeting requirements are denoted before the dash.
-The ability's effect is denoted after the dash.
-If a character has a dash (-) for a skill value, that character cannot
-participate in, be played into, or be put into play in conflicts of that
-type.
-Should a character with a dash skill value somehow end up
-participating in a conflict of the corresponding type, that
-character is immediately removed from the conflict, and
-placed in its controller's home area in a bowed state.
-If a character has a dash for a skill value, that skill value cannot
-be modified by card abilities.
-If a character has a dash for a skill value and a card ability
-requires a numerical value for that skill, treat the card as if it
-had an unmodifiable skill value of 0.
-A character with a dash skill value cannot be involved in a duel
-of that skill type.
-Related: Participating and Cannot Participate
-Deckbuilding
+
+=== Dash (-)
+In the text of a triggered ability, a dash (-) is used to separate the criteria that are necessary to use the ability from the effect of the ability. Any triggering conditions, play restrictions or permissions, costs, and targeting requirements are denoted before the dash. The ability's effect is denoted after the dash.
+
+If a character has a dash (-) for a skill value, that character cannot participate in, be played into, or be put into play in conflicts of that type.
+
+- Should a character with a dash skill value somehow end up participating in a conflict of the corresponding type, that character is immediately removed from the conflict, and placed in its controller's home area in a bowed state.
+- If a character has a dash for a skill value, that skill value cannot be modified by card abilities.
+- If a character has a dash for a skill value and a card ability requires a numerical value for that skill, treat the card as if it had an unmodifiable skill value of 0.
+- A character with a dash skill value cannot be involved in a duel of that skill type.
+
+*Related:* Participating and Cannot Participate
+
+=== Deckbuilding
 To build custom decks for Legend of the Five Rings: The Card Game:
-A player must choose exactly 1 stronghold.
-A player may use 1 role card.
-A player's dynasty deck must contain a minimum of 40 and a
-maximum of 45 cards. Each of these cards must be in-clan or
-be neutral.
-A player's conflict deck must contain a minimum of 40 and a
-maximum of 45 cards. Each of these cards must be in-clan, be
-neutral, or be purchased from a single other clan by using
-influence.
-A player's stronghold indicates the amount of influence
+
+- A player must choose exactly 1 stronghold.
+- A player may use 1 role card.
+- A player's dynasty deck must contain a minimum of 40 and a maximum of 45 cards. Each of these cards must be in-clan or be neutral.
+- A player's conflict deck must contain a minimum of 40 and a maximum of 45 cards. Each of these cards must be in-clan, be neutral, or be purchased from a *single* other clan by using influence.
+** A player's stronghold indicates the amount of influence
 that player may spend during deckbuilding.
-No more than 3 copies of a single card by title can be included
-in any combination in a player's dynasty and conflict decks.
+- No more than 3 copies of a single card by title can be included in any combination in a player's dynasty and conflict decks.
+- A player cannot include more than 1 card (by card title) from the Restricted List in their decks and set of provinces. Up to a full legal playset (usually 3 copies) of that card may be included in the appropriate deck or provinces.
+- A player's set of provinces must include exactly 5 provinces. For each element, that player must choose one province associated with that element, such that all five elements are represented among their set of provinces. (Each province has a ring symbol in the lower right corner of the card to indicate its association.) Each of these provinces must be in-clan or be neutral.
+** No more than 1 copy of each province, by title, may be included in a player's set of provinces.
+- Any additional deckbuilding restrictions contained in the separate Imperial Law document, based on the format being played, must be followed.
+- The skirmish format follows different deckbuilding rules than each other format. When building decks for the skirmish format, use the following rules instead:
+** Do not include stronghold, role, or province cards.
+** A player's dynasty deck must contain a minimum of 30 cards and a maximum of 40 cards. Each of these cards must be in-clan or neutral.
+** A player's conflict deck must contain a minimum of 30 cards and a maximum of 40 cards. Each of these cards must be in-clan or neutral, or be purchased from a *single* other clan by using influence. (Each player has 6 influence with which to purchase out-of-clan cards during deckbuilding.)
+** No more than 2 copies of a single card by title can be included in any combination in a player's dynasty and conflict decks.
+** For tournament play, each player may include up to 10 additional cards in their "sideboard," which can be used to modify the contents of their decks in between games in a single match. The contents of a players' decks and sideboard combined must follow all rules outlined above.
 
-A player cannot include more than 1 card (by card title) from
-the Restricted List in their decks and set of provinces. Up to a
-full legal playset (usually 3 copies) of that card may be included
-in the appropriate deck or provinces.
-A player's set of provinces must include exactly 5 provinces. For
-each element, that player must choose one province
-associated with that element, such that all five elements are
-represented among their set of provinces. (Each province has
-a ring symbol in the lower right corner of the card to indicate
-its association.) Each of these provinces must be in-clan or be
-neutral.
-No more than 1 copy of each province, by title, may be
-included in a player's set of provinces.
-Any additional deckbuilding restrictions contained in the
-separate Imperial Law document, based on the format being
-played, must be followed.
-The skirmish format follows different deckbuilding rules than
-each other format. When building decks for the skirmish
-format, use the following rules instead:
-Do not include stronghold, role, or province cards.
-A player's dynasty deck must contain a minimum of 30
-cards and a maximum of 40 cards. Each of these cards must
-be in-clan or neutral.
-A player's conflict deck must contain a minimum of 30
-cards and a maximum of 40 cards. Each of these cards must
-be in-clan or neutral, or be purchased from a single other
-clan by using influence. (Each player has 6 influence with
-which to purchase out-of-clan cards during deckbuilding.)
-No more than 2 copies of a single card by title can be
-included in any combination in a player's dynasty and
-conflict decks.
-For tournament play, each player may include up to 10
-additional cards in their "sideboard," which can be used to
-modify the contents of their decks in between games in a
-single match. The contents of a players' decks and
-sideboard combined must follow all rules outlined above.
-Deck Limits
-Up to 3 total copies of most cards (by title) may be included in a
-player's dynasty and/or conflict decks (2 copies instead in skirmish
-format). Each copy of a card in either deck counts towards this
-limit.
-If a card has the text "Limit X per deck" no more than X copies of
-that card may be included in that player's dynasty and/or conflict
-decks.
-If X is less than the standard number of allowed copies, this
-phrase acts as a deckbuilding restriction.
-If X is greater than the standard number of allowed copies, this
-phrase acts as a permission that enables a player to include
-more than the standard number of copies.
-Defender, Defending Character, Defending
-Player
-The term "defending character" refers to a character that is
-participating in a conflict on the side of the player who controls the
+=== Deck Limits
+Up to 3 total copies of most cards (by title) may be included in a player's dynasty and/or conflict decks (2 copies instead in skirmish format). Each copy of a card in either deck counts towards this limit.
 
-10
-province that is being attacked. The term "defender" is also used
-as shorthand for "defending character."
-The term "defending player" refers to the opponent of the
-attacking player against whom (from the attacking player's
-perspective) a conflict is resolving.
-Delayed Effects
-Some abilities contain delayed effects. Such abilities specify a
-future timing point, or indicate a future condition that may arise,
-and dictate an effect that is to happen at that time.
-Delayed effects resolve automatically and immediately after
-their specified timing point or future condition occurs or
-becomes true, before reactions to that moment may be
-triggered.
-When a delayed effect resolves, it is not treated as a new
-triggered ability, even if the delayed effect was originally
-created by a triggered ability.
-When a delayed effect resolves, it is still considered to be an
-ability originating from the card type of the card that created
-the delayed effect.
-Dire
-Dire is a variable keyword ability. A card with this keyword gains an
-additional ability while that character has no fate on it.
-Most uses of the dire keyword grant a constant ability that is
-active while the character has no fate on it. Some may instead
-grant triggered abilities that can only be used while the
-character has no fate on it.
-Discard Piles
-The discard piles are out-of-play areas. Each player has a dynasty
-discard pile and a conflict discard pile.
-Any time a card is discarded (from play, or from an out-of-play
-area such as a hand or deck), it is placed faceup on top of its
-owner's appropriate discard pile: dynasty cards are discarded
-to the dynasty discard pile, and conflict cards are discarded to
-the conflict discard pile.
-Each player's discard pile is open information and may be
-looked at by any player at any time.
-The order of cards in a player's discard pile may be changed by
-that player.
+If a card has the text "Limit X per deck" no more than X copies of that card may be included in that player's dynasty and/or conflict decks.
+
+- If X is less than the standard number of allowed copies, this phrase acts as a deckbuilding restriction.
+- If X is greater than the standard number of allowed copies, this phrase acts as a permission that enables a player to include more than the standard number of copies.
+
+=== Defender, Defending Character, Defending Player
+The term "defending character" refers to a character that is participating in a conflict on the side of the player who controls the province that is being attacked. The term "defender" is also used as shorthand for "defending character."
+
+The term "defending player" refers to the opponent of the attacking player against whom (from the attacking player's perspective) a conflict is resolving.
+
+=== Delayed Effects
+Some abilities contain delayed effects. Such abilities specify a future timing point, or indicate a future condition that may arise, and dictate an effect that is to happen at that time.
+
+- Delayed effects resolve automatically and immediately after their specified timing point or future condition occurs or becomes true, before reactions to that moment may be triggered.
+- When a delayed effect resolves, it is not treated as a new triggered ability, even if the delayed effect was originally created by a triggered ability.
+- When a delayed effect resolves, it is still considered to be an ability originating from the card type of the card that created the delayed effect.
+
+=== Dire
+Dire is a variable keyword ability. A card with this keyword gains an additional ability while that character has no fate on it.
+
+- Most uses of the dire keyword grant a constant ability that is active while the character has no fate on it. Some may instead grant triggered abilities that can only be used while the character has no fate on it.
+
+=== Discard Piles
+The discard piles are out-of-play areas. Each player has a dynasty discard pile and a conflict discard pile.
+
+- Any time a card is discarded (from play, or from an out-of-play area such as a hand or deck), it is placed faceup on top of its owner's appropriate discard pile: dynasty cards are discarded to the dynasty discard pile, and conflict cards are discarded to the conflict discard pile.
+- Each player's discard pile is open information and may be looked at by any player at any time.
+- The order of cards in a player's discard pile may be changed by that player.
+
+[-WORKING ENTRY POINT-] +
 Disguised
 The disguised keyword appears on unique characters. When a
 
