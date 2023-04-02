@@ -359,96 +359,51 @@ The discard piles are out-of-play areas. Each player has a dynasty discard pile 
 - Each player's discard pile is open information and may be looked at by any player at any time.
 - The order of cards in a player's discard pile may be changed by that player.
 
-[-WORKING ENTRY POINT-] +
-Disguised
-The disguised keyword appears on unique characters. When a
+=== Disguised
+The disguised keyword appears on unique characters. When a character is played using the disguised keyword, it replaces a non- unique character of the correct *_Trait_* or clan affiliation, inheriting all of that character's attachments, fate, and status tokens. This is an alternate means by which to play a character and carries a number of unique rules including, but not limited to, an additional cost of choosing and discarding a non-unique character to discard when the disguised character enters play.
 
-character is played using the disguised keyword, it replaces a non-
-unique character of the correct Trait or clan affiliation, inheriting
+- When playing a character using the disguised keyword, you may play that character during the conflict phase, following all timing rules which apply to playing characters from hand.
+- To play a character using the disguised keyword, you must choose a non-unique character you control of the appropriate *_Trait_* or clan affiliation as an additional cost to play the character. Reduce the cost to play the disguised character by the printed cost of the chosen character, pay that cost, the disguised character enters play, then move all attachments and tokens (fate, status, etc.) from the chosen character to the disguised character. Finally, discard the chosen character from play. Interrupts cannot be used to replace or prevent this discard.
+- When playing a character using the disguised keyword you cannot put additional fate from your fate pool on it.
+- A character played using this keyword enters play ready and in the same location as the non-unique character it is replacing.
 
-all of that character's attachments, fate, and status tokens. This is
-an alternate means by which to play a character and carries a
-number of unique rules including, but not limited to, an additional
-cost of choosing and discarding a non-unique character to discard
-when the disguised character enters play.
-When playing a character using the disguised keyword, you
-may play that character during the conflict phase, following all
-timing rules which apply to playing characters from hand.
-To play a character using the disguised keyword, you must
-choose a non-unique character you control of the appropriate
-
-Trait or clan affiliation as an additional cost to play the
-character. Reduce the cost to play the disguised character by
-the printed cost of the chosen character, pay that cost, the
-disguised character enters play, then move all attachments and
-tokens (fate, status, etc.) from the chosen character to the
-disguised character. Finally, discard the chosen character from
-play. Interrupts cannot be used to replace or prevent this
-discard.
-When playing a character using the disguised keyword you
-cannot put additional fate from your fate pool on it.
-A character played using this keyword enters play ready and in
-the same location as the non-unique character it is replacing.
-Dishonored, Dishonored Status Token
+=== Dishonored, Dishonored Status Token
 See "Personal Honor, Personal Dishonor".
-Drawing cards
-When a player is instructed to draw one or more cards, those cards
-are drawn from the top of his or her conflict deck.
-When a player draws 2 or more cards as the result of a single
-ability or game step, those cards are drawn simultaneously.
-Drawn cards are added to a player's hand.
-There is no limit to the number of cards a player may draw each
-round.
-There is no maximum hand size.
-Related: Running Out of Cards
-Duel
-Some card abilities initiate a duel between two (or more)
-characters. For the rules on how to initiate and resolve a duel, see
-"D. Duel Timing".
-Most card abilities that initiate a duel use the phrase "initiate
-a [type] duel." The characters chosen during duel initiation are
-considered to be chosen as targets of the ability that initiates
-the duel.
-Duplicates
-A duplicate is a copy (in a player's hand or provinces) of a unique
-character that is already in play and under the same player's
-control. A player may, as a player action during step 1.4 of the
-dynasty phase, discard a duplicate from his or her hand or
-provinces to place 1 fate on the copy of the character in play.
-After discarding a duplicate from a province, the province refills
-face down.
-A different version of a unique card (that shares the same title)
-may be discarded from a player's hand or provinces as a
-duplicate.
-Related: Unique Cards
-Effects
-A card effect is any effect that arises from the resolution of ability
-text printed on or gained by a card. A framework effect is any effect
-that arises from the resolution of a framework step.
 
-11
-Card effects might be preceded by costs, triggering conditions,
-play restrictions or permissions, and/or targeting
-requirements. Such elements are not considered effects.
-Once an ability is initiated, players must resolve as much of
-each aspect of its effect as they are able, unless the effect uses
-the word "may."
-When a non-targeting effect attempts to engage a number of
-entities (such as "search the top 10 cards of your conflict deck")
-that exceeds the number of entities that currently exist in the
-specified game area, the effect engages as many entities as
-possible.
-The expiration of a lasting effect (or the cessation of a constant
-ability) is not considered to be generating a game state change
-by a card effect.
-If an ability instructs a player to pick among multiple effects, an
-effect that has the potential to change the game state must be
-picked.
-Unless an effect uses the word "then" or the phrase "if you do,"
-all effects of a card ability are resolved simultaneously. The
-decision whether to resolve any optional effects (usually
-indicated by the word "may") is made before applying the
-results of the ability's effects.
+=== Drawing cards
+When a player is instructed to draw one or more cards, those cards are drawn from the top of his or her conflict deck.
+
+- When a player draws 2 or more cards as the result of a single ability or game step, those cards are drawn simultaneously.
+- Drawn cards are added to a player's hand.
+- There is no limit to the number of cards a player may draw each round.
+- There is no maximum hand size.
+
+*Related*: Running Out of Cards
+
+=== Duel
+Some card abilities initiate a duel between two (or more) characters. For the rules on how to initiate and resolve a duel, see "D. Duel Timing".
+
+- Most card abilities that initiate a duel use the phrase "initiate a [type] duel." The characters chosen during duel initiation are considered to be chosen as targets of the ability that initiates the duel.
+
+=== Duplicates
+A duplicate is a copy (in a player's hand or provinces) of a unique character that is already in play and under the same player's control. A player may, as a player action during step 1.4 of the dynasty phase, discard a duplicate from his or her hand or provinces to place 1 fate on the copy of the character in play.
+
+- After discarding a duplicate from a province, the province refills face down.
+- A different version of a unique card (that shares the same title) may be discarded from a player's hand or provinces as a duplicate.
+
+*Related*: Unique Cards
+
+=== Effects
+A card effect is any effect that arises from the resolution of ability text printed on or gained by a card. A framework effect is any effect that arises from the resolution of a framework step.
+
+- Card effects might be preceded by costs, triggering conditions, play restrictions or permissions, and/or targeting requirements. Such elements are not considered effects.
+- Once an ability is initiated, players must resolve as much of each aspect of its effect as they are able, unless the effect uses the word "may."
+- When a non-targeting effect attempts to engage a number of entities (such as "search the top 10 cards of your conflict deck") that exceeds the number of entities that currently exist in the specified game area, the effect engages as many entities as possible.
+- The expiration of a lasting effect (or the cessation of a constant ability) is not considered to be generating a game state change by a card effect.
+- If an ability instructs a player to pick among multiple effects, an effect that has the potential to change the game state must be picked.
+- Unless an effect uses the word "then" or the phrase "if you do," all effects of a card ability are resolved simultaneously. The decision whether to resolve any optional effects (usually indicated by the word "may") is made before applying the results of the ability's effects.
+
+[ WORKING ENTRY POINT] +
 Eminent
 Eminent is a keyword ability that can be found on province cards.
 A province with this keyword cannot be a player's stronghold
