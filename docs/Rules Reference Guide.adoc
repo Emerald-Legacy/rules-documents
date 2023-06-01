@@ -2,7 +2,7 @@
 :sectnumlevels: 2
 :imagesdir: images
 :chapter-label:
-:page-background-image: image:rrg_background.jpg[fit=fill, pdfwidth=100%]
+:page-background-image: image:rrg_background_flat.jpg[fit=fill, pdfwidth=100%]
 
 
 = Rules Reference
