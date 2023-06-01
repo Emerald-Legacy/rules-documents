@@ -30,8 +30,8 @@ page:
   layout: portrait
   margin: [2cm, 2.6cm, 2cm, 2.6cm]
   # margin_inner and margin_outer keys are used for recto/verso print margins when media=prepress
-  margin_inner: 0.75in
-  margin_outer: 0.59in
+  margin_inner: 1.1cm
+  margin_outer: 1.1cm
   size: A4
   columns: 2
 base:
@@ -62,8 +62,8 @@ horizontal_rhythm: $base_line_height_length
 vertical_spacing: $vertical_rhythm
 link:
   font_color: #428bca
-# literal is currently used for inline monospaced in prose and table cells
-literal:
+# codespan is currently used for inline monospaced in prose and table cells
+codespan:
   font_color: b12146
   font_family: M+ 1mn
 menu_caret_content: " <font size=\"1.15em\"><color rgb=\"b12146\">\u203a</color></font> "
@@ -77,16 +77,17 @@ heading:
   h1_font_size: floor($base_font_size * 2.6)
   # h2 is used for chapter titles (book doctype only)
   h2_font_size: 14
-  h2_margin_bottom: 17
+  h2_margin_top: 10
+  h2_margin_bottom: 6
   h3_font_size: 12
-  h3_margin_bottom: 12
+  h3_margin_top: 10
   h4_font_size: 10
   h5_font_size: $heading_h4_font_size
   h6_font_size: $heading_h4_font_size
   # correct line height for Noto Serif metrics (comes with built-in line height)
   line_height: 1
   #margin_top: $vertical_rhythm * 0.4
-  margin_bottom: 10
+  margin_bottom: 2
 title_page:
   align: center
   logo:
@@ -120,19 +121,19 @@ caption:
 lead:
   font_size: $base_font_size_large
   line_height: 1.4
-blockquote:
+quote:
   font_color: $base_font_color
   font_size: $base_font_size
   border_color: $base_border_color
   border_width: 4
   # FIXME disable negative padding bottom once margin collapsing is implemented
-  padding: [0, $horizontal_rhythm, $block_margin_bottom * -0.75, $horizontal_rhythm + $blockquote_border_width / 2]
+  padding: [0, $horizontal_rhythm, $block_margin_bottom * -0.75, $horizontal_rhythm + $quote_border_width / 2]
   cite_font_size: $base_font_size
   cite_font_color: $base_font_color
 # code is used for source blocks (perhaps change to source or listing?)
 code:
   font_color: $base_font_color
-  font_family: $literal_font_family
+  font_family: $codespan_font_family
   font_size: ceil($base_font_size)
   padding: $code_font_size
   line_height: 1.25
@@ -144,7 +145,7 @@ code:
   border_width: 0.75
 conum:
   font_family: M+ 1mn
-  font_color: $literal_font_color
+  font_color: $codespan_font_color
   font_size: $base_font_size
   line_height: 4 / 3
 example:
@@ -182,7 +183,7 @@ description_list:
   term_font_style: bold
   term_spacing: $vertical_rhythm / 4
   description_indent: $horizontal_rhythm * 1.25
-outline_list:
+list:
   indent: $horizontal_rhythm * 1.5
   # NOTE outline_list_item_spacing applies to list items that do not have complex content
   item_spacing: $vertical_rhythm / 2
