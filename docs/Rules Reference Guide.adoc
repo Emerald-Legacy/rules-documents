@@ -715,7 +715,7 @@ Any time a new modifier is applied (or removed), the entire quantity is recalcul
  ** "Set" modifiers are not ignored, as they do not directly increase/decrease the value.
 
 === Move
-Some abilities allow players to move cards or tokens. 
+Some abilities allow players to move cards or tokens.
 
 - When an entity moves, it cannot move to its same (current) placement. If there is no valid destination for a move, the move attempt cannot be made.
 - When a character is moved into a conflict, that character is considered participating in the conflict on its controller's side.
