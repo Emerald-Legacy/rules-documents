@@ -3,7 +3,7 @@
 :imagesdir: images
 :chapter-label:
 :page-background-image: image:rrg_background_flat.jpg[fit=fill, pdfwidth=100%]
-
+:document-version: 2.1
 
 = Rules Reference
 :toc:
