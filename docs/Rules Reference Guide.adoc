@@ -41,7 +41,7 @@ An ability is the special game text that a card contributes to the game. Card ab
 === Action, Action Ability
 An action ability is a triggered card ability that contains the boldface "Action:" precursor. An action ability may be triggered by its controller during any action window (see "Appendix I: Timing and Gameplay").
 
-- Unless otherwise noted by the ability, each action ability may be initiated only once each round. 
+- Unless otherwise noted by the ability, each action ability may be initiated only once each round.
 - An action that has been initiated must be resolved before the next action can be initiated.
 
 *Related:* Ability, Triggered Abilities
@@ -175,7 +175,7 @@ A player's stronghold card signals which clan a player has chosen as the primary
 
 - An "in-clan" card bears a clan symbol that matches the clan symbol on its controller's stronghold card.
 - An "out-of-clan" card bears one or more clan symbols that do not match the clan symbol on its controller's stronghold card, and does not bear a clan symbol that matches the clan symbol on its controller's stronghold card.
-** If a player does not have a stronghold card, "in-clan" and "out-of-clan" determination is defined by the clan selected during deckbuilding to be that player's primary clan. 
+** If a player does not have a stronghold card, "in-clan" and "out-of-clan" determination is defined by the clan selected during deckbuilding to be that player's primary clan.
 *Related*: Deckbuilding
 
 // This area needs work/images
@@ -216,7 +216,7 @@ When a conflict is at multiple provinces, each of those provinces is the "attack
 
 During the resolution of a conflict at multiple provinces, compare the attacking player's excess skill against the strength of each attacked province separately to determine if that province is broken.
 
-- Any card ability that interacts with "the attacked province" interacts with one (not both) of those provinces. 
+- Any card ability that interacts with "the attacked province" interacts with one (not both) of those provinces.
 
 === Constant Abilities
 A constant ability is any non-keyword ability whose text contains no boldface timing trigger defining its ability type. A constant ability becomes active as soon as its card enters play and remains active while the card is in play.
@@ -617,7 +617,7 @@ Unlike actions, which are resolved during action windows, an interrupt may be in
 
 When a triggering condition initiates (but before it completes its resolution), an interrupt window for that triggering condition opens.
 
-Within the interrupt window, the first player always has the first opportunity to initiate an eligible interrupt (to the triggering condition that opened the window), or pass. Opportunities to initiate an eligible interrupt, or pass, continue to alternate between the  players until all players consecutively pass, at which point the interrupt window closes. Passing does not prevent a player from initiating an eligible interrupt later in that same interrupt window. 
+Within the interrupt window, the first player always has the first opportunity to initiate an eligible interrupt (to the triggering condition that opened the window), or pass. Opportunities to initiate an eligible interrupt, or pass, continue to alternate between the  players until all players consecutively pass, at which point the interrupt window closes. Passing does not prevent a player from initiating an eligible interrupt later in that same interrupt window.
 
 Once an interrupt window closes, further interrupts to that specific triggering condition cannot be initiated. The triggering condition now completes its resolution (as long as its effects have not been canceled).
 
