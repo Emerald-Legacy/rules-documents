@@ -6,7 +6,11 @@
 :document-version: 2.1
 
 = Rules Reference
-:toc:
+:toc: right
+
+{empty} +
+
+<<<
 
 == Rules Reference
 
