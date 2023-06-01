@@ -1,0 +1,64 @@
+:icons: font
+:sectnumlevels: 2
+:imagesdir: images
+:chapter-label:
+:page-background-image: image:rrg_background_flat.jpg[fit=fill, pdfwidth=100%]
+:pdf-theme: el-edict-theme.yml
+
+
+= image:el_logo.png[pdfwidth=70%,role=center]pass:q[<br>]Emerald Edict
+Emerald Legacy
+Version 6.0 – June 1, 2023
+
+:show-link-uri!:
+
+[.metadata.text-center]
+Version {revnumber}, {revdate}
+
+'''
+
+[.text-center]
+You may not include any splash banned cards in your deck as part of a splash. +
+You may not include any banned cards in your deck. +
+You may only include one restricted card in your deck.
+[.text-center]
+Cards marked with an (r) are rotated out and will be removed from the Emerald Edict in its next iteration.
+[.text-center]
+Changes to the previous version are marked in bold and green.
+
+
+[cols="1a,1a,1a",stripes=none,frame=none,grid=none]
+|===
+|
+:show-link-uri!:
+== Banned Cards
+
+some more text
+
+|
+:show-link-uri!:
+== Restricted cards
+finally text
+
+|
+:show-link-uri!:
+== Splash Banned Cards
+=== image:mons/crab.svg[width=20] Crab
+* link:https://www.emeralddb.org/card/fight-on[Fight On!]
+* link:https://www.emeralddb.org/card/reprieve[Reprieve]
+
+=== image:mons/crane.svg[width=20] Crane
+* Festival for the Fortunes
+* Return the Offense
+
+=== image:mons/dragon.svg[width=20] Dragon
+* Indomitable Will
+* Mirumoto's Fury
+* Shoshi ni Kie
+
+=== image:mons/lion.svg[width=20] Lion
+* Fan of Command
+* Glorious Victory
+* Heroic Resolve
+* Renowned Singer
+|===
