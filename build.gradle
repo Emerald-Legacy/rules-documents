@@ -80,8 +80,8 @@ asciidoctorPdf {
 
 // Create the HTML and PDF output and copy them to the build/pages folder
 // Primarily intended for the travis-ci build to deploy to GitHub pages
-tasks.register('generateRulesDocuments') {
+tasks.register('renderRulesDocuments') {
     dependsOn asciidoctor, asciidoctorPdf
 }
 
-defaultTasks "generateRulesDocuments"
+defaultTasks "renderRulesDocuments"
