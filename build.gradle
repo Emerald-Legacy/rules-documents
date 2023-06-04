@@ -19,7 +19,7 @@ dependencies {
 }
 
 asciidoctorj {
-    version = '2.5.8'
+    version = '2.5.10'
     modules {
         pdf {
             version '2.3.7'
