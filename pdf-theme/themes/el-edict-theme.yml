@@ -54,6 +54,10 @@ role:
     font-size: 12
   small:
       font-size: 8
+  new:
+    font_color: #2A6419
+    font_style: bold
+
 # correct line height for Noto Serif metrics (comes with built-in line height)
 vertical_rhythm: $base_line_height_length
 horizontal_rhythm: $base_line_height_length
