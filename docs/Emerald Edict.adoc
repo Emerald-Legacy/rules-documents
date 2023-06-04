@@ -24,7 +24,7 @@ You may only include one restricted card in your deck.
 [.text-center]
 Cards marked with an (r) are rotated out and will be removed from the Emerald Edict in its next iteration.
 [.text-center]
-Changes to the previous version are marked in bold and green.
+Changes to the previous version are marked in [.new]#bold and green.#
 
 
 [cols="1a,1a,1a",stripes=none,frame=none,grid=none]
