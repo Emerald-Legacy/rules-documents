@@ -48,17 +48,46 @@ finally text
 * link:https://www.emeralddb.org/card/reprieve[Reprieve]
 
 === image:mons/crane.svg[width=20] Crane
-* Festival for the Fortunes
-* Return the Offense
+* link:https://www.emeralddb.org/card/festival-of-the-fortunes[Festival for the Fortunes]
+* link:https://www.emeralddb.org/card/return-the-offense[Return the Offense]
 
 === image:mons/dragon.svg[width=20] Dragon
-* Indomitable Will
-* Mirumoto's Fury
-* Shoshi ni Kie
+* link:https://www.emeralddb.org/card/indomitable-will[Indomitable Will]
+* link:https://www.emeralddb.org/card/mirumotos-fury[Mirumoto's Fury]
+* link:https://www.emeralddb.org/card/shoshi-ni-kie[Shoshi ni Kie]
 
 === image:mons/lion.svg[width=20] Lion
-* Fan of Command
-* Glorious Victory
-* Heroic Resolve
-* Renowned Singer
+* link:https://www.emeralddb.org/card/fan-of-command[Fan of Command]
+* link:https://www.emeralddb.org/card/glorious-victory[Glorious Victory]
+* link:https://www.emeralddb.org/card/heroic-resolve[Heroic Resolve]
+* link:https://www.emeralddb.org/card/renowned-singer[Renowned Singer]
+
+
+|
+:show-link-uri!:
+== Banned Cards
+
+some more text
+
+|
+:show-link-uri!:
+== Restricted cards
+finally text
+
+|
+:show-link-uri!:
+== Splash Banned Cards
+=== image:mons/phoenix.svg[width=20] Phoenix
+* link:https://www.emeralddb.org/card/against-the-waves[Against the Waves]
+* *[.line-through]#link:https://www.emeralddb.org/card/display-of-power[Display of Power]#*
+
+=== image:mons/unicorn.svg[width=20] Unicorn
+* link:https://www.emeralddb.org/card/favored-mount[Favored Mount]
+* link:https://www.emeralddb.org/card/force-of-the-river[Force of the River]
+* link:https://www.emeralddb.org/card/gaijin-customs[Gaijin Customs]
+* link:https://www.emeralddb.org/card/scouted-terrain[Scouted Terrain]
+* link:https://www.emeralddb.org/card/steed-of-the-steppes[Steed of the Steppes]
+* link:https://www.emeralddb.org/card/talisman-of-the-sun[Talisman of the Sun]
+* link:https://www.emeralddb.org/card/lay-of-the-land[Lay of the Land]
+
 |===
