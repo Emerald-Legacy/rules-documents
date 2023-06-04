@@ -60,7 +60,7 @@ horizontal_rhythm: $base_line_height_length
 # QUESTION should vertical_spacing be block_spacing instead?
 vertical_spacing: $vertical_rhythm
 link:
-  font_color: #2A6419
+  font_color: #000000
 # codespan is currently used for inline monospaced in prose and table cells
 codespan:
   font_color: b12146
