@@ -83,7 +83,7 @@ heading:
   h2_margin_top: 10
   h2_margin_bottom: 6
   h3_font_size: 12
-  h3_margin_top: 10
+  h3_margin_top: 6
   h4_font_size: 10
   h5_font_size: $heading_h4_font_size
   h6_font_size: $heading_h4_font_size

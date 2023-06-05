@@ -32,8 +32,24 @@ Changes to the previous version are marked in [.new]#bold and green.#
 |
 :show-link-uri!:
 == Banned Cards
+=== image:mons/neutral.svg[width=20] Neutral
+* https://www.emeralddb.org/card/accursed-summoning[Accursed Summoning]
+* https://www.emeralddb.org/card/audience-chamber[Audience Chamber]
+* https://www.emeralddb.org/card/bake-kujira[Bake-Kujira]
+* https://www.emeralddb.org/card/charge[Charge!]
+* https://www.emeralddb.org/card/city-of-the-rich-frog[City of the Rich Frog]
+* https://www.emeralddb.org/card/enlightenment[Enlightenment]
+* https://www.emeralddb.org/card/gateway-to-meido[Gateway to Meido]
+* https://www.emeralddb.org/card/lost-papers[Lost Papers]
+* https://www.emeralddb.org/card/lurking-affliction[Lurking Affliction]
+* https://www.emeralddb.org/card/oni-tyrant[Oni Tyrant]
+* https://www.emeralddb.org/card/policy-debate[Policy Debate]
+* https://www.emeralddb.org/card/shameful-display[Shameful Display]
+* https://www.emeralddb.org/card/slovenly-scavenger[Slovenly Scavenger]
+* https://www.emeralddb.org/card/the-imperial-palace[The Imperial Palace]
+* https://www.emeralddb.org/card/way-of-the-warrior[Way of the Warrior]
 
-some more text
+
 
 |
 :show-link-uri!:
@@ -85,8 +101,42 @@ some more text
 |
 :show-link-uri!:
 == Banned Cards
+=== image:mons/crab.svg[width=20] Crab
+* https://www.emeralddb.org/card/deployed-garrison[Deployed Garrison]
+* https://www.emeralddb.org/card/karada-district[Karada District]
+* https://www.emeralddb.org/card/rebuild[Rebuild]
+* https://www.emeralddb.org/card/yasuki-broker[Yasuki Broker]
 
-some more text
+=== image:mons/crane.svg[width=20] Crane
+* https://www.emeralddb.org/card/daidoji-netsu[Daidoji Netsu]
+* https://www.emeralddb.org/card/guest-of-honor[Guest of Honor]
+* https://www.emeralddb.org/card/kakita-toshimoko[Kakita Toshimoko]
+* https://www.emeralddb.org/card/magistrate-station[Magistrate Station]
+
+=== image:mons/dragon.svg[width=20] Dragon
+* https://www.emeralddb.org/card/centered-breath[Centered Breath]
+* https://www.emeralddb.org/card/togashi-mitsu[Togashi Mitsu 1]
+
+=== image:mons/lion.svg[width=20] Lion
+* https://www.emeralddb.org/card/lion-s-pride-paragon[Lion’s Pride Paragon]
+
+=== image:mons/phoenix.svg[width=20] Phoenix
+* https://www.emeralddb.org/card/calling-the-storm[Calling the Storm]
+* https://www.emeralddb.org/card/consumed-by-five-fires[Consumed by Five Fires]
+* https://www.emeralddb.org/card/dance-of-chikusho-do[Dance of Chikushō-dō]
+* https://www.emeralddb.org/card/isawa-tadaka[Isawa Tadaka 1]
+* https://www.emeralddb.org/card/kanjo-district[Kanjo District]
+* https://www.emeralddb.org/card/master-of-gisei-toshi[Master of Gisei Toshi]
+
+=== image:mons/scorpion.svg[width=20] Scorpion
+* https://www.emeralddb.org/card/cunning-magistrate[Cunning Magistrate]
+* https://www.emeralddb.org/card/forged-edict[Forged Edict]
+* https://www.emeralddb.org/card/hidden-moon-dojo[Hidden Moon Dōjō]
+* https://www.emeralddb.org/card/yogo-junzo[Yogo Junzo]
+* https://www.emeralddb.org/card/subterfuge[Subterfuge]
+
+=== image:mons/unicorn.svg[width=20] Unicorn
+* https://www.emeralddb.org/card/spyglass[Spyglass]
 
 a|
 :show-link-uri!:
@@ -97,13 +147,11 @@ a|
 * https://www.emeralddb.org/card/master-tactician[Master Tactician]
 
 === image:mons/phoenix.svg[width=20] Phoenix
-
 * https://www.emeralddb.org/card/isawa-tadaka-2[Isawa Tadaka 2]
 * https://www.emeralddb.org/card/display-of-power[Display of Power]
 
 
 === image:mons/scorpion.svg[width=20] Scorpion
-
 * https://www.emeralddb.org/card/a-fate-worse-than-death[A Fate Worse than Death]
 * https://www.emeralddb.org/card/alibi-artist[Alibi Artist,role=line-through new]
 * https://www.emeralddb.org/card/dispatch-to-nowhere[Dispatch to Nowhere]
