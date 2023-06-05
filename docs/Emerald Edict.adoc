@@ -39,47 +39,47 @@ some more text
 :show-link-uri!:
 == Restricted cards
 === image:mons/neutral.svg[width=20] Neutral
-* link:https://www.emeralddb.org/card/contested-countryside[Contested Countryside]
-* link:https://www.emeralddb.org/card/imperial-storehouse[Imperial Storehouse]
-* link:https://www.emeralddb.org/card/kami-unleashed[Kami Unleashed]
-* link:https://www.emeralddb.org/card/keeper-initiate[Keeper Initiate]
-* link:https://www.emeralddb.org/card/proving-ground[Proving Ground]
-* link:https://www.emeralddb.org/card/slovenly-scavenger[Slovenly Scavenger]
-* link:https://www.emeralddb.org/card/lay-of-the-land[Lay of the Land]
+* https://www.emeralddb.org/card/contested-countryside[Contested Countryside]
+* https://www.emeralddb.org/card/imperial-storehouse[Imperial Storehouse]
+* https://www.emeralddb.org/card/kami-unleashed[Kami Unleashed]
+* https://www.emeralddb.org/card/keeper-initiate[Keeper Initiate]
+* https://www.emeralddb.org/card/proving-ground[Proving Ground]
+* https://www.emeralddb.org/card/slovenly-scavenger[Slovenly Scavenger]
+* https://www.emeralddb.org/card/lay-of-the-land[Lay of the Land]
 
 === image:mons/crab.svg[width=20] Crab
-* link:https://www.emeralddb.org/card/kuni-laboratory[Kuni Laboratory]
-* link:https://www.emeralddb.org/card/watch-commander[Watch Commander]
+* https://www.emeralddb.org/card/kuni-laboratory[Kuni Laboratory]
+* https://www.emeralddb.org/card/watch-commander[Watch Commander]
 
 === image:mons/crane.svg[width=20] Crane
-* link:https://www.emeralddb.org/card/noble-sacrifice[Noble Sacrifice]
+* https://www.emeralddb.org/card/noble-sacrifice[Noble Sacrifice]
 
 === image:mons/dragon.svg[width=20] Dragon
-* link:https://www.emeralddb.org/card/adorned-temple[Adorned Temple]
-* link:https://www.emeralddb.org/card/sacred-sanctuary[Sacred Sanctuary]
+* https://www.emeralddb.org/card/adorned-temple[Adorned Temple]
+* https://www.emeralddb.org/card/sacred-sanctuary[Sacred Sanctuary]
 
 
 |
 :show-link-uri!:
 == Splash Banned Cards
 === image:mons/crab.svg[width=20] Crab
-* link:https://www.emeralddb.org/card/fight-on[Fight On!]
-* link:https://www.emeralddb.org/card/reprieve[Reprieve]
+* https://www.emeralddb.org/card/fight-on[Fight On!]
+* https://www.emeralddb.org/card/reprieve[Reprieve]
 
 === image:mons/crane.svg[width=20] Crane
-* link:https://www.emeralddb.org/card/festival-of-the-fortunes[Festival for the Fortunes]
-* link:https://www.emeralddb.org/card/return-the-offense[Return the Offense]
+* https://www.emeralddb.org/card/festival-of-the-fortunes[Festival for the Fortunes]
+* https://www.emeralddb.org/card/return-the-offense[Return the Offense]
 
 === image:mons/dragon.svg[width=20] Dragon
-* link:https://www.emeralddb.org/card/indomitable-will[Indomitable Will]
-* link:https://www.emeralddb.org/card/mirumotos-fury[Mirumoto's Fury]
-* link:https://www.emeralddb.org/card/shoshi-ni-kie[Shoshi ni Kie]
+* https://www.emeralddb.org/card/indomitable-will[Indomitable Will]
+* https://www.emeralddb.org/card/mirumotos-fury[Mirumoto's Fury]
+* https://www.emeralddb.org/card/shoshi-ni-kie[Shoshi ni Kie]
 
 === image:mons/lion.svg[width=20] Lion
-* link:https://www.emeralddb.org/card/fan-of-command[Fan of Command]
-* link:https://www.emeralddb.org/card/glorious-victory[Glorious Victory]
-* link:https://www.emeralddb.org/card/heroic-resolve[Heroic Resolve]
-* link:https://www.emeralddb.org/card/renowned-singer[Renowned Singer]
+* https://www.emeralddb.org/card/fan-of-command[Fan of Command]
+* https://www.emeralddb.org/card/glorious-victory[Glorious Victory]
+* https://www.emeralddb.org/card/heroic-resolve[Heroic Resolve]
+* https://www.emeralddb.org/card/renowned-singer[Renowned Singer]
 
 
 |
@@ -92,44 +92,44 @@ a|
 :show-link-uri!:
 == Restricted cards
 === image:mons/lion.svg[width=20] Lion
-* link:https://www.emeralddb.org/card/called-to-war[Called to War]
-* link:https://www.emeralddb.org/card/chronicler-of-conquests[Chronicler of Conquests]
-* link:https://www.emeralddb.org/card/master-tactician[Master Tactician]
+* https://www.emeralddb.org/card/called-to-war[Called to War]
+* https://www.emeralddb.org/card/chronicler-of-conquests[Chronicler of Conquests]
+* https://www.emeralddb.org/card/master-tactician[Master Tactician]
 
 === image:mons/phoenix.svg[width=20] Phoenix
 
-* link:https://www.emeralddb.org/card/isawa-tadaka-2[Isawa Tadaka 2]
-* link:https://www.emeralddb.org/card/display-of-power[Display of Power]
+* https://www.emeralddb.org/card/isawa-tadaka-2[Isawa Tadaka 2]
+* https://www.emeralddb.org/card/display-of-power[Display of Power]
 
 
 === image:mons/scorpion.svg[width=20] Scorpion
 
-* link:https://www.emeralddb.org/card/a-fate-worse-than-death[A Fate Worse than Death]
-* [.line-through.new]#link:https://www.emeralddb.org/card/alibi-artist[Alibi Artist]#
-* link:https://www.emeralddb.org/card/dispatch-to-nowhere[Dispatch to Nowhere]
-* link:https://www.emeralddb.org/card/mark-of-shame[Mark of Shame]
+* https://www.emeralddb.org/card/a-fate-worse-than-death[A Fate Worse than Death]
+* https://www.emeralddb.org/card/alibi-artist[Alibi Artist,role=line-through new]
+* https://www.emeralddb.org/card/dispatch-to-nowhere[Dispatch to Nowhere]
+* https://www.emeralddb.org/card/mark-of-shame[Mark of Shame]
 
 === image:mons/unicorn.svg[width=20] Unicorn
 
-* link:https://www.emeralddb.org/card/scouted-terrain[Scouted Terrain]
-* link:https://www.emeralddb.org/card/swift-magistrate[Swift Magistrate]
-* link:https://www.emeralddb.org/card/utaku-tetsuko[Utaku Tetsuko]
-* link:https://www.emeralddb.org/card/command-the-tributary[Command the Tributary]
+* https://www.emeralddb.org/card/scouted-terrain[Scouted Terrain]
+* https://www.emeralddb.org/card/swift-magistrate[Swift Magistrate]
+* https://www.emeralddb.org/card/utaku-tetsuko[Utaku Tetsuko]
+* https://www.emeralddb.org/card/command-the-tributary[Command the Tributary]
 
 a|
 :show-link-uri!:
 == Splash Banned Cards
 === image:mons/phoenix.svg[width=20] Phoenix
-* link:https://www.emeralddb.org/card/against-the-waves[Against the Waves]
-* [.line-through.new]#link:https://www.emeralddb.org/card/display-of-power[Display of Power]#
+* https://www.emeralddb.org/card/against-the-waves[Against the Waves]
+* https://www.emeralddb.org/card/display-of-power[Display of Power,role=line-through new]
 
 === image:mons/unicorn.svg[width=20] Unicorn
-* link:https://www.emeralddb.org/card/favored-mount[Favored Mount]
-* link:https://www.emeralddb.org/card/force-of-the-river[Force of the River]
-* link:https://www.emeralddb.org/card/gaijin-customs[Gaijin Customs]
-* link:https://www.emeralddb.org/card/scouted-terrain[Scouted Terrain]
-* link:https://www.emeralddb.org/card/steed-of-the-steppes[Steed of the Steppes]
-* link:https://www.emeralddb.org/card/talisman-of-the-sun[Talisman of the Sun]
-* link:https://www.emeralddb.org/card/lay-of-the-land[Lay of the Land]
+* https://www.emeralddb.org/card/favored-mount[Favored Mount]
+* https://www.emeralddb.org/card/force-of-the-river[Force of the River]
+* https://www.emeralddb.org/card/gaijin-customs[Gaijin Customs]
+* https://www.emeralddb.org/card/scouted-terrain[Scouted Terrain]
+* https://www.emeralddb.org/card/steed-of-the-steppes[Steed of the Steppes]
+* https://www.emeralddb.org/card/talisman-of-the-sun[Talisman of the Sun]
+* https://www.emeralddb.org/card/lay-of-the-land[Lay of the Land]
 
 |===
