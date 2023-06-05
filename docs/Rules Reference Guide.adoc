@@ -2,11 +2,15 @@
 :sectnumlevels: 2
 :imagesdir: images
 :chapter-label:
-:page-background-image: image:rrg_background.jpg[fit=fill, pdfwidth=100%]
-
+:page-background-image: image:rrg_background_flat.jpg[fit=fill, pdfwidth=100%]
+:document-version: 2.1
 
 = Rules Reference
-:toc:
+:toc: right
+
+{empty} +
+
+<<<
 
 == Rules Reference
 
@@ -41,7 +45,7 @@ An ability is the special game text that a card contributes to the game. Card ab
 === Action, Action Ability
 An action ability is a triggered card ability that contains the boldface "Action:" precursor. An action ability may be triggered by its controller during any action window (see "Appendix I: Timing and Gameplay").
 
-- Unless otherwise noted by the ability, each action ability may be initiated only once each round. 
+- Unless otherwise noted by the ability, each action ability may be initiated only once each round.
 - An action that has been initiated must be resolved before the next action can be initiated.
 
 *Related:* Ability, Triggered Abilities
@@ -175,7 +179,7 @@ A player's stronghold card signals which clan a player has chosen as the primary
 
 - An "in-clan" card bears a clan symbol that matches the clan symbol on its controller's stronghold card.
 - An "out-of-clan" card bears one or more clan symbols that do not match the clan symbol on its controller's stronghold card, and does not bear a clan symbol that matches the clan symbol on its controller's stronghold card.
-** If a player does not have a stronghold card, "in-clan" and "out-of-clan" determination is defined by the clan selected during deckbuilding to be that player's primary clan. 
+** If a player does not have a stronghold card, "in-clan" and "out-of-clan" determination is defined by the clan selected during deckbuilding to be that player's primary clan.
 *Related*: Deckbuilding
 
 // This area needs work/images
@@ -216,7 +220,7 @@ When a conflict is at multiple provinces, each of those provinces is the "attack
 
 During the resolution of a conflict at multiple provinces, compare the attacking player's excess skill against the strength of each attacked province separately to determine if that province is broken.
 
-- Any card ability that interacts with "the attacked province" interacts with one (not both) of those provinces. 
+- Any card ability that interacts with "the attacked province" interacts with one (not both) of those provinces.
 
 === Constant Abilities
 A constant ability is any non-keyword ability whose text contains no boldface timing trigger defining its ability type. A constant ability becomes active as soon as its card enters play and remains active while the card is in play.
@@ -251,1139 +255,571 @@ Some card abilities may cause a character to become a copy of another character.
 - Becoming a copy of another character replaces the character's base skills and glory. This is not applying a modifier (dashes can be replaced).
 - A character cannot become a copy of another character if both characters have the same title.
 
-[-WORKING ENTRY POINT-] +
-Corrupted
-Corrupted is a keyword ability. A character with the corrupted
-keyword enters play tainted. Abilities cannot be triggered from a
-corrupted character receiving the tainted status token from this
-keyword, as that card enters play already with that status.
-Related: Tainted, Tainted Status Token, Status Token
+=== Corrupted
+Corrupted is a keyword ability. A character with the corrupted keyword enters play tainted. Abilities cannot be triggered from a corrupted character receiving the tainted status token from this keyword, as that card enters play already with that status.
 
-Cost
-A card's cost is the numerical value that dictates how much fate
-must be paid to play the card from a player's hand or provinces.
-Some triggered card abilities also have an ability cost. Any
-imperative instruction (other than "choose...," which denotes one
-or more targets must be chosen, or "select...," which denotes that
-one or more of a number of effects must be selected) that appears
-before the dash of a triggered ability is considered a part of that
-ability's cost. Some examples of ability cost instructions are:
-"Bow...," "Spend...," "Sacrifice...," "Lose...," "Dishonor...," and
-"Discard...."
-Unless otherwise specified, a card effect that modifies a cost
-only modifies the fate cost.
-If a card has a dash as its printed fate cost, the card cannot be
-played. Its printed fate cost is considered to be 0 for the
-purposes of card abilities which require a numerical value.
-When a player is paying a cost, the payment must be made with
-cards and/or game elements that player controls. The word
-"friendly" is used as a reminder of this in some costs.
-If a cost requires a game element that is not in play, the player
-paying the cost may only use game elements that are in his or
-her out-of-play areas or token pools to pay the cost.
-If multiple costs for a single card or ability require payment,
-those costs must be paid simultaneously.
-If any part of a cost payment is prevented, once all costs that
-can be paid are paid, the process of initiating the ability or
-playing the card immediately ends without further resolution.
-(If this occurs while playing a card, the card remains unplayed
-in its owner's hand or province.)
-An ability cannot initiate (and therefore its costs cannot be
-paid) if its effect on its own does not have the potential to
-change the game state.
-Related: Additional Cost
-Count
-When instructed to count a total of game values on a subset of
-characters, values on bowed characters are not counted.
-Courtesy
-Courtesy is a keyword ability. When a card with the courtesy
-keyword leaves play, its controller gains 1 fate.
-The courtesy keyword resolves after the card leaves play,
-before reactions to that card leaving play can be triggered.
-Covert
-Covert is a keyword ability. When a player initiates a conflict, if at
-least one character with the covert keyword is declared as an
-attacker, that player may choose one character without covert
-controlled by the defending player. That character is considered
-evaded by covert, and cannot be declared as a defender for that
-conflict.
-If multiple characters with the covert keyword are declared
-as attackers, the evaded character is considered to be chosen
-and evaded by each of those characters' covert abilities.
+*Related:* Tainted, Tainted Status Token, Status Token
 
-9
-When a conflict is initiated against a facedown province,
-resolve the covert keyword before revealing that province.
-Card abilities may be used to move characters that have been
-evaded by covert into a conflict as defenders.
-Covert may only be used when characters are declared as
-attackers. If a character with covert is moved into or played
-into a conflict after the point at which the conflict was
-declared, that character's covert ability does not resolve.
-Current
-If an ability references a "current" skill or glory count, use the
-players' applicable specified totals at the time the ability resolves.
-When resolving an ability that references a "current" skill or
+=== Cost
+A card's cost is the numerical value that dictates how much fate must be paid to play the card from a player's hand or provinces.
+
+Some triggered card abilities also have an ability cost. Any imperative instruction (other than "choose...," which denotes one or more targets must be chosen, or "select...," which denotes that one or more of a number of effects must be selected) that appears before the dash of a triggered ability is considered a part of that ability's cost. Some examples of ability cost instructions are: "Bow...," "Spend...," "Sacrifice...," "Lose...," "Dishonor...," and "Discard...."
+
+- Unless otherwise specified, a card effect that modifies a cost only modifies the fate cost.
+- If a card has a dash as its printed fate cost, the card cannot be played. Its printed fate cost is considered to be 0 for the purposes of card abilities which require a numerical value.
+- When a player is paying a cost, the payment must be made with cards and/or game elements that player controls. The word "friendly" is used as a reminder of this in some costs.
+- If a cost requires a game element that is not in play, the player paying the cost may only use game elements that are in his or her out-of-play areas or token pools to pay the cost.
+- If multiple costs for a single card or ability require payment, those costs must be paid simultaneously.
+- If any part of a cost payment is prevented, once all costs that can be paid are paid, the process of initiating the ability or playing the card immediately ends without further resolution. (If this occurs while playing a card, the card remains unplayed in its owner's hand or province.)
+- An ability cannot initiate (and therefore its costs cannot be paid) if its effect on its own does not have the potential to change the game state.
+
+*Related:* Additional Cost
+
+=== Count
+When instructed to count a total of game values on a subset of characters, values on bowed characters are not counted.
+
+=== Courtesy
+Courtesy is a keyword ability. When a card with the courtesy keyword leaves play, its controller gains 1 fate.
+
+- The courtesy keyword resolves after the card leaves play, before reactions to that card leaving play can be triggered.
+
+=== Covert
+Covert is a keyword ability. When a player initiates a conflict, *if at least one character with the covert keyword is declared as an attacker*, that player may choose one character without covert controlled by the defending player. *That character* is considered evaded by covert, and cannot be declared as a defender for that conflict.
+
+- *If multiple characters with the covert keyword are declared as attackers, the evaded character is considered to be chosen and evaded by each of those characters' covert abilities.*
+- When a conflict is initiated against a facedown province, resolve the covert keyword before revealing that province.
+- Card abilities may be used to move characters that have been evaded by covert into a conflict as defenders.
+- Covert may only be used when characters are declared as attackers. If a character with covert is moved into or played into a conflict after the point at which the conflict was declared, that character's covert ability does not resolve.
+
+=== Current
+If an ability references a "current" skill or glory count, use the players' applicable specified totals at the time the ability resolves.
+
+- When resolving an ability that references a "current" skill or
 glory count during a conflict, count the skill or glory values that
 would be used if the conflict were currently resolving.
-Dash (-)
-In the text of a triggered ability, a dash (-) is used to separate the
-criteria that are necessary to use the ability from the effect of the
-ability. Any triggering conditions, play restrictions or permissions,
-costs, and targeting requirements are denoted before the dash.
-The ability's effect is denoted after the dash.
-If a character has a dash (-) for a skill value, that character cannot
-participate in, be played into, or be put into play in conflicts of that
-type.
-Should a character with a dash skill value somehow end up
-participating in a conflict of the corresponding type, that
-character is immediately removed from the conflict, and
-placed in its controller's home area in a bowed state.
-If a character has a dash for a skill value, that skill value cannot
-be modified by card abilities.
-If a character has a dash for a skill value and a card ability
-requires a numerical value for that skill, treat the card as if it
-had an unmodifiable skill value of 0.
-A character with a dash skill value cannot be involved in a duel
-of that skill type.
-Related: Participating and Cannot Participate
-Deckbuilding
+
+=== Dash (-)
+In the text of a triggered ability, a dash (-) is used to separate the criteria that are necessary to use the ability from the effect of the ability. Any triggering conditions, play restrictions or permissions, costs, and targeting requirements are denoted before the dash. The ability's effect is denoted after the dash.
+
+If a character has a dash (-) for a skill value, that character cannot participate in, be played into, or be put into play in conflicts of that type.
+
+- Should a character with a dash skill value somehow end up participating in a conflict of the corresponding type, that character is immediately removed from the conflict, and placed in its controller's home area in a bowed state.
+- If a character has a dash for a skill value, that skill value cannot be modified by card abilities.
+- If a character has a dash for a skill value and a card ability requires a numerical value for that skill, treat the card as if it had an unmodifiable skill value of 0.
+- A character with a dash skill value cannot be involved in a duel of that skill type.
+
+*Related:* Participating and Cannot Participate
+
+=== Deckbuilding
 To build custom decks for Legend of the Five Rings: The Card Game:
-A player must choose exactly 1 stronghold.
-A player may use 1 role card.
-A player's dynasty deck must contain a minimum of 40 and a
-maximum of 45 cards. Each of these cards must be in-clan or
-be neutral.
-A player's conflict deck must contain a minimum of 40 and a
-maximum of 45 cards. Each of these cards must be in-clan, be
-neutral, or be purchased from a single other clan by using
-influence.
-A player's stronghold indicates the amount of influence
+
+- A player must choose exactly 1 stronghold.
+- A player may use 1 role card.
+- A player's dynasty deck must contain a minimum of 40 and a maximum of 45 cards. Each of these cards must be in-clan or be neutral.
+- A player's conflict deck must contain a minimum of 40 and a maximum of 45 cards. Each of these cards must be in-clan, be neutral, or be purchased from a *single* other clan by using influence.
+** A player's stronghold indicates the amount of influence
 that player may spend during deckbuilding.
-No more than 3 copies of a single card by title can be included
-in any combination in a player's dynasty and conflict decks.
+- No more than 3 copies of a single card by title can be included in any combination in a player's dynasty and conflict decks.
+- A player cannot include more than 1 card (by card title) from the Restricted List in their decks and set of provinces. Up to a full legal playset (usually 3 copies) of that card may be included in the appropriate deck or provinces.
+- A player's set of provinces must include exactly 5 provinces. For each element, that player must choose one province associated with that element, such that all five elements are represented among their set of provinces. (Each province has a ring symbol in the lower right corner of the card to indicate its association.) Each of these provinces must be in-clan or be neutral.
+** No more than 1 copy of each province, by title, may be included in a player's set of provinces.
+- Any additional deckbuilding restrictions contained in the separate Imperial Law document, based on the format being played, must be followed.
+- The skirmish format follows different deckbuilding rules than each other format. When building decks for the skirmish format, use the following rules instead:
+** Do not include stronghold, role, or province cards.
+** A player's dynasty deck must contain a minimum of 30 cards and a maximum of 40 cards. Each of these cards must be in-clan or neutral.
+** A player's conflict deck must contain a minimum of 30 cards and a maximum of 40 cards. Each of these cards must be in-clan or neutral, or be purchased from a *single* other clan by using influence. (Each player has 6 influence with which to purchase out-of-clan cards during deckbuilding.)
+** No more than 2 copies of a single card by title can be included in any combination in a player's dynasty and conflict decks.
+** For tournament play, each player may include up to 10 additional cards in their "sideboard," which can be used to modify the contents of their decks in between games in a single match. The contents of a players' decks and sideboard combined must follow all rules outlined above.
 
-A player cannot include more than 1 card (by card title) from
-the Restricted List in their decks and set of provinces. Up to a
-full legal playset (usually 3 copies) of that card may be included
-in the appropriate deck or provinces.
-A player's set of provinces must include exactly 5 provinces. For
-each element, that player must choose one province
-associated with that element, such that all five elements are
-represented among their set of provinces. (Each province has
-a ring symbol in the lower right corner of the card to indicate
-its association.) Each of these provinces must be in-clan or be
-neutral.
-No more than 1 copy of each province, by title, may be
-included in a player's set of provinces.
-Any additional deckbuilding restrictions contained in the
-separate Imperial Law document, based on the format being
-played, must be followed.
-The skirmish format follows different deckbuilding rules than
-each other format. When building decks for the skirmish
-format, use the following rules instead:
-Do not include stronghold, role, or province cards.
-A player's dynasty deck must contain a minimum of 30
-cards and a maximum of 40 cards. Each of these cards must
-be in-clan or neutral.
-A player's conflict deck must contain a minimum of 30
-cards and a maximum of 40 cards. Each of these cards must
-be in-clan or neutral, or be purchased from a single other
-clan by using influence. (Each player has 6 influence with
-which to purchase out-of-clan cards during deckbuilding.)
-No more than 2 copies of a single card by title can be
-included in any combination in a player's dynasty and
-conflict decks.
-For tournament play, each player may include up to 10
-additional cards in their "sideboard," which can be used to
-modify the contents of their decks in between games in a
-single match. The contents of a players' decks and
-sideboard combined must follow all rules outlined above.
-Deck Limits
-Up to 3 total copies of most cards (by title) may be included in a
-player's dynasty and/or conflict decks (2 copies instead in skirmish
-format). Each copy of a card in either deck counts towards this
-limit.
-If a card has the text "Limit X per deck" no more than X copies of
-that card may be included in that player's dynasty and/or conflict
-decks.
-If X is less than the standard number of allowed copies, this
-phrase acts as a deckbuilding restriction.
-If X is greater than the standard number of allowed copies, this
-phrase acts as a permission that enables a player to include
-more than the standard number of copies.
-Defender, Defending Character, Defending
-Player
-The term "defending character" refers to a character that is
-participating in a conflict on the side of the player who controls the
+=== Deck Limits
+Up to 3 total copies of most cards (by title) may be included in a player's dynasty and/or conflict decks (2 copies instead in skirmish format). Each copy of a card in either deck counts towards this limit.
 
-10
-province that is being attacked. The term "defender" is also used
-as shorthand for "defending character."
-The term "defending player" refers to the opponent of the
-attacking player against whom (from the attacking player's
-perspective) a conflict is resolving.
-Delayed Effects
-Some abilities contain delayed effects. Such abilities specify a
-future timing point, or indicate a future condition that may arise,
-and dictate an effect that is to happen at that time.
-Delayed effects resolve automatically and immediately after
-their specified timing point or future condition occurs or
-becomes true, before reactions to that moment may be
-triggered.
-When a delayed effect resolves, it is not treated as a new
-triggered ability, even if the delayed effect was originally
-created by a triggered ability.
-When a delayed effect resolves, it is still considered to be an
-ability originating from the card type of the card that created
-the delayed effect.
-Dire
-Dire is a variable keyword ability. A card with this keyword gains an
-additional ability while that character has no fate on it.
-Most uses of the dire keyword grant a constant ability that is
-active while the character has no fate on it. Some may instead
-grant triggered abilities that can only be used while the
-character has no fate on it.
-Discard Piles
-The discard piles are out-of-play areas. Each player has a dynasty
-discard pile and a conflict discard pile.
-Any time a card is discarded (from play, or from an out-of-play
-area such as a hand or deck), it is placed faceup on top of its
-owner's appropriate discard pile: dynasty cards are discarded
-to the dynasty discard pile, and conflict cards are discarded to
-the conflict discard pile.
-Each player's discard pile is open information and may be
-looked at by any player at any time.
-The order of cards in a player's discard pile may be changed by
-that player.
-Disguised
-The disguised keyword appears on unique characters. When a
+If a card has the text "Limit X per deck" no more than X copies of that card may be included in that player's dynasty and/or conflict decks.
 
-character is played using the disguised keyword, it replaces a non-
-unique character of the correct Trait or clan affiliation, inheriting
+- If X is less than the standard number of allowed copies, this phrase acts as a deckbuilding restriction.
+- If X is greater than the standard number of allowed copies, this phrase acts as a permission that enables a player to include more than the standard number of copies.
 
-all of that character's attachments, fate, and status tokens. This is
-an alternate means by which to play a character and carries a
-number of unique rules including, but not limited to, an additional
-cost of choosing and discarding a non-unique character to discard
-when the disguised character enters play.
-When playing a character using the disguised keyword, you
-may play that character during the conflict phase, following all
-timing rules which apply to playing characters from hand.
-To play a character using the disguised keyword, you must
-choose a non-unique character you control of the appropriate
+=== Defender, Defending Character, Defending Player
+The term "defending character" refers to a character that is participating in a conflict on the side of the player who controls the province that is being attacked. The term "defender" is also used as shorthand for "defending character."
 
-Trait or clan affiliation as an additional cost to play the
-character. Reduce the cost to play the disguised character by
-the printed cost of the chosen character, pay that cost, the
-disguised character enters play, then move all attachments and
-tokens (fate, status, etc.) from the chosen character to the
-disguised character. Finally, discard the chosen character from
-play. Interrupts cannot be used to replace or prevent this
-discard.
-When playing a character using the disguised keyword you
-cannot put additional fate from your fate pool on it.
-A character played using this keyword enters play ready and in
-the same location as the non-unique character it is replacing.
-Dishonored, Dishonored Status Token
+The term "defending player" refers to the opponent of the attacking player against whom (from the attacking player's perspective) a conflict is resolving.
+
+=== Delayed Effects
+Some abilities contain delayed effects. Such abilities specify a future timing point, or indicate a future condition that may arise, and dictate an effect that is to happen at that time.
+
+- Delayed effects resolve automatically and immediately after their specified timing point or future condition occurs or becomes true, before reactions to that moment may be triggered.
+- When a delayed effect resolves, it is not treated as a new triggered ability, even if the delayed effect was originally created by a triggered ability.
+- When a delayed effect resolves, it is still considered to be an ability originating from the card type of the card that created the delayed effect.
+
+=== Dire
+Dire is a variable keyword ability. A card with this keyword gains an additional ability while that character has no fate on it.
+
+- Most uses of the dire keyword grant a constant ability that is active while the character has no fate on it. Some may instead grant triggered abilities that can only be used while the character has no fate on it.
+
+=== Discard Piles
+The discard piles are out-of-play areas. Each player has a dynasty discard pile and a conflict discard pile.
+
+- Any time a card is discarded (from play, or from an out-of-play area such as a hand or deck), it is placed faceup on top of its owner's appropriate discard pile: dynasty cards are discarded to the dynasty discard pile, and conflict cards are discarded to the conflict discard pile.
+- Each player's discard pile is open information and may be looked at by any player at any time.
+- The order of cards in a player's discard pile may be changed by that player.
+
+=== Disguised
+The disguised keyword appears on unique characters. When a character is played using the disguised keyword, it replaces a non- unique character of the correct *_Trait_* or clan affiliation, inheriting all of that character's attachments, fate, and status tokens. This is an alternate means by which to play a character and carries a number of unique rules including, but not limited to, an additional cost of choosing and discarding a non-unique character to discard when the disguised character enters play.
+
+- When playing a character using the disguised keyword, you may play that character during the conflict phase, following all timing rules which apply to playing characters from hand.
+- To play a character using the disguised keyword, you must choose a non-unique character you control of the appropriate *_Trait_* or clan affiliation as an additional cost to play the character. Reduce the cost to play the disguised character by the printed cost of the chosen character, pay that cost, the disguised character enters play, then move all attachments and tokens (fate, status, etc.) from the chosen character to the disguised character. Finally, discard the chosen character from play. Interrupts cannot be used to replace or prevent this discard.
+- When playing a character using the disguised keyword you cannot put additional fate from your fate pool on it.
+- A character played using this keyword enters play ready and in the same location as the non-unique character it is replacing.
+
+=== Dishonored, Dishonored Status Token
 See "Personal Honor, Personal Dishonor".
-Drawing cards
-When a player is instructed to draw one or more cards, those cards
-are drawn from the top of his or her conflict deck.
-When a player draws 2 or more cards as the result of a single
-ability or game step, those cards are drawn simultaneously.
-Drawn cards are added to a player's hand.
-There is no limit to the number of cards a player may draw each
-round.
-There is no maximum hand size.
-Related: Running Out of Cards
-Duel
-Some card abilities initiate a duel between two (or more)
-characters. For the rules on how to initiate and resolve a duel, see
-"D. Duel Timing".
-Most card abilities that initiate a duel use the phrase "initiate
-a [type] duel." The characters chosen during duel initiation are
-considered to be chosen as targets of the ability that initiates
-the duel.
-Duplicates
-A duplicate is a copy (in a player's hand or provinces) of a unique
-character that is already in play and under the same player's
-control. A player may, as a player action during step 1.4 of the
-dynasty phase, discard a duplicate from his or her hand or
-provinces to place 1 fate on the copy of the character in play.
-After discarding a duplicate from a province, the province refills
-face down.
-A different version of a unique card (that shares the same title)
-may be discarded from a player's hand or provinces as a
-duplicate.
-Related: Unique Cards
-Effects
-A card effect is any effect that arises from the resolution of ability
-text printed on or gained by a card. A framework effect is any effect
-that arises from the resolution of a framework step.
 
-11
-Card effects might be preceded by costs, triggering conditions,
-play restrictions or permissions, and/or targeting
-requirements. Such elements are not considered effects.
-Once an ability is initiated, players must resolve as much of
-each aspect of its effect as they are able, unless the effect uses
-the word "may."
-When a non-targeting effect attempts to engage a number of
-entities (such as "search the top 10 cards of your conflict deck")
-that exceeds the number of entities that currently exist in the
-specified game area, the effect engages as many entities as
-possible.
-The expiration of a lasting effect (or the cessation of a constant
-ability) is not considered to be generating a game state change
-by a card effect.
-If an ability instructs a player to pick among multiple effects, an
-effect that has the potential to change the game state must be
-picked.
-Unless an effect uses the word "then" or the phrase "if you do,"
-all effects of a card ability are resolved simultaneously. The
-decision whether to resolve any optional effects (usually
-indicated by the word "may") is made before applying the
-results of the ability's effects.
-Eminent
-Eminent is a keyword ability that can be found on province cards.
-A province with this keyword cannot be a player's stronghold
-province, starts the game faceup, and cannot be turned facedown.
-Enters Play
-The phrase "enters play" refers to any time a card makes a
-transition from an out-of-play area or state into play. Playing a card
-and putting a card into play by using a card ability are two means
-by which a card may enter play.
-Event Cards
-Event cards represent tactical acts and maneuvers, court intrigues,
-spells, supernatural occurrences, and other unexpected
-developments that might occur during a game.
-Event cards are triggered from a player's hand or provinces. An
-event card's ability type, triggering condition (if any), and play
-permissions/restrictions (if any), and originating location
-define when and how the card may be played.
-Event cards with action abilities may be played from a player's
-hand during any action window.
-In the skirmish format, event cards with action abilities
-cannot be played from a player's hand during the dynasty
-phase.
-Event cards played from a player's provinces cannot be played
-outside of the dynasty phase.
-When an event card is played, its costs are paid, its effects are
-resolved (or canceled), and it is placed in its owner's
-appropriate discard pile prior to opening the reaction window
-which follows the ability's resolution.
-Lasting effects, including those created by event cards engage
-the game state at the time they resolve. If an event card creates
-a lasting effect on a set of cards, only cards that are in play (or
-in the affected game area or game state) at the time the event
+=== Drawing cards
+When a player is instructed to draw one or more cards, those cards are drawn from the top of his or her conflict deck.
 
-is played are eligible to be affected. Cards that enter play (or
-the affected game area or game state) after the resolution of
-the event are not affected by its lasting effect.
-If the effects of an event card are canceled, the card is still
-considered to have been played, and its costs remain paid, and
-the card is still discarded. Only the effects have been canceled.
-Unless the ability that puts it into play also changes its cardtype
-to a cardtype that is permitted in play, an event card cannot
-enter play.
+- When a player draws 2 or more cards as the result of a single ability or game step, those cards are drawn simultaneously.
+- Drawn cards are added to a player's hand.
+- There is no limit to the number of cards a player may draw each round.
+- There is no maximum hand size.
+
+*Related*: Running Out of Cards
+
+=== Duel
+Some card abilities initiate a duel between two (or more) characters. For the rules on how to initiate and resolve a duel, see "D. Duel Timing".
+
+- Most card abilities that initiate a duel use the phrase "initiate a [type] duel." The characters chosen during duel initiation are considered to be chosen as targets of the ability that initiates the duel.
+
+=== Duplicates
+A duplicate is a copy (in a player's hand or provinces) of a unique character that is already in play and under the same player's control. A player may, as a player action during step 1.4 of the dynasty phase, discard a duplicate from his or her hand or provinces to place 1 fate on the copy of the character in play.
+
+- After discarding a duplicate from a province, the province refills face down.
+- A different version of a unique card (that shares the same title) may be discarded from a player's hand or provinces as a duplicate.
+
+*Related*: Unique Cards
+
+=== Effects
+A card effect is any effect that arises from the resolution of ability text printed on or gained by a card. A framework effect is any effect that arises from the resolution of a framework step.
+
+- Card effects might be preceded by costs, triggering conditions, play restrictions or permissions, and/or targeting requirements. Such elements are not considered effects.
+- Once an ability is initiated, players must resolve as much of each aspect of its effect as they are able, unless the effect uses the word "may."
+- When a non-targeting effect attempts to engage a number of entities (such as "search the top 10 cards of your conflict deck") that exceeds the number of entities that currently exist in the specified game area, the effect engages as many entities as possible.
+- The expiration of a lasting effect (or the cessation of a constant ability) is not considered to be generating a game state change by a card effect.
+- If an ability instructs a player to pick among multiple effects, an effect that has the potential to change the game state must be picked.
+- Unless an effect uses the word "then" or the phrase "if you do," all effects of a card ability are resolved simultaneously. The decision whether to resolve any optional effects (usually indicated by the word "may") is made before applying the results of the ability's effects.
+
+=== Eminent
+Eminent is a keyword ability that can be found on province cards. A province with this keyword cannot be a player's stronghold province, starts the game faceup, and cannot be turned facedown.
+
+=== Enters Play
+The phrase "enters play" refers to any time a card makes a transition from an out-of-play area or state into play. Playing a card and putting a card into play by using a card ability are two means by which a card may enter play.
+
+=== Event Cards
+Event cards represent tactical acts and maneuvers, court intrigues, spells, supernatural occurrences, and other unexpected developments that might occur during a game.
+
+- Event cards are triggered from a player's hand or provinces. An event card's ability type, triggering condition (if any), and play permissions/restrictions (if any), and originating location define when and how the card may be played.
+- Event cards with action abilities may be played from a player's hand during any action window.
+ ** In the skirmish format, event cards with action abilities cannot be played from a player's hand during the dynasty phase.
+- Event cards played from a player's provinces cannot be played outside of the dynasty phase.
+- When an event card is played, its costs are paid, its effects are resolved (or canceled), and it is placed in its owner's appropriate discard pile prior to opening the reaction window which follows the ability's resolution.
+- Lasting effects, including those created by event cards engage the game state at the time they resolve. If an event card creates a lasting effect on a set of cards, only cards that are in play (or in the affected game area or game state) at the time the event is played are eligible to be affected. Cards that enter play (or the affected game area or game state) after the resolution of the event are not affected by its lasting effect.
+- If the effects of an event card are canceled, the card is still considered to have been played, and its costs remain paid, and the card is still discarded. Only the effects have been canceled.
+- Unless the ability that puts it into play also changes its cardtype to a cardtype that is permitted in play, an event card cannot enter play.
+
 For event card anatomy, see "Appendix II: Card Anatomy".
-Facedown Province
-A facedown province card has no inherent identity other than
-"facedown province." When a facedown province is turned faceup,
-that province card is considered to be revealed.
-A facedown province is turned faceup when an attack is
-declared against it.
-A player may look at the facedown provinces under his or her
-control at any time. Note: this rule refers to the facedown
-province card itself. A player is not permitted to look at
-facedown dynasty cards in his or her provinces.
-If a facedown province becomes the attacked province in a
-manner other than the declaration of an attack, immediately
-turn the province faceup.
-A facedown province is considered to be a different entity than
-its faceup side. While a province is facedown, its faceup side is
-considered to be out of play. When a province is turned faceup,
-the "faceup province" and "facedown province"
-simultaneously exchange positions, such that the facedown
-province is now out of play and the faceup province is now in
-play. The opposite is true when a province is turned facedown.
-Province tokens in the skirmish format are never considered to
-be facedown and are never revealed.
-Fate
-Fate is the game's basic resource, and is used to
-pay for cards and some card abilities. The
-amount of fate a player has available at any
-given time is represented (as open information)
-by fate tokens in his or her fate pool.
-Fate begins the game in the general token pool. When a player
-gains fate, that player takes that much fate from the general
-token pool and adds it to his or her fate pool.
-When a player is instructed to place fate on a card, that fate
-comes from the general token pool unless otherwise specified.
-When fate is spent or lost, it is usually returned to the general
-token pool. If fate is spent to a ring, it is placed on that ring.
-Whenever a player plays a character from his or her hand or
-provinces, after that character enters play, that player has the
-option of placing any number of fate from his or her fate pool
-onto that character.
-During the fate phase, each character with no fate on it is
-discarded. Subsequently, 1 fate is removed from each
-character in play. Finally, 1 fate from the general token pool is
-placed on each unclaimed ring.
 
-12
+=== Facedown Province
+A facedown province card has no inherent identity other than "facedown province." When a facedown province is turned faceup, that province card is considered to be revealed.
+- A facedown province is turned faceup when an attack is declared against it.
+- A player may look at the facedown provinces under his or her control at any time. *Note*: this rule refers to the facedown province card itself. A player is not permitted to look at facedown dynasty cards in his or her provinces.
+- If a facedown province becomes the attacked province in a manner other than the declaration of an attack, immediately turn the province faceup.
+- A facedown province is considered to be a different entity than its faceup side. While a province is facedown, its faceup side is considered to be out of play. When a province is turned faceup, the "faceup province" and "facedown province" simultaneously exchange positions, such that the facedown province is now out of play and the faceup province is now in play. The opposite is true when a province is turned facedown.
+- Province tokens in the skirmish format are never considered to be facedown and are never revealed.
 
-Fill a Province
-If a player is instructed to fill a province, that player takes the top
-card of their dynasty deck and places it facedown (without looking
-at it) on the province.
-A player can fill a province even if that province already has 1
-or more dynasty cards in it.
-If a player is instructed to fill a province faceup, the dynasty
-card is placed in the province faceup rather than facedown.
-First Player, First Player Token
-A first player is chosen during setup, and the first
-player token is used to indicate that player's status
-as the first player. The chosen player remains first
-player until they pass the first player token to the
-player on their left during the fate phase.
-The first player becomes the active player first
-during the dynasty phase and the conflict
-phase.
-The first player has the first opportunity to initiate actions or
-act first during all non-conflict resolution action windows.
-While a conflict is resolving, the defending player has the first
-opportunity to initiate actions during each conflict resolution
-action window.
-The first player has the first opportunity to initiate interrupt or
-reaction abilities at each appropriate game moment.
-For any question as to who should perform an act or make a
-decision first, in the absence of any other direction by card or
-rules text, the first player does so first, followed by the player
-to the first player's left and continuing in clockwise order.
-In the team conquest format, the first player token is given to
-a team rather than a player. Each player on that team is
-considered to be the first player. During action windows, each
-team has an action opportunity (rather than each player).
-When a team wishes to take an action, one of the players on
-that team takes the action, then a player on the opposing team
-has an opportunity to take an action. This continues until both
-teams pass in sequence, and the action window closes.
-At the end of the fate phase, the first player token is passed
-to the opposing team, and they become the firstplayer
-team.
-Related: Active Player, Setup, Priority of Simultaneous Resolution,
-Appendix I
-Forced (Forced Interrupts, Forced Reactions)
-While most triggered abilities are optional, some interrupt and
-reaction abilities are preceded by the word "Forced." Such abilities
-must be resolved immediately whenever the triggering condition
-specified in the ability text occurs.
-For any given triggering condition, forced interrupts take
-priority and initiate before non-forced interrupts, and forced
-reactions take priority and initiate before non-forced reactions.
-If two or more forced and/or mandatory abilities (such as
-keywords) would initiate at the same moment, the first player
-determines the order in which the abilities initiate, regardless
-of who controls the cards bearing those abilities.
+=== Fate
+Fate is the game's basic resource, and is used to pay for cards and some card abilities. The amount of fate a player has available at any
+given time is represented (as open information) by fate tokens in his or her fate pool.
 
-Each forced ability must resolve completely before the next
-forced ability to the same triggering condition may initiate.
-Related: Interrupts, Reactions
-Framework Effects and Framework Steps
-A framework step is a mandatory occurrence, dictated by the
-structure of the game. A framework effect is any effect that arises
-from the resolution of a framework step.
-Related: Appendix I
-The word "Gaijin"
-The word "Gaijin" is a slur in modern Japanese and some people
-might be offended by it. On Emerald Legacy cards, the Gaijin trait
-will be replaced by Foreign. For gameplay purposes, both traits are
-equivalent.
-If an existing card has the Gaijin trait, it is also considered to
-have the Foreign trait.
-If a card interacts with the Gaijin trait, it interacts with the
-Foreign trait in the exact same way.
-Example: When you play a card with the Foreign trait, you can
-use the reaction on Worldly Shiotome (Atonement, 126) as if
-you had played a card with the Gaijin trait.
-Gains
+- Fate begins the game in the general token pool. When a player gains fate, that player takes that much fate from the general token pool and adds it to his or her fate pool.
+- When a player is instructed to place fate on a card, that fate comes from the general token pool unless otherwise specified.
+- When fate is spent or lost, it is usually returned to the general token pool. If fate is spent to a ring, it is placed on that ring.
+- Whenever a player plays a character from his or her hand or provinces, after that character enters play, that player has the option of placing any number of fate from his or her fate pool onto that character.
+- During the fate phase, each character with no fate on it is discarded. Subsequently, 1 fate is removed from each character in play. Finally, 1 fate from the general token pool is placed on each unclaimed ring.
+
+=== Fill a Province
+If a player is instructed to fill a province, that player takes the top card of their dynasty deck and places it facedown (without looking at it) on the province.
+- A player can fill a province even if that province already has 1 or more dynasty cards in it.
+- If a player is instructed to fill a province faceup, the dynasty card is placed in the province faceup rather than facedown.
+
+=== First Player, First Player Token
+A first player is chosen during setup, and the first player token is used to indicate that player's status as the first player. The chosen player remains first player until they pass the first player token to the player on their left during the fate phase.
+
+- The first player becomes the active player first during the dynasty phase and the conflict phase.
+- The first player has the first opportunity to initiate actions or act first during all non-conflict resolution action windows. While a conflict is resolving, the defending player has the first opportunity to initiate actions during each conflict resolution action window.
+- The first player has the first opportunity to initiate interrupt or reaction abilities at each appropriate game moment.
+- For any question as to who should perform an act or make a decision first, in the absence of any other direction by card or rules text, the first player does so first, followed by the player to the first player's left and continuing in clockwise order.
+- In the team conquest format, the first player token is given to a team rather than a player. Each player on that team is considered to be the first player. During action windows, each team has an action opportunity (rather than each player). When a team wishes to take an action, one of the players on that team takes the action, then a player on the opposing team has an opportunity to take an action. This continues until both teams pass in sequence, and the action window closes.
+ ** At the end of the fate phase, the first player token is passed to the opposing team, and they become the first player team.
+
+*Related*: Active Player, Setup, Priority of Simultaneous Resolution, Appendix I
+
+=== Forced (Forced Interrupts, Forced Reactions)
+While most triggered abilities are optional, some interrupt and reaction abilities are preceded by the word "*Forced*". Such abilities must be resolved immediately whenever the triggering condition specified in the ability text occurs.
+- For any given triggering condition, forced interrupts take priority and initiate before non-forced interrupts, and forced reactions take priority and initiate before non-forced reactions.
+- If two or more forced and/or mandatory abilities (such as keywords) would initiate at the same moment, the first player determines the order in which the abilities initiate, regardless of who controls the cards bearing those abilities.
+- Each forced ability must resolve completely before the next forced ability to the same triggering condition may initiate.
+
+*Related*: Interrupts, Reactions
+
+=== Framework Effects and Framework Steps
+A framework step is a mandatory occurrence, dictated by the structure of the game. A framework effect is any effect that arises from the resolution of a framework step.
+
+*Related*: Appendix I
+
+=== The word "Gaijin"
+The word "Gaijin" is a slur in modern Japanese and some people might be offended by it. On Emerald Legacy cards, the *_Gaijin_* trait will be replaced by *_Foreign_*. For gameplay purposes, both traits are equivalent.
+
+- If an existing card has the *_Gaijin_* trait, it is also considered to have the *_Foreign_* trait.
+- If a card interacts with the *_Gaijin_* trait, it interacts with the *_Foreign_* trait in the exact same way. +
+_Example: When you play a card with the *Foreign* trait, you can use the reaction on Worldly Shiotome (Atonement, 126) as if you had played a card with the *Gaijin* trait._
+
+=== Gains
 The word "gains" is used in multiple contexts.
-If a player gains fate or honor, that player takes the specified
-amount of fate or honor and adds it to their fate pool or honor
-pool. Unless that player is gaining the fate or honor from a
-specific source, the token is taken from the general token pool.
-If a card gains a characteristic (such as a Trait, a keyword, or
-ability text), the card functions as if it possesses the gained
-characteristic. Gained characteristics are not considered to be
-printed on the card.
-Related: Give, Loses, Printed, Take
-Give
-If a player is instructed to give tokens to another player, those
-tokens are removed from the giving player's pool of tokens (or
-specified game area), and are added to the other player's token
-pool.
-The player giving the tokens is considered to be losing the tokens
-and the other player is considered to be gaining the tokens.
-Related: Gains, Loses, Take
-Glory
-Glory is a character statistic that represents a character's
-reputation, and how much the character cares about their
-reputation.
-While a character is honored or dishonored, that character's
-glory will modify its military and political skill.
-A player counts the glory value of each ready character he or
-she controls whenever a glory count is required.
 
-13
-Related: Personal Honor, Personal Dishonor, Glory Count
-Glory Count
-When the players are asked to perform a glory count, each player
-or each team counts the total glory value among the ready
-characters they control and adds 1 to the total for each ring in their
-claimed ring pool. The player or team with the highest total wins
-the glory count.
-Step 3.4.1 of the conflict phase consists of a framework glory
-count. The winner of this count claims the Imperial Favor and
-may set it to either side if appropriate.
-If players have the same total, the Imperial Favor remains
-in its current state (either unclaimed or under the
-possession of the player who currently has it, remaining set
-on its current side).
-Some card abilities may require the players to perform a glory
-count. Glory counts required by card abilities are made in the
-same manner, and the ability will detail how to process the
-result. Such counts do not affect the status of the Imperial
-Favor, unless the ability text causes the Imperial Favor status
-to change.
-Other card abilities may require players to count current glory
-among their characters, or a subset of their characters. This is
-different from a glory count, and rings in a player's claimed ring
-pool are not added. For such card abilities, players count
-current glory among their specified characters in the same way
-they would count current or skill.
-Related: Imperial Favor, Current
-Holding
-When a holding is turned faceup in a player's province, its game
-text becomes active and that holding is considered to be "in play."
-As long as a holding remains faceup in a player's province, that
-player can use abilities or benefit from game text on that holding.
-Many holdings have a statistical value that modifies the
-defense strength of the province at which the holding is
-located.
-During the regroup phase, when discarding faceup cards from
-his or her provinces, a player may choose to discard a faceup
-holding. When this occurs, the province is refilled, facedown,
-with the top card of that player's Dynasty deck, as normal.
-While a holding remains on a province, that province is not
-refilled.
+- If a player gains fate or honor, that player takes the specified amount of fate or honor and adds it to their fate pool or honor pool. Unless that player is gaining the fate or honor from a specific source, the token is taken from the general token pool.
+- If a card gains a characteristic (such as a Trait, a keyword, or ability text), the card functions as if it possesses the gained characteristic. Gained characteristics are not considered to be printed on the card.
+
+*Related*: Give, Loses, Printed, Take
+
+=== Give
+If a player is instructed to give tokens to another player, those tokens are removed from the giving player's pool of tokens (or specified game area), and are added to the other player's token pool.
+
+The player giving the tokens is considered to be losing the tokens and the other player is considered to be gaining the tokens.
+
+*Related*: Gains, Loses, Take
+
+=== Glory
+Glory is a character statistic that represents a character's reputation, and how much the character cares about their reputation.
+
+- While a character is honored or dishonored, that character's glory will modify its military and political skill.
+- A player counts the glory value of each ready character he or she controls whenever a glory count is required.
+
+*Related*: Personal Honor, Personal Dishonor, Glory Count
+
+=== Glory Count
+When the players are asked to perform a glory count, each player or each team counts the total glory value among the ready characters they control and adds 1 to the total for each ring in their claimed ring pool. The player or team with the highest total wins the glory count.
+
+- Step 3.4.1 of the conflict phase consists of a framework glory count. The winner of this count claims the Imperial Favor and may set it to either side if appropriate.
+ ** If players have the same total, the Imperial Favor remains in its current state (either unclaimed or under the possession of the player who currently has it, remaining set on its current side).
+- Some card abilities may require the players to perform a glory count. Glory counts required by card abilities are made in the same manner, and the ability will detail how to process the result. Such counts do not affect the status of the Imperial Favor, unless the ability text causes the Imperial Favor status to change.
+- Other card abilities may require players to count current glory among their characters, or a subset of their characters. This is different from a glory count, and rings in a player's claimed ring pool are not added. For such card abilities, players count current glory among their specified characters in the same way they would count current [military] or [political] skill.
+
+*Related*: Imperial Favor, Current
+
+=== Holding
+When a holding is turned faceup in a player's province, its game text becomes active and that holding is considered to be "in play." As long as a holding remains faceup in a player's province, that player can use abilities or benefit from game text on that holding.
+- Many holdings have a statistical value that modifies the defense strength of the province at which the holding is located.
+- During the regroup phase, when discarding faceup cards from his or her provinces, a player may choose to discard a faceup holding. When this occurs, the province is refilled, facedown, with the top card of that player's Dynasty deck, as normal.
+- While a holding remains on a province, that province is not refilled.
+
 For holding card anatomy, see "Appendix II: Card Anatomy".
-Home, Move Home
-Character cards that are in play but not currently participating in a
-conflict are considered to be in their controller's home area.
-If a character that is participating in a conflict is moved home,
-it is removed from the conflict and placed in its controller's
-home area. A character that is moved home maintains its
-status of bowed or readied.
 
-Honor
-Honor represents the behavior of a player's
-clan, and the outward perception of that
-behavior. It is bid during the draw phase (see
-framework step "2.2. Honor bid") and during
-duels. Honor also serves as a victory track to
-measure an honor win or an honor loss. The
-amount of honor a player has at any given time
-is represented (as open information) by honor tokens in his or her
-honor pool.
-A player's stronghold indicates that player's starting honor
-total. In the skirmish format, each player starts with 6 honor.
-Each time a player gains honor, that honor is taken from the
-general token pool and added to the player's honor pool. Each
-time a player loses honor, that honor is taken from the player's
-honor pool and returned to the general token pool.
-If a card ability references a player who is more or less
-honorable than another player, the players compare the
-amount of honor in each of their honor pools to determine if
-the ability is applicable, or to whom the ability refers.
-If a card ability references a player's honor bid, the ability is
-referencing the current setting on the player's honor dial.
-Related: Winning the Game
-Honored, Honored Status Token
+=== Home, Move Home
+Character cards that are in play but not currently participating in a conflict are considered to be in their controller's home area.
+- If a character that is participating in a conflict is moved home, it is removed from the conflict and placed in its controller's home area. A character that is moved home maintains its status of bowed or readied.
+
+=== Honor
+Honor represents the behavior of a player's clan, and the outward perception of that behavior. It is bid during the draw phase (see
+framework step "2.2. Honor bid") and during duels. Honor also serves as a victory track to measure an honor win or an honor loss. The
+amount of honor a player has at any given time is represented (as open information) by honor tokens in his or her honor pool.
+
+- A player's stronghold indicates that player's starting honor total. In the skirmish format, each player starts with 6 honor.
+- Each time a player gains honor, that honor is taken from the general token pool and added to the player's honor pool. Each time a player loses honor, that honor is taken from the player's honor pool and returned to the general token pool.
+- If a card ability references a player who is more or less honorable than another player, the players compare the amount of honor in each of their honor pools to determine if the ability is applicable, or to whom the ability refers.
+- If a card ability references a player's honor bid, the ability is referencing the current setting on the player's honor dial.
+
+*Related*: Winning the Game
+
+=== Honored, Honored Status Token
 See "Personal Honor, Personal Dishonor".
-Immune
-If a card is immune to a specified set of effects (for example,
-"immune to ring effects" or "immune to event card effects"), it
-cannot be targeted or affected by effects that belong to that set.
-Immunity only protects the immune card itself. Peripheral
-entities associated with an immune card (such as attachments,
-tokens on the card, and abilities that originate from the
-immune card) are not themselves immune.
-If a card gains immunity to an effect, pre-existing lasting effects
-that have been applied to the card are not removed.
-Immunity only protects a card from effects. It does not prevent
-a card from being used to pay costs.
-Imperial Favor, Imperial Favor Contest
-The Imperial Favor represents which player currently holds the
-favor of the Emperor. Step 3.4.1 of the conflict phase consists of a
-framework glory count. The winner of this count claims the
-Imperial Favor and may set it to either side if appropriate.
-The +1 skill modifier granted by the Imperial Favor applies to
-any conflict of the specified type in which its bearer controls at
-least one participating character. This modifier applies to the
-player's total skill that is counted for the conflict, but does not
-modify the skill value of any of the characters participating in
-the conflict.
-Once the Imperial Favor is set to its military or political side, it
-must remain on that side until it is claimed again or changed by
-a card ability.
 
-14
-If a player in possession of the Imperial Favor wins the
-framework glory count in the conflict phase, that player claims
-the Imperial Favor again and may set it to either side.
-If players have the same total, the Imperial Favor remains in its
-current state (either unclaimed or under the possession of the
-player who currently has it, remaining set on its current side).
-The game begins with the Imperial Favor unclaimed.
-If a card ability causes the Imperial Favor to be claimed, it may
-be claimed from its unclaimed status, or claimed from a player.
-Each time the Imperial Favor is claimed, it may be set to either
-side.
-If a player is instructed to discard the Imperial Favor, that
-player returns the Imperial Favor to its unclaimed state in the
-token bank.
-In the skirmish format, the Imperial Favor is not set to a side as
-described above. Instead, the +1 skill modifier granted by the
-Imperial Favor applies to each conflict in which its bearer
-controls at least one participating character, regardless of
-conflict type.
-Related: Glory Count
-In Play and Out of Play
-The cards (generally characters and attachments) that a player
-controls in his or her play area (at home or participating in a
-conflict), a player's stronghold card, a player's faceup province
-cards, and all holdings on a player's provinces are considered "in
-play." A player's facedown provinces are considered in play only as
-"facedown provinces," and the ability text on such cards is not
-considered active until the card is revealed.
-"Out-of-play" refers to all other cards and areas involved in the
-game environment, including: character cards in a player's
-provinces, role cards, cards in a player's hand, decks, discard piles,
-and any cards that have been removed from the game.
-A card enters play when it transitions from an out-of-play origin
-to an in-play state.
-A card leaves play when it transitions from an in-play state to
-an out-of-play destination.
-A player's stronghold cannot leave play.
-If a card enters or leaves play, any lasting effects, delayed
-effects, or pending effects that are currently or about to
-interact with that card no longer do so. This is also true if a card
-transitions from one out-of-play area to another (such as going
-from hand to discard pile).
-If a card would enter a deck of the incorrect deck type (conflict
-or dynasty), it is put into the discard pile of its owner
-corresponding to its correct deck type instead.
-If a dynasty card would enter a player's hand of conflict cards,
-it is put into its owner's discard pile instead.
-If a conflict card would enter a player's provinces, it is put into
-its owner's conflict discard pile instead.
-Related: Enters Play, Leaves Play, Play and Put Into Play
-Influence, Influence Cost
-Influence is a deckbuilding resource that is indicated by a player's
-chosen stronghold for that deck. Many conflict deck cards have an
+=== Immune
+If a card is immune to a specified set of effects (for example, "immune to ring effects" or "immune to event card effects"), it cannot be targeted or affected by effects that belong to that set.
 
-influence cost, which makes them eligible for selection as an out-
-of-clan card.
+- Immunity only protects the immune card itself. Peripheral entities associated with an immune card (such as attachments, tokens on the card, and abilities that originate from the immune card) are not themselves immune.
+- If a card gains immunity to an effect, pre-existing lasting effects that have been applied to the card are not removed.
+- Immunity only protects a card from effects. It does not prevent a card from being used to pay costs.
 
-In the skirmish format, each player cannot spend more than 6
-influence to include out-of-clan cards in their deck.
-A player may spend influence up to the amount indicated by
-his or her stronghold to include out-of-clan cards from a single
-additional clan in his or her conflict deck.
-Each copy of a card that is chosen reduces the amount of
-influence a player has at his or her disposal to use in selecting
-other cards for the deck.
-A clan-affiliated card that has no influence cost cannot be
-selected using influence for inclusion in a deck.
-Example: Tom is building a Lion Clan deck, and has 10 influence to
-spend on out-of-clan cards, as indicated by the Lion stronghold,
-Shiro no Yojin. He must spend all of his influence on cards from a
-single clan. He chooses to select cards from the Crane Clan. Tom
-decides to include 3 copies of Admit Defeat (2 influence cost each),
-3 copies of The Perfect Gift (1 influence cost each), and 1 copy of
-Duelist Training (1 influence cost). As this is all of Tom's influence,
-he cannot include any other Crane Clan cards in his conflict deck.
-All of the other cards in Tom's conflict deck must either be from the
-Lion Clan, or be neutral.
-Initiating Abilities / Playing Cards
-Whenever a player wishes to play a card or initiate a triggered
-ability, that player first declares his or her intent (and shows the
-card to be used, if necessary). There are two preliminary
-confirmations that must be made before the process may begin.
+=== Imperial Favor, Imperial Favor Contest
+The Imperial Favor represents which player currently holds the favor of the Emperor. Step 3.4.1 of the conflict phase consists of a framework glory count. The winner of this count claims the Imperial Favor and may set it to either side if appropriate.
+
+- The +1 skill modifier granted by the Imperial Favor applies to any conflict of the specified type in which its bearer controls at least one participating character. This modifier applies to the player's total skill that is counted for the conflict, but does not modify the skill value of any of the characters participating in the conflict.
+- Once the Imperial Favor is set to its military or political side, it must remain on that side until it is claimed again or changed by a card ability.
+- If a player in possession of the Imperial Favor wins the framework glory count in the conflict phase, that player claims the Imperial Favor again and may set it to either side.
+- If players have the same total, the Imperial Favor remains in its current state (either unclaimed or under the possession of the player who currently has it, remaining set on its current side).
+- The game begins with the Imperial Favor unclaimed.
+- If a card ability causes the Imperial Favor to be claimed, it may be claimed from its unclaimed status, or claimed from a player. Each time the Imperial Favor is claimed, it may be set to either side.
+- If a player is instructed to discard the Imperial Favor, that player returns the Imperial Favor to its unclaimed state in the token bank.
+- In the skirmish format, the Imperial Favor is not set to a side as described above. Instead, the +1 skill modifier granted by the Imperial Favor applies to each conflict in which its bearer controls at least one participating character, regardless of conflict type.
+
+*Related*: Glory Count
+
+=== In Play and Out of Play
+The cards (generally characters and attachments) that a player controls in his or her play area (at home or participating in a conflict), a player's stronghold card, a player's faceup province cards, and all holdings on a player's provinces are considered "in play." A player's facedown provinces are considered in play only as "facedown provinces," and the ability text on such cards is not considered active until the card is revealed.
+
+"Out-of-play" refers to all other cards and areas involved in the game environment, including: character cards in a player's provinces, role cards, cards in a player's hand, decks, discard piles, and any cards that have been removed from the game.
+
+- A card enters play when it transitions from an out-of-play origin to an in-play state.
+- A card leaves play when it transitions from an in-play state to an out-of-play destination.
+- A player's stronghold cannot leave play.
+- If a card enters or leaves play, any lasting effects, delayed effects, or pending effects that are currently or about to interact with that card no longer do so. This is also true if a card transitions from one out-of-play area to another (such as going from hand to discard pile).
+- If a card would enter a deck of the incorrect deck type (conflict or dynasty), it is put into the discard pile of its owner corresponding to its correct deck type instead.
+- If a dynasty card would enter a player's hand of conflict cards, it is put into its owner's discard pile instead.
+- If a conflict card would enter a player's provinces, it is put into its owner's conflict discard pile instead.
+
+*Related*: Enters Play, Leaves Play, Play and Put Into Play
+
+=== Influence, Influence Cost
+Influence is a deckbuilding resource that is indicated by a player's chosen stronghold for that deck. Many conflict deck cards have an  influence cost, which makes them eligible for selection as an out- of-clan card.
+
+In the skirmish format, each player cannot spend more than 6 influence to include out-of-clan cards in their deck.
+
+- A player may spend influence up to the amount indicated by his or her stronghold to include out-of-clan cards from a single additional clan in his or her conflict deck.
+- Each copy of a card that is chosen reduces the amount of influence a player has at his or her disposal to use in selecting other cards for the deck.
+- A clan-affiliated card that has no influence cost cannot be selected using influence for inclusion in a deck.
+
+*Example*: _Tom is building a Lion Clan deck, and has 10 influence to spend on out-of-clan cards, as indicated by the Lion stronghold, Shiro no Yojin. He must spend all of his influence on cards from a single clan. He chooses to select cards from the Crane Clan. Tom decides to include 3 copies of Admit Defeat (2 influence cost each), 3 copies of The Perfect Gift (1 influence cost each), and 1 copy of Duelist Training (1 influence cost). As this is all of Tom's influence, he cannot include any other Crane Clan cards in his conflict deck. All of the other cards in Tom's conflict deck must either be from the Lion Clan, or be neutral._
+
+=== Initiating Abilities / Playing Cards
+Whenever a player wishes to play a card or initiate a triggered ability, that player first declares his or her intent (and shows the card to be used, if necessary). There are two preliminary confirmations that must be made before the process may begin.
+
 These are:
-1. Check play restrictions and verify the existence of eligible
-targets: can the card be played, or the ability initiated, at this
-time? If the play restrictions are not met, or there are not
-enough eligible targets for the ability, the process cannot
-proceed.
-2. Determine the cost (or costs, if multiple costs are required) to
-play the card or initiate the ability. If it is established that the
-cost (taking modifiers into account) can be paid, proceed with
-the remaining steps of this sequence.
-Once each of the preliminary confirmations has been made, follow
-these steps, in order:
+
+1. Check play restrictions and verify the existence of eligible targets: can the card be played, or the ability initiated, at this time? If the play restrictions are not met, or there are not enough eligible targets for the ability, the process cannot proceed.
+2. Determine the cost (or costs, if multiple costs are required) to play the card or initiate the ability. If it is established that the cost (taking modifiers into account) can be paid, proceed with the remaining steps of this sequence. +
+
+Once each of the preliminary confirmations has been made, follow these steps, in order:
+
 3. Apply any modifiers to the cost(s).
 4. Pay the cost(s).
-5. Choose target(s), if applicable. Any pre-effect instructions to
-"select" among multiple options in the ability are made at this
-time as well.
-6. The card attempts to enter play, or the effects of the ability
-attempt to initiate. An interrupt ability that cancels this
-initiation may be used at this time.
-7. The card enters play, or the effects of the ability (if not canceled
-in step 6) complete their initiation, and resolve.
-8. At this time the card is considered "played" or the ability
-"triggered."
-Interrupts and reactions may be used throughout this process as
-normal, should their triggering conditions occur.
-Related: Ability, Cost, Effects, Resolve an Ability, Target
+5. Choose target(s), if applicable. Any pre-effect instructions to "select" among multiple options in the ability are made at this time as well.
+6. The card attempts to enter play, or the effects of the ability attempt to initiate. An interrupt ability that cancels this initiation may be used at this time.
+7. The card enters play, or the effects of the ability (if not canceled in step 6) complete their initiation, and resolve.
+8. At this time the card is considered "played" or the ability "triggered."
 
-15
+Interrupts and reactions may be used throughout this process as normal, should their triggering conditions occur.
 
-In Player Order
-If the players are instructed to perform a sequence "in player
-order," the first player performs their part of the sequence first,
-followed by the player to the first player's left and continuing in
-clockwise order.
-If a sequence performed in player order does not conclude
-after each player has performed their aspect of the sequence
-once, the sequence of opportunities continues to alternate
-from player to player in clockwise order until it is complete.
-Interrupts
-An interrupt is a triggered ability whose text is prefaced by a
-boldface "Interrupt:" precursor. An interrupt ability interrupts the
-resolution of its triggering condition, sometimes canceling or
-changing the resolution of that condition. Always resolve
-interrupts to a triggering condition before resolving the
-consequences of the triggering condition itself.
-Unlike actions, which are resolved during action windows, an
-interrupt may be initiated only if its specified triggering condition
-occurs, as described in the interrupt ability's text.
-When a triggering condition initiates (but before it completes its
-resolution), an interrupt window for that triggering condition
-opens.
-Within the interrupt window, the first player always has the first
-opportunity to initiate an eligible interrupt (to the triggering
-condition that opened the window), or pass. Opportunities to
-initiate an eligible interrupt, or pass, continue to alternate between
-the players until all players consecutively pass, at which point the
-interrupt window closes. Passing does not prevent a player from
-initiating an eligible interrupt later in that same interrupt window.
-Once an interrupt window closes, further interrupts to that specific
-triggering condition cannot be initiated. The triggering condition
-now completes its resolution (as long as its effects have not been
-canceled).
-Unless otherwise noted by the ability, each interrupt ability
-may be initiated once each round. (This includes forced
-interrupts.)
-An interrupt with specified limit that enables it to be triggered
-more than once per round may only be initiated once each time
-its specified triggering condition occurs.
-If multiple players can trigger an interrupt ability, each may
-do so to the same triggering condition.
-Keywords
-A keyword is a card ability which conveys specific rules to its card.
-The keywords in the game are: Ancestral, Composure, Courtesy,
-Covert, Disguised, Eminent, Legendary X, Limited, No
-Attachments, Pride, Rally, Restricted, Sincerity, and Support.
-Sometimes a keyword is followed by reminder text, which is
-presented in italics. Reminder text is a shorthand explanation
-of how a keyword works, but it is not rules text and does not
-replace the rules for that keyword in this glossary.
-Keywords that resolve based on the occurrence of a triggering
-condition (such as a character leaving play) resolve
-immediately after the triggering condition occurs, before
-triggering any reaction abilities.
+*Related*: Ability, Cost, Effects, Resolve an Ability, Target
 
-A card can have multiple instances of the same keyword.
-However, a card that does so functions as if it has one instance
-of that keyword, and the keyword will only resolve once per
-triggering condition. Variable keywords (see below) are an
-exception: if a card has multiple instances of a variable
-keyword, each of those instances acts on the card
-independently.
-Some keywords, such as Composure, are variable keywords.
-Variable keywords operate in the same way as other keywords,
-but their effects are unique on a card-by-card basis. Each
-variable keyword has the same condition in which they become
-active, but different effects based on the individual card's text.
-Lasting Effects
-Some abilities create conditions that affect the game state for a
-specified duration. Such effects are known as lasting effects.
-A lasting effect persists beyond the resolution of the ability that
-created it, for the duration specified by the effect. The effect
-continues to affect the game state for the specified duration
-regardless of whether the card that created the lasting effect is
-or remains in play.
-If a lasting effect affects in-play cards (or a specified set of
-cards), it is only applied to cards that are in play (or that meet
-the specifications of the set) at the time the lasting effect is
-established. Cards that enter play (or change status to meet the
-criteria of the specified set) after a lasting effect's
-establishment are not affected by that lasting effect.
-A lasting effect expires as soon as the timing point specified by
-its duration is reached. This means that an "until the end of the
-phase" lasting effect expires before an "at the end of the
-phase" ability or delayed effect may initiate.
-A lasting effect that expires at the end of a specified time
-period can only be initiated during that time period.
-Leaves Play
-The phrase "leaves play" refers to any time a card makes a
-transition from an in-play state to an out-of-play destination.
-If a card leaves play, the following consequences occur
-simultaneously with the card leaving play:
-All tokens on the card are returned to the general token pool.
-All non-ancestral attachments on the card are discarded. All
-ancestral attachments on the card are returned to their
-owners' hands.
-All lasting effects and/or delayed effects affecting the card
-while it was in play expire for that card.
-Legendary X
-Some characters are shrouded in legend and mystery. These
-characters are given the Legendary keyword. It consists of the word
-"Legendary" followed by a variable, numerical value X, that can be
-0 or higher.
-Legendary X means: "This card enters play with X fate on it and
-cannot have more than X fate on it. Fate cannot be added to this
-card. It cannot be put into play or prevented from leaving play by
-card effects, and cannot enter play outside of the Dynasty phase."
+=== In Player Order
+If the players are instructed to perform a sequence "in player order," the first player performs their part of the sequence first, followed by the player to the first player's left and continuing in clockwise order.
+- If a sequence performed in player order does not conclude after each player has performed their aspect of the sequence once, the sequence of opportunities continues to alternate from player to player in  clockwise order until it is complete.
 
-16
+=== Interrupts
+An interrupt is a triggered ability whose text is prefaced by a boldface "*Interrupt*:" precursor. An interrupt ability interrupts the resolution of its triggering condition, sometimes canceling or changing the resolution of that condition. Always resolve interrupts to a triggering condition before resolving the consequences of the triggering condition itself.
 
-Limited
-Limited is a keyword ability. As an additional cost to play a card
-with the limited keyword, a player must bow their role card, this
-means that no more than one card in total with the limited
-keyword can be played by each player each round. Cards played
-from hand and played from a player's provinces are restricted by
-and count toward this limit.
-Limited cards that are "put into play" via card abilities ignore
-and are ignored by this restriction.
-Limit X per [period]
-This phrase specifies the number of times a triggered ability can be
-used during the designated period. This replaces the general
-restriction of using a triggered ability once per game round.
-Each copy of an ability with a specified limit may be used the
-specified number of times during the specified period.
-If a card leaves play and re-enters play during the same period,
-or if a card transitions from one out-of-play area to another
-(such as going from hand to discard pile), it is considered a new
-instance of the card. There is no memory of having used the
-ability during the specified period for any new instance of a
-card.
-All limits are player specific.
-If the effects of an ability with a limit are canceled, the use of
-the ability is still counted against the limit.
-Related: Limits of Triggered Abilities, Max X per [period]
-Limits of Triggered Abilities
-Unless otherwise specified, each triggered ability can only be used
-once per game round. This general restriction applies to any
-triggered ability that does not have "Limit X per [period]" printed
-as part of the ability's text.
-If a card leaves play and re-enters play during the same period,
-or if a card transitions from one out-of-play area to another
-(such as going from hand to discard pile), it is considered a new
-instance of the card. There is no memory of having used the
-ability for any new instance of a card for the purposes of this
-general restriction.
-If a card triggers its ability from a hidden out-of-play area (such
-as a hand or deck) but does not leave that hidden area, that
-ability may be triggered again because it is considered a new
-instance of the card.
-All limits are player specific.
-If the effects of an ability are canceled, the use of the ability is
-still counted against the general restriction of only once per
-game round.
-Related: Limit X per [period], Max X per [period]
-Loses
-If a player loses fate or honor, that player takes the specified
-amount of fate or honor and removes it from their fate pool or
-honor pool. Unless that player is moving the fate or honor to a
-specific destination, the token is returned to the general token
-pool.
+Unlike actions, which are resolved during action windows, an interrupt may be initiated only if its specified triggering condition occurs, as described in the interrupt ability's text.
 
-When tokens are removed from a card, that card is considered
-to lose those tokens. If the tokens are not moved to a specific
-destination, return them to the general token pool.
-Related: Gains, Give, Take
-Max X per [period]
-This phrase imposes a maximum number of times that an ability
-may be initiated from all copies (by title) of cards bearing the ability
-(including itself), during the designated period. Initiating an ability
-on a card counts toward the maximum for all copies of that card.
-Each maximum is player specific.
-If the effects of a card or ability with a maximum are canceled,
-the use of the card or ability is still counted against the
-maximum.
-An ability's maximum value cannot be modified.
-Related: Limit X per [period], Limits of Triggered Abilities
-May
-The word "may" indicates that a specified player has the option to
-do that which follows. If no player is specified, the option is granted
-to the controller of the card with the ability in question.
-Modifiers
-Some abilities may ask players to modify values. The game state
-constantly checks and (if necessary) updates the count of any
-variable quantity that is being modified.
-Any time a new modifier is applied (or removed), the entire
-quantity is recalculated from the start, considering the unmodified
-base value and all active modifiers.
-The calculation of a value treats all modifiers as being applied
-simultaneously. However, while performing the calculation, all
-additive and subtractive modifiers should be calculated before
-doubling and/or halving modifiers are calculated.
-Fractional values are rounded up after all modifiers have been
-applied.
-When a value is "set" to a specific number, the set modifier
-overrides all non-set modifiers (including any new non-set
-modifiers that are added during the duration of the set value).
-If multiple set modifiers are in conflict, the most recently
-applied set modifier takes precedence.
-A quantity cannot be reduced so that it functions with a value
-below zero: a card cannot have negative icons, political or
-military skill, glory, traits, cost, or keywords. Negative modifiers
-that would take a value below zero can be applied, but, after
-all active modifiers have been applied, any resultant value
-below zero is treated as zero.
-If a value "cannot be increased/decreased," any modifiers to
-that value that would increase/decrease it are ignored for the
-duration of the "cannot be increased/decreased" effect, even
-if those modifiers were applied before applying the "cannot be
-increased/decreased" effect.
-"Set" modifiers are not ignored, as they do not directly
-increase/decrease the value.
+When a triggering condition initiates (but before it completes its resolution), an interrupt window for that triggering condition opens.
 
-17
+Within the interrupt window, the first player always has the first opportunity to initiate an eligible interrupt (to the triggering condition that opened the window), or pass. Opportunities to initiate an eligible interrupt, or pass, continue to alternate between the  players until all players consecutively pass, at which point the interrupt window closes. Passing does not prevent a player from initiating an eligible interrupt later in that same interrupt window.
 
-Move
+Once an interrupt window closes, further interrupts to that specific triggering condition cannot be initiated. The triggering condition now completes its resolution (as long as its effects have not been canceled).
+
+- Unless otherwise noted by the ability, each interrupt ability may be initiated once each round. (This includes forced interrupts.)
+- An interrupt with specified limit that enables it to be triggered more than once per round may only be initiated once each time its specified triggering condition occurs.
+ ** If multiple players can trigger an interrupt ability, each may do so to the same triggering condition.
+
+=== Keywords
+A keyword is a card ability which conveys specific rules to its card. The keywords in the game are: Ancestral, Composure, Courtesy, Covert, Disguised, Eminent, Legendary X, Limited, No Attachments, Pride, Rally, Restricted, Sincerity, and Support.
+
+- Sometimes a keyword is followed by reminder text, which is presented in italics. Reminder text is a shorthand explanation of how a keyword works, but it is not rules text and does not replace the rules for that keyword in this glossary.
+- Keywords that resolve based on the occurrence of a triggering condition (such as a character leaving play) resolve immediately after the triggering condition occurs, before triggering any reaction abilities.
+- A card can have multiple instances of the same keyword. However, a card that does so functions as if it has one instance of that keyword, and the keyword will only resolve once per triggering condition. Variable keywords (see below) are an exception: if a card has multiple instances of a variable keyword, each of those instances acts on the card independently.
+- Some keywords, such as Composure, are variable keywords. Variable keywords operate in the same way as other keywords, but their effects are unique on a card-by-card basis. Each variable keyword has the same condition in which they become active, but different effects based on the individual card's text.
+
+=== Lasting Effects
+Some abilities create conditions that affect the game state for a specified duration. Such effects are known as lasting effects.
+
+- A lasting effect persists beyond the resolution of the ability that created it, for the duration specified by the effect. The effect continues to affect the game state for the specified duration regardless of whether the card that created the lasting effect is or remains in play.
+- If a lasting effect affects in-play cards (or a specified set of cards), it is only applied to cards that are in play (or that meet the specifications of the set) at the time the lasting effect is established. Cards that enter play (or change status to meet the criteria of the specified set) after a lasting effect's establishment are not affected by that lasting effect.
+- A lasting effect expires as soon as the timing point specified by its duration is reached. This means that an "until the end of the phase" lasting effect expires before an "at the end of the phase" ability or delayed effect may initiate.
+- A lasting effect that expires at the end of a specified time period can only be initiated during that time period.
+
+=== Leaves Play
+The phrase "leaves play" refers to any time a card makes a transition from an in-play state to an out-of-play destination.
+
+If a card leaves play, the following consequences occur simultaneously with the card leaving play:
+- All tokens on the card are returned to the general token pool.
+- All non-ancestral attachments on the card are discarded. All ancestral attachments on the card are returned to their owners' hands.
+- All lasting effects and/or delayed effects affecting the card while it was in play expire for that card.
+
+=== Legendary X
+Some characters are shrouded in legend and mystery. These characters are given the Legendary keyword. It consists of the word "Legendary" followed by a variable, numerical value X, that can be 0 or higher.
+
+Legendary X means: "This card enters play with X fate on it and cannot have more than X fate on it. Fate cannot be added to this card. It cannot be put into play or prevented from leaving play by card effects, and cannot enter play outside of the Dynasty phase."
+
+=== Limited
+Limited is a keyword ability. *As an additional cost to play a card with the limited keyword, a player must bow their role card, this means that* no more than one card in total with the limited keyword can be played by each player each round. Cards played from hand and played from a player's provinces are restricted by and count toward this limit.
+
+- Limited cards that are "put into play" via card abilities ignore and are ignored by this restriction.
+
+=== Limit X per [period]
+This phrase specifies the number of times a triggered ability can be used during the designated period. This replaces the general restriction of using a triggered ability once per game round.
+
+- Each copy of an ability with a specified limit may be used the specified number of times during the specified period.
+- If a card leaves play and re-enters play during the same period, or if a card transitions from one out-of-play area to another (such as going from hand to discard pile), it is considered a new instance of the card. There is no memory of having used the ability during the specified period for any new instance of a card.
+- All limits are player specific.
+- If the effects of an ability with a limit are canceled, the use of the ability is still counted against the limit.
+
+*Related*: Limits of Triggered Abilities, Max X per [period]
+
+=== Limits of Triggered Abilities
+Unless otherwise specified, each triggered ability can only be used once per game round. This general restriction applies to any triggered ability that does not have "Limit X per [period]" printed as part of the ability's text.
+
+- If a card leaves play and re-enters play during the same period, or if a card transitions from one out-of-play area to another (such as going from hand to discard pile), it is considered a new instance of the card. There is no memory of having used the ability for any new instance of a card for the purposes of this general restriction.
+- If a card triggers its ability from a hidden out-of-play area (such as a hand or deck) but does not leave that hidden area, that ability may be triggered again because it is considered a new instance of the card.
+- All limits are player specific.
+- If the effects of an ability are canceled, the use of the ability is still counted against the general restriction of only once per game round.
+
+*Related*: Limit X per [period], Max X per [period]
+
+=== Loses
+If a player loses fate or honor, that player takes the specified amount of fate or honor and removes it from their fate pool or honor pool. Unless that player is moving the fate or honor to a specific destination, the token is returned to the general token pool.
+
+- When tokens are removed from a card, that card is considered to lose those tokens. If the tokens are not moved to a specific destination, return them to the general token pool.
+
+*Related*: Gains, Give, Take
+
+=== Max X per [period]
+This phrase imposes a maximum number of times that an ability may be initiated from all copies (by title) of cards bearing the ability (including itself), during the designated period. Initiating an ability on a card counts toward the maximum for all copies of that card.
+
+- Each maximum is player specific.
+- If the effects of a card or ability with a maximum are canceled, the use of the card or ability is still counted against the maximum.
+- An ability's maximum value cannot be modified.
+
+*Related*: Limit X per [period], Limits of Triggered Abilities
+
+=== May
+The word "may" indicates that a specified player has the option to do that which follows. If no player is specified, the option is granted to the controller of the card with the ability in question.
+
+=== Modifiers
+Some abilities may ask players to modify values. The game state constantly checks and (if necessary) updates the count of any variable quantity that is being modified.
+
+Any time a new modifier is applied (or removed), the entire quantity is recalculated from the start, considering the unmodified base value and all active modifiers.
+
+- The calculation of a value treats all modifiers as being applied simultaneously. However, while performing the calculation, all additive and subtractive modifiers should be calculated before doubling and/or halving modifiers are calculated.
+- Fractional values are rounded up after all modifiers have been applied.
+- When a value is "set" to a specific number, the set modifier overrides all non-set modifiers (including any new non-set modifiers that are added during the duration of the set value). If multiple set modifiers are in conflict, the most recently applied set modifier takes precedence.
+- A quantity cannot be reduced so that it functions with a value below zero: a card cannot have negative icons, political or military skill, glory, traits, cost, or keywords. Negative modifiers that would take a value below zero can be applied, but, after all active modifiers have been applied, any resultant value below zero is treated as zero.
+- If a value "cannot be increased/decreased," any modifiers to that value that would increase/decrease it are ignored for the duration of the "cannot be increased/decreased" effect, even if those modifiers were applied before applying the "cannot be increased/decreased" effect.
+ ** "Set" modifiers are not ignored, as they do not directly increase/decrease the value.
+
+=== Move
 Some abilities allow players to move cards or tokens.
-When an entity moves, it cannot move to its same (current)
-placement. If there is no valid destination for a move, the move
-attempt cannot be made.
-When a character is moved into a conflict, that character is
-considered participating in the conflict on its controller's side.
-Mulligan
-During setup, each player has a single opportunity to mulligan any
-number of cards in his or her provinces, and a single opportunity
-to mulligan any number of cards in his or her hand. When a player
-decides to mulligan, the mulliganed cards are set aside, replaced
-with an equal number of cards from the top of the appropriate
-deck(s), and then shuffled back into the deck(s) from which they
-originated.
-Players mulligan (or pass the opportunity to do so) in player
-order. If the first player passes an opportunity to mulligan, that
-player cannot change his or her mind and then decide to
-mulligan during that step after seeing the opponent's decision.
-After a player mulligans the cards in their provinces, they may
-look at the new cards before drawing their conflict hand.
-Nested Ability Sequences
-Each time a triggering condition occurs, the following sequence is
-followed: (1) execute any interrupts to that triggering condition, (2)
-resolve the triggering condition itself, and then, (3) execute any
-reactions to that triggering condition.
-Within this sequence, if the use of an interrupt or reaction leads to
-a new triggering condition, the game pauses and starts a new
-sequence: (1) execute interrupts to the new triggering condition,
-(2) resolve the new triggering condition itself, and then, (3) execute
-reactions to the new triggering condition. This is called a nested
-sequence. Once this nested sequence is completed, the game
-returns to where it left off, continuing with the original triggering
-condition's sequence.
-It is possible that a nested sequence generates further triggering
-conditions (and hence more nested sequences). There is no limit to
-the number of nested sequences that may occur, but each nested
-sequence must complete before returning to the sequence that
-spawned it. In effect, these sequences are resolved in a Last In, First
-Out (LIFO) manner.
-Related: Interrupts, Reactions
-Neutral
-Some cards are not affiliated with any clan, these cards are neutral.
-Any deck may include neutral cards.
-Neutral cards are not considered to be in-clan or out-of-clan.
-No Attachments
-No attachments is a keyword ability. A card with this keyword
-cannot have an attachment card attached.
-If one or more traits precedes the word "attachments" (for
-example, "No Weapon or Armor attachments"), the card
-cannot have an attachment that possess one or more of the
 
-specified traits, but it can have attachments possessing none of
-those traits.
-If the word "attachments" is followed by the word "except" and
+- When an entity moves, it cannot move to its same (current) placement. If there is no valid destination for a move, the move attempt cannot be made.
+- When a character is moved into a conflict, that character is considered participating in the conflict on its controller's side.
+
+=== Mulligan
+During setup, each player has a single opportunity to mulligan any number of cards in his or her provinces, and a single opportunity to mulligan any number of cards in his or her hand. When a player decides to mulligan, the mulliganed cards are set aside, replaced with an equal number of cards from the top of the appropriate deck(s), and then shuffled back into the deck(s) from which they originated.
+
+- Players mulligan (or pass the opportunity to do so) in player order. If the first player passes an opportunity to mulligan, that player cannot change his or her mind and then decide to mulligan during that step after seeing the opponent's decision.
+- After a player mulligans the cards in their provinces, they may look at the new cards before drawing their conflict hand.
+
+=== Nested Ability Sequences
+Each time a triggering condition occurs, the following sequence is followed: (1) execute any interrupts to that triggering condition, (2) resolve the triggering condition itself, and then, (3) execute any reactions to that triggering condition.
+
+Within this sequence, if the use of an interrupt or reaction leads to a new triggering condition, the game pauses and starts a new sequence: (1) execute interrupts to the new triggering condition, (2) resolve the new triggering condition itself, and then, (3) execute reactions to the new triggering condition. This is called a nested sequence. Once this nested sequence is completed, the game returns to where it left off, continuing with the original triggering condition's sequence.
+
+It is possible that a nested sequence generates further triggering conditions (and hence more nested sequences). There is no limit to the number of nested sequences that may occur, but each nested sequence must complete before returning to the sequence that spawned it. In effect, these sequences are resolved in a Last In, First Out (LIFO) manner.
+
+*Related*: Interrupts, Reactions
+
+=== Neutral
+Some cards are not affiliated with any clan, these cards are neutral. Any deck may include neutral cards.
+
+- Neutral cards are not considered to be in-clan or out-of-clan.
+
+=== No Attachments
+No attachments is a keyword ability. A card with this keyword cannot have an attachment card attached.
+
+- If one or more traits precedes the word "attachments" (for example, "No *_Weapon_* or *_Armor_* attachments"), the card cannot have an attachment that possess one or more of the specified traits, but it can have attachments possessing none of those traits.
+- If the word "attachments" is followed by the word "except" and
 one or more traits (for example, "No attachments except
-Weapon"), the card can have attachments that possess one or
+*_Weapon_*"), the card can have attachments that possess one or
 more of the specified traits, but it cannot have attachments
 possessing none of those traits.
-If a card has multiple variants of the "No attachments"
-keyword, any variant that would prevent a card from having a
-given attachment prevails.
-Opponent
-In the stronghold format, as well as most games of the skirmish
-format, each player has only one opponent.
-In the enlightenment format, where each player has two
-opponents, a player's card ability that refers to "your opponent"
-only refers to the single opponent participating against that player
-in a conflict. It does not refer to the player not participating in the
-conflict.
-In the team conquest format, where all players can control
-participating characters in a conflict, a player's card ability that
-refers to "your opponent" or "an opponent" refers to either player
-on the opposing team, chosen when resolving the card ability.
-Ordinary
+- If a card has multiple variants of the "No attachments" keyword, any variant that would prevent a card from having a given attachment prevails.
+
+=== Opponent
+In the stronghold format, as well as most games of the skirmish format, each player has only one opponent.
+
+In the enlightenment format, where each player has two opponents, a player's card ability that refers to "your opponent" only refers to the single opponent participating against that player in a conflict. It does not refer to the player not participating in the conflict.
+
+In the team conquest format, where all players can control participating characters in a conflict, a player's card ability that refers to "your opponent" or "an opponent" refers to either player on the opposing team, chosen when resolving the card ability.
+
+=== Ordinary
 See "Personal Honor, Personal Dishonor".
-Own, Ownership
+
+=== Own, Ownership
 See "Control and Ownership".
-Participating and Cannot Participate
-Any character that has been declared as an attacker or defender
-for a conflict is considered participating in that conflict through its
-resolution, unless it is removed by an ability or game effect.
-Each character that is in play is either participating or not
-participating in each conflict.
-If an ability removes a character from a conflict or moves a
-character home, that character is no longer participating in the
-conflict and is returned to its controller's home area.
-If a non-participating character is moved into a conflict, it is
-considered participating on its controller's side.
-If a participating character is bowed, it is still considered
-participating, but will not contribute its skill toward the
-resolution of the conflict while in a bowed state.
-If a participating character leaves play for any reason, it is no
-longer participating in the conflict.
-A character played directly into a conflict from a player's hand
-is participating in the conflict. The controller of the character
-must indicate that this is the case when the character is played.
-If a character "cannot participate" in a conflict, that character
-cannot be declared as an attacker or defender for, move into,
-be played into, or put into play in that conflict. If an already
-participating character gains "cannot participate" status during
-a conflict, move it home bowed.
 
-18
-In the enlightenment format, only two players can control
-participating characters: one attacking player and one
-defending player. The third player in the game may take
-actions to influence the outcome of the conflict, but they
-cannot play or move characters to the conflict on either side
-(except as indicated by card effects).
-In the team conquest format, all four players can control
-participating characters. Characters controlled by players on
-the same team participate on the same side of the conflict and
-contribute their skill towards the same total.
-If a conflict does not have two participating players, it cannot
-resolve. Therefore, if a player is eliminated from the game in
-the middle of a conflict and the game does not end, the conflict
-immediately ends with no winner. Return the ring to the
-attacker's unclaimed ring pool (or the common unclaimed ring
-pool, as appropriate) and each participating character
-controlled by the remaining player returns home bowed.
-Pass
-There are times in the game at which a player has an option to
-perform an act (such as taking an action, triggering an ability, or
-executing a game step), or to pass. Passing in such a situation
-forfeits the player's right to perform that act in that moment.
-The first player to pass the opportunity to use an action or play
-a card during the dynasty phase forfeits the opportunity to do
-so for the remainder of the phase, and gains one fate.
-Other game sequences in which players have the option to pass
-continue until both players pass consecutively. If the first
-player passes, and the second player does not, the opportunity
-returns to the first player in the sequence. The sequence only
-ends when both players have passed in succession. (In other
-words, passing in such a sequence does not prevent a player
-from re-entering the sequence should the opponent not also
-pass in succession.)
-When passing an opportunity to declare a conflict, a player is
-not required to specify which type of conflict he or she is
-passing.
-Personal Honor, Personal Dishonor
-Personal honor is a means of tracking the honored or dishonored
-status of individual character cards. Each character exists in one of
-three states:
-Honored
-Ordinary
-Dishonored
-Characters enter play with ordinary status. Honored status tokens
-and dishonored status tokens are used to track the state of a
-character that receives a status other than ordinary.
-When a character is honored, it receives an honored status
-token to indicate its honored status. An honored character
-adds its glory value to both its military and political skill so long
-as it possesses that token. When an honored character leaves
-play its controller gains 1 honor.
-When a character is dishonored, it receives a dishonored status
-token to indicate its dishonored status. A dishonored character
-subtracts its glory value from both its military and political skill
-so long as it possesses that token. When a dishonored
-character leaves play its controller loses 1 honor.
+=== Participating and Cannot Participate
+Any character that has been declared as an attacker or defender for a conflict is considered participating in that conflict through its resolution, unless it is removed by an ability or game effect.
 
-When an honored character is dishonored, it loses its honored
-status, discards the status token, and returns to ordinary
-status. Likewise, when a dishonored character is honored, it
-loses its dishonored status, discards the status token, and
-returns to ordinary status.
-A character with an honored status token cannot become
-honored. A character with a dishonored status token cannot
-become dishonored.
-Should a character have both an honored status token and a
-dishonored status token at the same time, discard both tokens.
-The character returns to the ordinary state.
-If a character enters play honored or dishonored, abilities
-cannot be triggered from that character becoming honored or
-dishonored, as it enters play already with that status.
-Play and Put into Play
-Playing a character or attachment card involves paying the card's
-fate cost and placing the card in the play area. This causes the card
-to enter play. Cards are played from a player's hand or provinces.
-Any time a character card is played, its controller has the option of
-placing additional fate from his or her fate pool on the card.
-Some card abilities put cards into play. This bypasses the need to
-pay the card's cost, as well as the opportunity to place additional
-fate on the card. A card that is put into play bypasses any
-restrictions or prohibitions regarding the potential of playing that
-card. A card that is put into play enters play in its controller's play
-area.
-A card that has been put into play is not considered to have
-been "played."
-In order to play a card, its fate cost (after modifiers) must be
-paid.
-When a card is put into play, its fate cost is ignored.
-Unless otherwise instructed by the put into play effect,
-characters that enter play in this manner do so ready and at
-home. Non-character cards that enter play in this manner must
-do so in a play area or state that matches the rules of playing
-the card.
-When an event card is played, place it on the table, then pay
-its cost, resolve its ability, and place the card in its owner's
-discard pile. The event is not in your hand (or province) while
-paying its cost. If the cost of an event is (partially) prevented,
-it is still placed in its owners corresponding discard pile.
-No card in a player's conflict or dynasty deck can be played
-from that deck unless by a card effect that specifically
-references playing the card from that deck.
-Play Restrictions and Permissions
-Many cards or abilities contain specific instructions pertaining to
-when or how they may or may not be used, or to specific conditions
-that must be true in order to use them. In order to use such an
-ability or to play such a card, all play restrictions must be observed.
-A permission is a variant of a play restriction that provides a player
-with additional options as to how the card may be played or used,
-outside of the game's general specification regarding how the card
-or ability would normally be used.
+- Each character that is in play is either participating or not participating in each conflict.
+- If an ability removes a character from a conflict or moves a character home, that character is no longer participating in the conflict and is returned to its controller's home area.
+- If a non-participating character is moved into a conflict, it is considered participating on its controller's side.
+- If a participating character is bowed, it is still considered participating, but will not contribute its skill toward the resolution of the conflict while in a bowed state.
+- If a participating character leaves play for any reason, it is no longer participating in the conflict.
+- A character played directly into a conflict from a player's hand is participating in the conflict. The controller of the character must indicate that this is the case when the character is played.
+- If a character "cannot participate" in a conflict, that character cannot be declared as an attacker or defender for, move into, be played into, or put into play in that conflict. If an already participating character gains "cannot participate" status during a conflict, move it home bowed.
+- In the enlightenment format, only two players can control participating characters: one attacking player and one defending player. The third player in the game may take actions to influence the outcome of the conflict, but they cannot play or move characters to the conflict on either side (except as indicated by card effects).
+- In the team conquest format, all four players can control participating characters. Characters controlled by players on the same team participate on the same side of the conflict and contribute their skill towards the same total.
+- If a conflict does not have two participating players, it cannot resolve. Therefore, if a player is eliminated from the game in the middle of a conflict and the game does not end, the conflict immediately ends with no winner. Return the ring to the attacker's unclaimed ring pool (or the common unclaimed ring pool, as appropriate) and each participating character controlled by the remaining player returns home bowed.
 
-19
+=== Pass
+There are times in the game at which a player has an option to perform an act (such as taking an action, triggering an ability, or executing a game step), or to pass. Passing in such a situation forfeits the player's right to perform that act in that moment.
 
+- The first player to pass the opportunity to use an action or play a card during the dynasty phase forfeits the opportunity to do so for the remainder of the phase, and gains one fate.
+- Other game sequences in which players have the option to pass continue until both players pass consecutively. If the first player passes, and the second player does not, the opportunity returns to the first player in the sequence. The sequence only ends when both players have passed in succession. (In other words, passing in such a sequence does not prevent a player from re-entering the sequence should the opponent not also pass in succession.)
+- When passing an opportunity to declare a conflict, a player is not required to specify which type of conflict he or she is passing.
+
+=== Personal Honor, Personal Dishonor
+Personal honor is a means of tracking the honored or dishonored status of individual character cards. Each character exists in one of three states:
+
+- Honored
+- Ordinary
+- Dishonored
+
+Characters enter play with ordinary status. Honored status tokens and dishonored status tokens are used to track the state of a character that receives a status other than ordinary.
+
+- When a character is honored, it receives an honored status token to indicate its honored status. An honored character adds its glory value to both its military and political skill so long as it possesses that token. When an honored character leaves play its controller gains 1 honor.
+- When a character is dishonored, it receives a dishonored status token to indicate its dishonored status. A dishonored character subtracts its glory value from both its military and political skill
+so long as it possesses that token. When a dishonored character leaves play its controller loses 1 honor.
+- When an honored character is dishonored, it loses its honored status, discards the status token, and returns to ordinary status. Likewise, when a dishonored character is honored, it loses its dishonored status, discards the status token, and returns to ordinary status.
+- A character with an honored status token cannot become honored. A character with a dishonored status token cannot become dishonored.
+- Should a character have both an honored status token and a dishonored status token at the same time, discard both tokens. The character returns to the ordinary state.
+- If a character enters play honored or dishonored, abilities cannot be triggered from that character becoming honored or dishonored, as it enters play already with that status.
+
+=== Play and Put into Play
+*Play*ing a character or attachment card involves paying the card's fate cost and placing the card in the play area. This causes the card to enter play. Cards are played from a player's hand or provinces. Any time a character card is played, its controller has the option of placing additional fate from his or her fate pool on the card.
+
+Some card abilities *put* cards *into play*. This bypasses the need to pay the card's cost, as well as the opportunity to place additional fate on the card. A card that is put into play bypasses any restrictions or prohibitions regarding the potential of playing that card. A card that is put into play enters play in its controller's play area.
+
+- A card that has been put into play is not considered to have been "played."
+- In order to play a card, its fate cost (after modifiers) must be paid.
+- When a card is _put into play_, its fate cost is ignored.
+- Unless otherwise instructed by the put into play effect, characters that enter play in this manner do so ready and at home. Non-character cards that enter play in this manner must do so in a play area or state that matches the rules of playing the card.
+- When an event card is played, place it on the table, *then pay its cost*, resolve its ability, and place the card in its owner's discard pile. The event is not in your hand (or province) while paying its cost. If the cost of an event is (partially) prevented, it is still placed in its owners corresponding discard pile.
+- No card in a player's conflict or dynasty deck can be played from that deck unless by a card effect that specifically references playing the card from that deck.
+
+=== Play Restrictions and Permissions
+Many cards or abilities contain specific instructions pertaining to when or how they may or may not be used, or to specific conditions that must be true in order to use them. In order to use such an ability or to play such a card, all play restrictions must be observed.
+
+A permission is a variant of a play restriction that provides a player with additional options as to how the card may be played or used, outside of the game's general specification regarding how the card or ability would normally be used.
+
+[ WORKING ENTRY POINT ] +
 Player Elimination
 In most game formats, players are eliminated from the game when
 certain conditions are met. Once a player is eliminated from the

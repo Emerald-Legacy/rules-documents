@@ -29,10 +29,11 @@ jobs:
         distribution: 'temurin'
         java-version: 17
     - name: Execute Gradle Build
-      uses: eskatos/gradle-command-action@v2
+      uses: gradle/gradle-build-action@v2
+      env:
+        CI: true
       with:
-        # Gradle command line arguments, see gradle --help
-        gradle-version: 7.5.1
+        gradle-version: wrapper
         arguments: renderRulesDocuments
     - name: Prepare Deployment
       run: |

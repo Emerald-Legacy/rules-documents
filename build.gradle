@@ -1,57 +1,87 @@
-import org.asciidoctor.gradle.jvm.AsciidoctorTask
-import java.text.SimpleDateFormat
-
 plugins {
-    id "org.asciidoctor.jvm.base" version "3.3.2"
-    id "org.asciidoctor.jvm.convert" version "3.3.2"
-    id "org.asciidoctor.jvm.pdf" version "3.3.2"
+    id 'org.asciidoctor.jvm.convert' version '3.3.2'
+    id 'org.asciidoctor.jvm.pdf' version '3.3.2'
 }
+
+defaultTasks 'clean', 'asciidoctor'
+
 repositories {
     mavenCentral()
 }
 
-asciidoctorj {
-    version = '2.5.3'
+configurations {
+    asciidocExtensions
 }
 
-class RenderTask extends AsciidoctorTask {
-    @Inject
-    RenderTask(WorkerExecutor we) {
-        super(we)
+dependencies {
+    // Needed to make the docExtensions work on Gradle 7.6, likely no longer needed when asciidoctor-gradle 4.0
+    asciidocExtensions gradleApi()
+}
 
-        forkOptions {
-            jvmArgs "--add-opens", "java.base/sun.nio.ch=ALL-UNNAMED", "--add-opens", "java.base/java.io=ALL-UNNAMED"
+asciidoctorj {
+    version = '2.5.10'
+    modules {
+        pdf {
+            version '2.3.7'
         }
-
-        sourceDir = new File("./docs/")
-        baseDir = new File ("./docs/")
-        sources {
-            include "Rules Reference Guide.adoc"
-            include "index.adoc"
+        groovyDsl {
+            // Default of asciidoctor-gradle-plugin 3.3.2 depends on 2.0.0 which is not on Maven Central.
+            // Remove once newer version of the plugin is released.
+            // see also https://github.com/asciidoctor/asciidoctor-gradle-plugin/issues/620
+            version '2.0.2'
         }
-
-        outputDir = new File("./build/")
-        outputOptions {
-            separateOutputDirs = false
-            backends 'pdf', 'html'
-        }
-
-
-        attributes = [
-                'icons'             : 'font',
-                'version-label'     : '',
-                'currentDate'       : '',
-                'language'          : 'EN',
-                'imagesdir'         : 'images',
-                'pdf-stylesdir'     : '../pdf-theme/themes',
-                'pdf-fontsdir'      : '../pdf-theme/fonts',
-                'pdf-style'         : 'el'
-        ]
     }
 }
 
+asciidoctor {
+    configurations 'asciidocExtensions'
+    baseDirFollowsSourceDir()
+    sourceDir = new File("./docs/")
+    baseDir = new File ("./docs/")
 
-task renderRulesDocuments(type: RenderTask) {
+    outputDir = new File("./build/")
+
+    sources {
+        include '*.adoc'
+    }
+    attributes 'revnumber': null,
+            'stylesdir': file('src/docs/theme/jaybird-html'), 'stylesheet': 'firebird.css',
+            'docinfo': 'shared', 'docinfodir': file('src/docs/theme/jaybird-html/docinfo')
+    forkOptions {
+        jvmArgs "--add-opens", "java.base/sun.nio.ch=ALL-UNNAMED", "--add-opens", "java.base/java.io=ALL-UNNAMED"
+    }
+}
+
+pdfThemes {
+    local 'el', {
+        themeDir = file('pdf-theme/themes/')
+        themeName = 'el'
+    }
+}
+
+asciidoctorPdf {
+    configurations 'asciidocExtensions'
+    baseDirFollowsSourceDir()
+    sourceDir = new File("./docs/")
+    baseDir = new File ("./docs/")
+
+    outputDir = new File("./build/")
+    sources {
+        include '*.adoc'
+    }
+
+    attributes 'revnumber': null, 'source-highlighter': 'rouge', 'media': 'screen',
+            'compress': '', 'icons': 'font', 'icon-set': 'fas', 'pdf-fontsdir': "${file('pdf-theme/fonts')},GEM_FONTS_DIR"
+    theme 'el'
+    forkOptions {
+        jvmArgs "--add-opens", "java.base/sun.nio.ch=ALL-UNNAMED", "--add-opens", "java.base/java.io=ALL-UNNAMED"
+    }
+}
+
+// Create the HTML and PDF output and copy them to the build/pages folder
+// Primarily intended for the travis-ci build to deploy to GitHub pages
+tasks.register('renderRulesDocuments') {
+    dependsOn asciidoctor, asciidoctorPdf
 }
 
 defaultTasks "renderRulesDocuments"
