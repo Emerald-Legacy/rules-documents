@@ -47,6 +47,7 @@ Changes to the previous version are marked in [.new]#bold and green.#
 * https://www.emeralddb.org/card/shameful-display[Shameful Display]
 * https://www.emeralddb.org/card/slovenly-scavenger[Slovenly Scavenger]
 * https://www.emeralddb.org/card/the-imperial-palace[The Imperial Palace]
+* https://www.emeralddb.org/card/unveiled-corruption[Unveiled Corruption,role=new]
 * https://www.emeralddb.org/card/way-of-the-warrior[Way of the Warrior]
 
 
@@ -158,11 +159,11 @@ a|
 * https://www.emeralddb.org/card/mark-of-shame[Mark of Shame]
 
 === image:mons/unicorn.svg[width=20] Unicorn
-
+* https://www.emeralddb.org/card/captive-audience[Captive Audience,role=new]
+* https://www.emeralddb.org/card/command-the-tributary[Command the Tributary]
 * https://www.emeralddb.org/card/scouted-terrain[Scouted Terrain]
 * https://www.emeralddb.org/card/swift-magistrate[Swift Magistrate]
 * https://www.emeralddb.org/card/utaku-tetsuko[Utaku Tetsuko]
-* https://www.emeralddb.org/card/command-the-tributary[Command the Tributary]
 
 a|
 :show-link-uri!:
