@@ -169,8 +169,8 @@ a|
 :show-link-uri!:
 == Splash Banned Cards
 === image:mons/phoenix.svg[width=20] Phoenix
-* https://www.emeralddb.org/card/against-the-waves[Against the Waves]
-* https://www.emeralddb.org/card/display-of-power[Display of Power,role=line-through new]
+* https://www.emeralddb.org/card/against-the-waves[Against the Waves,role=line-through new]
+* https://www.emeralddb.org/card/display-of-power[Display of Power]
 
 === image:mons/unicorn.svg[width=20] Unicorn
 * https://www.emeralddb.org/card/favored-mount[Favored Mount]
