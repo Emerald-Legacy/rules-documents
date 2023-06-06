@@ -59,8 +59,6 @@ Changes to the previous version are marked in [.new]#bold and green.#
 * https://www.emeralddb.org/card/kami-unleashed[Kami Unleashed]
 * https://www.emeralddb.org/card/keeper-initiate[Keeper Initiate]
 * https://www.emeralddb.org/card/proving-ground[Proving Ground]
-* https://www.emeralddb.org/card/slovenly-scavenger[Slovenly Scavenger]
-* https://www.emeralddb.org/card/lay-of-the-land[Lay of the Land]
 
 === image:mons/crab.svg[width=20] Crab
 * https://www.emeralddb.org/card/kuni-laboratory[Kuni Laboratory]
