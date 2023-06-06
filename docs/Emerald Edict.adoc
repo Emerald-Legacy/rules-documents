@@ -137,6 +137,7 @@ a|
 === image:mons/lion.svg[width=20] Lion
 * https://www.emeralddb.org/card/called-to-war[Called to War]
 * https://www.emeralddb.org/card/chronicler-of-conquests[Chronicler of Conquests]
+* https://www.emeralddb.org/card/field-tactician[Field Tactician]
 * https://www.emeralddb.org/card/master-tactician[Master Tactician]
 
 === image:mons/phoenix.svg[width=20] Phoenix
