@@ -104,20 +104,25 @@ Changes to the previous version are marked in [.new]#bold and green.#
 * https://www.emeralddb.org/card/deployed-garrison[Deployed Garrison]
 * https://www.emeralddb.org/card/karada-district[Karada District]
 * https://www.emeralddb.org/card/rebuild[Rebuild]
+* https://www.emeralddb.org/card/seal-of-the-crab[Seal of the Crab, role=new]
 * https://www.emeralddb.org/card/yasuki-broker[Yasuki Broker]
 
 === image:mons/crane.svg[width=20] Crane
+* https://www.emeralddb.org/card/a-new-name[A New Name, role=new]
 * https://www.emeralddb.org/card/daidoji-netsu[Daidoji Netsu]
 * https://www.emeralddb.org/card/guest-of-honor[Guest of Honor]
 * https://www.emeralddb.org/card/kakita-toshimoko[Kakita Toshimoko]
 * https://www.emeralddb.org/card/magistrate-station[Magistrate Station]
+* https://www.emeralddb.org/card/seal-of-the-crane[Seal of the Crane, role=new]
 
 === image:mons/dragon.svg[width=20] Dragon
 * https://www.emeralddb.org/card/centered-breath[Centered Breath]
+* https://www.emeralddb.org/card/seal-of-the-dragon[Seal of the Dragon, role=new]
 * https://www.emeralddb.org/card/togashi-mitsu[Togashi Mitsu 1]
 
 === image:mons/lion.svg[width=20] Lion
 * https://www.emeralddb.org/card/lion-s-pride-paragon[Lion’s Pride Paragon]
+* https://www.emeralddb.org/card/seal-of-the-lion[Seal of the Lion, role=new]
 
 === image:mons/phoenix.svg[width=20] Phoenix
 * https://www.emeralddb.org/card/calling-the-storm[Calling the Storm]
@@ -126,16 +131,7 @@ Changes to the previous version are marked in [.new]#bold and green.#
 * https://www.emeralddb.org/card/isawa-tadaka[Isawa Tadaka 1]
 * https://www.emeralddb.org/card/kanjo-district[Kanjo District]
 * https://www.emeralddb.org/card/master-of-gisei-toshi[Master of Gisei Toshi]
-
-=== image:mons/scorpion.svg[width=20] Scorpion
-* https://www.emeralddb.org/card/cunning-magistrate[Cunning Magistrate]
-* https://www.emeralddb.org/card/forged-edict[Forged Edict]
-* https://www.emeralddb.org/card/hidden-moon-dojo[Hidden Moon Dōjō]
-* https://www.emeralddb.org/card/yogo-junzo[Yogo Junzo]
-* https://www.emeralddb.org/card/subterfuge[Subterfuge]
-
-=== image:mons/unicorn.svg[width=20] Unicorn
-* https://www.emeralddb.org/card/spyglass[Spyglass]
+* https://www.emeralddb.org/card/seal-of-the-phoenix[Seal of the Phoenix, role=new]
 
 a|
 :show-link-uri!:
@@ -178,5 +174,28 @@ a|
 * https://www.emeralddb.org/card/steed-of-the-steppes[Steed of the Steppes]
 * https://www.emeralddb.org/card/talisman-of-the-sun[Talisman of the Sun]
 * https://www.emeralddb.org/card/lay-of-the-land[Lay of the Land]
+
+|
+:show-link-uri!:
+== Banned Cards
+=== image:mons/scorpion.svg[width=20] Scorpion
+* https://www.emeralddb.org/card/cunning-magistrate[Cunning Magistrate]
+* https://www.emeralddb.org/card/forged-edict[Forged Edict]
+* https://www.emeralddb.org/card/hidden-moon-dojo[Hidden Moon Dōjō]
+* https://www.emeralddb.org/card/seal-of-the-scorpion[Seal of the Scorpion, role=new]
+* https://www.emeralddb.org/card/subterfuge[Subterfuge]
+* https://www.emeralddb.org/card/yogo-junzo[Yogo Junzo]
+
+=== image:mons/unicorn.svg[width=20] Unicorn
+* https://www.emeralddb.org/card/seal-of-the-unicorn[Seal of the Unicorn, role=new]
+* https://www.emeralddb.org/card/spyglass[Spyglass]
+
+a|
+:show-link-uri!:
+== Restricted cards
+
+a|
+:show-link-uri!:
+== Splash Banned Cards
 
 |===
