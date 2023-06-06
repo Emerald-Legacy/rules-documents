@@ -153,7 +153,6 @@ a|
 
 === image:mons/unicorn.svg[width=20] Unicorn
 * https://www.emeralddb.org/card/captive-audience[Captive Audience,role=new]
-* https://www.emeralddb.org/card/command-the-tributary[Command the Tributary]
 * https://www.emeralddb.org/card/scouted-terrain[Scouted Terrain]
 * https://www.emeralddb.org/card/swift-magistrate[Swift Magistrate]
 * https://www.emeralddb.org/card/utaku-tetsuko[Utaku Tetsuko]
