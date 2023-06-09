@@ -203,8 +203,8 @@ a|
 == Rotated Cards
 [.text-center]
 All the cards listed here rotated out of the valid card pool and are not allowed to be used in official
-Emerald Legacy tournaments. Unlike Banned Cards, which might be unbanned at some point,
-rotated card will never return to the valid card pool.
+Emerald Legacy tournaments. Unlike Banned cards, which might be unbanned at some point,
+rotated cards will never return to the valid card pool.
 
 [cols="1a,1a,1a",stripes=none,frame=none,grid=none]
 |===
