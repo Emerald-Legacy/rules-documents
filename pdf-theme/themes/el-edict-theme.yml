@@ -57,6 +57,22 @@ role:
   new:
     font_color: #2A6419
     font_style: bold
+  crab:
+    font_color: #294056
+  crane:
+    font_color: #73A0CA
+  dragon:
+    font_color: #426C44
+  lion:
+    font_color: #C3AA71
+  neutral:
+    font_color: #494848
+  phoenix:
+    font_color: #BC510A
+  scorpion:
+    font_color: #742425
+  unicorn:
+    font_color: #4E2E6A
 
 # correct line height for Noto Serif metrics (comes with built-in line height)
 vertical_rhythm: $base_line_height_length
