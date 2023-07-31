@@ -803,7 +803,7 @@ so long as it possesses that token. When a dishonored character leaves play its 
 - If a character enters play honored or dishonored, abilities cannot be triggered from that character becoming honored or dishonored, as it enters play already with that status.
 
 === Play and Put into Play
-*Play*ing a character or attachment card involves paying the card's fate cost and placing the card in the play area. This causes the card to enter play. Cards are played from a player's hand or provinces. Any time a character card is played, its controller has the option of placing additional fate from his or her fate pool on the card.
+*Playing* a character or attachment card involves paying the card's fate cost and placing the card in the play area. This causes the card to enter play. Cards are played from a player's hand or provinces. Any time a character card is played, its controller has the option of placing additional fate from his or her fate pool on the card.
 
 Some card abilities *put* cards *into play*. This bypasses the need to pay the card's cost, as well as the opportunity to place additional fate on the card. A card that is put into play bypasses any restrictions or prohibitions regarding the potential of playing that card. A card that is put into play enters play in its controller's play area.
 
@@ -819,38 +819,21 @@ Many cards or abilities contain specific instructions pertaining to when or how 
 
 A permission is a variant of a play restriction that provides a player with additional options as to how the card may be played or used, outside of the game's general specification regarding how the card or ability would normally be used.
 
+=== Player Elimination
+In most game formats, players are eliminated from the game when certain conditions are met. Once a player is eliminated from the game, all cards that player owns are immediately removed from the game, and their honor dial is ignored for the purposes of card abilities for the rest of the game. If, after a player is eliminated, only one player remains in the game, that player is the game's winner.
+
+ - If a player is eliminated from an enlightenment format game, perform the following steps:
+ ** Any ring tokens an eliminated player had claimed on their provinces, or that are in the eliminated player's personal unclaimed ring pool, are placed in the common unclaimed ring pool.
+ ** If the eliminated player was the first player, the first player token immediately passes to the player on the eliminated player's left.
+ ** Any treaties made by the eliminated player are immediately dissolved.
+ - Players are not eliminated from a team conquest format game until their entire team loses. If a player's stronghold province is broken, they continue to play, with the following penalties:
+ ** Treat the printed text box of that player's stronghold as if it were blank (except for *_Traits_*).
+ ** That player cannot bid more than two during honor bids.
+ ** That player cannot reshuffle either of their decks if those decks run out of cards.
+ ** If a player reaches zero honor, their stronghold province is immediately broken.
+ ** Broken stronghold provinces are immune to all card effects.
+
 [ WORKING ENTRY POINT ] +
-Player Elimination
-In most game formats, players are eliminated from the game when
-certain conditions are met. Once a player is eliminated from the
-game, all cards that player owns are immediately removed from
-the game, and their honor dial is ignored for the purposes of card
-abilities for the rest of the game. If, after a player is eliminated,
-only one player remains in the game, that player is the game's
-winner.
-If a player is eliminated from an enlightenment format game,
-perform the following steps:
-Any ring tokens an eliminated player had claimed on their
-provinces, or that are in the eliminated player's personal
-unclaimed ring pool, are placed in the common unclaimed
-ring pool.
-If the eliminated player was the first player, the first player
-token immediately passes to the player on the eliminated
-player's left.
-Any treaties made by the eliminated player are
-immediately dissolved.
-Players are not eliminated from a team conquest format game
-until their entire team loses. If a player's stronghold province is
-broken, they continue to play, with the following penalties:
-Treat the printed text box of that player's stronghold as if
-it were blank (except for Traits).
-That player cannot bid more than two during honor bids.
-That player cannot reshuffle either of their decks if those
-decks run out of cards.
-If a player reaches zero honor, their stronghold province is
-immediately broken.
-Broken stronghold provinces are immune to all card
-effects.
 Pride
 Pride is a keyword ability. After a character with the pride keyword
 wins a conflict, honor that character. After a character with the
@@ -871,6 +854,7 @@ If the resolution of two or more delayed effects or forced
 abilities would resolve at the same time, the first player decides
 the order in which the abilities resolve, regardless of who
 controls the cards bearing the conflicting abilities.
+
 
 If two or more constant abilities and/or lasting effects can be
 applied simultaneously, they are. If two or more constant
@@ -926,8 +910,6 @@ card with the rally keyword is revealed in a player's provinces, that
 player fills the same province faceup. Both cards are in the province
 together, and either can be played as an action during the dynasty
 phase. Do not refill a province until it is empty.
-
-20
 When a province is filled or refilled faceup, or when a card is
 added to a province faceup, that card is not revealed and the
 rally keyword on it does not trigger.
