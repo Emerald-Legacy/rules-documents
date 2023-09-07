@@ -8,7 +8,7 @@
 
 = image:el_logo.png[pdfwidth=70%,role=center]pass:q[<br>]Emerald Edict
 Emerald Legacy
-Version 6.0 – May 3, 2023
+Version 7.0 – September 6, 2023
 
 :show-link-uri!:
 
@@ -33,7 +33,7 @@ Changes to the previous version are marked in [.new]#bold and green.#
 === image:mons/neutral.svg[width=20] [.neutral]#Neutral#
 * https://www.emeralddb.org/card/accursed-summoning[Accursed Summoning]
 * https://www.emeralddb.org/card/audience-chamber[Audience Chamber]
-* https://www.emeralddb.org/card/bake-kujira[Bake-Kujira]
+* https://www.emeralddb.org/card/bake-kujira[Bake-Kujira, role="new line-through"]
 * https://www.emeralddb.org/card/charge[Charge!]
 * https://www.emeralddb.org/card/city-of-the-rich-frog[City of the Rich Frog]
 * https://www.emeralddb.org/card/enlightenment[Enlightenment]
@@ -45,7 +45,7 @@ Changes to the previous version are marked in [.new]#bold and green.#
 * https://www.emeralddb.org/card/shameful-display[Shameful Display]
 * https://www.emeralddb.org/card/slovenly-scavenger[Slovenly Scavenger]
 * https://www.emeralddb.org/card/the-imperial-palace[The Imperial Palace]
-* https://www.emeralddb.org/card/unveiled-corruption[Unveiled Corruption,role=new]
+* https://www.emeralddb.org/card/unveiled-corruption[Unveiled Corruption]
 * https://www.emeralddb.org/card/way-of-the-warrior[Way of the Warrior]
 
 
@@ -69,7 +69,8 @@ Changes to the previous version are marked in [.new]#bold and green.#
 
 === image:mons/dragon.svg[width=20] [.dragon]#Dragon#
 * https://www.emeralddb.org/card/adorned-temple[Adorned Temple]
-* https://www.emeralddb.org/card/sacred-sanctuary[Sacred Sanctuary]
+* https://www.emeralddb.org/card/sacred-sanctuary[Sacred Sanctuary, role="new line-through"]
+* https://www.emeralddb.org/card/togashi-mitsu-2[Togashi Mitsu 2, role=new]
 
 
 |
@@ -84,7 +85,7 @@ Changes to the previous version are marked in [.new]#bold and green.#
 * https://www.emeralddb.org/card/return-the-offense[Return the Offense]
 
 === image:mons/dragon.svg[width=20] [.dragon]#Dragon#
-* https://www.emeralddb.org/card/indomitable-will[Indomitable Will]
+* https://www.emeralddb.org/card/indomitable-will[Indomitable Will, role="new line-through"]
 * https://www.emeralddb.org/card/mirumotos-fury[Mirumoto's Fury]
 * https://www.emeralddb.org/card/shoshi-ni-kie[Shoshi ni Kie]
 
@@ -99,28 +100,28 @@ Changes to the previous version are marked in [.new]#bold and green.#
 :show-link-uri!:
 == Banned Cards
 === image:mons/crab.svg[width=20] [.crab]#Crab#
-* https://www.emeralddb.org/card/deployed-garrison[Deployed Garrison]
+* https://www.emeralddb.org/card/deployed-garrison[Deployed Garrison,role="new line-through"]
 * https://www.emeralddb.org/card/karada-district[Karada District]
 * https://www.emeralddb.org/card/rebuild[Rebuild]
-* https://www.emeralddb.org/card/seal-of-the-crab[Seal of the Crab, role=new]
+* https://www.emeralddb.org/card/seal-of-the-crab[Seal of the Crab]
 * https://www.emeralddb.org/card/yasuki-broker[Yasuki Broker]
 
 === image:mons/crane.svg[width=20] [.crane]#Crane#
-* https://www.emeralddb.org/card/a-new-name[A New Name, role=new]
+* https://www.emeralddb.org/card/a-new-name[A New Name]
 * https://www.emeralddb.org/card/daidoji-netsu[Daidoji Netsu]
 * https://www.emeralddb.org/card/guest-of-honor[Guest of Honor]
 * https://www.emeralddb.org/card/kakita-toshimoko[Kakita Toshimoko]
 * https://www.emeralddb.org/card/magistrate-station[Magistrate Station]
-* https://www.emeralddb.org/card/seal-of-the-crane[Seal of the Crane, role=new]
+* https://www.emeralddb.org/card/seal-of-the-crane[Seal of the Crane]
 
 === image:mons/dragon.svg[width=20] [.dragon]#Dragon#
 * https://www.emeralddb.org/card/centered-breath[Centered Breath]
-* https://www.emeralddb.org/card/seal-of-the-dragon[Seal of the Dragon, role=new]
+* https://www.emeralddb.org/card/seal-of-the-dragon[Seal of the Dragon]
 * https://www.emeralddb.org/card/togashi-mitsu[Togashi Mitsu 1]
 
 === image:mons/lion.svg[width=20] [.lion]#Lion#
 * https://www.emeralddb.org/card/lion-s-pride-paragon[Lion’s Pride Paragon]
-* https://www.emeralddb.org/card/seal-of-the-lion[Seal of the Lion, role=new]
+* https://www.emeralddb.org/card/seal-of-the-lion[Seal of the Lion]
 
 === image:mons/phoenix.svg[width=20] [.phoenix]#Phoenix#
 * https://www.emeralddb.org/card/calling-the-storm[Calling the Storm]
@@ -129,7 +130,7 @@ Changes to the previous version are marked in [.new]#bold and green.#
 * https://www.emeralddb.org/card/isawa-tadaka[Isawa Tadaka 1]
 * https://www.emeralddb.org/card/kanjo-district[Kanjo District]
 * https://www.emeralddb.org/card/master-of-gisei-toshi[Master of Gisei Toshi]
-* https://www.emeralddb.org/card/seal-of-the-phoenix[Seal of the Phoenix, role=new]
+* https://www.emeralddb.org/card/seal-of-the-phoenix[Seal of the Phoenix]
 
 a|
 :show-link-uri!:
@@ -139,6 +140,7 @@ a|
 * https://www.emeralddb.org/card/chronicler-of-conquests[Chronicler of Conquests]
 * https://www.emeralddb.org/card/field-tactician[Field Tactician]
 * https://www.emeralddb.org/card/master-tactician[Master Tactician]
+* https://www.emeralddb.org/card/tactical-ingenuity[Tactical Ingenuity, role=new]
 
 === image:mons/phoenix.svg[width=20] [.phoenix]#Phoenix#
 * https://www.emeralddb.org/card/isawa-tadaka-2[Isawa Tadaka 2]
@@ -152,7 +154,7 @@ a|
 * https://www.emeralddb.org/card/mark-of-shame[Mark of Shame]
 
 === image:mons/unicorn.svg[width=20] [.unicorn]#Unicorn#
-* https://www.emeralddb.org/card/captive-audience[Captive Audience,role=new]
+* https://www.emeralddb.org/card/captive-audience[Captive Audience]
 * https://www.emeralddb.org/card/scouted-terrain[Scouted Terrain]
 * https://www.emeralddb.org/card/swift-magistrate[Swift Magistrate]
 * https://www.emeralddb.org/card/utaku-tetsuko[Utaku Tetsuko]
@@ -180,12 +182,12 @@ a|
 * https://www.emeralddb.org/card/cunning-magistrate[Cunning Magistrate]
 * https://www.emeralddb.org/card/forged-edict[Forged Edict]
 * https://www.emeralddb.org/card/hidden-moon-dojo[Hidden Moon Dōjō]
-* https://www.emeralddb.org/card/seal-of-the-scorpion[Seal of the Scorpion, role=new]
-* https://www.emeralddb.org/card/subterfuge[Subterfuge]
+* https://www.emeralddb.org/card/seal-of-the-scorpion[Seal of the Scorpion]
+* https://www.emeralddb.org/card/subterfuge[Subterfuge, role="new line-through"]
 * https://www.emeralddb.org/card/yogo-junzo[Yogo Junzo]
 
 === image:mons/unicorn.svg[width=20] [.unicorn]#Unicorn#
-* https://www.emeralddb.org/card/seal-of-the-unicorn[Seal of the Unicorn, role=new]
+* https://www.emeralddb.org/card/seal-of-the-unicorn[Seal of the Unicorn]
 * https://www.emeralddb.org/card/spyglass[Spyglass]
 
 a|
