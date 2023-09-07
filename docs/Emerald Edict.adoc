@@ -149,7 +149,6 @@ a|
 
 === image:mons/scorpion.svg[width=20] [.scorpion]#Scorpion#
 * https://www.emeralddb.org/card/a-fate-worse-than-death[A Fate Worse than Death]
-* https://www.emeralddb.org/card/alibi-artist[Alibi Artist,role=line-through new]
 * https://www.emeralddb.org/card/dispatch-to-nowhere[Dispatch to Nowhere]
 * https://www.emeralddb.org/card/mark-of-shame[Mark of Shame]
 
@@ -163,7 +162,6 @@ a|
 :show-link-uri!:
 == Splash Banned Cards
 === image:mons/phoenix.svg[width=20] [.phoenix]#Phoenix#
-* https://www.emeralddb.org/card/against-the-waves[Against the Waves,role=line-through new]
 * https://www.emeralddb.org/card/display-of-power[Display of Power]
 
 === image:mons/unicorn.svg[width=20] [.unicorn]#Unicorn#
