@@ -40,7 +40,7 @@ An ability is the special game text that a card contributes to the game. Card ab
 - An ability prefaced by a bold-face timing trigger followed by a colon is referred to as a "triggered ability."
 - The controller of the card from which an ability is resolving makes all decisions required by that ability's resolution unless another player is specified by the ability's text.
 
-*Related:* Cost, Effects, Forced, Target, Triggered Abilities
+*Related:* <<Cost>>, <<Effects>>, <<_forced_forced_interrupts_forced_reactions>>, <<Target>>, <<Triggered Abilities>>
 
 === Action, Action Ability
 An action ability is a triggered card ability that contains the boldface "Action:" precursor. An action ability may be triggered by its controller during any action window (see "Appendix I: Timing and Gameplay").
