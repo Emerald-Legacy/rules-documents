@@ -186,7 +186,7 @@ description_list:
   term_spacing: $vertical_rhythm / 4
   description_indent: $horizontal_rhythm * 1.25
 list:
-  indent: $horizontal_rhythm * 1.5
+  indent: 10
   # NOTE outline_list_item_spacing applies to list items that do not have complex content
   item_spacing: $vertical_rhythm / 2
 table:
