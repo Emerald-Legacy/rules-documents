@@ -594,17 +594,18 @@ Whenever a player wishes to play a card or initiate a triggered ability, that pl
 
 These are:
 
-1. Check play restrictions and verify the existence of eligible targets: can the card be played, or the ability initiated, at this time? If the play restrictions are not met, or there are not enough eligible targets for the ability, the process cannot proceed.
-2. Determine the cost (or costs, if multiple costs are required) to play the card or initiate the ability. If it is established that the cost (taking modifiers into account) can be paid, proceed with the remaining steps of this sequence. +
-+
+. Check play restrictions and verify the existence of eligible targets: can the card be played, or the ability initiated, at this time? If the play restrictions are not met, or there are not enough eligible targets for the ability, the process cannot proceed.
+. Determine the cost (or costs, if multiple costs are required) to play the card or initiate the ability. If it is established that the cost (taking modifiers into account) can be paid, proceed with the remaining steps of this sequence.
+
 Once each of the preliminary confirmations has been made, follow these steps, in order:
-+
-3. Apply any modifiers to the cost(s).
-4. Pay the cost(s).
-5. Choose target(s), if applicable. Any pre-effect instructions to "select" among multiple options in the ability are made at this time as well.
-6. The card attempts to enter play, or the effects of the ability attempt to initiate. An interrupt ability that cancels this initiation may be used at this time.
-7. The card enters play, or the effects of the ability (if not canceled in step 6) complete their initiation, and resolve.
-8. At this time the card is considered "played" or the ability "triggered."
+
+[start=3]
+. Apply any modifiers to the cost(s).
+. Pay the cost(s).
+. Choose target(s), if applicable. Any pre-effect instructions to "select" among multiple options in the ability are made at this time as well.
+. The card attempts to enter play, or the effects of the ability attempt to initiate. An interrupt ability that cancels this initiation may be used at this time.
+. The card enters play, or the effects of the ability (if not canceled in step 6) complete their initiation, and resolve.
+. At this time the card is considered "played" or the ability "triggered."
 
 Interrupts and reactions may be used throughout this process as normal, should their triggering conditions occur.
 
