@@ -184,15 +184,41 @@ A player's stronghold card signals which clan a player has chosen as the primary
 *Related*: <<Deckbuilding>>
 
 //todo: This area needs work/images
-IN TEXT ON CARD
 
-CRAB CLAN
-CRANE CLAN
-DRAGON CLAN
-LION CLAN
-PHOENIX CLAN
-SCORPION CLAN
-UNICORN CLAN
+[cols=".^2,^.^1a,.^2a",frame=none,grid=cols]
+|===
+|Clan |In Text |On Card
+
+|Crab Clan
+|[.emeralddb]#&#59655;#
+|image::rrg/crab_mon_on_card.jpg[width=75%]
+
+|Crane Clan
+|[.emeralddb]#&#59656;#
+|image::rrg/crane_mon_on_card.jpg[width=75%]
+
+|Dragon Clan
+|[.emeralddb]#&#59657;#
+|image::rrg/dragon_mon_on_card.jpg[width=75%]
+
+|Lion Clan
+|[.emeralddb]#&#59658;#
+|image::rrg/lion_mon_on_card.jpg[width=75%]
+
+|Phoenix Clan
+|[.emeralddb]#&#59659;#
+|image::rrg/phoenix_mon_on_card.jpg[width=75%]
+
+|Scorpion Clan
+|[.emeralddb]#&#59660;#
+|image::rrg/scorpion_mon_on_card.jpg[width=75%]
+
+|Unicorn Clan
+|[.emeralddb]#&#59661;#
+|image::rrg/unicorn_mon_on_card.jpg[width=75%]
+
+|===
+
 
 === Composure
 Composure is a variable keyword ability. A card with this keyword gains an additional ability while its controller's honor bid is lower than that of one of his or her opponents.
