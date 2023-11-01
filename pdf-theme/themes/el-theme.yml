@@ -198,11 +198,11 @@ list:
   # NOTE outline_list_item_spacing applies to list items that do not have complex content
   item_spacing: $vertical_rhythm / 2
 table:
-  background_color: $page_background_color
+  background_color: transparent
   head_font_style: bold
   body_stripe_background_color: f9f9f9
   foot_background_color: f0f0f0
-  border_color: dddddd
+  border_color: 2A6419
   border_width: $base_border_width
   cell:
     padding: [2, 6, 2, 6]
