@@ -23,6 +23,11 @@ font:
       italic: BTTEX_15.ttf
       bold: BTTEX_15.ttf
       bold_italic: BTTEX_15.ttf
+    EmeraldDB:
+      normal: fiveringsdb.ttf
+      italic: fiveringsdb.ttf
+      bold: fiveringsdb.ttf
+      bold_italic: fiveringsdb.ttf
   fallbacks:
     - M+ 1p Fallback
 page:
@@ -57,6 +62,9 @@ role:
     font_size: 12
   small:
       font_size: 8
+  emeralddb:
+    font_family: EmeraldDB
+    font_size: 18
 # correct line height for Noto Serif metrics (comes with built-in line height)
 vertical_rhythm: $base_line_height_length
 horizontal_rhythm: $base_line_height_length
