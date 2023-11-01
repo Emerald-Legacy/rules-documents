@@ -2568,7 +2568,17 @@ card in a conflict deck.
 19. *Product Set Information*: Indicates this card's product of
 origin.
 
-//todo: Add images with reference to card anatomy
+image::rrg/character_card_explanations.png[]
+image::rrg/holding_card_explanations.png[]
+
+<<<
+
+image::rrg/attachment_card_explanations.png[]
+image::rrg/event_card_explanations.png[width=95%]
+image::rrg/province_card_explanations.png[width=90%]
+
+image::rrg/stronghold_card_explanations.png[90%]
+image::rrg/role_card_explanations.png[90%]
 
 <<<
 
