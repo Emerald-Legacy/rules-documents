@@ -23,6 +23,11 @@ font:
       italic: BTTEX_15.ttf
       bold: BTTEX_15.ttf
       bold_italic: BTTEX_15.ttf
+    EmeraldDB:
+      normal: fiveringsdb.ttf
+      italic: fiveringsdb.ttf
+      bold: fiveringsdb.ttf
+      bold_italic: fiveringsdb.ttf
   fallbacks:
     - M+ 1p Fallback
 page:
@@ -56,7 +61,10 @@ role:
   big:
     font_size: 12
   small:
-      font_size: 8
+    font_size: 8
+  emeralddb:
+    font_family: EmeraldDB
+    font_size: 18
 # correct line height for Noto Serif metrics (comes with built-in line height)
 vertical_rhythm: $base_line_height_length
 horizontal_rhythm: $base_line_height_length
@@ -83,7 +91,7 @@ heading:
   h2_margin_bottom: 4
   h3_font_size: 14
   h3_margin_top: 8
-  h4_font_size: 4
+  h4_font_size: 12
   h5_font_size: $heading_h4_font_size
   h6_font_size: $heading_h4_font_size
   # correct line height for Noto Serif metrics (comes with built-in line height)
@@ -190,11 +198,11 @@ list:
   # NOTE outline_list_item_spacing applies to list items that do not have complex content
   item_spacing: $vertical_rhythm / 2
 table:
-  background_color: $page_background_color
+  background_color: transparent
   head_font_style: bold
   body_stripe_background_color: f9f9f9
   foot_background_color: f0f0f0
-  border_color: dddddd
+  border_color: 2A6419
   border_width: $base_border_width
   cell:
     padding: [2, 6, 2, 6]

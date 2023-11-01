@@ -184,15 +184,41 @@ A player's stronghold card signals which clan a player has chosen as the primary
 *Related*: <<Deckbuilding>>
 
 //todo: This area needs work/images
-IN TEXT ON CARD
 
-CRAB CLAN
-CRANE CLAN
-DRAGON CLAN
-LION CLAN
-PHOENIX CLAN
-SCORPION CLAN
-UNICORN CLAN
+[cols=".^2,^.^1a,.^2a",frame=none,grid=cols]
+|===
+|Clan |In Text |On Card
+
+|Crab Clan
+|[.emeralddb]#&#59655;#
+|image::rrg/crab_mon_on_card.jpg[width=75%]
+
+|Crane Clan
+|[.emeralddb]#&#59656;#
+|image::rrg/crane_mon_on_card.jpg[width=75%]
+
+|Dragon Clan
+|[.emeralddb]#&#59657;#
+|image::rrg/dragon_mon_on_card.jpg[width=75%]
+
+|Lion Clan
+|[.emeralddb]#&#59658;#
+|image::rrg/lion_mon_on_card.jpg[width=75%]
+
+|Phoenix Clan
+|[.emeralddb]#&#59659;#
+|image::rrg/phoenix_mon_on_card.jpg[width=75%]
+
+|Scorpion Clan
+|[.emeralddb]#&#59660;#
+|image::rrg/scorpion_mon_on_card.jpg[width=75%]
+
+|Unicorn Clan
+|[.emeralddb]#&#59661;#
+|image::rrg/unicorn_mon_on_card.jpg[width=75%]
+
+|===
+
 
 === Composure
 Composure is a variable keyword ability. A card with this keyword gains an additional ability while its controller's honor bid is lower than that of one of his or her opponents.
@@ -259,7 +285,7 @@ Some card abilities may cause a character to become a copy of another character.
 === Corrupted
 Corrupted is a keyword ability. A character with the corrupted keyword enters play tainted. Abilities cannot be triggered from a corrupted character receiving the tainted status token from this keyword, as that card enters play already with that status.
 
-*Related:* <<Tainted&comma; Tainted Status Token>>, <<Status Token>>
+*Related:* <<_tainted_tainted_status_token>>, <<Status Token>>
 
 === Cost
 A card's cost is the numerical value that dictates how much fate must be paid to play the card from a player's hand or provinces.
@@ -373,7 +399,7 @@ The disguised keyword appears on unique characters. When a character is played u
 - A character played using this keyword enters play ready and in the same location as the non-unique character it is replacing.
 
 === Dishonored, Dishonored Status Token
-See <<Personal Honor&comma; Personal Dishonor>>.
+See <<_personal_honor_personal_dishonor>>.
 
 === Drawing cards
 When a player is instructed to draw one or more cards, those cards are drawn from the top of his or her conflict deck.
@@ -504,7 +530,7 @@ Glory is a character statistic that represents a character's reputation, and how
 - While a character is honored or dishonored, that character's glory will modify its military and political skill.
 - A player counts the glory value of each ready character he or she controls whenever a glory count is required.
 
-*Related*: <<Personal Honor&comma; Personal Dishonor>>, <<Glory Count>>
+*Related*: <<_personal_honor_personal_dishonor>>, <<Glory Count>>
 
 === Glory Count
 When the players are asked to perform a glory count, each player or each team counts the total glory value among the ready characters they control and adds 1 to the total for each ring in their claimed ring pool. The player or team with the highest total wins the glory count.
@@ -514,7 +540,7 @@ When the players are asked to perform a glory count, each player or each team co
 - Some card abilities may require the players to perform a glory count. Glory counts required by card abilities are made in the same manner, and the ability will detail how to process the result. Such counts do not affect the status of the Imperial Favor, unless the ability text causes the Imperial Favor status to change.
 - Other card abilities may require players to count current glory among their characters, or a subset of their characters. This is different from a glory count, and rings in a player's claimed ring pool are not added. For such card abilities, players count current glory among their specified characters in the same way they would count current [military] or [political] skill.
 
-*Related*: <<Imperial Favor>>, <<Current>>
+*Related*: <<_imperial_favor_imperial_favor_contest>>, <<Current>>
 
 === Holding
 When a holding is turned faceup in a player's province, its game text becomes active and that holding is considered to be "in play." As long as a holding remains faceup in a player's province, that player can use abilities or benefit from game text on that holding.
@@ -541,7 +567,7 @@ amount of honor a player has at any given time is represented (as open informati
 *Related*: <<Winning the Game>>
 
 === Honored, Honored Status Token
-See <<Personal Honor&comma; Personal Dishonor>>.
+See <<_personal_honor_personal_dishonor>>.
 
 === Immune
 If a card is immune to a specified set of effects (for example, "immune to ring effects" or "immune to event card effects"), it cannot be targeted or affected by effects that belong to that set.
@@ -761,7 +787,7 @@ In the enlightenment format, where each player has two opponents, a player's car
 In the team conquest format, where all players can control participating characters in a conflict, a player's card ability that refers to "your opponent" or "an opponent" refers to either player on the opposing team, chosen when resolving the card ability.
 
 === Ordinary
-See <<Personal Honor&comma; Personal Dishonor>>.
+See <<_personal_honor_personal_dishonor>>.
 
 === Own, Ownership
 See <<Control and Ownership>>.
@@ -787,7 +813,7 @@ There are times in the game at which a player has an option to perform an act (s
 - Other game sequences in which players have the option to pass continue until both players pass consecutively. If the first player passes, and the second player does not, the opportunity returns to the first player in the sequence. The sequence only ends when both players have passed in succession. (In other words, passing in such a sequence does not prevent a player from re-entering the sequence should the opponent not also pass in succession.)
 - When passing an opportunity to declare a conflict, a player is not required to specify which type of conflict he or she is passing.
 
-=== Personal Honor&comma; Personal Dishonor
+=== Personal Honor, Personal Dishonor
 Personal honor is a means of tracking the honored or dishonored status of individual character cards. Each character exists in one of three states:
 
 - Honored
@@ -984,7 +1010,7 @@ condition.
 replacement effect would not change the game state, that
 replacement effect cannot be initiated.
 
-*Related*: <<Would>>
+*Related*: <<The word "Would">>
 
 === Resolve an Ability
 
@@ -1190,7 +1216,7 @@ ability is the player who makes the selection.
 - For all selections, an option that has the potential to change
 the game state must be chosen, if able.
 
-*Related*: <<Initiating Abilities>>
+*Related*: <<Initiating Abilities / Playing Cards>>
 
 === Self-referential Text
 When a card's ability text refers to itself ("this character," "this
@@ -1323,15 +1349,14 @@ declare 1 or more defenders during conflicts at that province.
 Dishonored status tokens can be placed on provinces by card
 abilities.
 - A status token cannot be removed from a card unless it is a
-character whose personal honor is changed (see <<Personal
-Honor&comma; Personal Dishonor>> on page 15) or a card effect
+character whose personal honor is changed (see <<_personal_honor_personal_dishonor>> on page 15) or a card effect
 specifically moves or removes that status token.
 - If a card effect "moves" or "discards" an honored or
 dishonored status token from a character, that character has
 not been honored or dishonored for the purposes of card
 abilities, even though it loses its honored/dishonored status.
 
-See <<Personal Honor&comma; Personal Dishonor>>.
+See <<_personal_honor_personal_dishonor>>.
 
 === Stronghold
 A player's stronghold is considered in play. A stronghold card
@@ -1377,17 +1402,17 @@ tokens.
 
 *Related*: Gains, Give, Loses
 
-=== Tainted&comma; Tainted Status Token
+=== Tainted, Tainted Status Token
 The tainted status token allows characters and provinces to
 become tainted by the corrupting presence of Jigoku.
 
 - When a card ability or ring effect would taint a character, place a
-tainted status token on it. A tainted character cannot be tainted
+tainted status token on it.A tainted character cannot be tainted
 again.
 - Each character that is tainted gets +2 and +2 . As an
 additional cost to declare a tainted character as an attacker or
 defender in a conflict, its controller must lose 1 honor.
-- Each province that is tainted gets +2 strength. As an additional cost
+- Each province that is tainted gets +2 strength.As an additional cost
 to declare any number of defenders in a conflict against a tainted
 province, its controller must lose 1 honor.
 - Once a card is tainted, that tainted status cannot be removed
@@ -1581,7 +1606,7 @@ cost payment or the consequences of any other ability
 interactions.
 - A triggered ability can only be initiated if its cost (after
 modifiers) has the potential to be paid in full. +
-*Related:* <<Ability>>, <<Action>>, <<Cost>>, <<Effects>>, <<Interrupts>>, <<Limits of Triggered Abilities>>, <<Reactions>>, <<Target>>
+*Related:* <<Ability>>, <<_action_action_ability>>, <<Cost>>, <<Effects>>, <<Interrupts>>, <<Limits of Triggered Abilities>>, <<Reactions>>, <<Target>>
 - A triggering condition is a condition which dictates when an ability
 can be triggered. On card abilities, the triggering condition is the
 element of the ability that references such a condition, which most
@@ -1774,6 +1799,8 @@ letter X is always equal to 0.
 ability or player choice, after which the amount paid may be
 modified by effects without altering the value of X.
 
+<<<
+
 == Appendix I: Timing and Gameplay
 
 This section provides a detailed overview of the phases and
@@ -1934,7 +1961,7 @@ alternates back and forth between the players, in player order.
 With his or her opportunity to act, a player may do one of the
 following:
 
-- Play one [.font-color: green]#card# from their provinces [.font-color: green]#or hand#.
+- Play one card from their provinces or hand.
 - Trigger an eligible action ability.
 - Discard a duplicate of a character from his or her hand or from
 one of his or her provinces to place 1 fate on a copy of that
@@ -2420,18 +2447,18 @@ If this process is completed, a duel has been initiated. Otherwise,
 the duel fails to initiate and cannot resolve.
 
 
-=== [.font-color: green]#Resolve the duel#
+=== Resolve the duel
 A duel is resolved during the successful resolution of any triggered
 ability that instructs players to "resolve the duel," or that their
 "character challenges the opponent's character to a [type] duel."
 To resolve a duel, perform the following steps:
 
-==== [.font-color: green]#D.2. Establish the challenge#
+==== D.2. Establish the challenge
 The process of initiating the duel (in step D.1) will have identified
 the two characters that are involved in the duel, as well as the kind
 of duel that will take place. This statistic ([military] skill, [political] skill, or glory) will be used to determine the results of the duel.
 
-==== [.font-color: green]#D.3. Duel honor bid#
+==== D.3. Duel honor bid
 Each player secretly selects a number from 1 to 5 on his or her
 honor dial as his or her honor bid for this duel. Once both players
 have confirmed that they are ready, proceed to the next step.
@@ -2439,20 +2466,20 @@ have confirmed that they are ready, proceed to the next step.
 - In the skirmish format, players cannot select a number higher
 than 3 on their honor dial.
 
-==== [.font-color: green]#D.4. Reveal honor dials#
+==== D.4. Reveal honor dials
 The players simultaneously reveal their bids.
 
 Once a player reveals an honor bid, the dial is placed next to the
 player's stronghold or conflict deck and remains as a reference
 point until the next honor bid occurs.
 
-==== [.font-color: green]#D.5. Transfer honor#
+==== D.5. Transfer honor
 The player with the higher honor bid must give an amount of honor
 to the player with the lower honor bid that is equal to the
 difference between the two bids. If the bids are equal, no honor is
 transferred during this step.
 
-==== [.font-color: green]#D.6. Calculate dueling statistic#
+==== D.6. Calculate dueling statistic
 The process of initiating the duel (in step D.1) will have established
 which statistic ([military] skill, [political] skill, or glory) is being used to
 determine the results of the duel. Each player calculates the
@@ -2466,7 +2493,7 @@ this step is treated as the skill value of a single character for the
 purposes of determining duel results. Those characters win or
 lose the duel together
 
-===== [.font-color: green]#D.7. Add honor bid, compare values, and determine result#
+===== D.7. Add honor bid, compare values, and determine result
 Each player calculates their duel total and compares it with that of
 their opponent to determine the results.
 
@@ -2486,13 +2513,13 @@ duel's loser.
 - If the duel totals are the same, neither character is the duel's
 winner and neither character is the duel's loser.
 
-==== [.font-color: green]#D.8. Apply duel results#
+==== D.8. Apply duel results
 The ability that initiated the duel (in step D.1) specified the
 consequences of this duel for the winning and/or losing characters,
 or for the player(s) controlling those characters. Apply those
 consequences during this step.
 
-==== [.font-color: green]#D.9. Duel ends#
+==== D.9. Duel ends
 This step formalizes the end of the duel. Return to the action
 window in which the duel was initiated, with the next player in the
 sequence of actions having the next opportunity to act.
@@ -2502,6 +2529,8 @@ are not able to initiate actions or play characters and
 attachments from their hands during the resolution of a duel.
 Applicable interrupt and/or reaction abilities may be triggered
 during a duel.
+
+<<<
 
 == Appendix II: Card Anatomy
 This section presents a detailed anatomy of each cardtype.
@@ -2539,19 +2568,41 @@ card in a conflict deck.
 19. *Product Set Information*: Indicates this card's product of
 origin.
 
-//todo: Add images with reference to card anatomy
+image::rrg/character_card_explanations.png[width=90%]
 
->>>
+{empty} +
 
-== [.font-color: green]#Appendix III: Card Clarifications#
+image::rrg/holding_card_explanations.png[width=90%]
+
+<<<
+
+image::rrg/attachment_card_explanations.png[width=90%]
+
+{empty} +
+
+image::rrg/event_card_explanations.png[width=90%]
+
+{empty} +
+
+image::rrg/province_card_explanations.png[width=90%]
+
+image::rrg/stronghold_card_explanations.png[width=90%]
+
+{empty} +
+
+image::rrg/role_card_explanations.png[width=90%]
+
+<<<
+
+== Appendix III: Card Clarifications
 
 This section provides answers to a number of common questions
 that are asked about cards in the game. These answers are
 organized by the expansion and collector number of the card
 whose rules interaction has raised the question.
 
-=== [.font-color: green]#Core Set#
-==== [.font-color: blue.underline]#Shameful Display# [.font-color: green]#(24)#
+=== Core Set
+==== Shameful Display (24)
 
 - Neither the honoring nor the dishonoring aspect of Shameful
 Display's ability is dependent upon the other. Additionally,
