@@ -1799,6 +1799,8 @@ letter X is always equal to 0.
 ability or player choice, after which the amount paid may be
 modified by effects without altering the value of X.
 
+<<<
+
 == Appendix I: Timing and Gameplay
 
 This section provides a detailed overview of the phases and
@@ -2528,6 +2530,8 @@ attachments from their hands during the resolution of a duel.
 Applicable interrupt and/or reaction abilities may be triggered
 during a duel.
 
+<<<
+
 == Appendix II: Card Anatomy
 This section presents a detailed anatomy of each cardtype.
 Definitions of each element can be found in the glossary.
@@ -2566,6 +2570,7 @@ origin.
 
 //todo: Add images with reference to card anatomy
 
+<<<
 
 == Appendix III: Card Clarifications
 
