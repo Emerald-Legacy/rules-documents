@@ -1407,12 +1407,12 @@ The tainted status token allows characters and provinces to
 become tainted by the corrupting presence of Jigoku.
 
 - When a card ability or ring effect would taint a character, place a
-tainted status token on it. A tainted character cannot be tainted
+tainted status token on it.A tainted character cannot be tainted
 again.
 - Each character that is tainted gets +2 and +2 . As an
 additional cost to declare a tainted character as an attacker or
 defender in a conflict, its controller must lose 1 honor.
-- Each province that is tainted gets +2 strength. As an additional cost
+- Each province that is tainted gets +2 strength.As an additional cost
 to declare any number of defenders in a conflict against a tainted
 province, its controller must lose 1 honor.
 - Once a card is tainted, that tainted status cannot be removed
@@ -2568,17 +2568,29 @@ card in a conflict deck.
 19. *Product Set Information*: Indicates this card's product of
 origin.
 
-image::rrg/character_card_explanations.png[]
-image::rrg/holding_card_explanations.png[]
+image::rrg/character_card_explanations.png[width=90%]
+
+{empty} +
+
+image::rrg/holding_card_explanations.png[width=90%]
 
 <<<
 
-image::rrg/attachment_card_explanations.png[]
-image::rrg/event_card_explanations.png[width=95%]
+image::rrg/attachment_card_explanations.png[width=90%]
+
+{empty} +
+
+image::rrg/event_card_explanations.png[width=90%]
+
+{empty} +
+
 image::rrg/province_card_explanations.png[width=90%]
 
-image::rrg/stronghold_card_explanations.png[90%]
-image::rrg/role_card_explanations.png[90%]
+image::rrg/stronghold_card_explanations.png[width=90%]
+
+{empty} +
+
+image::rrg/role_card_explanations.png[width=90%]
 
 <<<
 
