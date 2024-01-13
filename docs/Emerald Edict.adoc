@@ -8,7 +8,7 @@
 
 = image:el_logo.png[pdfwidth=70%,role=center]pass:q[<br>]Emerald Edict
 Emerald Legacy
-v7.0, September 6 2023
+v8.0, December 28 2023
 
 :show-link-uri!:
 
@@ -18,14 +18,13 @@ Version {revnumber}, {revdate}
 '''
 
 [.text-center]
-You may not include any splash banned cards in your deck as part of a splash. +
 You may not include any banned cards in your deck. +
 You may only include one restricted card in your deck.
 [.text-center]
 Changes to the previous version are marked in [.new]#bold and green.#
 
 
-[cols="1a,1a,1a",stripes=none,frame=none,grid=none]
+[cols="1a,1a",stripes=none,frame=none,grid=none]
 |===
 |
 :show-link-uri!:
@@ -33,168 +32,104 @@ Changes to the previous version are marked in [.new]#bold and green.#
 === image:mons/neutral.svg[width=20] [.neutral]#Neutral#
 * https://www.emeralddb.org/card/accursed-summoning[Accursed Summoning]
 * https://www.emeralddb.org/card/audience-chamber[Audience Chamber]
-* https://www.emeralddb.org/card/bake-kujira[Bake-Kujira, role="new line-through"]
-* https://www.emeralddb.org/card/charge[Charge!]
 * https://www.emeralddb.org/card/city-of-the-rich-frog[City of the Rich Frog]
 * https://www.emeralddb.org/card/enlightenment[Enlightenment]
 * https://www.emeralddb.org/card/gateway-to-meido[Gateway to Meido]
 * https://www.emeralddb.org/card/lost-papers[Lost Papers]
 * https://www.emeralddb.org/card/lurking-affliction[Lurking Affliction]
 * https://www.emeralddb.org/card/oni-tyrant[Oni Tyrant]
-* https://www.emeralddb.org/card/policy-debate[Policy Debate]
-* https://www.emeralddb.org/card/shameful-display[Shameful Display]
 * https://www.emeralddb.org/card/slovenly-scavenger[Slovenly Scavenger]
-* https://www.emeralddb.org/card/the-imperial-palace[The Imperial Palace]
 * https://www.emeralddb.org/card/unveiled-corruption[Unveiled Corruption]
 * https://www.emeralddb.org/card/way-of-the-warrior[Way of the Warrior]
 
-
+=== image:mons/crab.svg[width=20] [.crab]#Crab#
+* https://www.emeralddb.org/card/yasuki-broker[Yasuki Broker]
 
 |
 :show-link-uri!:
 == Restricted cards
 === image:mons/neutral.svg[width=20] [.neutral]#Neutral#
 * https://www.emeralddb.org/card/contested-countryside[Contested Countryside]
-* https://www.emeralddb.org/card/imperial-storehouse[Imperial Storehouse]
 * https://www.emeralddb.org/card/kami-unleashed[Kami Unleashed]
-* https://www.emeralddb.org/card/keeper-initiate[Keeper Initiate]
-* https://www.emeralddb.org/card/proving-ground[Proving Ground]
+* https://www.emeralddb.org/card/proving-ground[Proving Ground, role="new line-through"]
+* https://www.emeralddb.org/card/waning-hostilities[Waning Hostilities, role="new"]
 
 === image:mons/crab.svg[width=20] [.crab]#Crab#
+* https://www.emeralddb.org/card/herald-of-jade[Herald of Jade, role="new"]
 * https://www.emeralddb.org/card/kuni-laboratory[Kuni Laboratory]
-* https://www.emeralddb.org/card/watch-commander[Watch Commander]
+* https://www.emeralddb.org/card/recalled-defenses[Recalled Defenses, role="new"]
 
 === image:mons/crane.svg[width=20] [.crane]#Crane#
-* https://www.emeralddb.org/card/noble-sacrifice[Noble Sacrifice]
+* https://www.emeralddb.org/card/doji-diplomat[Dōji Diplomat, role="new"]
+* https://www.emeralddb.org/card/preeminent-decree[Preeminent Decree, role="new"]
+* https://www.emeralddb.org/card/tsuma[Tsuma, role="new"]
 
 === image:mons/dragon.svg[width=20] [.dragon]#Dragon#
 * https://www.emeralddb.org/card/adorned-temple[Adorned Temple]
-* https://www.emeralddb.org/card/sacred-sanctuary[Sacred Sanctuary, role="new line-through"]
-* https://www.emeralddb.org/card/togashi-mitsu-2[Togashi Mitsu 2, role=new]
-
-
-|
-:show-link-uri!:
-== Splash Banned Cards
-=== image:mons/crab.svg[width=20] [.crab]#Crab#
-* https://www.emeralddb.org/card/fight-on[Fight On!]
-* https://www.emeralddb.org/card/reprieve[Reprieve]
-
-=== image:mons/crane.svg[width=20] [.crane]#Crane#
-* https://www.emeralddb.org/card/festival-of-the-fortunes[Festival for the Fortunes]
-* https://www.emeralddb.org/card/return-the-offense[Return the Offense]
-
-=== image:mons/dragon.svg[width=20] [.dragon]#Dragon#
-* https://www.emeralddb.org/card/indomitable-will[Indomitable Will, role="new line-through"]
-* https://www.emeralddb.org/card/mirumotos-fury[Mirumoto's Fury]
-* https://www.emeralddb.org/card/shoshi-ni-kie[Shoshi ni Kie]
-
-=== image:mons/lion.svg[width=20] [.lion]#Lion#
-* https://www.emeralddb.org/card/fan-of-command[Fan of Command]
-* https://www.emeralddb.org/card/glorious-victory[Glorious Victory]
-* https://www.emeralddb.org/card/heroic-resolve[Heroic Resolve]
-* https://www.emeralddb.org/card/renowned-singer[Renowned Singer]
-
+* https://www.emeralddb.org/card/belief-in-the-little-teacher[Belief in the Little Teacher, role="new"]
+* https://www.emeralddb.org/card/togashi-mitsu-2[Togashi Mitsu 2]
 
 |
 :show-link-uri!:
 == Banned Cards
-=== image:mons/crab.svg[width=20] [.crab]#Crab#
-* https://www.emeralddb.org/card/deployed-garrison[Deployed Garrison,role="new line-through"]
-* https://www.emeralddb.org/card/karada-district[Karada District]
-* https://www.emeralddb.org/card/rebuild[Rebuild]
-* https://www.emeralddb.org/card/seal-of-the-crab[Seal of the Crab]
-* https://www.emeralddb.org/card/yasuki-broker[Yasuki Broker]
 
 === image:mons/crane.svg[width=20] [.crane]#Crane#
 * https://www.emeralddb.org/card/a-new-name[A New Name]
 * https://www.emeralddb.org/card/daidoji-netsu[Daidoji Netsu]
-* https://www.emeralddb.org/card/guest-of-honor[Guest of Honor]
+* https://www.emeralddb.org/card/festival-for-the-fortunes[Festival for the Fortunes, role="new"]
+* https://www.emeralddb.org/card/fu-sui-temple[Fū Sui Temple, role="new"]
 * https://www.emeralddb.org/card/kakita-toshimoko[Kakita Toshimoko]
 * https://www.emeralddb.org/card/magistrate-station[Magistrate Station]
-* https://www.emeralddb.org/card/seal-of-the-crane[Seal of the Crane]
 
 === image:mons/dragon.svg[width=20] [.dragon]#Dragon#
 * https://www.emeralddb.org/card/centered-breath[Centered Breath]
-* https://www.emeralddb.org/card/seal-of-the-dragon[Seal of the Dragon]
+* https://www.emeralddb.org/card/phoenix-tattoo[Phoenix Tattoo, role="new"]
 * https://www.emeralddb.org/card/togashi-mitsu[Togashi Mitsu 1]
 
 === image:mons/lion.svg[width=20] [.lion]#Lion#
+* https://www.emeralddb.org/card/glorious-victory[Glorious Victory, role="new"]
 * https://www.emeralddb.org/card/lion-s-pride-paragon[Lion’s Pride Paragon]
-* https://www.emeralddb.org/card/seal-of-the-lion[Seal of the Lion]
 
 === image:mons/phoenix.svg[width=20] [.phoenix]#Phoenix#
 * https://www.emeralddb.org/card/calling-the-storm[Calling the Storm]
-* https://www.emeralddb.org/card/consumed-by-five-fires[Consumed by Five Fires]
 * https://www.emeralddb.org/card/dance-of-chikusho-do[Dance of Chikushō-dō]
 * https://www.emeralddb.org/card/isawa-tadaka[Isawa Tadaka 1]
-* https://www.emeralddb.org/card/kanjo-district[Kanjo District]
-* https://www.emeralddb.org/card/master-of-gisei-toshi[Master of Gisei Toshi]
-* https://www.emeralddb.org/card/seal-of-the-phoenix[Seal of the Phoenix]
+* https://www.emeralddb.org/card/isawa-tsuke[Isawa Tsuke 1, role="new"]
+
+=== image:mons/scorpion.svg[width=20] [.scorpion]#Scorpion#
+* https://www.emeralddb.org/card/hidden-moon-dojo[Hidden Moon Dōjō]
+* https://www.emeralddb.org/card/yogo-junzo[Yogo Junzo]
+
+=== image:mons/unicorn.svg[width=20] [.unicorn]#Unicorn#
+
 
 a|
 :show-link-uri!:
 == Restricted cards
 === image:mons/lion.svg[width=20] [.lion]#Lion#
-* https://www.emeralddb.org/card/called-to-war[Called to War]
-* https://www.emeralddb.org/card/chronicler-of-conquests[Chronicler of Conquests]
+* https://www.emeralddb.org/card/called-to-war[Called to War, role="new line-through"]
+* https://www.emeralddb.org/card/chronicler-of-conquests[Chronicler of Conquests, role="new line-through"]
+* https://www.emeralddb.org/card/fan-of-command[Fan of Command, role="new"]
 * https://www.emeralddb.org/card/field-tactician[Field Tactician]
-* https://www.emeralddb.org/card/master-tactician[Master Tactician]
-* https://www.emeralddb.org/card/tactical-ingenuity[Tactical Ingenuity, role=new]
+* https://www.emeralddb.org/card/master-tactician[Master Tactician, role="new line-through"]
+* https://www.emeralddb.org/card/tactical-ingenuity[Tactical Ingenuity]
 
 === image:mons/phoenix.svg[width=20] [.phoenix]#Phoenix#
+* https://www.emeralddb.org/card/guardian-dojo[Guardian Dōjō, role="new"]
 * https://www.emeralddb.org/card/isawa-tadaka-2[Isawa Tadaka 2]
-* https://www.emeralddb.org/card/display-of-power[Display of Power]
+* https://www.emeralddb.org/card/secluded-shrine[Secluded Shrine, role="new"]
 
 
 === image:mons/scorpion.svg[width=20] [.scorpion]#Scorpion#
-* https://www.emeralddb.org/card/a-fate-worse-than-death[A Fate Worse than Death]
 * https://www.emeralddb.org/card/dispatch-to-nowhere[Dispatch to Nowhere]
+* https://www.emeralddb.org/card/final-whisper[Final Whisper, role="new"]
 * https://www.emeralddb.org/card/mark-of-shame[Mark of Shame]
 
 === image:mons/unicorn.svg[width=20] [.unicorn]#Unicorn#
-* https://www.emeralddb.org/card/captive-audience[Captive Audience]
+* https://www.emeralddb.org/card/reserve-tents[Reserve Tents, role="new"]
 * https://www.emeralddb.org/card/scouted-terrain[Scouted Terrain]
-* https://www.emeralddb.org/card/swift-magistrate[Swift Magistrate]
+* https://www.emeralddb.org/card/swift-magistrate[Swift Magistrate, role="new line-through"]
 * https://www.emeralddb.org/card/utaku-tetsuko[Utaku Tetsuko]
-
-a|
-:show-link-uri!:
-== Splash Banned Cards
-=== image:mons/phoenix.svg[width=20] [.phoenix]#Phoenix#
-* https://www.emeralddb.org/card/display-of-power[Display of Power]
-
-=== image:mons/unicorn.svg[width=20] [.unicorn]#Unicorn#
-* https://www.emeralddb.org/card/favored-mount[Favored Mount]
-* https://www.emeralddb.org/card/force-of-the-river[Force of the River]
-* https://www.emeralddb.org/card/gaijin-customs[Gaijin Customs]
-* https://www.emeralddb.org/card/scouted-terrain[Scouted Terrain]
-* https://www.emeralddb.org/card/steed-of-the-steppes[Steed of the Steppes]
-* https://www.emeralddb.org/card/talisman-of-the-sun[Talisman of the Sun]
-* https://www.emeralddb.org/card/lay-of-the-land[Lay of the Land]
-
-|
-:show-link-uri!:
-== Banned Cards
-=== image:mons/scorpion.svg[width=20] [.scorpion]#Scorpion#
-* https://www.emeralddb.org/card/cunning-magistrate[Cunning Magistrate]
-* https://www.emeralddb.org/card/forged-edict[Forged Edict]
-* https://www.emeralddb.org/card/hidden-moon-dojo[Hidden Moon Dōjō]
-* https://www.emeralddb.org/card/seal-of-the-scorpion[Seal of the Scorpion]
-* https://www.emeralddb.org/card/subterfuge[Subterfuge, role="new line-through"]
-* https://www.emeralddb.org/card/yogo-junzo[Yogo Junzo]
-
-=== image:mons/unicorn.svg[width=20] [.unicorn]#Unicorn#
-* https://www.emeralddb.org/card/seal-of-the-unicorn[Seal of the Unicorn]
-* https://www.emeralddb.org/card/spyglass[Spyglass]
-
-a|
-:show-link-uri!:
-== Restricted cards
-
-a|
-:show-link-uri!:
-== Splash Banned Cards
 
 |===
 
@@ -206,8 +141,12 @@ All the cards listed here rotated out of the valid card pool and are not allowed
 Emerald Legacy tournaments. Unlike Banned cards, which might be unbanned at some point,
 rotated cards will never return to the valid card pool.
 
-[cols="1a,1a,1a",stripes=none,frame=none,grid=none]
+Rotated are all cards of the https://www.emeralddb.org/cards?cycle=core[original FFG Core Set, role="new"] as well as the https://www.emeralddb.org/cards?cycle=imperial[complete Imperial Cycle, role="new"].
+In addition, the following cards are rotated because they were replaced with slightly different cards in https://www.emeralddb.org/cards?pack=restoration-of-balance[Restoration of Balance, role="new"].
+
+[cols="1a,1a",stripes=none,frame=none,grid=none]
 |===
+
 |
 :show-link-uri!:
 === image:mons/neutral.svg[width=20] [.neutral]#Neutral#
@@ -218,11 +157,9 @@ rotated cards will never return to the valid card pool.
 === image:mons/crab.svg[width=20] [.crab]#Crab#
 * https://www.emeralddb.org/card/common-cause[Common Cause]
 * https://www.emeralddb.org/card/favourable-dealbroker[Favourable Dealbroker]
-* https://www.emeralddb.org/card/iron-mine[Iron Mine]
 * https://www.emeralddb.org/card/kuni-wasteland[Kuni Wasteland]
 
 === image:mons/crane.svg[width=20] [.crane]#Crane#
-* https://www.emeralddb.org/card/asahina-artisan[Asahina Artisan]
 * https://www.emeralddb.org/card/daidoji-uji-2[Daidoji Uji 2]
 * https://www.emeralddb.org/card/kakita-s-final-stance[Kakita's Final Stance]
 * https://www.emeralddb.org/card/the-wealth-of-the-crane[The Wealth of the Crane]
@@ -244,8 +181,6 @@ rotated cards will never return to the valid card pool.
 :show-link-uri!:
 === image:mons/phoenix.svg[width=20] [.phoenix]#Phoenix#
 * https://www.emeralddb.org/card/embrace-the-void[Embrace the Void]
-* https://www.emeralddb.org/card/forgotten-library[Forgotten Library]
-* https://www.emeralddb.org/card/grasp-of-earth[Grasp of Earth]
 * https://www.emeralddb.org/card/jurojin-s-curse[Jurōjin's Curse]
 * https://www.emeralddb.org/card/spell-scroll[Spell Scroll]
 
@@ -259,8 +194,5 @@ rotated cards will never return to the valid card pool.
 * https://www.emeralddb.org/card/command-by-name[Command by Name]
 * https://www.emeralddb.org/card/daikyu[Daikyū]
 * https://www.emeralddb.org/card/khanbulak-benefactor[Khanbulak Benefactor]
-
-|
-:show-link-uri!:
 
 |===
