@@ -126,6 +126,7 @@ a|
 * https://www.emeralddb.org/card/mark-of-shame[Mark of Shame]
 
 === image:mons/unicorn.svg[width=20] [.unicorn]#Unicorn#
+* https://www.emeralddb.org/card/reserve-tents[Reserve Tents, role="new"]
 * https://www.emeralddb.org/card/scouted-terrain[Scouted Terrain]
 * https://www.emeralddb.org/card/swift-magistrate[Swift Magistrate, role="new line-through"]
 * https://www.emeralddb.org/card/utaku-tetsuko[Utaku Tetsuko]
