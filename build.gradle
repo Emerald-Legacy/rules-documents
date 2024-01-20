@@ -3,8 +3,6 @@ plugins {
     id 'org.asciidoctor.jvm.pdf' version '3.3.2'
 }
 
-defaultTasks 'clean', 'asciidoctor'
-
 repositories {
     mavenCentral()
 }
@@ -22,7 +20,7 @@ asciidoctorj {
     version = '2.5.10'
     modules {
         pdf {
-            version '2.3.7'
+            version '2.3.9'
         }
         groovyDsl {
             // Default of asciidoctor-gradle-plugin 3.3.2 depends on 2.0.0 which is not on Maven Central.
@@ -44,8 +42,7 @@ asciidoctor {
     sources {
         include '*.adoc'
     }
-    attributes 'revnumber': null,
-            'stylesdir': file('src/docs/theme/jaybird-html'), 'stylesheet': 'firebird.css',
+    attributes 'stylesdir': file('src/docs/theme/jaybird-html'), 'stylesheet': 'firebird.css',
             'docinfo': 'shared', 'docinfodir': file('src/docs/theme/jaybird-html/docinfo')
     forkOptions {
         jvmArgs "--add-opens", "java.base/sun.nio.ch=ALL-UNNAMED", "--add-opens", "java.base/java.io=ALL-UNNAMED"
@@ -70,7 +67,7 @@ asciidoctorPdf {
         include '*.adoc'
     }
 
-    attributes 'revnumber': null, 'source-highlighter': 'rouge', 'media': 'screen',
+    attributes 'source-highlighter': 'rouge', 'media': 'screen',
             'compress': '', 'icons': 'font', 'icon-set': 'fas', 'pdf-fontsdir': "${file('pdf-theme/fonts')},GEM_FONTS_DIR"
     theme 'el'
     forkOptions {
