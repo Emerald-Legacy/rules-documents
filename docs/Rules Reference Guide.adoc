@@ -1489,7 +1489,7 @@ full, the post-to aspect's resolution is canceled.
 === Token Pool, General Token Pool
 
 The token pool (also referred to as the general token pool) is
-created during setup and contains all of the tokens and counters
+created during setup and contains all the tokens and counters
 not currently controlled by any player.
 
 - When a player gains fate or honor, that fate or honor is taken
@@ -1979,12 +1979,8 @@ character was played is refilled facedown from the dynasty deck.
 When a player passes, that player relinquishes all further
 opportunities to act during this phase. (A player who has passed
 may still trigger interrupts and reactions to any eligible
-occurrence.) The player to pass first gains 1 fate from the general
-token pool and adds it to his or her fate pool. After one player has
-passed, the other player may continue to use action opportunities
-
-until he or she also passes. Once both players have passed, this
-step is complete.
+occurrence.) After one player has passed, the other player may continue to use action opportunities
+until he or she also passes. Once both players have passed, this step is complete.
 
 ==== 1.5. Dynasty phase ends
 
@@ -2421,7 +2417,7 @@ A duel is resolved during the successful resolution of any triggered ability tha
 - *Focus:* each player involved in the duel selects and reveals their honor bid for the duel, then the result of the duel is determined
 - *Strike:* the consequences of the duel are applied
 
-There are no action windows during a duel, so players are not able to initiate actions or play characters and attachments from their hands during the resolution of a duel. 
+There are no action windows during a duel, so players are not able to initiate actions or play characters and attachments from their hands during the resolution of a duel.
 
 During a duel each player can trigger special abilities that affect the duel itself. Those abilities are marked as *Duel Challenge*, *Duel Focus*, and *Duel Strike*. Each player can trigger a single effect for each phase. For example, you could trigger both a *Duel Focus* and a *Duel Strike*, but you cannot trigger two *Duel Focus* abilities, regardless of their names. Whenever those abilities refer to characters they refer to the characters involved in the duel.
 
@@ -2458,7 +2454,7 @@ If the duel totals are the same, neither character is the duel’s winner and ne
 
 === D.4 Strike.
 
-The ability that initiated the duel (in step D.1) specified the consequences of this duel for the winning and/or losing characters, or for the player(s) controlling those characters. 
+The ability that initiated the duel (in step D.1) specified the consequences of this duel for the winning and/or losing characters, or for the player(s) controlling those characters.
 
 Before applying the duel consequences, *Duel Strike* abilities can be triggered. Then, apply the duel consequences.
 
