@@ -3,9 +3,10 @@
 :imagesdir: images
 :chapter-label:
 :page-background-image: image:rrg_background_flat.jpg[fit=fill, pdfwidth=100%]
-:document-version: 2.1
+:revnumber: 4.0
+:revdate: March 8, 2023
 
-= Rules Reference
+= image:el_logo.png[pdfwidth=70%,role=center]pass:q[<br>]Rules Reference
 :toc: right
 
 {empty} +
@@ -13,6 +14,9 @@
 <<<
 
 == Rules Reference
+
+[.metadata.text-center]
+Version {revnumber} – {revdate}
 
 This document is intended as the definitive source for rules information for the Emerald Legacy, the fan continuation of Fantasy Flight Games' Legend of the 5 Rings LCG.
 The majority of this guide consists of the glossary, which provides an alphabetical listing of terms and situations a player might encounter during a game.
@@ -228,17 +232,17 @@ Composure is a variable keyword ability. A card with this keyword gains an addit
 === Conflict
 During the conflict phase, each player has two opportunities to declare a conflict against an opponent. For the rules on how to resolve conflicts, see <<Framework Details>>.
 
-=== Conflict (Conflict Action, Conflict Reaction,Conflict Interrupt), Triggered Conflict Ability
+=== Conflict (Conflict Action, Conflict Reaction, Conflict Interrupt), Triggered Conflict Ability
 
 If a triggered ability is preceded by the modifier "Conflict", that ability can only be triggered during a conflict. It functions as a shorthand for the following triggering conditions:
 
 - On events, provinces, strongholds and holdings "Conflict X:" replaces "X: During a conflict, ..."
 - On characters "Conflict X:" replaces "X: During a conflict in which this character is participating, ..."
 - On attachments "Conflict X:" replaces "X: During a conflict in which attached character is participating, ..."
-- If a Triggered Conflict Ability can only be triggered in a conflict of a specific type, the boldface timing command is preceded by the [military] or [political] symbols, respectively. +
-*Example:* _A character has the ability "*[military]Conflict Action:* Pay 1 fate - ready this character." This is equivalent to "*Action:* During a [military]conflict in which this character is participating, pay 1 fate - ready this character."_
+- If a Triggered Conflict Ability can only be triggered in a conflict of a specific type, the boldface timing command is preceded by the [.emeralddbsm]#&#59648;# or [.emeralddbsm]#&#59649;# symbols, respectively. +
+*Example:* _A character has the ability "[.emeralddbsm]#&#59648;#**Conflict Action:** Pay 1 fate - ready this character." This is equivalent to "*Action:* During a [.emeralddbsm]#&#59648;# conflict in which this character is participating, pay 1 fate - ready this character."_
 - If a card's remaining triggering conditions directly contradict parts of this replacement, the card's text takes precedence. +
-*Example:* _The attachment Stinger (Through the Mists 34) has the ability "*[military]Conflict Action:* While this card is in your hand, choose an attacking character and lose 1 honor - ...". Because Stinger has to be in your hand in order to trigger its ability, it does not have an attached character. In this case, the "*[military]Conflict Action:*" is interpreted as "*Action:* During a [military]conflict, ..." instead of "*Action:* During a [military]conflict in which attached character is participating, ..."_
+*Example:* _The attachment Stinger (Through the Mists 34) has the ability "*[military]Conflict Action:* While this card is in your hand, choose an attacking character and lose 1 honor - ...". Because Stinger has to be in your hand in order to trigger its ability, it does not have an attached character. In this case, the "[.emeralddbsm]#&#59648;#**Conflict Action:**" is interpreted as "*Action:* During a [.emeralddbsm]#&#59648;# conflict, ..." instead of "*Action:* During a [.emeralddbsm]#&#59648;# conflict in which attached character is participating, ..."_
 - If a player is instructed to resolve a Triggered Conflict Ability on a character, the triggering conditions above must still be met. This means that the character must be participating in a conflict of the right type (if specified).
 
 === Conflicts at Multiple Provinces
@@ -246,7 +250,7 @@ When a conflict is at multiple provinces, each of those provinces is the "attack
 
 During the resolution of a conflict at multiple provinces, compare the attacking player's excess skill against the strength of each attacked province separately to determine if that province is broken.
 
-- Any card ability that interacts with "the attacked province" interacts with one (not both) of those provinces.
+Any card ability that interacts with "the attacked province" interacts with one (not both) of those provinces.
 
 === Constant Abilities
 A constant ability is any non-keyword ability whose text contains no boldface timing trigger defining its ability type. A constant ability becomes active as soon as its card enters play and remains active while the card is in play.
@@ -307,7 +311,7 @@ When instructed to count a total of game values on a subset of characters, value
 === Courtesy
 Courtesy is a keyword ability. When a card with the courtesy keyword leaves play, its controller gains 1 fate.
 
-- The courtesy keyword resolves after the card leaves play, before reactions to that card leaving play can be triggered.
+The courtesy keyword resolves after the card leaves play, before reactions to that card leaving play can be triggered.
 
 === Covert
 Covert is a keyword ability. When a player initiates a conflict, *if at least one character with the covert keyword is declared as an attacker*, that player may choose one character without covert controlled by the defending player. *That character* is considered evaded by covert, and cannot be declared as a defender for that conflict.
