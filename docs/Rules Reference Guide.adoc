@@ -62,7 +62,7 @@ permission to perform a specified task.
 - During the conflict phase, the active player is the player with the opportunity to initiate a conflict, or the player who is resolving a conflict he or she has initiated.
 
 === Additional Conflicts
-Some card abilities allow a player to declare an additional conflict during the conflict phase. The additional conflict created by such an effect is in addition to a player's two normal conflict opportunities. It does not replace the normal [military] or [political] conflict opportunity that player has each conflict phase.
+Some card abilities allow a player to declare an additional conflict during the conflict phase. The additional conflict created by such an effect is in addition to a player's two normal conflict opportunities. It does not replace the normal [.emeralddbsm]#&#59648;# or [.emeralddbsm]#&#59649;# conflict opportunity that player has each conflict phase.
 
 === Additional Cost
 Some card abilities require an additional cost to be played to play a card, trigger an ability, or perform a framework step. If the additional cost cannot be paid, the game action cannot be initiated.
@@ -242,7 +242,7 @@ If a triggered ability is preceded by the modifier "Conflict", that ability can 
 - If a Triggered Conflict Ability can only be triggered in a conflict of a specific type, the boldface timing command is preceded by the [.emeralddbsm]#&#59648;# or [.emeralddbsm]#&#59649;# symbols, respectively. +
 *Example:* _A character has the ability "[.emeralddbsm]#&#59648;#**Conflict Action:** Pay 1 fate - ready this character." This is equivalent to "*Action:* During a [.emeralddbsm]#&#59648;# conflict in which this character is participating, pay 1 fate - ready this character."_
 - If a card's remaining triggering conditions directly contradict parts of this replacement, the card's text takes precedence. +
-*Example:* _The attachment Stinger (Through the Mists 34) has the ability "*[military]Conflict Action:* While this card is in your hand, choose an attacking character and lose 1 honor - ...". Because Stinger has to be in your hand in order to trigger its ability, it does not have an attached character. In this case, the "[.emeralddbsm]#&#59648;#**Conflict Action:**" is interpreted as "*Action:* During a [.emeralddbsm]#&#59648;# conflict, ..." instead of "*Action:* During a [.emeralddbsm]#&#59648;# conflict in which attached character is participating, ..."_
+*Example:* _The attachment Stinger (Through the Mists 34) has the ability "[.emeralddbsm]#&#59648;#**Conflict Action:** While this card is in your hand, choose an attacking character and lose 1 honor - ...". Because Stinger has to be in your hand in order to trigger its ability, it does not have an attached character. In this case, the "[.emeralddbsm]#&#59648;#**Conflict Action:**" is interpreted as "*Action:* During a [.emeralddbsm]#&#59648;# conflict, ..." instead of "*Action:* During a [.emeralddbsm]#&#59648;# conflict in which attached character is participating, ..."_
 - If a player is instructed to resolve a Triggered Conflict Ability on a character, the triggering conditions above must still be met. This means that the character must be participating in a conflict of the right type (if specified).
 
 === Conflicts at Multiple Provinces
@@ -541,7 +541,7 @@ When the players are asked to perform a glory count, each player or each team co
 - Step 3.4.1 of the conflict phase consists of a framework glory count. The winner of this count claims the Imperial Favor and may set it to either side if appropriate.
  ** If players have the same total, the Imperial Favor remains in its current state (either unclaimed or under the possession of the player who currently has it, remaining set on its current side).
 - Some card abilities may require the players to perform a glory count. Glory counts required by card abilities are made in the same manner, and the ability will detail how to process the result. Such counts do not affect the status of the Imperial Favor, unless the ability text causes the Imperial Favor status to change.
-- Other card abilities may require players to count current glory among their characters, or a subset of their characters. This is different from a glory count, and rings in a player's claimed ring pool are not added. For such card abilities, players count current glory among their specified characters in the same way they would count current [military] or [political] skill.
+- Other card abilities may require players to count current glory among their characters, or a subset of their characters. This is different from a glory count, and rings in a player's claimed ring pool are not added. For such card abilities, players count current glory among their specified characters in the same way they would count current [.emeralddbsm]#&#59648;# or [.emeralddbsm]#&#59649;# skill.
 
 *Related*: <<_imperial_favor_imperial_favor_contest>>, <<Current>>
 
@@ -1286,7 +1286,7 @@ and challenge play. It cannot be used in standard play and has a
 unique set of rules documented in the Under Fu Leng's Shadow
 rulebook, which can be found on www.L5R.com.
 The Shadowlands faction is indicated by the following clan icon in
-text ( ).
+text ([.emeralddbsm]#&#59665;#).
 
 === Shuffle
 The word "shuffle" is used as a shorthand that instructs a player to
@@ -1311,9 +1311,9 @@ A character's effectiveness in various endeavors is measured by its
 skill. There are two types of skill in the game, military skill and
 political skill.
 
-- Military skill ([military]) is used to determine the victor during military
+- Military skill ([.emeralddbsm]#&#59648;#) is used to determine the victor during military
 conflicts.
-- Political skill ([political]) is used to determine the victor during political
+- Political skill ([.emeralddbsm]#&#59649;#) is used to determine the victor during political
 conflicts.
 - Total attacking skill is the sum of each ready participating
 character's skill (for the appropriate conflict type) on the
@@ -2478,7 +2478,7 @@ To resolve a duel, perform the following steps:
 ==== D.2. Establish the challenge
 The process of initiating the duel (in step D.1) will have identified
 the two characters that are involved in the duel, as well as the kind
-of duel that will take place. This statistic ([military] skill, [political] skill, or glory) will be used to determine the results of the duel.
+of duel that will take place. This statistic ([.emeralddbsm]#&#59648;# skill, [.emeralddbsm]#&#59649;# skill, or glory) will be used to determine the results of the duel.
 
 ==== D.3. Duel honor bid
 Each player secretly selects a number from 1 to 5 on his or her
@@ -2503,7 +2503,7 @@ transferred during this step.
 
 ==== D.6. Calculate dueling statistic
 The process of initiating the duel (in step D.1) will have established
-which statistic ([military] skill, [political] skill, or glory) is being used to
+which statistic ([.emeralddbsm]#&#59648;# skill, [.emeralddbsm]#&#59649;# skill, or glory) is being used to
 determine the results of the duel. Each player calculates the
 current value of that statistic for their character involved in the
 duel. Any skill modifiers that were active at the time the duel was
@@ -2623,65 +2623,7 @@ that are asked about cards in the game. These answers are
 organized by the expansion and collector number of the card
 whose rules interaction has raised the question.
 
-=== Core Set
-==== Shameful Display (24)
-
-- Neither the honoring nor the dishonoring aspect of Shameful
-Display's ability is dependent upon the other. Additionally,
-targets for the ability may be chosen even if one or both of
-those characters could be either honored or dishonored (you
-do not need to select which character is receiving which aspect
-when choosing targets). If Shameful Display honors/dishonors
-one character and fails to honor/dishonor the other, it has still
-resolved successfully, even though it failed to affect one of the
-chosen characters. That character is still a valid target for the
-ability as it could have been affected by either aspect at the
-time it was chosen.
-
-==== [.font-color: blue.underline]#Savvy Politician# [.font-color: green]#(45)#
-
-- Savvy Politician's ability does not trigger if an honored status
-token is moved to it by a card ability. It only triggers if an effect
-"honors" it.
-
-==== [.font-color: blue.underline]#Young Rumormonger# [.font-color: green]#(101)#
-
-- Young Rumormonger's ability does not trigger if an honored or
-dishonored status token is moved to a character by a card
-ability. It only triggers if an effect "honors" or "dishonors" a
-character.
-
-==== [.font-color: blue.underline]#Reprieve# [.font-color: green]#(132)#
-
-- Reprieve's effect can prevent a character from being sacrificed.
-** If that occurs during the payment of a [.underline]#cost#, then that cost
-is not considered to have been paid as the sacrifice was
-prevented (see page 5). If the sacrifice while paying an
-event's cost is prevented, the effects do not initiate, and
-that event remains unplayed in its owner's hand.
-** If that occurs during the resolution of an [.underline]#effect#, then
-nothing is dependent upon whether or not the sacrifice
-resolved successfully. In the same way that an event whose
-effects were canceled by Voice of Honor (Core, 145) is still
-considered to have been played, a card like Way of the Crab
-(Core, 137) is still considered to have been played even if
-its effects are prevented by Reprieve.
-
-==== [.font-color: blue.underline]#Watch Commander# [.font-color: green]#(133)#
-
-- If a player plays a card whose effects result in Watch
-Commander being discarded, its ability cannot be triggered as
-it is no longer in play.
-- If a player plays a card whose effects result in the attached
-character no longer participating in the conflict, Watch
-Commander's ability cannot be triggered as the triggering
-condition is no longer met.
-
-==== [.font-color: blue.underline]#Steward of Law# [.font-color: green]#(139)#
-- If a character "cannot receive dishonored status tokens," then
-those tokens cannot be placed on or moved to that character.
-That character cannot be dishonored if it is ordinary. (See page
-32.)
+=== Emerald Core Set
 
 ==== [.font-color: blue.underline]#Above Question# [.font-color: green]#(141)#
 
@@ -2693,58 +2635,12 @@ controlled by that opponent, Court Games' honoring effect
 (Core, 206) cannot be selected, as the attached character
 cannot be chosen as a target.
 
-==== [.font-color: blue.underline]#Way of the Lion# [.font-color: green]#(167)#
-
-- When you play two copies of Way of the Lion on the same
-character during a conflict, that character's [military] skill will be
-doubled twice (to now be quadruple the original skill value).
-The new base skill value continues to double if additional
-copies are played.
-
-==== [.font-color: blue.underline]#Display of Power# [.font-color: green]#(179)#
-
-- When Display of Power is played, it produces a delayed effect
-that cancels the normal effects of ring resolution during step
-3.2.6 "Resolve Ring Effects" and replaces it with "resolve the
-ring effect as if you had won the conflict as the attacking
-player." Losing honor for unopposed and breaking the province
-will occur before resolving Display of Power's effect.
-** Should Pilgrimage (Core, 22) not be broken when Display
-of Power resolves, the delayed effect of Display takes
-precedence over Pilgrimage, canceling the normal
-resolution of "Resolve Ring Effects" and replacing it with
-the adjusted means of resolution. However, the Pilgrimage
-effect ("cancel all ring effects") still cancels the Display of
-Power's attempt to resolve the ring for the defender. The
-defender claims the ring.
-** Because Display of Power interacts with the "Resolve Ring
-Effects" step rather than the specific effect chosen by the
-attacker, the attacker does not have the option to choose
-a specific ring effect to resolve when Seeker of Knowledge
-(Core, 171) is attacking (or whether they would like to
-resolve a ring effect at all). When Display of Power resolves
-the ring effect, the defender has the opportunity to choose
-which ring effect they would like to resolve instead, and
-may choose to not resolve the ring's effect if they desire.
-
-==== [.font-color: blue.underline]#Banzai!# [.font-color: green]#(204)#
-
-- When Banzai! is played, a player can choose to cancel Banzai!'s
-entire card effect, just the second part of its effect, or none of
-its effect.
-
-** When Banzai!'s effect initiates during the step 6 of playing
-the card (see page 11), the effects that initiate are: "you
-may lose 1 honor, the chosen character gets +2 [military], and if
-you lost 1 honor resolve this ability twice." If Banzai!'s
-effects are canceled at this time, none of those things
-happen and the card's effects do not resolve at all. +
-If those effects resolve, and the 1 honor is lost, "resolve this
-ability twice" causes the ability's resolution to return to
-step 5 ("choose a participating character"). This causes the
-effects to initiate a second time, and thus they can be
-canceled a second time to prevent the second +2 [military] and
-optional honor loss.
+==== [.font-color: blue.underline]#Waning Hostilities# [.font-color: green]#(100)#
+- Waning Hostilities limits each player to one conflict
+opportunity for the phase. Because Waning Hostilities sets a
+hard limit, no amount of additional conflicts gained through
+card effects can allow players to declare more than one conflict
+in that phase.
 
 === [.font-color: green]#Disciples of the Void#
 
@@ -2792,32 +2688,6 @@ action event, as an Action event (such as Hurricane Punch
 (Elemental Cycle, 17)) is fully played and resolved within
 the resolution of Dragon Tattoo's ability.
 
-=== [.font-color: green]#Imperial Cycle#
-==== [.font-color: blue.underline]#Test of Skill# [.font-color: green]#(93)#
-- If you play Test of Skill from the top of your deck (with a card
-such as Artisan Academy (Core, 53) or Pillow Book (Imperial,
-93)), it will take up one of the "revealed card slots" in its cost,
-but be ineligible to be put into your hand by its effect.
-** When an event card is played, it is considered to remain in
-its original zone until its cost has successfully been payed,
-at which point it gets placed onto the table in a state of
-"being played" before being placed in its owner's discard
-pile after its effects resolve. Therefore, during the payment
-of the Test of Skill's cost, it is still on top of your deck and
-will be revealed as part of the cost of playing the event.
-** While it is already revealed by the Academy or Pillow Book,
-it can still be revealed again to satisfy its own cost.
-However, once it leaves the top of your deck (after paying
-costs and choosing targets in step 5—see <<Initiating Abilities / Playing Cards>>), it no longer becomes "one of the
-revealed cards" and cannot be put back into your hand. For
-more information, see <<In Play and Out of Play>>.
-
-==== [.font-color: blue.underline]#Waning Hostilities# [.font-color: green]#(100)#
-- Waning Hostilities limits each player to one conflict
-opportunity for the phase. Because Waning Hostilities sets a
-hard limit, no amount of additional conflicts gained through
-card effects can allow players to declare more than one conflict
-in that phase.
 
 === [.font-color: green]#Elemental Cycle#
 ==== [.font-color: blue.underline]#The Mirror's Gaze# [.font-color: green]#(15)#
@@ -2924,8 +2794,8 @@ attacking player must declare the greatest number of possible
 attackers. This may force the attacking player to select a
 particular ring or conflict type to make the declaration of the
 required number of attackers eligible. For example, if a
-character has a dash [military] skill value and it must be declared to
-reach the chosen number of attackers, then a [political] conflict must
+character has a dash [.emeralddbsm]#&#59648;# skill value, and it must be declared to
+reach the chosen number of attackers, then a [.emeralddbsm]#&#59649;# conflict must
 be declared.
 
 ==== [.font-color: blue.underline]#Retire to the Brotherhood# [.font-color: green]#(28)#
@@ -3025,22 +2895,6 @@ accurate, and overrides all other printings. This includes translated
 cards, promotional cards, and printings which may appear in
 alternate products.
 
-[.font-color: blue.underline]#City of the Open Hand# *(Core Set, 6)* +
-Should read: "gain 1 honor." +
-_(Replaces "take 1 honor from that player.")_
-
-[.font-color: blue.underline]#Restoration of Balance# *(Core Set, 10)* +
-Should read: "*Interrupt*: When this province is broken..." +
-_(Replaces "Reaction: After this province is revealed...")_ +
-
-[.font-color: blue.underline]#Kuroi Mori# *(Core Set, 12)* +
-Should read: "Cannot be a stronghold province." +
-_(Added "Cannot be a stronghold province.")_ +
-
-[.font-color: blue.underline]#Against the Waves# *(Core Set, 117)* +
-Should read: "Choose a *Shugenja* character you control." +
-_(Added "you control")_
-
 [.font-color: blue.underline]#Kyūden Isawa# *(Disciples of the Void, 1)* +
 Should read: "During a conflict, bow this stronghold and discard a
 *Spell* event from your hand" +
@@ -3073,12 +2927,6 @@ province into play in an unbroken non-stronghold province..." +
 _(Replaces "Put a facedown holding under your stronghold
 province into an unbroken non-stronghold province...")_
 
-[.font-color: blue.underline]#Feast or Famine# *(Imperial Cycle, 41)* +
-Should read: "...move 1 fate from that character to a character
-you control." +
-_(Replaces "move each fate from that character to a character you
-control with no fate.")_
-
 [.font-color: blue.underline]#Hawk Tattoo# *(Elemental Cycle, 75)* +
 Should read: "Attach to a character you control." +
 _(Added "Attach to a character you control.")_
@@ -3091,10 +2939,10 @@ character you control")_
 
 [.font-color: blue.underline]#Butcher of the Fallen# *(Dominion Cycle, 31)* +
 Should read: "While this character is attacking, characters with
-less [military] skill than the number of unbroken provinces you control
+less [.emeralddbsm]#&#59648;# skill than the number of unbroken provinces you control
 cannot be declared as defenders." +
 _(Replaces "While this character is attacking, characters with
-printed [military] skill X or less cannot be declared as defenders, where X
+printed [.emeralddbsm]#&#59648;# skill X or less cannot be declared as defenders, where X
 is the number of unbroken provinces you control.")_
 
 [.font-color: blue.underline]#Stoke Insurrection# *(Dominion Cycle, 113)* +
@@ -3119,46 +2967,6 @@ _(Added "except for abilities granted by instances of this ability.")_
 [.font-color: blue.underline]#Spell Scroll# *(Under Fu Leng's Shadow, 109)* +
 *Removed "Item" trait.*
 
-[.font-color: blue.underline]#Daidōji Ienori# *(Through The Mists, 10)* +
-Should read: "Conflict Action: Choose a character - set that
-character's [military] and [political] skill to 3 until the end of the conflict. If
-this character is honored, the chosen character also cannot
-receive status tokens until the end of the conflict." +
-_(Replaces "Conflict Action: If this character is honored, choose a
-character - set that character's and skill to 3 until the end
-of the conflict.")_
-
-[.font-color: blue.underline]#Akodo Cho# *(Through The Mists, 20)* +
-Should read: "*Bow* a *Follower* attachment..." +
-_(Replaces "Sacrifice a Follower attachment...")_
-
-[.font-color: blue.underline]#The East Wind# *(Through The Mists, 37)* +
-Should read: "...choose an unbroken non-stronghold province *you
-control*, ..." +
-_(Added "you control")_
-
-[.font-color: blue.underline]#Shinjo Atagi# *(Through The Mists, 39)* +
-Should read: "*Conflict Action*: Choose a participating character -
-set the skill matching the conflict type of that character to the
-printed strength of the attacked province until the end of the
-conflict." +
-_(Replaces "While you control no facedown provinces, this character
-gains +2 [military] and +1 [political] .
-Conflict Action: Choose a participating character your opponent
-controls - reveal a province you control. If the chosen
-character's is less than or equal to the province's strength, bow
-that character.")_
-
-[.font-color: blue.underline]#Stowaway# *(Through The Mists, 50)* +
-Should read: "This character gains +1 [military] for every two facedown
-cards under it.
-*Conflict Reaction*: After this character enters play during a
-conflict, or assigns to a conflict, choose up to two cards in any one
-discard pile - place them under this character, facedown."
-_(Replaces "This character gains +1 [military] for each facedown card
-under it.
-*Conflict Action*: Choose a card in a discard pile - place it under this
-character, facedown. (Limit 1 per conflict.)")_
 
 [%always]
 <<<
@@ -3187,19 +2995,6 @@ All instances of the phrase "initiate a [type] duel" printed on
 character and attachment cards should read: "this character
 initiates a [type] duel."
 
-[.font-color: blue.underline]#Keeper Initiate# *(Core, 124)* +
-Should read: "If you do, place 1 fate on this character." +
-_(Replaces "Then, put 1 fate on this character")_
-
-[.font-color: blue.underline]#Wandering Ronin# *(Core, 127)* +
-The title should be spelled Wandering Rōnin. +
-Should have the *_Rōnin_* trait.
-_(Updated the spelling of the title and trait.)_
-
-[.font-color: blue.underline]#Steward of Law# *(Core, 139)* +
-Should read: "...characters cannot receive dishonored status
-tokens." +
-_(Replaces "...characters cannot become dishonored.")_
 
 [.font-color: blue.underline]#Kitsuki Shomon# *(Underhand of the Emperor, 13)* +
 Should read: "If you do, ready this character." +
@@ -3224,22 +3019,6 @@ Should read: "your opponent discards 2 random cards from their
 hand, then draws 1 card." +
 _(Replaces "your opponent discards 2 random cards from his or her
 hand and draws 1 card.")_
-
-[.font-color: blue.underline]#Kaiu Inventor# *(Imperial Cycle, 63)* +
-Should read: "...an additional time this round (or specified
-period)." +
-_(Changed "each" to "this")_
-
-[.font-color: blue.underline]#Pit Trap# *(Imperial Cycle, 73)* +
-Should read: "Play only on an attacking character. Attached
-character does not ready during the fate phase." +
-_(Replaces "Attach to an attacking character. Attached character
-does not ready during the regroup phase.")_
-
-[.font-color: blue.underline]#Ride Them Down# *(Imperial Cycle, 99)* +
-Should read: "...set the base strength of the attacked province to
-1 until the end of the conflict." +
-_(Added "until the end of the conflict.")_
 
 [.font-color: blue.underline]#Oracle of Stone# *(Elemental Cycle, 37)*
 Should read: "Then, each player discards 2 cards from his or her
@@ -3307,7 +3086,7 @@ province's elements until the end of the conflict." +
 _(Added "until the end of the conflict")_
 
 [.font-color: blue.underline]#Exposed Courtyard# *(Dominion Cycle, 122)* +
-Should read: "During a [military] conflict - discard the top 2 cards of
+Should read: "During a [.emeralddbsm]#&#59648;# conflict - discard the top 2 cards of
 your conflict deck. Then, choose an event in your discard pile. You
 may play..." +
 _(Moved the phrase "Discard the top 2 cards of your conflict deck.
