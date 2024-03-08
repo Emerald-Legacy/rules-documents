@@ -65,6 +65,10 @@ role:
   emeralddb:
     font_family: EmeraldDB
     font_size: 18
+  emeralddbsm:
+    font_family: EmeraldDB
+    font_size: 8
+
 # correct line height for Noto Serif metrics (comes with built-in line height)
 vertical_rhythm: $base_line_height_length
 horizontal_rhythm: $base_line_height_length
