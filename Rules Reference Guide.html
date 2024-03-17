@@ -42,7 +42,7 @@
 <li><a href="#_cancel">Cancel</a></li>
 <li><a href="#_cannot">Cannot</a></li>
 <li><a href="#_cards_under_another_card">Cards under another card</a></li>
-<li><a href="#_cardtypes">Cardtypes</a></li>
+<li><a href="#_card_types">Card types</a></li>
 <li><a href="#_challenge">Challenge</a></li>
 <li><a href="#_character_cards">Character Cards</a></li>
 <li><a href="#_choose">Choose</a></li>
@@ -151,6 +151,7 @@
 <li><a href="#_setup">Setup</a></li>
 <li><a href="#_shadowlands">Shadowlands</a></li>
 <li><a href="#_shuffle">Shuffle</a></li>
+<li><a href="#_side">Side</a></li>
 <li><a href="#_sincerity">Sincerity</a></li>
 <li><a href="#_skill">Skill</a></li>
 <li><a href="#_status_token">Status Token</a></li>
@@ -189,12 +190,6 @@
 <li><a href="#_3_conflict_phase">3. Conflict Phase</a></li>
 <li><a href="#_4_fate_phase">4. Fate Phase</a></li>
 <li><a href="#_duel_timing">Duel Timing</a></li>
-<li><a href="#_d_1_initiate_a_duel">D.1 Initiate a duel.</a></li>
-<li><a href="#_d_2_challenge">D.2 Challenge.</a></li>
-<li><a href="#_d_3_focus">D.3 Focus.</a></li>
-<li><a href="#_d_4_strike">D.4 Strike.</a></li>
-<li><a href="#_d_5_duel_ends">D.5 Duel ends.</a></li>
-<li><a href="#_resolve_the_duel">Resolve the duel</a></li>
 </ul>
 </li>
 <li><a href="#_appendix_ii_card_anatomy">Appendix II: Card Anatomy</a>
@@ -563,7 +558,7 @@ other abilities or effects.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_cardtypes">Cardtypes</h3>
+<h3 id="_card_types">Card types</h3>
 <div class="paragraph">
 <p>The game&#8217;s card types are: character, attachment, holding, event, province, stronghold, and role. Each of these card types, with a detailed card anatomy, is presented in "<a href="#_appendix_ii_card_anatomy">Appendix II: Card Anatomy</a>".</p>
 </div>
@@ -587,7 +582,7 @@ other abilities or effects.</p>
 <p>Character cards represent the bushi, courtiers, shugenja, monks, shinobi, armies, creatures, and other personalities and groups one might encounter in Rokugan.</p>
 </div>
 <div class="paragraph">
-<p>-Characters played from a player&#8217;s provinces can only be played during the dynasty phase. Characters played from a player&#8217;s hand can only be played during any action window outside of the dynasty phase.</p>
+<p>-Characters played from a player&#8217;s provinces can only be played during the dynasty phase. Characters played from a player&#8217;s hand can only be played during any action window outside the dynasty phase.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -834,7 +829,7 @@ other abilities or effects.</p>
 <p>A player controls the cards in his or her out-of-play game areas (such as the hand, the dynasty and conflict decks, and the dynasty and conflict discard piles).</p>
 </li>
 <li>
-<p>If a card would enter an out-of-play area of a player who does not own the card, the card is placed in its owner&#8217;s equivalent out-of-play area instead. (For all associated card ability and framework effect purposes, the card is considered to have entered that opponent&#8217;s out-of-play area, and only the physical placement of the card is adjusted.)</p>
+<p>When a card would enter an out-of-play area of a player who does not own the card, the card is placed in its owner&#8217;s equivalent out-of-play area instead. (For all associated card ability and framework effect purposes, the card is considered to have entered that opponent&#8217;s out-of-play area, and only the physical placement of the card is adjusted.)</p>
 </li>
 <li>
 <p>If a participating character changes control during a conflict, it is considered participating in the same conflict on the side of its new controller.</p>
@@ -1323,7 +1318,7 @@ that player may spend during deckbuilding.</p>
 <p>If the effects of an event card are canceled, the card is still considered to have been played, and its costs remain paid, and the card is still discarded. Only the effects have been canceled.</p>
 </li>
 <li>
-<p>Unless the ability that puts it into play also changes its cardtype to a cardtype that is permitted in play, an event card cannot enter play.</p>
+<p>Unless the ability that puts it into play also changes its card type to a card type that is permitted in play, an event card cannot enter play.</p>
 </li>
 </ul>
 </div>
@@ -1334,12 +1329,26 @@ that player may spend during deckbuilding.</p>
 <div class="sect2">
 <h3 id="_facedown_province">Facedown Province</h3>
 <div class="paragraph">
-<p>A facedown province card has no inherent identity other than "facedown province." When a facedown province is turned faceup, that province card is considered to be revealed.
-- A facedown province is turned faceup when an attack is declared against it.
-- A player may look at the facedown provinces under his or her control at any time. <strong>Note</strong>: this rule refers to the facedown province card itself. A player is not permitted to look at facedown dynasty cards in his or her provinces.
-- If a facedown province becomes the attacked province in a manner other than the declaration of an attack, immediately turn the province faceup.
-- A facedown province is considered to be a different entity than its faceup side. While a province is facedown, its faceup side is considered to be out of play. When a province is turned faceup, the "faceup province" and "facedown province" simultaneously exchange positions, such that the facedown province is now out of play and the faceup province is now in play. The opposite is true when a province is turned facedown.
-- Province tokens in the skirmish format are never considered to be facedown and are never revealed.</p>
+<p>A facedown province card has no inherent identity other than "facedown province." When a facedown province is turned faceup, that province card is considered to be revealed.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>A facedown province is turned faceup when an attack is declared against it.</p>
+</li>
+<li>
+<p>A player may look at the facedown provinces under his or her control at any time. <strong>Note</strong>: this rule refers to the facedown province card itself. A player is not permitted to look at facedown dynasty cards in his or her provinces.</p>
+</li>
+<li>
+<p>If a facedown province becomes the attacked province in a manner other than the declaration of an attack, immediately turn the province faceup.</p>
+</li>
+<li>
+<p>A facedown province is considered to be a different entity than its faceup side. While a province is facedown, its faceup side is considered to be out of play. When a province is turned faceup, the "faceup province" and "facedown province" simultaneously exchange positions, such that the facedown province is now out of play and the faceup province is now in play. The opposite is true when a province is turned facedown.</p>
+</li>
+<li>
+<p>Province tokens in the skirmish format are never considered to be facedown and are never revealed.</p>
+</li>
+</ul>
 </div>
 </div>
 <div class="sect2">
@@ -1371,9 +1380,17 @@ given time is represented (as open information) by fate tokens in his or her fat
 <div class="sect2">
 <h3 id="_fill_a_province">Fill a Province</h3>
 <div class="paragraph">
-<p>If a player is instructed to fill a province, that player takes the top card of their dynasty deck and places it facedown (without looking at it) on the province.
-- A player can fill a province even if that province already has 1 or more dynasty cards in it.
-- If a player is instructed to fill a province faceup, the dynasty card is placed in the province faceup rather than facedown.</p>
+<p>If a player is instructed to fill a province, that player takes the top card of their dynasty deck and places it facedown (without looking at it) on the province.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>A player can fill a province even if that province already has 1 or more dynasty cards in it.</p>
+</li>
+<li>
+<p>If a player is instructed to fill a province faceup, the dynasty card is placed in the province faceup rather than facedown.</p>
+</li>
+</ul>
 </div>
 </div>
 <div class="sect2">
@@ -1531,10 +1548,20 @@ given time is represented (as open information) by fate tokens in his or her fat
 <div class="sect2">
 <h3 id="_holding">Holding</h3>
 <div class="paragraph">
-<p>When a holding is turned faceup in a player&#8217;s province, its game text becomes active and that holding is considered to be "in play." As long as a holding remains faceup in a player&#8217;s province, that player can use abilities or benefit from game text on that holding.
-- Many holdings have a statistical value that modifies the defense strength of the province at which the holding is located.
-- During the regroup phase, when discarding faceup cards from his or her provinces, a player may choose to discard a faceup holding. When this occurs, the province is refilled, facedown, with the top card of that player&#8217;s Dynasty deck, as normal.
-- While a holding remains on a province, that province is not refilled.</p>
+<p>When a holding is turned faceup in a player&#8217;s province, its game text becomes active and that holding is considered to be "in play." As long as a holding remains faceup in a player&#8217;s province, that player can use abilities or benefit from game text on that holding.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Many holdings have a statistical value that modifies the defense strength of the province at which the holding is located.</p>
+</li>
+<li>
+<p>During the regroup phase, when discarding faceup cards from his or her provinces, a player may choose to discard a faceup holding. When this occurs, the province is refilled, facedown, with the top card of that player&#8217;s Dynasty deck, as normal.</p>
+</li>
+<li>
+<p>While a holding remains on a province, that province is not refilled.</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
 <p>For holding card anatomy, see <a href="#_appendix_ii_card_anatomy">Appendix II: Card Anatomy</a>.</p>
@@ -1695,7 +1722,7 @@ amount of honor a player has at any given time is represented (as open informati
 </ul>
 </div>
 <div class="paragraph">
-<p><strong>Example</strong>: <em>Tom is building a Lion Clan deck, and has 10 influence to spend on out-of-clan cards, as indicated by the Lion stronghold, Shiro no Yojin. He must spend all of his influence on cards from a single clan. He chooses to select cards from the Crane Clan. Tom decides to include 3 copies of Admit Defeat (2 influence cost each), 3 copies of The Perfect Gift (1 influence cost each), and 1 copy of Duelist Training (1 influence cost). As this is all of Tom&#8217;s influence, he cannot include any other Crane Clan cards in his conflict deck. All of the other cards in Tom&#8217;s conflict deck must either be from the Lion Clan, or be neutral.</em></p>
+<p><strong>Example</strong>: <em>Tom is building a Lion Clan deck, and has 10 influence to spend on out-of-clan cards, as indicated by the Lion stronghold, Momiji Halls. He must spend all of his influence on cards from a single clan. He chooses to select cards from the Crane Clan. Tom decides to include 3 copies of Above Question (2 influence cost each), 3 copies of Ancestral Netsuke (1 influence cost each), and 1 copy of Obligation of Hospitality (1 influence cost). As this is all of Tom&#8217;s influence, he cannot include any other Crane Clan cards in his conflict deck. All the other cards in Tom&#8217;s conflict deck must either be from the Lion Clan, or be neutral.</em></p>
 </div>
 </div>
 <div class="sect2">
@@ -2844,7 +2871,7 @@ game state from the out-of-play area while they are active
 beside a player&#8217;s stronghold.</p>
 </li>
 <li>
-<p>Cards that are printed as the role cardtype cannot be removed
+<p>Cards that are printed as the role card type cannot be removed
 from the game by other card abilities.</p>
 </li>
 <li>
@@ -3068,6 +3095,18 @@ and/or a final cut.</p>
 </div>
 </div>
 <div class="sect2">
+<h3 id="_side">Side</h3>
+<div class="paragraph">
+<p>The two sides of a conflict are the attacker and the defender. THe word <em>side</em> counts for both characters and attachments.
+It disregards who is the controller of a character or an attachment.
+For example, if you play the card <em>Cloud the Mind</em> on your opponent&#8217;s character, it is considered to be <em>on their side</em>,
+even though you are the controller of the card.</p>
+</div>
+<div class="paragraph">
+<p>See <a href="#_attacker_attacking_character_attacking_player">Attacker, Attacking Character, Attacking Player</a>, <a href="#_defender_defending_character_defending_player">Defender, Defending Character, Defending Player</a>.</p>
+</div>
+</div>
+<div class="sect2">
 <h3 id="_sincerity">Sincerity</h3>
 <div class="paragraph">
 <p>Sincerity is a keyword ability. When a card with the sincerity
@@ -3243,7 +3282,7 @@ tokens and the other player is considered to be losing the
 tokens.</p>
 </div>
 <div class="paragraph">
-<p><strong>Related</strong>: Gains, Give, Loses</p>
+<p><strong>Related</strong>: <a href="#_gains">Gains</a>, <a href="#_give">Give</a>, <a href="#_loses">Loses</a></p>
 </div>
 </div>
 <div class="sect2">
@@ -3283,7 +3322,7 @@ an untainted character.</p>
 </ul>
 </div>
 <div class="paragraph">
-<p><strong>Related</strong>: Corrupted, Status Token</p>
+<p><strong>Related</strong>: <a href="#_corrupted">Corrupted</a>, <a href="#_status_token">Status Token</a></p>
 </div>
 <div class="sect3">
 <h4 id="_target">Target</h4>
@@ -3629,7 +3668,7 @@ closes after all players consecutively pass.</p>
 <div class="sect2">
 <h3 id="_unique_cards">Unique Cards</h3>
 <div class="paragraph">
-<p>A card with the symbol in front of its title is a unique card. Each
+<p>A card with the <span class="emeralddbsm">&#59662;</span> symbol in front of its title is a unique card. Each
 player may only have a maximum of one instance of each unique
 card, by title, in play.</p>
 </div>
@@ -4777,12 +4816,10 @@ dynasty phase of the next game round.</p>
 </div>
 <div class="sect2">
 <h3 id="_duel_timing">Duel Timing</h3>
-
-</div>
-<div class="sect2">
-<h3 id="_d_1_initiate_a_duel">D.1 Initiate a duel.</h3>
+<div class="sect3">
+<h4 id="_d_1_initiate_a_duel">D.1 Initiate a duel</h4>
 <div class="paragraph">
-<p>When a card ability initiates a duel, part of the cost of that ability may use the phrase, “initiate a [type] duel." This opens the duel timing window.</p>
+<p>When a card ability initiates a duel, part of the cost of that ability may use the phrase, "initiate a [type] duel." This opens the duel timing window.</p>
 </div>
 <div class="paragraph">
 <p>To initiate a duel, the player resolving the card ability must choose two characters to duel against each other: one they control and one controlled by an opponent. The following parameters exist on which characters can be chosen for the duel:</p>
@@ -4796,7 +4833,7 @@ dynasty phase of the next game round.</p>
 <p>If a duel is initiated during a conflict, both characters chosen must be participating.</p>
 </li>
 <li>
-<p>If a duel is initiated by an ability on a character card, that character is automatically involved in the duel. Some abilities use the phrase “this character initiates" as a reminder of this. That character is not considered to be chosen as a target of the duel, as it is already involved.</p>
+<p>If a duel is initiated by an ability on a character card, that character is automatically involved in the duel. Some abilities use the phrase "this character initiates" as a reminder of this. That character is not considered to be chosen as a target of the duel, as it is already involved.</p>
 </li>
 <li>
 <p>During a conflict, a duel can only be initiated by an ability on a character card if that character is participating in the conflict.</p>
@@ -4806,9 +4843,11 @@ dynasty phase of the next game round.</p>
 </li>
 </ul>
 </div>
+</div>
+<div class="sect3">
+<h4 id="_resolve_the_duel">Resolve the duel</h4>
 <div class="paragraph">
-<p>Resolve the duel
-A duel is resolved during the successful resolution of any triggered ability that instructs players to “resolve the duel," or that their “character challenges the opponent’s character to a [type] duel." A duel resolution is split into 3 steps taken in sequence. The steps are:</p>
+<p>A duel is resolved during the successful resolution of any triggered ability that instructs players to "resolve the duel," or that their "character challenges the opponent&#8217;s character to a [type] duel." A duel resolution is split into 3 steps taken in sequence. The steps are:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -4836,24 +4875,32 @@ A duel is resolved during the successful resolution of any triggered ability tha
 <p>All abilities triggered during a Duel follow the normal order of priority, with the First Player having the first opportunity to trigger an ability.</p>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_d_2_challenge">D.2 Challenge.</h3>
+<div class="sect3">
+<h4 id="_d_2_challenge">D.2 Challenge</h4>
 <div class="paragraph">
-<p>The process of initiating the duel (in step D.1) will have identified:
-- the two characters that are involved in the duel. Those characters are the contestants in this duel. The side that initiated the duel is the challenger, the other side is the challenged.
-- the kind of duel that will take place. This statistic (MIL skill, POL skill, or glory) will be used to determine the results of the duel.</p>
+<p>The process of initiating the duel (in step D.1) will have identified:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>the two characters that are involved in the duel. Those characters are the contestants in this duel. The side that initiated the duel is the challenger, the other side is the challenged.</p>
+</li>
+<li>
+<p>the kind of duel that will take place. This statistic (MIL skill, POL skill, or glory) will be used to determine the results of the duel.</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
 <p>After this, <strong>Duel Challenge</strong> abilities can be triggered. Those abilities can replace the contestants or the statistic of the duel, among other effects.</p>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_d_3_focus">D.3 Focus.</h3>
+<div class="sect3">
+<h4 id="_d_3_focus">D.3 Focus</h4>
 <div class="paragraph">
 <p>Each player secretly selects a number from 1 to 5 on their honor dial as their honor bid for this duel. Once both players have confirmed that they are ready, proceed to the next step.</p>
 </div>
 <div class="paragraph">
-<p>The players simultaneously reveal their bids. Once a player reveals an honor bid, the dial is placed next to the player’s stronghold or conflict deck and remains as a reference point until the next honor bid occurs.</p>
+<p>The players simultaneously reveal their bids. Once a player reveals an honor bid, the dial is placed next to the player&#8217;s stronghold or conflict deck and remains as a reference point until the next honor bid occurs.</p>
 </div>
 <div class="paragraph">
 <p>After revealing their bids <strong>Duel Focus</strong> abilities can be triggered. Those abilities can modify the bids or dials, or they can modify the calculations that define the duel results, among other effects.</p>
@@ -4868,13 +4915,13 @@ A duel is resolved during the successful resolution of any triggered ability tha
 <p>Each player calculates their duel total by adding their statistic to their honor bid plus any other modifier that apply specifically to this duel. Then compare the total with that of their opponent to determine the duel results.</p>
 </div>
 <div class="paragraph">
-<p>The character whose controller has the higher duel total is the duel’s winner.
-The character whose controller has the lower duel total is the duel’s loser.
-If the duel totals are the same, neither character is the duel’s winner and neither character is the duel’s loser.</p>
+<p>The character whose controller has the higher duel total is the duel&#8217;s winner.
+The character whose controller has the lower duel total is the duel&#8217;s loser.
+If the duel totals are the same, neither character is the duel&#8217;s winner and neither character is the duel&#8217;s loser.</p>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_d_4_strike">D.4 Strike.</h3>
+<div class="sect3">
+<h4 id="_d_4_strike">D.4 Strike</h4>
 <div class="paragraph">
 <p>The ability that initiated the duel (in step D.1) specified the consequences of this duel for the winning and/or losing characters, or for the player(s) controlling those characters.</p>
 </div>
@@ -4882,146 +4929,15 @@ If the duel totals are the same, neither character is the duel’s winner and ne
 <p>Before applying the duel consequences, <strong>Duel Strike</strong> abilities can be triggered. Then, apply the duel consequences.</p>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_d_5_duel_ends">D.5 Duel ends.</h3>
+<div class="sect3">
+<h4 id="_d_5_duel_ends">D.5 Duel ends</h4>
 <div class="paragraph">
 <p>This step formalizes the end of the duel. Return to the action window in which the duel was initiated, with the next player in the sequence of actions having the next opportunity to act.</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_resolve_the_duel">Resolve the duel</h3>
 <div class="paragraph">
-<p>A duel is resolved during the successful resolution of any triggered
-ability that instructs players to "resolve the duel," or that their
-"character challenges the opponent&#8217;s character to a [type] duel."
-To resolve a duel, perform the following steps:</p>
-</div>
-<div class="sect3">
-<h4 id="_d_2_establish_the_challenge">D.2. Establish the challenge</h4>
-<div class="paragraph">
-<p>The process of initiating the duel (in step D.1) will have identified
-the two characters that are involved in the duel, as well as the kind
-of duel that will take place. This statistic (<span class="emeralddbsm">&#59648;</span> skill, <span class="emeralddbsm">&#59649;</span> skill, or glory) will be used to determine the results of the duel.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_d_3_duel_honor_bid">D.3. Duel honor bid</h4>
-<div class="paragraph">
-<p>Each player secretly selects a number from 1 to 5 on his or her
-honor dial as his or her honor bid for this duel. Once both players
-have confirmed that they are ready, proceed to the next step.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>In the skirmish format, players cannot select a number higher
-than 3 on their honor dial.</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_d_4_reveal_honor_dials">D.4. Reveal honor dials</h4>
-<div class="paragraph">
-<p>The players simultaneously reveal their bids.</p>
-</div>
-<div class="paragraph">
-<p>Once a player reveals an honor bid, the dial is placed next to the
-player&#8217;s stronghold or conflict deck and remains as a reference
-point until the next honor bid occurs.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_d_5_transfer_honor">D.5. Transfer honor</h4>
-<div class="paragraph">
-<p>The player with the higher honor bid must give an amount of honor
-to the player with the lower honor bid that is equal to the
-difference between the two bids. If the bids are equal, no honor is
-transferred during this step.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_d_6_calculate_dueling_statistic">D.6. Calculate dueling statistic</h4>
-<div class="paragraph">
-<p>The process of initiating the duel (in step D.1) will have established
-which statistic (<span class="emeralddbsm">&#59648;</span> skill, <span class="emeralddbsm">&#59649;</span> skill, or glory) is being used to
-determine the results of the duel. Each player calculates the
-current value of that statistic for their character involved in the
-duel. Any skill modifiers that were active at the time the duel was
-initiated are still applicable during the duel.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>If multiple characters are involved in the duel on the same side,
-add their dueling statistics together. The value calculated in
-this step is treated as the skill value of a single character for the
-purposes of determining duel results. Those characters win or
-lose the duel together</p>
-</li>
-</ul>
-</div>
-<div class="sect4">
-<h5 id="_d_7_add_honor_bid_compare_values_and_determine_result">D.7. Add honor bid, compare values, and determine result</h5>
-<div class="paragraph">
-<p>Each player calculates their duel total and compares it with that of
-their opponent to determine the results.</p>
-</div>
-<div class="paragraph">
-<p>In the stronghold, enlightenment, and team conquest formats,
-each player adds their duel honor bid to the statistic value they
-calculated in step D.6 to determine their duel total.</p>
-</div>
-<div class="paragraph">
-<p>In the skirmish format, the player with the higher dueling statistic
-value calculated in step D.6 adds 1 to their honor bid to determine
-their duel total. The other player&#8217;s duel total is equal to their honor
-bid and is not increased by the dueling statistic.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>The character whose controller has the higher duel total is the
-duel&#8217;s winner.</p>
-</li>
-<li>
-<p>The character whose controller has the lower duel total is the
-duel&#8217;s loser.</p>
-</li>
-<li>
-<p>If the duel totals are the same, neither character is the duel&#8217;s
-winner and neither character is the duel&#8217;s loser.</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_d_8_apply_duel_results">D.8. Apply duel results</h4>
-<div class="paragraph">
-<p>The ability that initiated the duel (in step D.1) specified the
-consequences of this duel for the winning and/or losing characters,
-or for the player(s) controlling those characters. Apply those
-consequences during this step.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_d_9_duel_ends">D.9. Duel ends</h4>
-<div class="paragraph">
-<p>This step formalizes the end of the duel. Return to the action
-window in which the duel was initiated, with the next player in the
-sequence of actions having the next opportunity to act.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>NOTE</strong>: There are no action windows during a duel, so players
-are not able to initiate actions or play characters and
-attachments from their hands during the resolution of a duel.
-Applicable interrupt and/or reaction abilities may be triggered
-during a duel.</p>
-</li>
-</ul>
+<p><strong>NOTE</strong>: There are no action windows during a duel, so players are not able to initiate actions
+or play characters and attachments from their hands during the resolution of a duel.
+Applicable interrupt and/or reaction abilities may be triggered  during a duel.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -5032,7 +4948,7 @@ during a duel.</p>
 <h2 id="_appendix_ii_card_anatomy">Appendix II: Card Anatomy</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This section presents a detailed anatomy of each cardtype.
+<p>This section presents a detailed anatomy of each card type.
 Definitions of each element can be found in the glossary.</p>
 </div>
 <div class="sect2">
@@ -5046,7 +4962,7 @@ Definitions of each element can be found in the glossary.</p>
 <p><strong>Cost</strong>: The fate cost to play the card.</p>
 </li>
 <li>
-<p><strong>Cardtype</strong>: Indicates how a card is played or used during the
+<p><strong>card type</strong>: Indicates how a card is played or used during the
 course of the game.</p>
 </li>
 <li>
@@ -5621,7 +5537,7 @@ ability is forced, it must be triggered and therefore the costs
 <p>If Compromised Secrets and the character it is attached to are
 both controlled by the same player, the additional cost to
 trigger the character&#8217;s abilities would require a player to give
-themself 1 honor. Because a player cannot give themself 1
+themselves 1 honor. Because a player cannot give themselves 1
 honor, the additional cost cannot be paid, and therefore the
 abilities cannot be triggered.</p>
 </li>
@@ -5632,7 +5548,7 @@ abilities cannot be triggered.</p>
 <div class="sect2">
 <h3 id="_through_the_mists"><span class="font-color: green">Through The Mists</span></h3>
 <div class="sect3">
-<h4 id="_clucky_coin_11"><span class="font-color: blue underline">CLucky Coin</span> <span class="font-color: green">(11)</span></h4>
+<h4 id="_lucky_coin_11"><span class="font-color: blue underline">Lucky Coin</span> <span class="font-color: green">(11)</span></h4>
 <div class="ulist">
 <ul>
 <li>
@@ -5929,7 +5845,7 @@ the dash to after the dash.)</em></p>
 <div id="footer">
 <div id="footer-text">
 Version 4.0<br>
-Last updated 2024-03-08 19:49:43 UTC
+Last updated 2024-03-17 20:02:12 UTC
 </div>
 </div>
 </body>
