@@ -153,7 +153,7 @@ Some card effects like Kaiu Shihobu (Defenders of Rokugan 10), Togashi Tsurumi (
 - If a card leaves play, any cards that have been put under it this way are removed from the game, unless otherwise specified by the effect that put them there.
 - This does not apply to attachments, only to cards that are explicitly placed under/underneath a card by a card effect.
 
-=== Cardtypes
+=== Card types
 The game's card types are: character, attachment, holding, event, province, stronghold, and role. Each of these card types, with a detailed card anatomy, is presented in "<<Appendix II: Card Anatomy>>".
 
 - If an ability causes a card to change its card type, the card loses all other card types it might possess, and functions as would any card of the new card type.
@@ -164,7 +164,7 @@ Some card abilities use the word "challenge" to begin the process of resolving a
 === Character Cards
 Character cards represent the bushi, courtiers, shugenja, monks, shinobi, armies, creatures, and other personalities and groups one might encounter in Rokugan.
 
--Characters played from a player's provinces can only be played during the dynasty phase. Characters played from a player's hand can only be played during any action window outside of the dynasty phase.
+-Characters played from a player's provinces can only be played during the dynasty phase. Characters played from a player's hand can only be played during any action window outside the dynasty phase.
 
 - Character cards generally enter play ready and in a player's home area, and remain in play unless removed by an ability or game step.
 - When a player plays a character from his or her hand during a conflict, the player has the option to play it directly into the conflict, ready and participating on his or her side.
@@ -264,7 +264,7 @@ A card's owner is the player who included the card as a part of his or her deck 
 
 - By default, cards enter play under their owner's control. Some abilities may cause cards to change control during a game.
 - A player controls the cards in his or her out-of-play game areas (such as the hand, the dynasty and conflict decks, and the dynasty and conflict discard piles).
-- If a card would enter an out-of-play area of a player who does not own the card, the card is placed in its owner's equivalent out-of-play area instead. (For all associated card ability and framework effect purposes, the card is considered to have entered that opponent's out-of-play area, and only the physical placement of the card is adjusted.)
+- When a card would enter an out-of-play area of a player who does not own the card, the card is placed in its owner's equivalent out-of-play area instead. (For all associated card ability and framework effect purposes, the card is considered to have entered that opponent's out-of-play area, and only the physical placement of the card is adjusted.)
 - If a participating character changes control during a conflict, it is considered participating in the same conflict on the side of its new controller.
 - When a character changes control while it is in play, it remains in the same state as it was before (i.e., bowed or ready, participating or at home, etc.), and is now under the new player's control.
 - Attachments on a card that changes control do not themselves change control.
@@ -453,12 +453,13 @@ Event cards represent tactical acts and maneuvers, court intrigues, spells, supe
 - When an event card is played, its costs are paid, its effects are resolved (or canceled), and it is placed in its owner's appropriate discard pile prior to opening the reaction window which follows the ability's resolution.
 - Lasting effects, including those created by event cards engage the game state at the time they resolve. If an event card creates a lasting effect on a set of cards, only cards that are in play (or in the affected game area or game state) at the time the event is played are eligible to be affected. Cards that enter play (or the affected game area or game state) after the resolution of the event are not affected by its lasting effect.
 - If the effects of an event card are canceled, the card is still considered to have been played, and its costs remain paid, and the card is still discarded. Only the effects have been canceled.
-- Unless the ability that puts it into play also changes its cardtype to a cardtype that is permitted in play, an event card cannot enter play.
+- Unless the ability that puts it into play also changes its card type to a card type that is permitted in play, an event card cannot enter play.
 
 For event card anatomy, see <<Appendix II: Card Anatomy>>.
 
 === Facedown Province
 A facedown province card has no inherent identity other than "facedown province." When a facedown province is turned faceup, that province card is considered to be revealed.
+
 - A facedown province is turned faceup when an attack is declared against it.
 - A player may look at the facedown provinces under his or her control at any time. *Note*: this rule refers to the facedown province card itself. A player is not permitted to look at facedown dynasty cards in his or her provinces.
 - If a facedown province becomes the attacked province in a manner other than the declaration of an attack, immediately turn the province faceup.
@@ -477,6 +478,7 @@ given time is represented (as open information) by fate tokens in his or her fat
 
 === Fill a Province
 If a player is instructed to fill a province, that player takes the top card of their dynasty deck and places it facedown (without looking at it) on the province.
+
 - A player can fill a province even if that province already has 1 or more dynasty cards in it.
 - If a player is instructed to fill a province faceup, the dynasty card is placed in the province faceup rather than facedown.
 
@@ -547,6 +549,7 @@ When the players are asked to perform a glory count, each player or each team co
 
 === Holding
 When a holding is turned faceup in a player's province, its game text becomes active and that holding is considered to be "in play." As long as a holding remains faceup in a player's province, that player can use abilities or benefit from game text on that holding.
+
 - Many holdings have a statistical value that modifies the defense strength of the province at which the holding is located.
 - During the regroup phase, when discarding faceup cards from his or her provinces, a player may choose to discard a faceup holding. When this occurs, the province is refilled, facedown, with the top card of that player's Dynasty deck, as normal.
 - While a holding remains on a province, that province is not refilled.
@@ -617,7 +620,7 @@ In the skirmish format, each player cannot spend more than 6 influence to includ
 - Each copy of a card that is chosen reduces the amount of influence a player has at his or her disposal to use in selecting other cards for the deck.
 - A clan-affiliated card that has no influence cost cannot be selected using influence for inclusion in a deck.
 
-*Example*: _Tom is building a Lion Clan deck, and has 10 influence to spend on out-of-clan cards, as indicated by the Lion stronghold, Shiro no Yojin. He must spend all of his influence on cards from a single clan. He chooses to select cards from the Crane Clan. Tom decides to include 3 copies of Admit Defeat (2 influence cost each), 3 copies of The Perfect Gift (1 influence cost each), and 1 copy of Duelist Training (1 influence cost). As this is all of Tom's influence, he cannot include any other Crane Clan cards in his conflict deck. All of the other cards in Tom's conflict deck must either be from the Lion Clan, or be neutral._
+*Example*: _Tom is building a Lion Clan deck, and has 10 influence to spend on out-of-clan cards, as indicated by the Lion stronghold, Momiji Halls. He must spend all of his influence on cards from a single clan. He chooses to select cards from the Crane Clan. Tom decides to include 3 copies of Above Question (2 influence cost each), 3 copies of Ancestral Netsuke (1 influence cost each), and 1 copy of Obligation of Hospitality (1 influence cost). As this is all of Tom's influence, he cannot include any other Crane Clan cards in his conflict deck. All the other cards in Tom's conflict deck must either be from the Lion Clan, or be neutral._
 
 === Initiating Abilities / Playing Cards
 Whenever a player wishes to play a card or initiate a triggered ability, that player first declares his or her intent (and shows the card to be used, if necessary). There are two preliminary confirmations that must be made before the process may begin.
@@ -1163,7 +1166,7 @@ during setup.
 - Role cards are not considered in play. Their text affects the
 game state from the out-of-play area while they are active
 beside a player's stronghold.
-- Cards that are printed as the role cardtype cannot be removed
+- Cards that are printed as the role card type cannot be removed
 from the game by other card abilities.
 - Some cards have the text, "___ role only." This is a deckbuilding
 restriction, and is not active during gameplay.
@@ -1299,6 +1302,14 @@ satisfaction of the opponent, and upon completion of the
 shuffle presented to the opponent for additional shuffling
 and/or a final cut.
 
+=== Side
+The two sides of a conflict are the attacker and the defender. THe word _side_ counts for both characters and attachments.
+It disregards who is the controller of a character or an attachment.
+For example, if you play the card _Cloud the Mind_ on your opponent's character, it is considered to be _on their side_,
+even though you are the controller of the card.
+
+See <<_attacker_attacking_character_attacking_player>>, <<_defender_defending_character_defending_player>>.
+
 === Sincerity
 Sincerity is a keyword ability. When a card with the sincerity
 keyword leaves play, its controller draws 1 card.
@@ -1403,7 +1414,7 @@ The player taking the tokens is considered to be gaining the
 tokens and the other player is considered to be losing the
 tokens.
 
-*Related*: Gains, Give, Loses
+*Related*: <<_gains>>, <<_give>>, <<_loses>>
 
 === Tainted, Tainted Status Token
 The tainted status token allows characters and provinces to
@@ -1426,7 +1437,7 @@ status token.
 and a tainted character can be honored or dishonored the same as
 an untainted character.
 
-*Related*: Corrupted, Status Token
+*Related*: <<_corrupted>>, <<_status_token>>
 
 ==== Target
 The word "choose" indicates that one or more targets must be
@@ -1653,7 +1664,7 @@ resolve, in the order determined by the first player.
 closes after all players consecutively pass.
 
 === Unique Cards
-A card with the symbol in front of its title is a unique card. Each
+A card with the [.emeralddbsm]#&#59662;# symbol in front of its title is a unique card. Each
 player may only have a maximum of one instance of each unique
 card, by title, in play.
 
@@ -2402,20 +2413,20 @@ dynasty phase of the next game round.
 
 === Duel Timing
 
-=== D.1 Initiate a duel.
+==== D.1 Initiate a duel
 
-When a card ability initiates a duel, part of the cost of that ability may use the phrase, “initiate a [type] duel." This opens the duel timing window.
+When a card ability initiates a duel, part of the cost of that ability may use the phrase, "initiate a [type] duel." This opens the duel timing window.
 
 To initiate a duel, the player resolving the card ability must choose two characters to duel against each other: one they control and one controlled by an opponent. The following parameters exist on which characters can be chosen for the duel:
 
 - One character must be controlled by the player whose card ability initiates the duel, and one character must be controlled by an opponent of that player.
 - If a duel is initiated during a conflict, both characters chosen must be participating.
-- If a duel is initiated by an ability on a character card, that character is automatically involved in the duel. Some abilities use the phrase “this character initiates" as a reminder of this. That character is not considered to be chosen as a target of the duel, as it is already involved.
+- If a duel is initiated by an ability on a character card, that character is automatically involved in the duel. Some abilities use the phrase "this character initiates" as a reminder of this. That character is not considered to be chosen as a target of the duel, as it is already involved.
 - During a conflict, a duel can only be initiated by an ability on a character card if that character is participating in the conflict.
 - If this process is completed, a duel has been initiated. Otherwise, the duel fails to initiate and cannot resolve.
 
-Resolve the duel
-A duel is resolved during the successful resolution of any triggered ability that instructs players to “resolve the duel," or that their “character challenges the opponent’s character to a [type] duel." A duel resolution is split into 3 steps taken in sequence. The steps are:
+==== Resolve the duel
+A duel is resolved during the successful resolution of any triggered ability that instructs players to "resolve the duel," or that their "character challenges the opponent's character to a [type] duel." A duel resolution is split into 3 steps taken in sequence. The steps are:
 
 - *Challenge:* during this step the rules of the duel are defined
 - *Focus:* each player involved in the duel selects and reveals their honor bid for the duel, then the result of the duel is determined
@@ -2429,20 +2440,19 @@ Players can also trigger applicable interrupt and/or reaction abilities during a
 
 All abilities triggered during a Duel follow the normal order of priority, with the First Player having the first opportunity to trigger an ability.
 
-=== D.2 Challenge.
-
+==== D.2 Challenge
 The process of initiating the duel (in step D.1) will have identified:
+
 - the two characters that are involved in the duel. Those characters are the contestants in this duel. The side that initiated the duel is the challenger, the other side is the challenged.
 - the kind of duel that will take place. This statistic (MIL skill, POL skill, or glory) will be used to determine the results of the duel.
 
 After this, *Duel Challenge* abilities can be triggered. Those abilities can replace the contestants or the statistic of the duel, among other effects.
 
 
-=== D.3 Focus.
-
+==== D.3 Focus
 Each player secretly selects a number from 1 to 5 on their honor dial as their honor bid for this duel. Once both players have confirmed that they are ready, proceed to the next step.
 
-The players simultaneously reveal their bids. Once a player reveals an honor bid, the dial is placed next to the player’s stronghold or conflict deck and remains as a reference point until the next honor bid occurs.
+The players simultaneously reveal their bids. Once a player reveals an honor bid, the dial is placed next to the player's stronghold or conflict deck and remains as a reference point until the next honor bid occurs.
 
 After revealing their bids *Duel Focus* abilities can be triggered. Those abilities can modify the bids or dials, or they can modify the calculations that define the duel results, among other effects.
 
@@ -2452,116 +2462,32 @@ In the Challenge step of the duel (D.2) the statistic of the duel was defined. C
 
 Each player calculates their duel total by adding their statistic to their honor bid plus any other modifier that apply specifically to this duel. Then compare the total with that of their opponent to determine the duel results.
 
-The character whose controller has the higher duel total is the duel’s winner.
-The character whose controller has the lower duel total is the duel’s loser.
-If the duel totals are the same, neither character is the duel’s winner and neither character is the duel’s loser.
+The character whose controller has the higher duel total is the duel's winner.
+The character whose controller has the lower duel total is the duel's loser.
+If the duel totals are the same, neither character is the duel's winner and neither character is the duel's loser.
 
-=== D.4 Strike.
-
+==== D.4 Strike
 The ability that initiated the duel (in step D.1) specified the consequences of this duel for the winning and/or losing characters, or for the player(s) controlling those characters.
 
 Before applying the duel consequences, *Duel Strike* abilities can be triggered. Then, apply the duel consequences.
 
-
-=== D.5 Duel ends.
-
+==== D.5 Duel ends
 This step formalizes the end of the duel. Return to the action window in which the duel was initiated, with the next player in the sequence of actions having the next opportunity to act.
 
-
-
-=== Resolve the duel
-A duel is resolved during the successful resolution of any triggered
-ability that instructs players to "resolve the duel," or that their
-"character challenges the opponent's character to a [type] duel."
-To resolve a duel, perform the following steps:
-
-==== D.2. Establish the challenge
-The process of initiating the duel (in step D.1) will have identified
-the two characters that are involved in the duel, as well as the kind
-of duel that will take place. This statistic ([.emeralddbsm]#&#59648;# skill, [.emeralddbsm]#&#59649;# skill, or glory) will be used to determine the results of the duel.
-
-==== D.3. Duel honor bid
-Each player secretly selects a number from 1 to 5 on his or her
-honor dial as his or her honor bid for this duel. Once both players
-have confirmed that they are ready, proceed to the next step.
-
-- In the skirmish format, players cannot select a number higher
-than 3 on their honor dial.
-
-==== D.4. Reveal honor dials
-The players simultaneously reveal their bids.
-
-Once a player reveals an honor bid, the dial is placed next to the
-player's stronghold or conflict deck and remains as a reference
-point until the next honor bid occurs.
-
-==== D.5. Transfer honor
-The player with the higher honor bid must give an amount of honor
-to the player with the lower honor bid that is equal to the
-difference between the two bids. If the bids are equal, no honor is
-transferred during this step.
-
-==== D.6. Calculate dueling statistic
-The process of initiating the duel (in step D.1) will have established
-which statistic ([.emeralddbsm]#&#59648;# skill, [.emeralddbsm]#&#59649;# skill, or glory) is being used to
-determine the results of the duel. Each player calculates the
-current value of that statistic for their character involved in the
-duel. Any skill modifiers that were active at the time the duel was
-initiated are still applicable during the duel.
-
-- If multiple characters are involved in the duel on the same side,
-add their dueling statistics together. The value calculated in
-this step is treated as the skill value of a single character for the
-purposes of determining duel results. Those characters win or
-lose the duel together
-
-===== D.7. Add honor bid, compare values, and determine result
-Each player calculates their duel total and compares it with that of
-their opponent to determine the results.
-
-In the stronghold, enlightenment, and team conquest formats,
-each player adds their duel honor bid to the statistic value they
-calculated in step D.6 to determine their duel total.
-
-In the skirmish format, the player with the higher dueling statistic
-value calculated in step D.6 adds 1 to their honor bid to determine
-their duel total. The other player's duel total is equal to their honor
-bid and is not increased by the dueling statistic.
-
-- The character whose controller has the higher duel total is the
-duel's winner.
-- The character whose controller has the lower duel total is the
-duel's loser.
-- If the duel totals are the same, neither character is the duel's
-winner and neither character is the duel's loser.
-
-==== D.8. Apply duel results
-The ability that initiated the duel (in step D.1) specified the
-consequences of this duel for the winning and/or losing characters,
-or for the player(s) controlling those characters. Apply those
-consequences during this step.
-
-==== D.9. Duel ends
-This step formalizes the end of the duel. Return to the action
-window in which the duel was initiated, with the next player in the
-sequence of actions having the next opportunity to act.
-
-- *NOTE*: There are no action windows during a duel, so players
-are not able to initiate actions or play characters and
-attachments from their hands during the resolution of a duel.
-Applicable interrupt and/or reaction abilities may be triggered
-during a duel.
+*NOTE*: There are no action windows during a duel, so players are not able to initiate actions
+or play characters and attachments from their hands during the resolution of a duel.
+Applicable interrupt and/or reaction abilities may be triggered  during a duel.
 
 <<<
 
 == Appendix II: Card Anatomy
-This section presents a detailed anatomy of each cardtype.
+This section presents a detailed anatomy of each card type.
 Definitions of each element can be found in the glossary.
 
 === Card Anatomy Key
 1. *Title*: The name of the card.
 2. *Cost*: The fate cost to play the card.
-3. *Cardtype*: Indicates how a card is played or used during the
+3. *card type*: Indicates how a card is played or used during the
 course of the game.
 4. *Clan Symbol*: The card's clan affiliation.
 5. *Military Skill*: The character's military skill value.
@@ -2859,12 +2785,12 @@ ability is forced, it must be triggered and therefore the costs
 - If Compromised Secrets and the character it is attached to are
 both controlled by the same player, the additional cost to
 trigger the character's abilities would require a player to give
-themself 1 honor. Because a player cannot give themself 1
+themselves 1 honor. Because a player cannot give themselves 1
 honor, the additional cost cannot be paid, and therefore the
 abilities cannot be triggered.
 
 === [.font-color: green]#Through The Mists#
-==== [.font-color: blue.underline]#CLucky Coin# [.font-color: green]#(11)#
+==== [.font-color: blue.underline]#Lucky Coin# [.font-color: green]#(11)#
 - During conflicts, Lucky Coin only disables the effects of
 dishonored status tokens. The character is still dishonored.
 However, it doesn't subtract its glory from its skills and its
