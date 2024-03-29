@@ -236,7 +236,8 @@ During the conflict phase, each player has two opportunities to declare a confli
 
 If a triggered ability is preceded by the modifier "Conflict", that ability can only be triggered during a conflict. It functions as a shorthand for the following triggering conditions:
 
-- On events, provinces, strongholds and holdings "Conflict X:" replaces "X: During a conflict, ..."
+- On events, strongholds and holdings "Conflict X:" replaces "X: During a conflict, ..."
+- On provinces "Conflict X:" replaces "X: During a conflict at this province, ..."
 - On characters "Conflict X:" replaces "X: During a conflict in which this character is participating, ..."
 - On attachments "Conflict X:" replaces "X: During a conflict in which attached character is participating, ..."
 - If a Triggered Conflict Ability can only be triggered in a conflict of a specific type, the boldface timing command is preceded by the [.emeralddbsm]#&#59648;# or [.emeralddbsm]#&#59649;# symbols, respectively. +
