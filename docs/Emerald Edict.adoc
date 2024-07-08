@@ -4,8 +4,8 @@
 :chapter-label:
 :page-background-image: image:rrg_background_flat.jpg[fit=fill, pdfwidth=100%]
 :pdf-theme: el-edict-theme.yml
-:revnumber: 9.0
-:revdate: March 20, 2024
+:revnumber: 10
+:revdate: July 8, 2024
 
 = image:el_logo.png[pdfwidth=70%,role=center]pass:q[<br>]Emerald Edict
 Emerald Legacy
@@ -43,9 +43,6 @@ Changes to the previous version are marked in [.new]#bold and green.#
 * https://www.emeralddb.org/card/unveiled-corruption[Unveiled Corruption]
 * https://www.emeralddb.org/card/way-of-the-warrior[Way of the Warrior]
 
-=== image:mons/crab.svg[width=20] [.crab]#Crab#
-* https://www.emeralddb.org/card/yasuki-broker[Yasuki Broker, role="new line-through"]
-
 |
 :show-link-uri!:
 == Restricted cards
@@ -55,21 +52,18 @@ Changes to the previous version are marked in [.new]#bold and green.#
 * https://www.emeralddb.org/card/waning-hostilities[Waning Hostilities]
 
 === image:mons/crab.svg[width=20] [.crab]#Crab#
-* https://www.emeralddb.org/card/herald-of-jade[Herald of Jade, role="new line-through"]
 * https://www.emeralddb.org/card/kuni-laboratory[Kuni Laboratory]
 * https://www.emeralddb.org/card/recalled-defenses[Recalled Defenses]
-* https://www.emeralddb.org/card/yasuki-broker[Yasuki Broker, role="new"]
+* https://www.emeralddb.org/card/yasuki-broker[Yasuki Broker]
 
 === image:mons/crane.svg[width=20] [.crane]#Crane#
-* https://www.emeralddb.org/card/doji-diplomat[Dōji Diplomat, role="new line-through"]
-* https://www.emeralddb.org/card/kakita-toshimoko[Kakita Toshimoko, role="new"]
+* https://www.emeralddb.org/card/kakita-toshimoko[Kakita Toshimoko]
 * https://www.emeralddb.org/card/preeminent-decree[Preeminent Decree]
 * https://www.emeralddb.org/card/tsuma[Tsuma]
 
 === image:mons/dragon.svg[width=20] [.dragon]#Dragon#
 * https://www.emeralddb.org/card/adorned-temple[Adorned Temple]
-* https://www.emeralddb.org/card/belief-in-the-little-teacher[Belief in the Little Teacher, role="new line-through"]
-* https://www.emeralddb.org/card/foothills-keep[Foothills Keep, role="new"]
+* https://www.emeralddb.org/card/foothills-keep[Foothills Keep]
 * https://www.emeralddb.org/card/togashi-mitsu-2[Togashi Mitsu 2]
 
 |
@@ -78,20 +72,19 @@ Changes to the previous version are marked in [.new]#bold and green.#
 
 === image:mons/crane.svg[width=20] [.crane]#Crane#
 * https://www.emeralddb.org/card/a-new-name[A New Name]
-* https://www.emeralddb.org/card/daidoji-netsu[Daidoji Netsu, role="new line-through"]
 * https://www.emeralddb.org/card/festival-for-the-fortunes[Festival for the Fortunes]
 * https://www.emeralddb.org/card/fu-sui-temple[Fū Sui Temple]
-* https://www.emeralddb.org/card/kakita-toshimoko[Kakita Toshimoko, role="new line-through"]
 * https://www.emeralddb.org/card/magistrate-station[Magistrate Station]
 
 === image:mons/dragon.svg[width=20] [.dragon]#Dragon#
-* https://www.emeralddb.org/card/belief-in-the-little-teacher[Belief in the Little Teacher, role="new"]
-* https://www.emeralddb.org/card/centered-breath[Centered Breath]
+* https://www.emeralddb.org/card/belief-in-the-little-teacher[Belief in the Little Teacher]
+* https://www.emeralddb.org/card/centered-breath[Centered Breath, role="new line-through"]
+* https://www.emeralddb.org/card/shoshi-ni-kie[Shoshi ni Kie, role="new"]
 * https://www.emeralddb.org/card/phoenix-tattoo[Phoenix Tattoo]
 * https://www.emeralddb.org/card/togashi-mitsu[Togashi Mitsu 1]
 
 === image:mons/lion.svg[width=20] [.lion]#Lion#
-* https://www.emeralddb.org/card/called-to-war[Called to War, role="new"]
+* https://www.emeralddb.org/card/called-to-war[Called to War]
 * https://www.emeralddb.org/card/glorious-victory[Glorious Victory]
 * https://www.emeralddb.org/card/lion-s-pride-paragon[Lion’s Pride Paragon]
 
@@ -106,20 +99,18 @@ Changes to the previous version are marked in [.new]#bold and green.#
 * https://www.emeralddb.org/card/yogo-junzo[Yogo Junzo]
 
 === image:mons/unicorn.svg[width=20] [.unicorn]#Unicorn#
-* https://www.emeralddb.org/card/golden-plains[Golden Plains, role="new"]
-* https://www.emeralddb.org/card/iuchi-rimei[Iuchi Rimei, role="new"]
-* https://www.emeralddb.org/card/scouted-terrain[Scouted Terrain, role="new"]
-* https://www.emeralddb.org/card/utaku-tetsuko[Utaku Tetsuko, role="new"]
+* https://www.emeralddb.org/card/golden-plains[Golden Plains]
+* https://www.emeralddb.org/card/iuchi-rimei[Iuchi Rimei]
+* https://www.emeralddb.org/card/scouted-terrain[Scouted Terrain]
+* https://www.emeralddb.org/card/utaku-tetsuko[Utaku Tetsuko]
 
 a|
 :show-link-uri!:
 == Restricted cards
 === image:mons/lion.svg[width=20] [.lion]#Lion#
-* https://www.emeralddb.org/card/ardent-omoidasu[Ardent Omoidasu, role="new"]
+* https://www.emeralddb.org/card/ardent-omoidasu[Ardent Omoidasu]
 * https://www.emeralddb.org/card/fan-of-command[Fan of Command]
-* https://www.emeralddb.org/card/field-tactician[Field Tactician, role="new line-through"]
-* https://www.emeralddb.org/card/matsu-sakura[Matsu Sakura, role="new"]
-* https://www.emeralddb.org/card/tactical-ingenuity[Tactical Ingenuity, role="new line-through"]
+* https://www.emeralddb.org/card/matsu-sakura[Matsu Sakura]
 
 === image:mons/phoenix.svg[width=20] [.phoenix]#Phoenix#
 * https://www.emeralddb.org/card/guardian-dojo[Guardian Dōjō]
@@ -128,17 +119,15 @@ a|
 
 
 === image:mons/scorpion.svg[width=20] [.scorpion]#Scorpion#
-* https://www.emeralddb.org/card/bayushi-kachiko-2[Bayushi Kachiko 2, role="new"]
+* https://www.emeralddb.org/card/bayushi-kachiko-2[Bayushi Kachiko 2]
 * https://www.emeralddb.org/card/dispatch-to-nowhere[Dispatch to Nowhere]
-* https://www.emeralddb.org/card/final-whisper[Final Whisper, role="new line-through"]
 * https://www.emeralddb.org/card/mark-of-shame[Mark of Shame]
 
 === image:mons/unicorn.svg[width=20] [.unicorn]#Unicorn#
-* https://www.emeralddb.org/card/command-the-tributary[Command the Tributary, role="new"]
-* https://www.emeralddb.org/card/fields-of-rolling-thunder[Fields of Rolling Thunder, role="new"]
+* https://www.emeralddb.org/card/command-the-tributary[Command the Tributary, role="new line-through"]
+* https://www.emeralddb.org/card/fields-of-rolling-thunder[Fields of Rolling Thunder]
 * https://www.emeralddb.org/card/reserve-tents[Reserve Tents]
-* https://www.emeralddb.org/card/scouted-terrain[Scouted Terrain, role="new line-through"]
-* https://www.emeralddb.org/card/utaku-tetsuko[Utaku Tetsuko, role="new line-through"]
+* https://www.emeralddb.org/card/lay-of-the-land[Lay of the Land, role="new"]
 
 |===
 
