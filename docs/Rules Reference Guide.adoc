@@ -71,6 +71,15 @@ Some card abilities require an additional cost to be played to play a card, trig
 
 *Related:* <<Cost>>
 
+<<<
+
+=== Affinity
+Affinity is a special condition unique to each player. It is defined in combination with a trait, some common formats it can be found on cards are: “with *_Trait_* affinity”, or “if you have *_Trait_* affinity”. It is most commonly combined with the five elemental traits.
+
+A player has affinity to a trait while they control any character with that trait.
+
+*Related:* <<Traits>>
+
 === Against
 During a conflict, the attacking player and the defending player are considered to be taking part in the conflict against each other.
 
@@ -1284,13 +1293,24 @@ honor.
 
 The game is now ready to begin.
 
-=== Shadowlands
+=== Shadowlands (Faction)
 The Shadowlands is a special faction that functions in cooperative
 and challenge play. It cannot be used in standard play and has a
 unique set of rules documented in the Under Fu Leng's Shadow
 rulebook, which can be found on www.L5R.com.
 The Shadowlands faction is indicated by the following clan icon in
 text ([.emeralddbsm]#&#59665;#).
+
+=== The word "Shadowlands"
+The word “Shadowlands” is attached to spiritual and physical lands in the mainland of Rokugan. It represents corruption, but it does not cover all forms of spiritual corruption. In the Emerald Legacy, the Seven Clans are exiled to another continent far from Rokugan. They still face threats of corruption, but they are not necessarily Shadowlands.
+
+On Emerald Legacy cards, the *_Shadowlands_* trait will be replaced by *_Corrupt_*. For gameplay purposes, both traits are equivalent.
+
+If an existing card has the *_Shadowlands_* trait, it is also considered to have the *_Corrupt_* trait.
+
+If a card interacts with the *_Shadowlands_* trait, it interacts with the *_Corrupt_* trait in the exact same way.
+
+*Related:* <<Traits>>
 
 === Shuffle
 The word "shuffle" is used as a shorthand that instructs a player to
@@ -1440,7 +1460,7 @@ an untainted character.
 
 *Related*: <<_corrupted>>, <<_status_token>>
 
-==== Target
+=== Target
 The word "choose" indicates that one or more targets must be
 chosen in order for an ability to resolve. The player resolving the
 effect must choose a game element (usually a card) that meets the
@@ -1526,6 +1546,10 @@ and printed in __**Bold Italics**__.
 
 Traits have no inherent effect on the game. Instead, some card
 abilities reference cards that possess specific traits.
+
+Traits are also relevant when checking if a player has Affinity to a specific Trait. See Affinity for details on how that works.
+
+*Related:* <<Affinity>>
 
 === Treaties
 During the course of an enlightenment format game, players may
