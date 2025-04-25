@@ -1,6 +1,6 @@
 plugins {
-    id 'org.asciidoctor.jvm.convert' version '4.0.3'
-    id 'org.asciidoctor.jvm.pdf' version '4.0.3'
+    id 'org.asciidoctor.jvm.convert' version '4.0.4'
+    id 'org.asciidoctor.jvm.pdf' version '4.0.4'
 }
 
 repositories {
@@ -17,7 +17,7 @@ dependencies {
 }
 
 asciidoctorj {
-    version = '2.5.13'
+    version = '3.0.0'
     modules {
         pdf {
             version '2.3.18'
