@@ -32,7 +32,8 @@ jobs:
         CI: true
       with:
         gradle-version: wrapper
-        arguments: renderRulesDocuments
+    - name: Execute Gradle build
+      run: ./gradle-tools/gradlew renderRulesDocuments
     - name: Prepare Deployment
       run: |
         rm -rf ./build/tmp
