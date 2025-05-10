@@ -4,8 +4,8 @@
 :chapter-label:
 :page-background-image: image:rrg_background_flat.jpg[fit=fill, pdfwidth=100%]
 :pdf-theme: el-edict-theme.yml
-:revnumber: 11
-:revdate: April 25, 2025
+:revnumber: 12
+:revdate: May 10, 2025
 
 = image:el_logo.png[pdfwidth=70%,role=center]pass:q[<br>]Emerald Edict
 Emerald Legacy
@@ -37,7 +37,10 @@ Changes to the previous version are marked in [.new]#bold and green.#
 * https://www.emeralddb.org/card/gateway-to-meido[Gateway to Meido]
 * https://www.emeralddb.org/card/lost-papers[Lost Papers]
 * https://www.emeralddb.org/card/lurking-affliction[Lurking Affliction]
-* https://www.emeralddb.org/card/oni-tyrant[Oni Tyrant]
+* https://www.emeralddb.org/card/oni-tyrant[Oni Tyrant, role="new line-through"]
+* https://www.emeralddb.org/card/recalled-defenses[Recalled Defenses, role="new"]]
+* https://www.emeralddb.org/card/reserve-tents[Reserve Tents, role="new"]
+* https://www.emeralddb.org/card/secluded-shrine[Secluded Shrine, role="new"]
 * https://www.emeralddb.org/card/slovenly-scavenger[Slovenly Scavenger]
 * https://www.emeralddb.org/card/unveiled-corruption[Unveiled Corruption]
 * https://www.emeralddb.org/card/way-of-the-warrior[Way of the Warrior]
@@ -47,11 +50,16 @@ Changes to the previous version are marked in [.new]#bold and green.#
 == Restricted cards
 === image:mons/neutral.svg[width=20] [.neutral]#Neutral#
 * https://www.emeralddb.org/card/contested-countryside[Contested Countryside]
-* https://www.emeralddb.org/card/kami-unleashed[Kami Unleashed]
-* https://www.emeralddb.org/card/waning-hostilities[Waning Hostilities]
+* https://www.emeralddb.org/card/kami-unleashed[Kami Unleashed, role="new line-through"]
+* https://www.emeralddb.org/card/oni-tyrant[Oni Tyrant, role="new"]
+* https://www.emeralddb.org/card/those-who-serve[Those Who Serve, role="new"]
+* https://www.emeralddb.org/card/waning-hostilities[Waning Hostilities, role="new line-through"]
 
 === image:mons/crab.svg[width=20] [.crab]#Crab#
-* https://www.emeralddb.org/card/recalled-defenses[Recalled Defenses]
+* https://www.emeralddb.org/card/butcher-of-the-fallen[Butcher of the Fallen, role="new"]
+* https://www.emeralddb.org/card/levy-2[Levy, role="new"]
+* https://www.emeralddb.org/card/recalled-defenses[Recalled Defenses, role="new line-through"]
+* https://www.emeralddb.org/card/smuggling-deal[Smuggling Deal, role="new"]
 
 === image:mons/crane.svg[width=20] [.crane]#Crane#
 * https://www.emeralddb.org/card/kakita-toshimoko[Kakita Toshimoko]
@@ -61,7 +69,8 @@ Changes to the previous version are marked in [.new]#bold and green.#
 === image:mons/dragon.svg[width=20] [.dragon]#Dragon#
 * https://www.emeralddb.org/card/adorned-temple[Adorned Temple]
 * https://www.emeralddb.org/card/foothills-keep[Foothills Keep]
-* https://www.emeralddb.org/card/togashi-mitsu-2[Togashi Mitsu 2]
+* https://www.emeralddb.org/card/revered-bonsho[Revered Bonsho, role="new"]
+* https://www.emeralddb.org/card/togashi-mitsu-2[Togashi Mitsu 2, role="new line-through"]
 
 |
 :show-link-uri!:
@@ -75,8 +84,8 @@ Changes to the previous version are marked in [.new]#bold and green.#
 
 === image:mons/dragon.svg[width=20] [.dragon]#Dragon#
 * https://www.emeralddb.org/card/belief-in-the-little-teacher[Belief in the Little Teacher]
-* https://www.emeralddb.org/card/centered-breath[Centered Breath, role="new line-through"]
-* https://www.emeralddb.org/card/shoshi-ni-kie[Shoshi ni Kie, role="new"]
+* https://www.emeralddb.org/card/centered-breath[Centered Breath]
+* https://www.emeralddb.org/card/shoshi-ni-kie[Shoshi ni Kie]
 * https://www.emeralddb.org/card/phoenix-tattoo[Phoenix Tattoo]
 * https://www.emeralddb.org/card/togashi-mitsu[Togashi Mitsu 1]
 
@@ -103,27 +112,33 @@ Changes to the previous version are marked in [.new]#bold and green.#
 
 a|
 :show-link-uri!:
+
 == Restricted cards
 === image:mons/lion.svg[width=20] [.lion]#Lion#
 * https://www.emeralddb.org/card/ardent-omoidasu[Ardent Omoidasu]
-* https://www.emeralddb.org/card/fan-of-command[Fan of Command]
+* https://www.emeralddb.org/card/fan-of-command[Fan of Command, role="new line-through"]
+* https://www.emeralddb.org/card/feeding-an-army[Feeding an Army, role="new"]
 * https://www.emeralddb.org/card/matsu-sakura[Matsu Sakura]
 
 === image:mons/phoenix.svg[width=20] [.phoenix]#Phoenix#
 * https://www.emeralddb.org/card/guardian-dojo[Guardian Dōjō]
-* https://www.emeralddb.org/card/isawa-tadaka-2[Isawa Tadaka 2]
+* https://www.emeralddb.org/card/isawa-tadaka-2[Isawa Tadaka 2, role="new line-through"]
+* https://www.emeralddb.org/card/isawa-tsuke-2[Isawa Tsuke 2, role="new"]
 * https://www.emeralddb.org/card/secluded-shrine[Secluded Shrine]
 
 
 === image:mons/scorpion.svg[width=20] [.scorpion]#Scorpion#
 * https://www.emeralddb.org/card/bayushi-kachiko-2[Bayushi Kachiko 2]
 * https://www.emeralddb.org/card/dispatch-to-nowhere[Dispatch to Nowhere]
+* https://www.emeralddb.org/card/display-of-loyalty[Display of Loyalty, role="new"]
 
 === image:mons/unicorn.svg[width=20] [.unicorn]#Unicorn#
 * https://www.emeralddb.org/card/command-the-tributary[Command the Tributary, role="new line-through"]
 * https://www.emeralddb.org/card/fields-of-rolling-thunder[Fields of Rolling Thunder]
-* https://www.emeralddb.org/card/reserve-tents[Reserve Tents]
-* https://www.emeralddb.org/card/lay-of-the-land[Lay of the Land, role="new"]
+* https://www.emeralddb.org/card/lay-of-the-land[Lay of the Land, role="new line-through"]
+* https://www.emeralddb.org/card/reserve-tents[Reserve Tents, role="new line-through"]
+* https://www.emeralddb.org/card/ride-at-dawn[Ride at Dawn, role="new"]
+* https://www.emeralddb.org/card/shinjo-yasamura[Shinjo Yasamura, role="new"]
 
 |===
 
@@ -135,7 +150,7 @@ All the cards listed here rotated out of the valid card pool and are not allowed
 Emerald Legacy tournaments. Unlike Banned cards, which might be unbanned at some point,
 rotated cards will never return to the valid card pool.
 
-Rotated are all cards of the https://www.emeralddb.org/cards?cycle=core[original FFG Core Set, role="new"] as well as the https://www.emeralddb.org/cards?cycle=imperial[complete Imperial Cycle, role="new"].
+Rotated are all cards of the https://www.emeralddb.org/cards?cycle=core[original FFG Core Set] as well as the https://www.emeralddb.org/cards?cycle=imperial[complete Imperial Cycle] and the https://www.emeralddb.org/cards?cycle=elemental[complete Elemental Cycle, role="new"].
 In addition, the following cards are rotated because they were replaced with slightly different cards in https://www.emeralddb.org/cards?pack=restoration-of-balance[Restoration of Balance, role="new"].
 
 [cols="1a,1a",stripes=none,frame=none,grid=none]
