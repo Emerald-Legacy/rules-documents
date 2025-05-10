@@ -33,7 +33,7 @@ jobs:
       with:
         gradle-version: wrapper
     - name: Execute Gradle build
-      run: ./gradle-tools/gradlew renderRulesDocuments
+      run: ./gradlew renderRulesDocuments
     - name: Prepare Deployment
       run: |
         rm -rf ./build/tmp
