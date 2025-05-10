@@ -3,8 +3,8 @@
 :imagesdir: images
 :chapter-label:
 :page-background-image: image:rrg_background_flat.jpg[fit=fill, pdfwidth=100%]
-:revnumber: 4.0
-:revdate: March 8, 2023
+:revnumber: 5.0
+:revdate: May 10, 2025
 
 = image:el_logo.png[pdfwidth=70%,role=center]pass:q[<br>]Rules Reference
 :toc: right
@@ -1687,6 +1687,9 @@ consecutively pass.
 resolve, in the order determined by the first player.
 . The reaction window to the triggering condition opens. It
 closes after all players consecutively pass.
+
+=== Tutored – X
+After this character enters play, search your discard pile, then your conflict deck, then your hand for an attachment matching the description X that accompanies the keyword. Put that attachment into play, attached to the triggering character.
 
 === Unique Cards
 A card with the [.emeralddbsm]#&#59662;# symbol in front of its title is a unique card. Each
