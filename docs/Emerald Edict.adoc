@@ -91,6 +91,7 @@ Changes to the previous version are marked in [.new]#bold and green.#
 * https://www.emeralddb.org/card/called-to-war[Called to War]
 * https://www.emeralddb.org/card/glorious-victory[Glorious Victory]
 * https://www.emeralddb.org/card/lion-s-pride-paragon[Lion’s Pride Paragon]
+* https://www.emeralddb.org/card/ardent-omoidasu[Ardent Omoidasu, role="new"]
 
 === image:mons/phoenix.svg[width=20] [.phoenix]#Phoenix#
 * https://www.emeralddb.org/card/calling-the-storm[Calling the Storm]
@@ -113,10 +114,10 @@ a|
 
 == Restricted cards
 === image:mons/lion.svg[width=20] [.lion]#Lion#
-* https://www.emeralddb.org/card/ardent-omoidasu[Ardent Omoidasu]
+* https://www.emeralddb.org/card/ardent-omoidasu[Ardent Omoidasu, role="new line-through"]
 * https://www.emeralddb.org/card/feeding-an-army[Feeding an Army]
 * https://www.emeralddb.org/card/hayaken-no-shiro[Hayaken no Shiro, role="new"]
-* https://www.emeralddb.org/card/matsu-sakura[Matsu Sakura, role="new line-through"]
+* https://www.emeralddb.org/card/matsu-sakura[Matsu Sakura]
 
 === image:mons/phoenix.svg[width=20] [.phoenix]#Phoenix#
 * https://www.emeralddb.org/card/asako-kousuke[Asako Kousuke, role="new"]
