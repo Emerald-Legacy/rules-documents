@@ -1894,17 +1894,24 @@ immediately after the completion of any framework step.
 An interrupt ability to a framework effect may be initiated during
 the resolution of that step, interrupting the process of that step.
 
-=== I. Dynasty Phase
-*1.1* Dynasty phase begins. +
-*1.2* Reveal facedown dynasty cards. +
-*1.3* Collect fate. +
-*1.4 SPECIAL ACTION WINDOW* +
-Players alternate playing cards from
-provinces/hand and/or triggering Action abilities. +
-*1.5* Dynasty phase ends.
+[.column]
+<<<
 
-[.text-center]
+
+****
+[cols="12a", stripes=all, frame=none]
+|===
+|=== I. Dynasty Phase +
+|*1.1* Dynasty phase begins. +
+|*1.2* Reveal facedown dynasty cards. +
+|*1.3* Collect fate. +
+{set:cellbgcolor:red}|*1.4 SPECIAL ACTION WINDOW* +
+Players alternate playing cards from provinces/hand and/or triggering Action abilities. +
+|*1.5* Dynasty phase ends.
+|[.text-center]
 *_Proceed to Draw Phase._*
+|===
+****
 
 === II. Draw Phase
 *2.1* Draw Phase begins. +
